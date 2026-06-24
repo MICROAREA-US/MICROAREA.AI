@@ -536,4 +536,42 @@ div#recuperar-pass .et_pb_column,
         0 0 12px rgba(58, 134, 233, 0.4) !important;
 }
 
+/* --- 13. ESTILOS DE MENÚ DE NAVEGACIÓN PRINCIPAL (Burbuja Azul Clarito Transparente) --- */
+/* Estilo base para los enlaces del menú principal */
+.et-menu-nav ul.nav > li:not(.lang-item) > a {
+    padding: 8px 16px !important;
+    margin: 0 4px !important;
+    border-radius: 24px !important;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    background: transparent !important;
+    display: inline-block !important;
+}
+
+/* Ocultar la línea inferior animada para evitar conflicto visual con la burbuja */
+.et-menu-nav ul.nav > li:not(.lang-item) > a::after {
+    display: none !important;
+}
+
+/* Burbuja azul clarito transparente sobre la opción del menú seleccionada (actual) */
+.et-menu-nav ul.nav > li:not(.lang-item).current-menu-item > a,
+.et-menu-nav ul.nav > li:not(.lang-item).current_page_item > a {
+    background: rgba(68, 113, 177, 0.1) !important;
+    color: #4471b1 !important;
+    box-shadow: 
+        0 0 0 4px rgba(68, 113, 177, 0.18), 
+        0 0 8px rgba(68, 113, 177, 0.25) !important;
+}
+
+/* Efecto hover: burbuja azul clarito transparente al pasar el cursor y pequeña escala */
+.et-menu-nav ul.nav > li:not(.lang-item) > a:hover,
+.et-menu-nav ul.nav > li:not(.lang-item):hover > a {
+    transform: scale(1.03) !important;
+    background: rgba(58, 134, 233, 0.12) !important;
+    color: #3a86e9 !important;
+    box-shadow: 
+        0 0 0 6px rgba(58, 134, 233, 0.28), 
+        0 0 12px rgba(58, 134, 233, 0.35) !important;
+}
+
+
 
