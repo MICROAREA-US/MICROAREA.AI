@@ -506,7 +506,7 @@ body, #page-container {
 }
 
 /* Hacer transparentes las secciones estándar para revelar el gradiente de fondo */
-.et_pb_section:not(.et_pb_section_video) {
+.et_pb_section:not(.et_pb_section_video):not(.et_pb_section_0_tb_footer):not(.et_pb_section_8) {
     background-color: transparent !important;
 }
 
