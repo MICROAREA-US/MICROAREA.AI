@@ -342,18 +342,18 @@ input#wp-submit:active {
 ul.sub-menu,
 .nav li ul {
     border-radius: 16px !important;
-    /* Soft white to light blue/gray premium gradient background */
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(240, 245, 252, 0.96) 100%) !important;
+    /* Very light blue gradient that fades to white */
+    background: linear-gradient(135deg, rgba(215, 233, 255, 0.98) 0%, rgba(255, 255, 255, 0.98) 100%) !important;
     backdrop-filter: blur(20px) saturate(180%) !important;
     -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
     /* Subtly colored border in brand blue */
-    border: 1px solid rgba(68, 113, 177, 0.15) !important;
+    border: 1px solid rgba(68, 113, 177, 0.18) !important;
     border-top: none !important; /* Remove Divi's default top solid border to make it look clean */
-    /* Organic, elegant drop shadows */
+    /* Organic, elegant and prominent drop shadows + inner glow */
     box-shadow: 
-        0 12px 35px rgba(0, 0, 0, 0.1), 
-        0 2px 5px rgba(0, 0, 0, 0.03),
-        inset 0 1px 1px rgba(255, 255, 255, 0.9) !important;
+        0 15px 40px rgba(68, 113, 177, 0.15), 
+        0 4px 15px rgba(0, 0, 0, 0.06),
+        inset 0 1px 1.5px rgba(255, 255, 255, 0.9) !important;
     padding: 10px 0 !important;
     overflow: hidden !important;
 }
