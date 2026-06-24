@@ -332,6 +332,29 @@ input#wp-submit:active {
     transition: all 0.4s ease !important;
 }
 
+/* --- 3.1 RESET CABECERA (No contenedores para menú o logo) --- */
+.et-l--header .et_pb_column,
+.et-l--header .et_pb_menu {
+    border-radius: 0 !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+.et-l--header .et_pb_column:hover {
+    transform: none !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
 .et-fixed-header {
     background-color: rgba(255, 255, 255, 0.55) !important;
     backdrop-filter: blur(25px) saturate(200%) !important;
@@ -514,26 +537,56 @@ div#recuperar-pass .et_pb_column,
 
 /* --- 12. ESTILOS DE BANDERAS DE IDIOMAS (Pastel con Burbuja Azul Clarito) --- */
 /* Hacer las banderas de idiomas más pastel por defecto con transición suave */
-.lang-item a svg {
-    filter: saturate(50%) brightness(1.15) contrast(90%) !important;
+.lang-item a {
+    padding: 6px 12px !important;
+    margin: 0 2px !important;
+    border-radius: 20px !important;
     transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    box-shadow: none !important;
 }
 
-/* Burbuja azul clarito transparente sobre la bandera seleccionada (actual) */
+.lang-item a svg {
+    filter: saturate(55%) brightness(1.1) contrast(90%) !important;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15) !important;
+    border-radius: 50% !important;
+}
+
+/* Burbuja azul clarito transparente sobre la bandera seleccionada (actual) - Liquid Glass */
+.lang-item.current-lang a {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(68, 113, 177, 0.15) 100%) !important;
+    color: #4471b1 !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 
+        inset 0 1.5px 1.5px rgba(255, 255, 255, 0.75), 
+        inset 0 -1px 1px rgba(68, 113, 177, 0.1),
+        0 6px 16px rgba(68, 113, 177, 0.18) !important;
+}
+
 .lang-item.current-lang a svg {
-    filter: saturate(75%) brightness(1.1) contrast(95%) !important;
-    box-shadow: 
-        0 0 0 4px rgba(68, 113, 177, 0.2), 
-        0 0 8px rgba(68, 113, 177, 0.3) !important;
+    filter: saturate(80%) brightness(1.05) contrast(95%) !important;
+    box-shadow: 0 1.5px 4px rgba(0,0,0,0.2) !important;
 }
 
-/* Efecto hover: burbuja azul clarito transparente más pronunciada y pop de escala */
-.lang-item a:hover svg {
-    transform: scale(1.15) !important;
-    filter: saturate(85%) brightness(1.08) contrast(95%) !important;
+/* Efecto hover: burbuja azul clarito transparente más pronunciada y pop de escala - Liquid Glass */
+.lang-item a:hover {
+    transform: scale(1.05) !important;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.45) 0%, rgba(58, 134, 233, 0.2) 100%) !important;
+    color: #3a86e9 !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
     box-shadow: 
-        0 0 0 6px rgba(58, 134, 233, 0.3), 
-        0 0 12px rgba(58, 134, 233, 0.4) !important;
+        inset 0 2px 2px rgba(255, 255, 255, 0.8), 
+        inset 0 -1.5px 2px rgba(58, 134, 233, 0.15),
+        0 8px 24px rgba(58, 134, 233, 0.28) !important;
+}
+
+.lang-item a:hover svg {
+    filter: saturate(90%) brightness(1.05) contrast(95%) !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25) !important;
 }
 
 /* --- 13. ESTILOS DE MENÚ DE NAVEGACIÓN PRINCIPAL (Burbuja Azul Clarito Transparente) --- */
@@ -544,6 +597,7 @@ div#recuperar-pass .et_pb_column,
     border-radius: 24px !important;
     transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
     background: transparent !important;
+    border: 1px solid transparent !important;
     display: inline-block !important;
 }
 
@@ -552,25 +606,29 @@ div#recuperar-pass .et_pb_column,
     display: none !important;
 }
 
-/* Burbuja azul clarito transparente sobre la opción del menú seleccionada (actual) */
+/* Burbuja azul clarito transparente sobre la opción del menú seleccionada (actual) - Liquid Glass */
 .et-menu-nav ul.nav > li:not(.lang-item).current-menu-item > a,
 .et-menu-nav ul.nav > li:not(.lang-item).current_page_item > a {
-    background: rgba(68, 113, 177, 0.1) !important;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(68, 113, 177, 0.15) 100%) !important;
     color: #4471b1 !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
     box-shadow: 
-        0 0 0 4px rgba(68, 113, 177, 0.18), 
-        0 0 8px rgba(68, 113, 177, 0.25) !important;
+        inset 0 1.5px 1.5px rgba(255, 255, 255, 0.75), 
+        inset 0 -1px 1px rgba(68, 113, 177, 0.1),
+        0 6px 16px rgba(68, 113, 177, 0.18) !important;
 }
 
-/* Efecto hover: burbuja azul clarito transparente al pasar el cursor y pequeña escala */
+/* Efecto hover: burbuja azul clarito transparente al pasar el cursor y pequeña escala - Liquid Glass */
 .et-menu-nav ul.nav > li:not(.lang-item) > a:hover,
 .et-menu-nav ul.nav > li:not(.lang-item):hover > a {
     transform: scale(1.03) !important;
-    background: rgba(58, 134, 233, 0.12) !important;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.45) 0%, rgba(58, 134, 233, 0.2) 100%) !important;
     color: #3a86e9 !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
     box-shadow: 
-        0 0 0 6px rgba(58, 134, 233, 0.28), 
-        0 0 12px rgba(58, 134, 233, 0.35) !important;
+        inset 0 2px 2px rgba(255, 255, 255, 0.8), 
+        inset 0 -1.5px 2px rgba(58, 134, 233, 0.15),
+        0 8px 24px rgba(58, 134, 233, 0.28) !important;
 }
 
 
