@@ -28,14 +28,14 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: linear-gradient(135deg, rgba(0, 169, 157, 0.85) 0%, rgba(0, 125, 116, 0.85) 100%) !important;
+            background: linear-gradient(135deg, rgba(68, 113, 177, 0.85) 0%, rgba(58, 134, 233, 0.85) 100%) !important;
             backdrop-filter: blur(8px) !important;
             -webkit-backdrop-filter: blur(8px) !important;
             border: 1px solid rgba(255, 255, 255, 0.3) !important;
             box-shadow: 
                 inset 0 1.5px 1.5px rgba(255, 255, 255, 0.45), 
                 inset 0 -1.5px 1.5px rgba(0, 0, 0, 0.15),
-                0 8px 24px rgba(0, 169, 157, 0.3) !important;
+                0 8px 24px rgba(68, 113, 177, 0.3) !important;
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -49,7 +49,7 @@
             transform: scale(1.1) rotate(5deg) !important;
             box-shadow: 
                 inset 0 2px 2px rgba(255, 255, 255, 0.6), 
-                0 12px 30px rgba(0, 169, 157, 0.5) !important;
+                0 12px 30px rgba(58, 134, 233, 0.5) !important;
         }
 
         #microarea-chat-trigger:active {
@@ -197,14 +197,14 @@
         }
 
         .microarea-message.user {
-            background: linear-gradient(135deg, rgba(0, 169, 157, 0.85) 0%, rgba(0, 125, 116, 0.85) 100%) !important;
+            background: linear-gradient(135deg, rgba(68, 113, 177, 0.85) 0%, rgba(58, 134, 233, 0.85) 100%) !important;
             border: 1px solid rgba(255, 255, 255, 0.25) !important;
             color: #ffffff;
             align-self: flex-end;
             border-bottom-right-radius: 4px !important;
             box-shadow: 
                 inset 0 1px 1px rgba(255, 255, 255, 0.4), 
-                0 4px 10px rgba(0, 169, 157, 0.15) !important;
+                0 4px 10px rgba(58, 134, 233, 0.15) !important;
         }
 
         .microarea-message.bot {
@@ -228,7 +228,7 @@
             margin-bottom: 0;
         }
         .microarea-message.bot strong {
-            color: #007d74;
+            color: #2e4c76;
         }
         .microarea-message.bot ul {
             margin: 5px 0;
@@ -238,12 +238,12 @@
             margin-bottom: 4px;
         }
         .microarea-message.bot a {
-            color: #00a99d;
+            color: #3a86e9;
             text-decoration: underline;
             font-weight: 500;
         }
         .microarea-message.bot a:hover {
-            color: #007d74;
+            color: #2e4c76;
         }
 
         /* --- Menú de Selección de Programas --- */
@@ -263,7 +263,7 @@
             padding: 10px 14px;
             font-size: 13.5px;
             font-weight: 600;
-            color: #007d74;
+            color: #2e4c76;
             cursor: pointer;
             text-align: left;
             transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
@@ -277,10 +277,10 @@
         }
 
         .microarea-option-btn:hover {
-            background: linear-gradient(135deg, #00a99d 0%, #007d74 100%) !important;
+            background: linear-gradient(135deg, #3a86e9 0%, #2e4c76 100%) !important;
             color: #ffffff !important;
             transform: translateX(4px) scale(1.01) !important;
-            box-shadow: 0 4px 15px rgba(0, 169, 157, 0.2) !important;
+            box-shadow: 0 4px 15px rgba(68, 113, 177, 0.2) !important;
             border-color: rgba(255, 255, 255, 0.4) !important;
         }
 
@@ -345,13 +345,13 @@
         }
 
         .microarea-handoff-field input:focus, .microarea-handoff-field select:focus {
-            border-color: #00a99d !important;
+            border-color: #3a86e9 !important;
             background: #ffffff !important;
-            box-shadow: 0 0 0 3px rgba(0, 169, 157, 0.15) !important;
+            box-shadow: 0 0 0 3px rgba(58, 134, 233, 0.15) !important;
         }
 
         .microarea-handoff-submit {
-            background: linear-gradient(135deg, #00a99d, #007d74) !important;
+            background: linear-gradient(135deg, #3a86e9, #2e4c76) !important;
             color: #ffffff !important;
             border: 1px solid rgba(255, 255, 255, 0.3) !important;
             border-radius: 30px !important;
@@ -361,12 +361,12 @@
             cursor: pointer;
             transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
             margin-top: 5px;
-            box-shadow: 0 4px 12px rgba(0, 169, 157, 0.2) !important;
+            box-shadow: 0 4px 12px rgba(68, 113, 177, 0.2) !important;
         }
 
         .microarea-handoff-submit:hover {
             transform: translateY(-2px) scale(1.02) !important;
-            box-shadow: 0 8px 18px rgba(0, 169, 157, 0.35) !important;
+            box-shadow: 0 8px 18px rgba(58, 134, 233, 0.35) !important;
         }
 
         .microarea-handoff-submit:active {
@@ -375,7 +375,7 @@
 
         /* --- Enlace en Footer para Traspaso --- */
         .microarea-chat-trigger-handoff-lnk {
-            color: #007d74;
+            color: #2e4c76;
             text-decoration: underline;
             font-weight: 800;
             cursor: pointer;
@@ -383,13 +383,13 @@
             font-size: 13px;
             display: inline-block;
             padding: 2px 8px;
-            background: rgba(0, 169, 157, 0.1);
+            background: rgba(68, 113, 177, 0.1);
             border-radius: 4px;
             transition: all 0.2s ease;
         }
         .microarea-chat-trigger-handoff-lnk:hover {
             color: #ffffff;
-            background: #00a99d;
+            background: #3a86e9;
             text-decoration: none;
         }
 
@@ -446,16 +446,16 @@
         }
 
         .microarea-chat-input:focus {
-            border-color: #00a99d !important;
+            border-color: #3a86e9 !important;
             background: #ffffff !important;
-            box-shadow: 0 0 0 3px rgba(0, 169, 157, 0.15) !important;
+            box-shadow: 0 0 0 3px rgba(58, 134, 233, 0.15) !important;
         }
 
         .microarea-chat-send-btn {
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background-color: #00a99d;
+            background-color: #3a86e9;
             border: none;
             cursor: pointer;
             display: flex;
@@ -466,7 +466,7 @@
         }
 
         .microarea-chat-send-btn:hover {
-            background-color: #007d74;
+            background-color: #2e4c76;
             transform: scale(1.05);
         }
 
@@ -1330,7 +1330,7 @@
                     </div>
                     <div style="display: flex; gap: 6px; align-items: center; border-top: 1px solid rgba(0,0,0,0.06); padding-top: 8px;">
                         <input type="text" id="microarea-human-live-chat-input" placeholder="${t.placeholderHuman}" style="flex: 1; border: 1px solid rgba(0,0,0,0.15); border-radius: 16px; padding: 8px 12px; font-size: 13px; outline: none; background: #ffffff;" autocomplete="off">
-                        <button id="microarea-human-live-chat-send" style="width: 32px; height: 32px; border-radius: 50%; background: #00a99d; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; outline: none; transition: background 0.2s;">
+                        <button id="microarea-human-live-chat-send" style="width: 32px; height: 32px; border-radius: 50%; background: #3a86e9; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; outline: none; transition: background 0.2s;">
                             <svg viewBox="0 0 24 24" style="width: 14px; height: 14px; fill: white;"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg>
                         </button>
                     </div>
@@ -1341,7 +1341,7 @@
                     <div style="font-size: 44px; color: #2ecc71; line-height: 1;">✓</div>
                     <h6 style="font-size: 16px; font-weight: 600; color: #2c3e50; margin: 0;">¡Solicitud Enviada!</h6>
                     <p id="handoff-success-text-d" style="font-size: 13px; color: #7f8c8d; line-height: 1.5; margin: 0;"></p>
-                    <button id="handoff-back-to-ai-btn" style="background: linear-gradient(135deg, #00a99d, #007d74); color: #ffffff; border: none; border-radius: 8px; padding: 10px 20px; font-size: 13px; font-weight: bold; cursor: pointer; margin-top: 10px; outline: none;">${t.btnBack}</button>
+                    <button id="handoff-back-to-ai-btn" style="background: linear-gradient(135deg, #3a86e9, #2e4c76); color: #ffffff; border: none; border-radius: 8px; padding: 10px 20px; font-size: 13px; font-weight: bold; cursor: pointer; margin-top: 10px; outline: none;">${t.btnBack}</button>
                 </div>
             </div>
         </div>
@@ -1865,7 +1865,7 @@
                 msgDiv.style.animation = 'fade-in-up 0.2s ease';
 
                 if (msg.sender === 'user') {
-                    msgDiv.style.backgroundColor = '#00a99d';
+                    msgDiv.style.backgroundColor = '#3a86e9';
                     msgDiv.style.color = '#ffffff';
                     msgDiv.style.alignSelf = 'flex-end';
                     msgDiv.style.borderBottomRightRadius = '2px';
@@ -1885,7 +1885,7 @@
                         nameSpan.style.display = 'block';
                         nameSpan.style.fontSize = '10px';
                         nameSpan.style.fontWeight = 'bold';
-                        nameSpan.style.color = '#007d74';
+                        nameSpan.style.color = '#2e4c76';
                         nameSpan.style.marginBottom = '2px';
                         nameSpan.textContent = msg.agentName;
                         msgDiv.appendChild(nameSpan);
@@ -1897,7 +1897,7 @@
                 } else {
                     // System/bot
                     msgDiv.style.backgroundColor = 'rgba(0, 169, 157, 0.05)';
-                    msgDiv.style.color = '#007d74';
+                    msgDiv.style.color = '#2e4c76';
                     msgDiv.style.alignSelf = 'center';
                     msgDiv.style.fontSize = '12px';
                     msgDiv.style.textAlign = 'center';
