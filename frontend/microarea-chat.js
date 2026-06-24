@@ -23,29 +23,37 @@
             align-items: flex-end;
         }
 
-        /* --- Botón Flotante --- */
+        /* --- Botón Flotante Estilo Liquid Glass (iOS 27) --- */
         #microarea-chat-trigger {
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #00a99d, #007d74);
-            box-shadow: 0 4px 16px rgba(0, 169, 157, 0.4);
+            background: linear-gradient(135deg, rgba(0, 169, 157, 0.85) 0%, rgba(0, 125, 116, 0.85) 100%) !important;
+            backdrop-filter: blur(8px) !important;
+            -webkit-backdrop-filter: blur(8px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.3) !important;
+            box-shadow: 
+                inset 0 1.5px 1.5px rgba(255, 255, 255, 0.45), 
+                inset 0 -1.5px 1.5px rgba(0, 0, 0, 0.15),
+                0 8px 24px rgba(0, 169, 157, 0.3) !important;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
             border: none;
             outline: none;
         }
 
         #microarea-chat-trigger:hover {
-            transform: scale(1.1) rotate(5deg);
-            box-shadow: 0 6px 20px rgba(0, 169, 157, 0.6);
+            transform: scale(1.1) rotate(5deg) !important;
+            box-shadow: 
+                inset 0 2px 2px rgba(255, 255, 255, 0.6), 
+                0 12px 30px rgba(0, 169, 157, 0.5) !important;
         }
 
         #microarea-chat-trigger:active {
-            transform: scale(0.95);
+            transform: scale(0.95) !important;
         }
 
         #microarea-chat-trigger svg {
@@ -59,16 +67,18 @@
             transform: rotate(90deg);
         }
 
-        /* --- Ventana de Chat --- */
+        /* --- Ventana de Chat Estilo Liquid Glass --- */
         #microarea-chat-window {
             width: 380px;
             height: 520px;
-            border-radius: 20px;
-            background: rgba(255, 255, 255, 0.88);
-            backdrop-filter: blur(12px) saturate(180%);
-            -webkit-backdrop-filter: blur(12px) saturate(180%);
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+            border-radius: 24px !important;
+            background: rgba(255, 255, 255, 0.65) !important;
+            backdrop-filter: blur(25px) saturate(190%) !important;
+            -webkit-backdrop-filter: blur(25px) saturate(190%) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
+            box-shadow: 
+                inset 0 2px 2px rgba(255, 255, 255, 0.65), 
+                0 15px 45px rgba(0, 0, 0, 0.08) !important;
             margin-bottom: 15px;
             display: flex;
             flex-direction: column;
@@ -76,7 +86,7 @@
             opacity: 0;
             transform: translateY(30px) scale(0.95);
             pointer-events: none;
-            transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
             transform-origin: bottom right;
         }
 
@@ -89,12 +99,17 @@
         /* --- Cabecera del Chat --- */
         .microarea-chat-header {
             padding: 16px 20px;
-            background: linear-gradient(135deg, #4471b1, #2e4c76);
+            background: linear-gradient(135deg, rgba(68, 113, 177, 0.85) 0%, rgba(46, 76, 118, 0.85) 100%) !important;
+            backdrop-filter: blur(10px) !important;
+            -webkit-backdrop-filter: blur(10px) !important;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
             color: #ffffff;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            box-shadow: 
+                inset 0 1px 1px rgba(255, 255, 255, 0.3), 
+                0 4px 15px rgba(0, 0, 0, 0.03) !important;
         }
 
         .microarea-chat-header-info {
@@ -170,11 +185,11 @@
             scroll-behavior: smooth;
         }
 
-        /* Mensajes Individuales */
+        /* Mensajes Individuales - Burbujas Glassmorphic */
         .microarea-message {
             max-width: 85%;
             padding: 10px 15px;
-            border-radius: 16px;
+            border-radius: 18px !important;
             font-size: 14px;
             line-height: 1.5;
             word-wrap: break-word;
@@ -182,19 +197,27 @@
         }
 
         .microarea-message.user {
-            background-color: #00a99d;
+            background: linear-gradient(135deg, rgba(0, 169, 157, 0.85) 0%, rgba(0, 125, 116, 0.85) 100%) !important;
+            border: 1px solid rgba(255, 255, 255, 0.25) !important;
             color: #ffffff;
             align-self: flex-end;
-            border-bottom-right-radius: 4px;
-            box-shadow: 0 2px 8px rgba(0, 169, 157, 0.25);
+            border-bottom-right-radius: 4px !important;
+            box-shadow: 
+                inset 0 1px 1px rgba(255, 255, 255, 0.4), 
+                0 4px 10px rgba(0, 169, 157, 0.15) !important;
         }
 
         .microarea-message.bot {
-            background-color: rgba(240, 242, 245, 0.85);
+            background-color: rgba(240, 242, 245, 0.65) !important;
+            backdrop-filter: blur(10px) !important;
+            -webkit-backdrop-filter: blur(10px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
             color: #2c3e50;
             align-self: flex-start;
-            border-bottom-left-radius: 4px;
-            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-bottom-left-radius: 4px !important;
+            box-shadow: 
+                inset 0 1px 1px rgba(255, 255, 255, 0.6), 
+                0 3px 8px rgba(0, 0, 0, 0.02) !important;
         }
 
         /* Formateo de Texto en Bot */
@@ -234,31 +257,35 @@
         }
 
         .microarea-option-btn {
-            background: rgba(255, 255, 255, 0.9);
-            border: 1px solid rgba(0, 169, 157, 0.3);
-            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.55) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
+            border-radius: 14px !important;
             padding: 10px 14px;
             font-size: 13.5px;
-            font-weight: 500;
+            font-weight: 600;
             color: #007d74;
             cursor: pointer;
             text-align: left;
-            transition: all 0.2s ease;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
             display: flex;
             align-items: center;
             justify-content: space-between;
             outline: none;
+            box-shadow: 
+                inset 0 1px 1px rgba(255, 255, 255, 0.5), 
+                0 4px 12px rgba(0, 0, 0, 0.03) !important;
         }
 
         .microarea-option-btn:hover {
-            background: #00a99d;
-            color: #ffffff;
-            transform: translateX(4px);
-            box-shadow: 0 2px 8px rgba(0, 169, 157, 0.15);
+            background: linear-gradient(135deg, #00a99d 0%, #007d74 100%) !important;
+            color: #ffffff !important;
+            transform: translateX(4px) scale(1.01) !important;
+            box-shadow: 0 4px 15px rgba(0, 169, 157, 0.2) !important;
+            border-color: rgba(255, 255, 255, 0.4) !important;
         }
 
         .microarea-option-btn:active {
-            transform: translateX(2px);
+            transform: translateX(2px) !important;
         }
 
         .microarea-option-btn::after {
@@ -272,14 +299,17 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            background: rgba(255, 255, 255, 0.95);
-            border: 1px solid rgba(0, 0, 0, 0.08);
-            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.7) !important;
+            backdrop-filter: blur(15px) !important;
+            -webkit-backdrop-filter: blur(15px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
+            border-radius: 18px !important;
             padding: 16px;
             margin-top: 10px;
             width: 100%;
             box-sizing: border-box;
             animation: fade-in-up 0.4s ease;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04) !important;
         }
 
         .microarea-handoff-title {
@@ -304,40 +334,43 @@
         }
 
         .microarea-handoff-field input, .microarea-handoff-field select {
-            border: 1px solid rgba(0, 0, 0, 0.15);
-            border-radius: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.12) !important;
+            border-radius: 10px !important;
             padding: 8px 12px;
             font-size: 13px;
             outline: none;
-            transition: border-color 0.2s;
-            background: #ffffff;
+            transition: all 0.2s;
+            background: rgba(255, 255, 255, 0.6) !important;
             box-sizing: border-box;
         }
 
         .microarea-handoff-field input:focus, .microarea-handoff-field select:focus {
-            border-color: #4471b1;
+            border-color: #00a99d !important;
+            background: #ffffff !important;
+            box-shadow: 0 0 0 3px rgba(0, 169, 157, 0.15) !important;
         }
 
         .microarea-handoff-submit {
-            background: linear-gradient(135deg, #00a99d, #007d74);
-            color: #ffffff;
-            border: none;
-            border-radius: 8px;
+            background: linear-gradient(135deg, #00a99d, #007d74) !important;
+            color: #ffffff !important;
+            border: 1px solid rgba(255, 255, 255, 0.3) !important;
+            border-radius: 30px !important;
             padding: 10px;
             font-size: 13px;
             font-weight: bold;
             cursor: pointer;
-            transition: transform 0.2s, opacity 0.2s;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
             margin-top: 5px;
+            box-shadow: 0 4px 12px rgba(0, 169, 157, 0.2) !important;
         }
 
         .microarea-handoff-submit:hover {
-            opacity: 0.9;
-            transform: scale(1.02);
+            transform: translateY(-2px) scale(1.02) !important;
+            box-shadow: 0 8px 18px rgba(0, 169, 157, 0.35) !important;
         }
 
         .microarea-handoff-submit:active {
-            transform: scale(0.98);
+            transform: scale(0.98) !important;
         }
 
         /* --- Enlace en Footer para Traspaso --- */
@@ -365,7 +398,10 @@
             display: flex;
             gap: 5px;
             padding: 8px 15px;
-            background-color: rgba(240, 242, 245, 0.85);
+            background-color: rgba(240, 242, 245, 0.65) !important;
+            backdrop-filter: blur(10px) !important;
+            -webkit-backdrop-filter: blur(10px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
             border-radius: 12px;
             align-self: flex-start;
             border-bottom-left-radius: 4px;
@@ -386,8 +422,10 @@
         /* --- Panel de Entrada de Mensaje --- */
         .microarea-chat-input-area {
             padding: 12px 16px;
-            background: rgba(255, 255, 255, 0.95);
-            border-top: 1px solid rgba(0, 0, 0, 0.06);
+            background: rgba(255, 255, 255, 0.45) !important;
+            backdrop-filter: blur(10px) !important;
+            -webkit-backdrop-filter: blur(10px) !important;
+            border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
             display: flex;
             gap: 8px;
             align-items: center;
@@ -395,7 +433,7 @@
 
         .microarea-chat-input {
             flex: 1;
-            border: 1px solid rgba(0, 0, 0, 0.12);
+            border: 1px solid rgba(0, 0, 0, 0.08) !important;
             border-radius: 20px;
             padding: 10px 16px;
             font-size: 14px;
@@ -403,14 +441,14 @@
             resize: none;
             height: 20px;
             line-height: 20px;
-            background: #fafafa;
+            background: rgba(255, 255, 255, 0.5) !important;
             transition: all 0.2s ease;
         }
 
         .microarea-chat-input:focus {
-            border-color: #00a99d;
-            background: #ffffff;
-            box-shadow: 0 0 0 2px rgba(0, 169, 157, 0.15);
+            border-color: #00a99d !important;
+            background: #ffffff !important;
+            box-shadow: 0 0 0 3px rgba(0, 169, 157, 0.15) !important;
         }
 
         .microarea-chat-send-btn {
@@ -448,8 +486,10 @@
             text-align: center;
             color: #555555;
             padding: 8px 10px;
-            background: rgba(255, 255, 255, 0.98);
-            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            background: rgba(255, 255, 255, 0.6) !important;
+            backdrop-filter: blur(10px) !important;
+            -webkit-backdrop-filter: blur(10px) !important;
+            border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -459,8 +499,10 @@
         /* --- Pestañas (Tabs) --- */
         .microarea-chat-tabs {
             display: flex;
-            background: rgba(255, 255, 255, 0.95);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            background: rgba(255, 255, 255, 0.4) !important;
+            backdrop-filter: blur(10px) !important;
+            -webkit-backdrop-filter: blur(10px) !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
             z-index: 10;
         }
 
@@ -508,12 +550,15 @@
             display: flex;
             flex-direction: column;
             gap: 12px;
-            background: rgba(255, 255, 255, 0.95);
-            border: 1px solid rgba(0, 0, 0, 0.08);
-            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.7) !important;
+            backdrop-filter: blur(15px) !important;
+            -webkit-backdrop-filter: blur(15px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
+            border-radius: 18px !important;
             padding: 20px;
             box-sizing: border-box;
             width: 100%;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04) !important;
         }
 
         /* --- Animaciones --- */
@@ -567,10 +612,10 @@
             }
             
             #microarea-chat-trigger.open {
-                display: none; /* Ocultar botón flotante cuando está abierto en móvil */
+                display: none;
             }
         }
-    `;
+`;
 
     // Inyectar etiqueta de estilo en el HEAD
     const styleEl = document.createElement('style');

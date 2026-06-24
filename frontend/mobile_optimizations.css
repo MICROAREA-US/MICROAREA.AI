@@ -190,3 +190,278 @@ table {
     }
 }
 
+/* ==========================================================================
+   ESTILO OPTIMIZADO LIQUID GLASS (INSPIRADO EN iOS 26/27)
+   Inyección de refracción de luz, hiper-cristal líquido, bordes brillantes,
+   saturación de fondo y sombras orgánicas fluidas.
+   ========================================================================== */
+
+/* --- 1. BOTONES GLOBALES ESTILO LIQUID GLASS (Gota de Cristal Líquido) --- */
+.et_pb_button, 
+.et_pb_contact_submit, 
+input#wp-submit {
+    border-radius: 40px !important;
+    padding: 11px 32px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    background: linear-gradient(135deg, rgba(68, 113, 177, 0.8) 0%, rgba(0, 169, 157, 0.8) 100%) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    color: #ffffff !important;
+    box-shadow: 
+        inset 0 1.5px 1.5px rgba(255, 255, 255, 0.45), 
+        inset 0 -1.5px 1.5px rgba(0, 0, 0, 0.15),
+        0 8px 24px rgba(68, 113, 177, 0.18) !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.et_pb_button:hover, 
+.et_pb_contact_submit:hover, 
+input#wp-submit:hover {
+    transform: translateY(-2px) scale(1.02) !important;
+    background: linear-gradient(135deg, rgba(68, 113, 177, 0.95) 0%, rgba(0, 169, 157, 0.95) 100%) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 
+        inset 0 2px 2px rgba(255, 255, 255, 0.6), 
+        inset 0 -2px 2px rgba(0, 0, 0, 0.1),
+        0 14px 28px rgba(0, 169, 157, 0.28) !important;
+}
+
+.et_pb_button:active, 
+.et_pb_contact_submit:active, 
+input#wp-submit:active {
+    transform: translateY(1px) scale(0.98) !important;
+    box-shadow: 
+        inset 0 1px 1px rgba(255, 255, 255, 0.3), 
+        inset 0 -1px 1px rgba(0, 0, 0, 0.2),
+        0 4px 10px rgba(0, 169, 157, 0.2) !important;
+}
+
+/* --- 2. COLUMNAS Y TARJETAS (BLURBS) COMO LÁMINAS DE CRISTAL LÍQUIDO --- */
+.et_pb_blurb, 
+.et_pb_column.et_pb_column_1_3, 
+.et_pb_column.et_pb_column_1_4,
+.et_pb_column.et_pb_column_1_2 {
+    border-radius: 24px !important;
+    background: rgba(255, 255, 255, 0.45) !important;
+    backdrop-filter: blur(20px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 
+        inset 0 1.5px 1.5px rgba(255, 255, 255, 0.4), 
+        0 10px 30px rgba(0, 0, 0, 0.03) !important;
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* Efecto hover interactivo: brillo refractario e incremento de saturación */
+.et_pb_blurb:hover,
+.et_pb_column.et_pb_column_1_3:hover, 
+.et_pb_column.et_pb_column_1_4:hover,
+.et_pb_column.et_pb_column_1_2:hover {
+    transform: translateY(-6px) !important;
+    background: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur(25px) saturate(210%) !important;
+    -webkit-backdrop-filter: blur(25px) saturate(210%) !important;
+    border-color: rgba(0, 169, 157, 0.4) !important;
+    box-shadow: 
+        inset 0 2px 2px rgba(255, 255, 255, 0.65), 
+        0 20px 45px rgba(68, 113, 177, 0.12) !important;
+}
+
+/* Transición suave para las imágenes y contenedores de iconos */
+.et_pb_blurb img, 
+.et_pb_main_blurb_image {
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.et_pb_blurb:hover img,
+.et_pb_blurb:hover .et_pb_main_blurb_image {
+    transform: scale(1.08) translateY(-2px) !important;
+}
+
+/* --- 3. MENÚ DE NAVEGACIÓN Y CABECERA (Liquid Glass Bar) --- */
+/* Línea inferior animada y fluida en enlaces */
+#top-menu li a {
+    position: relative;
+    transition: color 0.3s ease !important;
+}
+
+#top-menu li a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #4471b1, #00a99d);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#top-menu li:hover a::after,
+#top-menu li.current-menu-item a::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Cabecera flotante e integrada tipo barra de cristal líquido */
+#main-header, .et_pb_menu {
+    border-radius: 0 0 24px 24px !important;
+    background-color: rgba(255, 255, 255, 0.45) !important;
+    backdrop-filter: blur(20px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 
+        inset 0 1.5px 1px rgba(255, 255, 255, 0.5),
+        0 10px 35px rgba(0, 0, 0, 0.04) !important;
+    transition: all 0.4s ease !important;
+}
+
+.et-fixed-header {
+    background-color: rgba(255, 255, 255, 0.55) !important;
+    backdrop-filter: blur(25px) saturate(200%) !important;
+    -webkit-backdrop-filter: blur(25px) saturate(200%) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 
+        inset 0 1.5px 1.5px rgba(255, 255, 255, 0.6),
+        0 12px 40px rgba(68, 113, 177, 0.1) !important;
+}
+
+/* Menús Desplegables (Submenús) estilo burbujas de cristal líquido */
+ul.sub-menu, .nav li ul {
+    border-radius: 18px !important;
+    background: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur(25px) saturate(190%) !important;
+    -webkit-backdrop-filter: blur(25px) saturate(190%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 
+        inset 0 1.5px 1.5px rgba(255, 255, 255, 0.7),
+        0 15px 40px rgba(0, 0, 0, 0.08) !important;
+    padding: 8px 0 !important;
+    overflow: hidden !important;
+}
+
+ul.sub-menu li:first-child, 
+ul.sub-menu li:first-child > a {
+    border-top-left-radius: 18px !important;
+    border-top-right-radius: 18px !important;
+}
+
+ul.sub-menu li:last-child, 
+ul.sub-menu li:last-child > a {
+    border-bottom-left-radius: 18px !important;
+    border-bottom-right-radius: 18px !important;
+}
+
+/* Transición fluida de apertura tipo burbuja */
+ul.sub-menu {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px) scale(0.95);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    display: block !important;
+}
+
+li:hover > ul.sub-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0px) scale(1) !important;
+}
+
+/* --- 4. FORMULARIOS E INPUTS INTERACTIVOS --- */
+.et_pb_contact_field input, 
+.et_pb_contact_field textarea, 
+div#popup-entrar input, 
+div#recuperar-pass input {
+    border: 1px solid #dcdcdc !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+    padding: 10px 14px !important;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.02) !important;
+}
+
+.et_pb_contact_field input:focus, 
+.et_pb_contact_field textarea:focus, 
+div#popup-entrar input:focus, 
+div#recuperar-pass input:focus {
+    border-color: #00a99d !important;
+    box-shadow: 0 0 0 3px rgba(0, 169, 157, 0.15) !important;
+    outline: none !important;
+}
+
+/* --- 5. ANIMACIÓN DE FLOTADO SUAVE --- */
+@keyframes premiumFloat {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.premium-float-element {
+    animation: premiumFloat 6s ease-in-out infinite !important;
+}
+
+/* --- 6. REDES SOCIALES E ICONOS --- */
+.et-social-icon a {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.et-social-icon a:hover {
+    transform: scale(1.18) rotate(6deg) !important;
+    color: #00a99d !important;
+}
+
+/* --- 7. APARIENCIA GLOBAL DE CRISTAL LÍQUIDO (Liquid Glass Whole Site) --- */
+/* Fondo de gradiente premium para todo el sitio */
+body, #page-container {
+    background: linear-gradient(135deg, #f4f7fc 0%, #eef6f5 40%, #fcf7ff 70%, #f5faf8 100%) !important;
+    background-attachment: fixed !important; /* Mantiene el gradiente estático al hacer scroll */
+}
+
+/* Hacer transparentes las secciones estándar para revelar el gradiente de fondo */
+.et_pb_section:not(.et_pb_section_video) {
+    background-color: transparent !important;
+}
+
+/* Efecto cristal en el contenedor principal de formularios y popups */
+.et_pb_contact_form_container, 
+div#popup-entrar .et_pb_column, 
+div#recuperar-pass .et_pb_column,
+.et_pb_newsletter {
+    background: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(20px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 20px !important;
+    box-shadow: 
+        inset 0 1.5px 1.5px rgba(255, 255, 255, 0.4), 
+        0 10px 30px rgba(0, 0, 0, 0.05) !important;
+    padding: 24px !important;
+}
+
+/* Asegurar que las cabeceras fijas de otras subpáginas tengan el mismo aspecto de cristal */
+.et_pb_menu_0_tb_header, .et_pb_menu_1_tb_header {
+    background-color: rgba(255, 255, 255, 0.45) !important;
+    backdrop-filter: blur(20px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+}
+
+/* Cabecera del pie de página (Footer) estilo cristal líquido oscuro */
+.et_pb_section_0_tb_footer {
+    background: rgba(9, 28, 79, 0.85) !important;
+    backdrop-filter: blur(20px) saturate(160%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(160%) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: inset 0 1.5px 0.5px rgba(255, 255, 255, 0.15) !important;
+}
+
