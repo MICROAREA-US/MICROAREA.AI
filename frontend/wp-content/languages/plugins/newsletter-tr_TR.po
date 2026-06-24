@@ -1,0 +1,1554 @@
+# Translation of Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-22 11:41:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release)\n"
+
+#: emails/edit.php:468
+msgid "Do not filter by this field"
+msgstr "Bu alana göre filtreleme yapma"
+
+#: emails/edit.php:467
+msgid "is one of:"
+msgstr "Bunlardan biri:"
+
+#: emails/edit.php:463
+msgid "Profile fields"
+msgstr "Profil alanları"
+
+#: admin.php:147
+msgid "Save the newsletter to update the counter!"
+msgstr "Sayacı güncellemek için bülteni kaydet!"
+
+#: unsubscription/index.php:217
+msgid "Disable unsubscribe headers"
+msgstr "Üyelikten ayrılma başlıklarını etkisizleştir"
+
+#: unsubscription/index.php:227
+msgid "Cancellation requests via email"
+msgstr "Email ile iptal talepleri"
+
+#: emails/blocks/hero/options.php:17
+msgid "Schema"
+msgstr "Taslak"
+
+#: emails/blocks/posts/options.php:92
+msgid "Posts offset"
+msgstr "Yazı ofseti"
+
+#: emails/themes/default/theme-options.php:15
+msgid "External background color"
+msgstr "Dış arkaalan rengi"
+
+#: statistics/index.php:68
+msgid "Overall basic statistics (last 20 newsletters)"
+msgstr "Genel temel istatistikler"
+
+#: statistics/index.php:53
+msgid "No newsletters have been sent till now"
+msgstr "Şu ana kadar hiç bülten gönderilmedi"
+
+#: statistics/view.php:70
+msgid "Clicks"
+msgstr "Tıklamalar"
+
+#: statistics/view.php:51
+msgid "Reach"
+msgstr "Ulaşım"
+
+#: statistics/view.php:21
+msgid "Newsletter still sending"
+msgstr "Bülten hala gönderiliyor"
+
+#: statistics/view.php:19
+msgid "Draft newsletter, no data available"
+msgstr "Taslak bülten, hiç bilgi yok"
+
+#: subscription/antispam.php:81
+msgid "Disable antibot"
+msgstr "Antibot etkisizleştir"
+
+#: subscription/antispam.php:164 subscription/antispam.php:176
+msgid "One per line"
+msgstr "Her satıra bir tane"
+
+#: includes/controls.php:1152 profile/index.php:166 profile/index.php:179
+#: subscription/form.php:285 subscription/form.php:321
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: main/main.php:297
+msgid "Allowed roles"
+msgstr "İzin verilen roller"
+
+#: main/main-admin.php:79 main/main-admin.php:82
+msgid "Addons"
+msgstr "Eklentiler"
+
+#: main/main-admin.php:61
+msgid "Company info"
+msgstr "Şirket ismi"
+
+#: includes/fields.php:636
+msgid "Terms"
+msgstr "Koşullar"
+
+#: emails/blocks/posts/options.php:118
+msgid "Filters"
+msgstr "Filtreler"
+
+#: emails/blocks/posts/options.php:124
+msgid "Excerpt font"
+msgstr "Alıntı yazı tipi"
+
+#: emails/blocks/posts/options.php:63
+msgid "Two columns"
+msgstr "İki sütun"
+
+#: emails/blocks/posts/options.php:61
+msgid "One column"
+msgstr "Tek sütun"
+
+#: subscription/inject.php:54 subscription/popup.php:55
+msgid "Preview"
+msgstr "Önizleme"
+
+#: emails/edit.php:405 main/autoresponderedit.php:44 main/main.php:154
+#: subscription/options.php:114 unsubscription/index.php:96
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: emails/edit.php:360
+msgid "Schedule delivery?"
+msgstr "Gönderiyi zamanla?"
+
+#: emails/edit.php:352
+msgid "Send now"
+msgstr "Şimdi gönder"
+
+#: emails/edit.php:285
+msgid "Scheduled."
+msgstr "Zamanlandı."
+
+#: emails/edit.php:283
+msgid "Now sending."
+msgstr "Şimdi gönderiliyor."
+
+#: emails/composer.php:133 emails/emails-admin.php:443
+#: emails/emails-admin.php:496
+msgid "Newsletter should be saved before send a test"
+msgstr "Bir test göndermeden önce bülten kaydedilmeli"
+
+#: emails/tnp-composer/index-v2.php:163 emails/tnp-composer/index-v2.php:173
+msgid "Apply"
+msgstr "Uygula"
+
+#: emails/tnp-composer/modal/test-newsletter.php:8
+msgid "Send a test"
+msgstr "Bir test gönder"
+
+#: emails/emails-admin.php:463
+msgid "Test subscribers:"
+msgstr "Test üyeleri:"
+
+#: emails/tnp-composer/index-v2.php:129
+msgid "Blocks"
+msgstr "Bloklar"
+
+#: emails/composer.php:184 emails/editorhtml.php:98
+#: emails/editortinymce.php:115
+msgid "Back to last save"
+msgstr "Son kaydedilene geri dön"
+
+#: emails/index.php:87 users/index.php:166
+msgid "Delete selected"
+msgstr "Seçileni sil"
+
+#: users/massive.php:271
+msgid "subscribers without a language"
+msgstr "dil bilgisi olmayan üyeler"
+
+#: users/massive.php:270
+msgid "Set to"
+msgstr "Ayarlama"
+
+#: users/statistics.php:219
+msgid "Without language"
+msgstr "Dil bilgisiz"
+
+#: header.php:107
+msgid "Create newsletter"
+msgstr "Yeni bülten oluştur"
+
+#: header.php:193 header.php:205
+msgid "Get Professional Addons"
+msgstr "Profesyonel Eklentiler Edin"
+
+#: emails/emails-admin.php:467 emails/emails-admin.php:479
+#: emails/emails-admin.php:514 emails/emails-admin.php:524
+msgid "Read more about delivery issues"
+msgstr "Gönderim sorunları hakkında daha fazla bilgi al"
+
+#: includes/controls.php:2155
+msgid "Install a multilanguage plugin."
+msgstr "Çok dil seçenekli bir eklenti yükle."
+
+#: emails/blocks/hero/options.php:28
+msgid "Image"
+msgstr "Görsel"
+
+#: emails/blocks/cta/options.php:16 emails/blocks/header/options.php:28
+#: emails/blocks/image/options.php:16 emails/tnp-composer/index-v2.php:161
+msgid "Width"
+msgstr "Genişlik"
+
+#: emails/blocks/posts/options.php:123
+msgid "Title font"
+msgstr "Başlık fontu"
+
+#: emails/blocks/posts/options.php:79
+msgid "Show image"
+msgstr "Görseli göster"
+
+#: includes/controls.php:2186
+msgid "Your multilanguage plugin is not supported or there are no languages defined"
+msgstr "Çok dilli eklentin desteklenmiyor veya hiçbir dil bilgisi tanımlanmamış"
+
+#: includes/controls.php:2179
+msgid "Install WPML or Polylang for multilanguage support"
+msgstr "Çok dil desteği için WPML veya Polylang yükle"
+
+#: users/index.php:32
+msgid "Welcome email sent."
+msgstr "Hoşgeldin emaili gönderildi."
+
+#: users/index.php:26
+msgid "Activation email sent."
+msgstr "Aktivasyon emaili gönderildi."
+
+#: unsubscription/index.php:201
+msgid "On error"
+msgstr "Hata burada"
+
+#: emails/blocks/posts/options.php:73
+msgid "Show date"
+msgstr "Tarihi göster"
+
+#: emails/edit.php:433 includes/fields.php:674 profile/index.php:155
+#: profile/profile.php:257 users/edit.php:153
+msgid "Language"
+msgstr "Dil"
+
+#: emails/blocks/hero/options.php:33 subscription/form.php:168
+msgid "Button"
+msgstr "Düğme"
+
+#: includes/fields.php:792
+msgid "Padding"
+msgstr "İçten boşluk - Padding"
+
+#: main/main.php:354
+msgid "Do not store"
+msgstr "Saklamayın"
+
+#: main/main.php:354
+msgid "Anonymize"
+msgstr "Anonimleştir"
+
+#: main/main.php:354
+msgid "Store"
+msgstr "Sakla"
+
+#: main/main.php:352
+msgid "IP addresses"
+msgstr "IP adresleri"
+
+#: subscription/lists.php:137
+msgid "Unlink everyone"
+msgstr "Herkesin bağlantısını kaldır"
+
+#: includes/module.php:393 includes/module.php:401
+msgid "No subscriber found."
+msgstr "Abone bulunamadı"
+
+#: emails/edit.php:300
+msgid "The message is missing the subscriber profile or cancellation link."
+msgstr "Mesajda ya abone profili veya iptal linki yok."
+
+#: profile/profile.php:160 profile/profile.php:184
+#: subscription/subscription.php:238 unsubscription/unsubscription.php:43
+#: unsubscription/unsubscription.php:66
+msgid "Subscriber not found."
+msgstr "Abone bulunamadı."
+
+#: profile/index.php:198
+msgid "Profile saved"
+msgstr "Profil kaydedildi"
+
+#: subscription/form.php:205
+msgid "Use WordPress privacy URL"
+msgstr "WordPress gizlilik URL'ini kullan"
+
+#: header.php:177 subscription/antispam.php:69 system/logs.php:42
+#: system/system-admin.php:32 users/edit-nav.php:6 users/logs.php:38
+#: users/users-admin.php:28
+msgid "Logs"
+msgstr "Kayıtlar"
+
+#: unsubscription/index.php:173
+msgid "Reactivated message"
+msgstr "Yeniden etkinleştirilen mesaj"
+
+#: subscription/customfields.php:41 subscription/form.php:34
+msgid "Optional"
+msgstr "İsteğe bağlı"
+
+#: emails/blocks/posts/options.php:96 subscription/customfields.php:40
+#: subscription/lists.php:39
+msgid "Private"
+msgstr "Özel"
+
+#: subscription/options.php:156
+msgid "Repeated subscriptions"
+msgstr "Tekrarlanan abonelikler"
+
+#: subscription/options.php:275
+msgid "Override Opt In"
+msgstr "Opt in'i geçersiz kıl"
+
+#: includes/defaults.php:242
+msgid "Your subscription has been reactivated."
+msgstr "Aboneliğiniz tekrar aktifleştirildi."
+
+#: includes/defaults.php:241
+msgid "This message confirms that you have unsubscribed from our newsletter. Thank you."
+msgstr "Bu mesaj ile bülten üyeliğinden çıkarıldığınızı bildirmek isteriz. Teşekkürler."
+
+#: includes/defaults.php:240 unsubscription/index.php:94
+msgid "Goodbye"
+msgstr "Görüşmek üzere"
+
+#: includes/defaults.php:238
+msgid "Subscriber not found, it probably has already been removed. No further actions are required."
+msgstr "Abone bulunamadı, muhtemelen daha önce silinmiş. Başka bir işlem yapmaya gerek yok."
+
+#: includes/defaults.php:218
+msgid "Change your profile"
+msgstr "Profilini değiştir"
+
+#: includes/defaults.php:216
+msgid "This message confirms your subscription to our newsletter. Thank you!"
+msgstr "Bu mesaj ile bültenimize abone olduğunuzu bildiririz. Teşekkürler!"
+
+#: includes/defaults.php:213
+msgid "Your subscription has been confirmed"
+msgstr "Aboneliğiniz onaylandı"
+
+#: includes/defaults.php:211
+msgid "Please confirm your subscription <a href=\"{subscription_confirm_url}\">clicking here</a>"
+msgstr "Lütfen aboneliğinizi onaylamak için <a href=\"{subscription_confirm_url}\">buraya tıklayın</a>"
+
+#: includes/defaults.php:210
+msgid "Please confirm your subscription"
+msgstr "Lütfen aboneliğinizi onaylayın"
+
+#: includes/defaults.php:209
+msgid "A confirmation email is on the way. Follow the instructions and check the spam folder. Thank you."
+msgstr "Bir konfirmasyon emaili gönderildi. Talimatları takip edin ve spam klasörünüzü kontrol edin. Teşekkürler."
+
+#: includes/defaults.php:196
+msgid "Dear"
+msgstr "Sayın"
+
+#: includes/defaults.php:195
+msgid "Mr."
+msgstr "Bay"
+
+#: includes/defaults.php:194
+msgid "Ms."
+msgstr "Bayan"
+
+#: includes/defaults.php:188
+msgid "I'm"
+msgstr "Ben"
+
+#: profile/index.php:230
+msgid "Privacy link text"
+msgstr "Gizlilik bağlantısı metni"
+
+#: profile/index.php:223
+msgid "\"Save\" label"
+msgstr "\"Kaydet\" etiketi"
+
+#: profile/index.php:216
+msgid "General error"
+msgstr "Genel hata"
+
+#: profile/index.php:206
+msgid "Email changed alert"
+msgstr "E-posta değişti uyarısı"
+
+#: includes/defaults.php:228
+msgid "Your email is not valid or already in use."
+msgstr "Emailiniz geçersiz veya halihazırda kullanılıyor"
+
+#: includes/defaults.php:227
+msgid "Your email has been changed, an activation email has been sent with instructions."
+msgstr "Emailiniz değiştirildi, talimatlar içeren bir aktivasyon emaili gönderildi."
+
+#: includes/controls.php:469
+msgid "Options reset."
+msgstr "Seçenekler sıfırlandı."
+
+#: includes/controls.php:462
+msgid "Deleted."
+msgstr "Silindi."
+
+#: includes/controls.php:536 subscription/form.php:239 users/statistics.php:342
+msgid "Male"
+msgstr "Erkek"
+
+#: users/massive.php:313
+msgid "subscribers without a list"
+msgstr "listesi olmayan aboneler"
+
+#: users/massive.php:312
+msgid "Add to list"
+msgstr "Listeye ekle"
+
+#: users/massive.php:246 users/massive.php:247 users/massive.php:248
+#: users/massive.php:249 users/massive.php:250 users/massive.php:251
+#: users/massive.php:252 users/massive.php:253 users/massive.php:254
+msgid "years"
+msgstr "yıllar"
+
+#: users/massive.php:245
+msgid "year"
+msgstr "yıl"
+
+#: users/massive.php:243 users/massive.php:244
+msgid "months"
+msgstr "aylar"
+
+#: users/massive.php:237
+msgid "Inactive since"
+msgstr "Şu tarihten buyana aktif değil"
+
+#: users/massive.php:58
+msgid "deleted"
+msgstr "silindi"
+
+#: users/edit.php:239
+msgid "Last activity"
+msgstr "Son aktivite"
+
+#: subscription/antispam.php:68
+msgid "Blacklists"
+msgstr "Kara listeler"
+
+#: subscription/subscription-admin.php:40
+msgid "Security"
+msgstr "Güvenlik"
+
+#: subscription/antispam.php:126
+msgid "Captcha"
+msgstr "Captcha"
+
+#: includes/fields.php:785
+msgid "Block Background"
+msgstr "Blok Arkaplanı"
+
+#: emails/blocks/header/options.php:13 emails/blocks/hero/options.php:14
+#: emails/blocks/posts/options.php:59
+msgid "Layout"
+msgstr "Yerleşim"
+
+#: emails/blocks/posts/block.php:39
+msgid "Read more..."
+msgstr "Devamını oku..."
+
+#: emails/subjects.php:47
+msgid "Get/Become <em>[something]</em>. 10 Ideas That Work"
+msgstr "<em>[birşey]</em> Edin/Ol. İşe Yarar 10 Fikir"
+
+#: emails/subjects.php:46
+msgid "The 10 Rules for <em>[something]</em>"
+msgstr "<em>[birşey]</em> için 10 kural"
+
+#: emails/subjects.php:45
+msgid "The Top 10 <em>[something]</em>"
+msgstr "En İyi 10 <em>[şey]</em>"
+
+#: emails/subjects.php:44
+msgid "10 Ways to <em>[something]</em>"
+msgstr "<em>[birşey]</em> için 10 Yol"
+
+#: emails/subjects.php:41
+msgid "Don't do These 10 Things When <em>[something]</em>"
+msgstr "<em>[birşey]</em> Olduğunda Bu 10 Şeyi Yapma"
+
+#: emails/subjects.php:40
+msgid "10 <em>[something]</em> Mistakes That Make You Look Dumb"
+msgstr "Sizi Aptal Gösterecek 10 <em>[birşey]</em> Hataları"
+
+#: emails/subjects.php:39
+msgid "Do You Make These 10 <em>[something]</em> Mistakes?"
+msgstr "Bu 10 <em>[birşey]</em> Hataları Yapıyormusunuz?"
+
+#: emails/subjects.php:36
+msgid "Secrets of [famous people]"
+msgstr "[Ünlü kişilerin] sırları"
+
+#: emails/subjects.php:35
+msgid "How to End [problem]"
+msgstr "Nasıl Sonlandırılır [problem]"
+
+#: emails/subjects.php:34
+msgid "Get Rid of <em>[problem]</em> Once and Forever"
+msgstr "<em>[problem]</em> Kurtul - Bir kez ve sonsuza kadar"
+
+#: emails/subjects.php:33
+msgid "10 Ways to Simplify Your <em>[something]</em>"
+msgstr "<em> [bir şey] </em> 'inizi Basitleştirmenin 10 Yolu"
+
+#: emails/subjects.php:28
+msgid "10 Lies <em>[kind of people]</em> Likes to Tell"
+msgstr "10 Yalan <em>[insan türü]</em> Söylemeyi Seviyor"
+
+#: emails/subjects.php:27
+msgid "10 Warning Signs That <em>[something]</em>"
+msgstr "10 <em>[bir şey]</em> Uyarı İşaretleri"
+
+#: emails/subjects.php:26
+msgid "How safe is your <em>[something]</em> from <em>[danger]</em>?"
+msgstr "<em>[bir şey]</em>'in <em>[tehlike]</em>' den ne kadar güvenli?"
+
+#: emails/editorhtml.php:89 emails/editortinymce.php:107
+msgid "Get ideas"
+msgstr "Fikir al"
+
+#: emails/composer.php:186 emails/editorhtml.php:101
+#: emails/editortinymce.php:118 main/welcome.php:228
+msgid "Next"
+msgstr "Sonraki"
+
+#: main/welcome.php:227
+msgid "Previous"
+msgstr "Önceki"
+
+#: main/welcome.php:221
+msgid "Go to your dashboard"
+msgstr "Kontrol paneline git"
+
+#: main/welcome.php:216
+msgid "If you are unsure on how to use some features of Newsletter, reach for our official documentation."
+msgstr "Bülten'in bazı özelliklerini nasıl kullanacağınızdan emin değilseniz, resmi belgelerimize bakın."
+
+#: main/welcome.php:209
+msgid "You can also follow us through our social accounts"
+msgstr "Bizi sosyal hesaplarımızdan da takip edebilirsiniz"
+
+#: main/welcome.php:204
+msgid "Your email"
+msgstr "Emailınız"
+
+#: main/welcome.php:203
+msgid "Be always updated with the latest releases and tips from our headquarters"
+msgstr "Genel merkezimizden en son sürümler ve ipuçları ile her zaman güncel olun"
+
+#: main/welcome.php:199
+msgid "You're now ready to begin using Newsletter!"
+msgstr "Artık Newsletter'ı kullanmaya başlamak için hazırsınız!"
+
+#: main/welcome.php:188
+msgid "Take me to my widget settings (opens in a new window)"
+msgstr "Beni bileşen ayar sayfasına götür (yeni sekmede açılır)"
+
+#: main/welcome.php:186
+msgid "If you use sidebars in your blog, it may be a good idea to add a subscription form there. Remember to come back here when you're done"
+msgstr "Bloğunuzda sidebar kullanıyorsanız, buraya bir abonelik formu eklemek iyi bir fikir olabilir. İşiniz bittiğinde buraya geri dönmeyi unutmayın"
+
+#: main/welcome.php:185
+msgid "Add Newsletter widget to sidebar"
+msgstr "Newsletter bileşenini sidebar'a ekleyin"
+
+#: main/welcome.php:175
+msgid "Email address"
+msgstr "E-posta adresi"
+
+#: main/welcome.php:174
+msgid "Check if your website can send emails correctly."
+msgstr "Web sitenizin e-postaları doğru bir şekilde gönderip gönderemeyeceğini kontrol edin."
+
+#: main/welcome.php:173
+msgid "Time for some tests!"
+msgstr "Bazı testler zamanı!"
+
+#: main/welcome.php:168
+msgid "We've just created the page where your visitors will subscribe and where they will edit their preferences."
+msgstr "Ziyaretçilerinizin abone olacağı ve tercihlerini nerede düzenleyecekleri sayfasını oluşturduk."
+
+#: main/welcome.php:167
+msgid "Subscription and Edit<br>page creation"
+msgstr "Abonelik ve Düzenle<br>sayfası oluşturma"
+
+#: main/welcome.php:155
+msgid "Add a privacy checkbox"
+msgstr "Gizlilik onay kutusu ekle"
+
+#: main/welcome.php:148
+msgid "Ask for their name"
+msgstr "İsimlerini sor"
+
+#: main/welcome.php:145
+msgid "Choose what to ask to your subscribers in your forms."
+msgstr "Formlarınızda abonelerinize ne soracağınızı seçin."
+
+#: main/welcome.php:144
+msgid "Subscription Forms"
+msgstr "Abonelik Formları"
+
+#: main/main.php:166 main/welcome.php:138
+msgid "Sender email"
+msgstr "Gönderen emailı"
+
+#: main/welcome.php:136
+msgid "Choose which name and email address you'd like to appear as the sender of your newsletters."
+msgstr "Haber bültenlerinizi gönderen olarak görünmesini istediğiniz adı ve e-posta adresini seçin."
+
+#: main/welcome.php:135
+msgid "Sender"
+msgstr "Gönderen"
+
+#: main/welcome.php:129
+msgid "In this short tutorial we will guide you through some of the basic settings to get the most out of our plugin. "
+msgstr "Bu kısa eğiticide eklentimizden en iyi şekilde yararlanmak için bazı temel ayarlarda size rehberlik edeceğiz."
+
+#: main/welcome.php:47
+msgid "Check your mailbox for a test message. Check the spam folder as well."
+msgstr "Posta kutunuzda test mesajı olup olmadığını kontrol edin. Spam klasörünü de kontrol edin."
+
+#: main/welcome.php:35
+msgid "Please check the email address, it seems wrong."
+msgstr "Lütfen e-posta adresini kontrol edin, yanlış görünüyor."
+
+#: main/main.php:194
+msgid "A license key is set"
+msgstr "Bir lisans anahtarı ayarlandı"
+
+#: users/massive.php:50
+msgid "removed from list"
+msgstr "listeden çıkarıldı"
+
+#: users/massive.php:45
+msgid "added to list"
+msgstr "listeye eklendi"
+
+#: includes/controls.php:536 includes/defaults.php:200 users/statistics.php:350
+msgid "Not specified"
+msgstr "Belirtilmemiş"
+
+#: includes/controls.php:536 subscription/form.php:235 users/statistics.php:334
+msgid "Female"
+msgstr "Kadın"
+
+#: users/edit.php:227 users/statistics.php:250
+msgid "Referrer"
+msgstr "Yönlendiren"
+
+#: users/statistics.php:64
+msgid "Any"
+msgstr "Herhangi biri"
+
+#: users/new.php:22
+msgid "This subscriber already exists."
+msgstr "Bu abone zaten var."
+
+#: users/new.php:13
+msgid "Wrong email address."
+msgstr "Yanlış e-posta adresi."
+
+#: users/massive.php:227 users/massive.php:304
+msgid "to"
+msgstr "ile"
+
+#: users/massive.php:303
+msgid "all subscribers in"
+msgstr "içindeki tüm aboneler"
+
+#: users/index.php:221
+msgid "Resend activation"
+msgstr "Aktivasyonu tekrar gönder"
+
+#: users/edit.php:263
+msgid "Profile URL"
+msgstr "Profil URL'si"
+
+#: users/edit.php:257
+msgid "Secret token"
+msgstr "Gizli belirteç"
+
+#: users/edit.php:251
+msgid "IP address"
+msgstr "IP adresi"
+
+#: users/edit.php:188
+msgid "Value"
+msgstr "Değer"
+
+#: subscription/lists.php:92 users/edit.php:187 users/index.php:177
+msgid "Name"
+msgstr "İsim"
+
+#: users/edit.php:159
+msgid "Test subscriber"
+msgstr "Test aboneleri"
+
+#: emails/tnp-composer/index-v2.php:211 includes/defaults.php:187
+#: profile/index.php:139 subscription/form.php:123 users/edit.php:135
+msgid "Last name"
+msgstr "Soyadı"
+
+#: emails/tnp-composer/index-v2.php:210 includes/defaults.php:186
+#: profile/index.php:130 subscription/form.php:104 users/edit.php:129
+msgid "First name"
+msgstr "İlk İsim"
+
+#: emails/tnp-composer/index-v2.php:212
+#: emails/tnp-composer/modal/test-newsletter.php:19 includes/defaults.php:185
+#: profile/index.php:121 subscription/form.php:89 users/edit.php:123
+#: users/index.php:176 users/new.php:49
+msgid "Email"
+msgstr "Email"
+
+#: users/edit.php:49
+msgid "Error. Check the log files."
+msgstr "Hata. Günlük dosyalarını kontrol edin."
+
+#: users/edit.php:28
+msgid "The email address is already in use"
+msgstr "Bu e-posta adresi zaten kullanılmakta."
+
+#: users/edit.php:19
+msgid "Wrong email address"
+msgstr "Yanlış email adresi"
+
+#: subscription/welcome.php:153
+msgid "Welcome email"
+msgstr "Hoşgeldin emailı"
+
+#: subscription/options.php:258
+msgid "Conversion tracking code"
+msgstr "Dönüşüm izleme kodu"
+
+#: subscription/activation.php:153 subscription/options.php:213
+msgid "Activation email"
+msgstr "Aktivasyon e-postası"
+
+#: subscription/options.php:204
+msgid "Alternative activation page"
+msgstr "Alternatif aktivasyon sayfası"
+
+#: subscription/options.php:186
+msgid "Only for double opt-in mode."
+msgstr "Yalnızca çift opt-in modu."
+
+#: subscription/antispam.php:104
+msgid "Antiflood"
+msgstr "Antiflood"
+
+#: subscription/antispam.php:86
+msgid "Disable for ajax form submission"
+msgstr "Ajax form gönderimini devre dışı bırak"
+
+#: subscription/options.php:130
+msgid "Subscription page"
+msgstr "Abonelik sayfası"
+
+#: subscription/options.php:282 unsubscription/index.php:194
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: main/main.php:237
+msgid "Create the page"
+msgstr "Sayfayı oluşturun"
+
+#: subscription/options.php:126
+msgid "Single Opt In"
+msgstr "Tek Opt In"
+
+#: subscription/options.php:126
+msgid "Double Opt In"
+msgstr "Çift Opt In"
+
+#: subscription/options.php:124
+msgid "Opt In"
+msgstr "Opt In"
+
+#: includes/defaults.php:214 main/main-admin.php:64
+#: subscription/options.php:112
+msgid "Welcome"
+msgstr "Hoşgeldiniz"
+
+#: subscription/options.php:113
+msgid "Activation"
+msgstr "Aktifleştirme"
+
+#: main/main.php:372
+msgid "Email encoding"
+msgstr "Email kodlaması"
+
+#: main/main.php:360
+msgid "Debug mode"
+msgstr "Hata ayıklama modu"
+
+#: main/main.php:326
+msgid "Log level"
+msgstr "Kayıt seviyesi"
+
+#: main/main.php:198
+msgid "Find it in <a href=\"%s\" target=\"_blank\">your account</a> page"
+msgstr "<a href=\"%s\" target=\"_blank\">hesabınız</a> sayfasında bulun"
+
+#: main/main.php:190
+msgid "License key"
+msgstr "Lisans anahtarı"
+
+#: main/main.php:102
+msgid "Your Return Path domain is different from your Sender domain. Providers may require them to match."
+msgstr "Dönüş Yolu alan adınız, Gönderen alan adınızdan farklı. Sağlayıcılar eşleşmelerini isteyebilir."
+
+#: main/info.php:89
+msgid "Copyright or legal text"
+msgstr "Telif hakkı veya yasal metin"
+
+#: main/info.php:83
+msgid "Address"
+msgstr "Adres"
+
+#: main/info.php:77
+msgid "Company name"
+msgstr "Şirket ismi"
+
+#: main/info.php:68
+msgid "Motto"
+msgstr "Özlü söz"
+
+#: main/info.php:55
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/controls.php:2279 includes/controls.php:2291
+msgid "Need help?"
+msgstr "Yardıma mı ihtiyacınız var?"
+
+#: emails/emails-admin.php:454 includes/controls.php:2156
+#: includes/controls.php:2254 system/delivery.php:47
+msgid "Read more"
+msgstr "Devamını oku"
+
+#: emails/blocks/cta/options.php:19 includes/controls.php:2078
+#: includes/fields.php:296 includes/fields.php:411
+msgid "Center"
+msgstr "Orta"
+
+#: emails/blocks/cta/options.php:19 includes/controls.php:2077
+#: includes/fields.php:296 includes/fields.php:411
+msgid "Right"
+msgstr "Sağ"
+
+#: emails/blocks/cta/options.php:19 includes/controls.php:2077
+#: includes/fields.php:296 includes/fields.php:411
+msgid "Left"
+msgstr "Sol"
+
+#: emails/themes/default/theme-options.php:69
+msgid "Post types"
+msgstr "Yazı tipleri"
+
+#: emails/blocks/posts/options.php:89
+#: emails/themes/default/theme-options.php:63
+msgid "Max posts"
+msgstr "Maks. yazı"
+
+#: emails/blocks/posts/options.php:120
+#: emails/themes/default/theme-options.php:56
+msgid "Tags"
+msgstr "Etiketler"
+
+#: emails/themes/default/theme-options.php:28
+msgid "Posts"
+msgstr "Yazılar"
+
+#: emails/themes/cta-2015/theme-options.php:6
+#: emails/themes/default/theme-options.php:8
+msgid "Primary color"
+msgstr "Birincil renk"
+
+#: emails/themes/blank/theme-options.php:6
+#: emails/themes/default/theme-options.php:22
+msgid "Disable social links"
+msgstr "Sosyal linkleri devre dışı bırak"
+
+#: emails/edit.php:453
+msgid "Only to subscribers linked to WP users"
+msgstr "Yalnızca WP kullanıcılarına bağlı abonelere"
+
+#: emails/edit.php:428 includes/controls.php:751 includes/controls.php:2379
+#: includes/controls.php:2383 users/edit.php:155 users/statistics.php:186
+msgid "None"
+msgstr "Hiçbiri"
+
+#: emails/edit.php:426
+msgid "must not in one of"
+msgstr "birinde olmamalı"
+
+#: emails/edit.php:423 users/export.php:37
+msgid "All"
+msgstr "Hepsi"
+
+#: emails/edit.php:421
+msgid "Match all of"
+msgstr "Tümünü eşleştir"
+
+#: emails/edit.php:421
+msgid "Match at least one of"
+msgstr "Şunlardan en az birini eşleştirin:"
+
+#: emails/edit.php:412
+msgid "Leaving all multichoice options unselected is like to select all them"
+msgstr "Tüm çok seçenekli seçenekleri seçmemek, hepsini seçmek gibi"
+
+#: emails/editorhtml.php:99 emails/editortinymce.php:116
+#: emails/tnp-composer/index-v2.php:100 includes/controls.php:1197
+#: subscription/options.php:226 system/system-admin.php:35
+msgid "Test"
+msgstr "Test"
+
+#: emails/edit.php:296
+msgid "This newsletter will be sent to not confirmed subscribers."
+msgstr "Bu bülten teyit edilmemiş abonelere gönderilecektir."
+
+#: emails/blocks/separator/options.php:6
+msgid "Height"
+msgstr "Yükseklik"
+
+#: emails/blocks/separator/options.php:5
+msgid "Color"
+msgstr "Renk"
+
+#: includes/controls.php:1168
+msgid "View"
+msgstr "Göster"
+
+#: subscription/antispam.php:114 subscription/antispam.php:115
+#: subscription/antispam.php:116 subscription/antispam.php:117
+#: subscription/antispam.php:118 subscription/antispam.php:119
+msgid "minutes"
+msgstr "dakikalar"
+
+#: subscription/antispam.php:113
+msgid "minute"
+msgstr "dakika"
+
+#: subscription/antispam.php:109 subscription/antispam.php:110
+#: subscription/antispam.php:111 subscription/antispam.php:112
+msgid "seconds"
+msgstr "saniyeler"
+
+#: includes/controls.php:586 subscription/antispam.php:96
+#: subscription/antispam.php:108
+msgid "Disabled"
+msgstr "Etkisizleştirildi"
+
+#: emails/blocks/footer/block.php:9 emails/blocks/preheader/options.php:8
+msgid "View online"
+msgstr "Tarayıcınızda görüntüleyin"
+
+#: users/edit.php:245
+msgid "WP user ID"
+msgstr "WP kullanıcı ID'si"
+
+#: users/edit.php:221
+msgid "Created"
+msgstr "Oluşturuldu"
+
+#: emails/themes/vimeo-like/theme-defaults.php:7
+msgid "Read More"
+msgstr "Devamını oku"
+
+#: includes/controls.php:547 includes/fields.php:312 subscription/form.php:189
+msgid "No"
+msgstr "Hayır"
+
+#: header.php:341 includes/defaults.php:192 main/welcome.php:206
+msgid "Subscribe"
+msgstr "Abone Ol"
+
+#: includes/controls.php:1127 includes/controls.php:1131
+msgid "Duplicate"
+msgstr "Kopyala"
+
+#: widget/minimal.php:88 widget/standard.php:130
+msgid "Automatically subscribe to"
+msgstr "Otomatik olarak abone olur"
+
+#: emails/tnp-composer/index-v2.php:91 main/automatednav.php:9
+#: subscription/subscription-admin.php:46
+msgid "Template"
+msgstr "Şablon"
+
+#: main/extensions.php:11
+msgid "Error while activating:"
+msgstr "Etkinleştirilirken hata oluştu:"
+
+#: users/massive.php:262
+msgid "Update"
+msgstr "Güncelle"
+
+#: subscription/customfields.php:91 subscription/lists.php:94
+msgid "Type"
+msgstr "Tip"
+
+#: main/welcome.php:177
+msgid "Send a test message"
+msgstr "Bir test mesajı gönderin"
+
+#: main/main.php:341
+msgid "Custom styles"
+msgstr "Özel Stiller"
+
+#: subscription/template.php:26
+msgid "No test subscribers found."
+msgstr "Hiçbir test abonesi bulunamadı."
+
+#: subscription/template.php:51
+msgid "The tag {message} is missing in your template"
+msgstr "{message} etiketi şablonunuzda bulunamadı."
+
+#: includes/controls.php:455 includes/controls.php:476
+msgid "Done."
+msgstr "Tamam."
+
+#: header.php:158 system/backup-view.php:21 system/delivery.php:107
+#: system/logs.php:29 system/scheduler.php:58 system/status.php:123
+msgid "System"
+msgstr "Sistem"
+
+#: emails/edit.php:357 emails/edit.php:360
+msgid "Schedule"
+msgstr "Zamanla"
+
+#: emails/themes/default/theme-options.php:50 includes/fields.php:612
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: emails/blocks/canspam/options.php:10 emails/blocks/footer/options.php:13
+#: emails/blocks/header/options.php:21 emails/blocks/heading/options.php:9
+#: emails/blocks/hero/options.php:30 emails/blocks/preheader/options.php:7
+#: subscription/customfields.php:42 subscription/form.php:35
+msgid "Text"
+msgstr "Metin"
+
+#: emails/blocks/hero/options.php:24 emails/blocks/posts/options.php:51
+#: main/info.php:62 widget/standard.php:98
+msgid "Title"
+msgstr "Başlık"
+
+#: emails/edit.php:361 emails/tnp-composer/index-v2.php:172
+msgid "Cancel"
+msgstr "İptal Et"
+
+#: users/export.php:27
+msgid "Field separator"
+msgstr "Alan ayırıcı"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://www.thenewsletterplugin.com"
+msgstr "https://www.thenewsletterplugin.com"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Stefano Lissa & The Newsletter Team"
+msgstr "Stefano Lissa & Newsletter Takımı"
+
+#. Description of the plugin
+#: plugin.php
+msgid "Newsletter is a cool plugin to create your own subscriber list, to send newsletters, to build your business. <strong>Before update give a look to <a href=\"https://www.thenewsletterplugin.com/category/release\">this page</a> to know what's changed.</strong>"
+msgstr "Newsletter, kendi abone listenizi oluşturmak, bültenler göndermek ve kendi işinizi oluşturmak için çok havalı bir eklentidir. <strong>Güncellemeden önce <a href=\"https://www.thenewsletterplugin.com/category/release\"> bu sayfaya</a> nelerin değiştiğini görebilmek için bir göz atın.</strong>"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Newsletter"
+msgstr "Bülten"
+
+#: users/new.php:36
+msgid "New Subscriber"
+msgstr "Yeni Abone"
+
+#: includes/classes.php:317 users/massive.php:203 users/statistics.php:88
+msgid "Bounced"
+msgstr "Bounced"
+
+#: includes/classes.php:314 users/massive.php:193 users/statistics.php:82
+msgid "Unsubscribed"
+msgstr "Abonelik iptal edildi"
+
+#: users/massive.php:189
+msgid "Are you sure you want to mark ALL subscribers as confirmed?"
+msgstr "Abonelerin TÜMÜNÜ onaylandı olarak işaretlemek istediğinizden emin misiniz?"
+
+#: users/massive.php:189
+msgid "Confirm all"
+msgstr "Tümünü onayla"
+
+#: users/massive.php:179
+msgid "Unconfirm all"
+msgstr "Tümünün onayını kaldır"
+
+#: users/massive.php:170
+msgid "Are you sure you want to remove ALL subscribers?"
+msgstr "Abonelerin TÜMÜNÜ kaldırmak istediğinizden emin misiniz?"
+
+#: users/massive.php:170 users/massive.php:188 users/massive.php:198
+#: users/massive.php:208 users/massive.php:218
+msgid "Delete all"
+msgstr "Tümünü sil"
+
+#: users/massive.php:161
+msgid "Actions"
+msgstr "Eylemler"
+
+#: users/massive.php:160 users/massive.php:165 users/statistics.php:59
+#: users/statistics.php:147 users/statistics.php:207 users/statistics.php:251
+#: users/statistics.php:286
+msgid "Total"
+msgstr "Toplam"
+
+#: users/users-admin.php:31
+msgid "Subscribers Maintenance"
+msgstr "Abonelerin Bakımı"
+
+#: users/massive.php:40
+msgid "Subscribers deleted: "
+msgstr "Abonelikler silindi: "
+
+#: users/massive.php:35
+msgid "Subscribers changed to confirmed: "
+msgstr "Aboneler onaylandı olarak değiştirildi: "
+
+#: users/massive.php:30
+msgid "Subscribers changed to not confirmed: "
+msgstr "Aboneler onaylanmadı olarak değiştirildi: "
+
+#: users/massive.php:25
+msgid "Subscribers bounced deleted: "
+msgstr "Bounced aboneler kaldırıldı: "
+
+#: users/massive.php:15
+msgid "Subscribers unsubscribed deleted: "
+msgstr "Aboneliği bırakmış aboneler silindi: "
+
+#: users/massive.php:10
+msgid "Subscribers not confirmed deleted: "
+msgstr "Onaylanmamış aboneler silindi: "
+
+#: header.php:39 users/nav.php:6
+msgid "Profile page"
+msgstr "Profil sayfası"
+
+#: users/index.php:219
+msgid "Resend welcome"
+msgstr "Hoş geldin mesajını tekrar gönderin"
+
+#: users/index.php:163
+msgid "subscriber(s) found"
+msgstr "Abone(ler) bulundu"
+
+#: includes/paginator.php:129 users/index.php:159
+msgid "Go"
+msgstr "Git"
+
+#: users/index.php:151
+msgid "Reset Filters"
+msgstr "Filtreleri Sıfırla"
+
+#: emails/blocks/giphy/options.php:7 users/index.php:149
+msgid "Search"
+msgstr "Ara"
+
+#: header.php:211
+msgid "License expired"
+msgstr "Lisans süresi doldu"
+
+#: header.php:136
+msgid "Messages Template"
+msgstr "Mesaj Şablonları"
+
+#: header.php:43 header.php:92
+msgid "Unsubscription"
+msgstr "Abonelik iptali"
+
+#: admin.php:185 header.php:69 subscription/activation.php:117
+#: subscription/antispam.php:53 subscription/autoresponder.php:15
+#: subscription/debug.php:19 subscription/options.php:94
+#: subscription/options.php:111 subscription/subscription-admin.php:38
+#: subscription/subscription-admin.php:39 subscription/welcome.php:117
+msgid "Subscription"
+msgstr "Abonelik"
+
+#: header.php:63 users/nav.php:9
+msgid "Maintenance"
+msgstr "Bakım"
+
+#: header.php:59 users/export.php:15 users/export.php:42
+#: users/users-admin.php:32
+msgid "Export"
+msgstr "Dışarı Aktar"
+
+#: header.php:54 users/import.php:11 users/users-admin.php:33
+msgid "Import"
+msgstr "İçeri Aktar"
+
+#: admin.php:188 header.php:32 includes/controls.php:1156
+#: main/autorespondernav.php:18 main/index.php:297 main/index.php:333
+#: profile/index.php:38 statistics/nav.php:7 subscription/lists.php:100
+#: unsubscription/index.php:61 users/index.php:128 users/massive.php:126
+#: users/statistics.php:25
+msgid "Subscribers"
+msgstr "Aboneler"
+
+#: tnp-footer.php:15
+msgid "Blog"
+msgstr "Blog"
+
+#: tnp-footer.php:14
+msgid "Forum"
+msgstr "Forum"
+
+#: tnp-footer.php:13
+msgid "Your Account"
+msgstr "Hesabınız"
+
+#: tnp-footer.php:8
+msgid "Get Premium"
+msgstr "Premium Al"
+
+#: unsubscription/index.php:148
+msgid "Goodbye email"
+msgstr "Güle güle e-postası"
+
+#: unsubscription/index.php:134
+msgid "Goodbye message"
+msgstr "Güle güle mesajı"
+
+#: subscription/template.php:77
+msgid "Messages template"
+msgstr "Mesaj şablonları"
+
+#: admin.php:191 emails/tnp-composer/index-v2.php:130 header.php:73
+#: header.php:123 main/automatednav.php:8 main/autorespondernav.php:15
+#: main/info.php:25 main/main.php:131 main/main.php:152
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: main/main.php:263
+msgid "Max emails per hour"
+msgstr "Bir saatte maksimum e-posta"
+
+#: main/main.php:217
+msgid "Reply to"
+msgstr "Yanıtla"
+
+#: main/main.php:207
+msgid "Return path"
+msgstr "Geri dönüş yolu"
+
+#: emails/edit.php:584 main/main.php:178 main/welcome.php:137
+msgid "Sender name"
+msgstr "Gönderen adı"
+
+#: emails/edit.php:571
+msgid "Sender email address"
+msgstr "Gönderen e-posta adresi"
+
+#: main/main.php:153
+msgid "Delivery Speed"
+msgstr "Dağıtım Hızı"
+
+#: main/main.php:42
+msgid "Reply to email is not correct."
+msgstr "E-postaya cevap doğru değil."
+
+#: main/main.php:26
+msgid "Return path email is not correct."
+msgstr "Geri dönüş yolu e-postası doğru değil."
+
+#: main/main.php:20
+msgid "The sender email address is not correct."
+msgstr "Gönderen e-posta adresi doğru değil."
+
+#: emails/themes/vimeo-like/theme-options.php:25 main/info.php:40
+msgid "Social"
+msgstr "Sosyal"
+
+#: emails/themes/vimeo-like/theme-options.php:24 main/autoresponderedit.php:43
+#: main/info.php:39 main/nav.php:4 profile/index.php:57
+#: statistics/settings.php:37 subscription/antispam.php:67 users/edit.php:110
+#: users/massive.php:151
+msgid "General"
+msgstr "Genel"
+
+#: header.php:132
+msgid "Company Info"
+msgstr "Firma Bilgileri"
+
+#: profile/profile-admin.php:24
+msgid "Profile"
+msgstr "Profil"
+
+#: emails/presets.php:67
+msgid "New"
+msgstr "Yeni"
+
+#: subscription/customfields.php:42 subscription/form.php:35
+#: users/export.php:35 users/statistics.php:146
+msgid "List"
+msgstr "Liste"
+
+#: main/index.php:523 main/welcome.php:217
+msgid "Documentation"
+msgstr "Belgelendirme"
+
+#: admin.php:184 main/flow.php:119 main/index.php:125
+msgid "Dashboard"
+msgstr "Pano"
+
+#: header.php:127
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: includes/controls.php:591 subscription/antispam.php:97
+#: subscription/popup.php:49
+msgid "Enabled"
+msgstr "Etkinleştir"
+
+#: includes/module-base.php:1111
+msgid "Draft"
+msgstr "Taslak"
+
+#: includes/module-base.php:1109
+msgid "Paused"
+msgstr "Durduruldu"
+
+#: includes/module-base.php:1107
+msgid "Sent"
+msgstr "Gönderildi"
+
+#: includes/controls.php:1139 includes/controls.php:1148
+msgid "Delete"
+msgstr "Sil"
+
+#: emails/new.php:135 includes/controls.php:1185 includes/controls.php:1193
+msgid "Back"
+msgstr "Geri dön"
+
+#: includes/controls.php:1123
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: emails/composer.php:185 emails/edit.php:556 emails/editorhtml.php:100
+#: emails/editortinymce.php:117 includes/controls.php:1115
+#: includes/controls.php:1119 includes/defaults.php:229
+msgid "Save"
+msgstr "Kaydet"
+
+#: includes/controls.php:959
+msgid "Valid email address"
+msgstr "Geçerli e-posta adresi"
+
+#: includes/controls.php:447 includes/controls.php:451
+#: includes/defaults.php:231
+msgid "Saved."
+msgstr "Kaydedildi."
+
+#: emails/new.php:151
+msgid "Refresh the preview"
+msgstr "Ön izlemeyi yenileyin"
+
+#: emails/new.php:134
+msgid "Create a newsletter"
+msgstr "Bir bülten oluştur"
+
+#: emails/index.php:158
+msgid "Expected total at the end of the delivery may differ due to subscriptions/unsubscriptions occurred meanwhile."
+msgstr "Teslimat sırasında yeni abonelik/abonelikten ayrılmalar gerçekleşebileceği için gönderim sonu beklenilen toplam farklılık gösterebilir."
+
+#: header.php:49 header.php:115 includes/controls.php:1160
+#: includes/controls.php:1164 main/autorespondernav.php:20
+#: statistics/settings.php:24 users/nav.php:8 users/users-admin.php:34
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: emails/edit.php:346 emails/emails-admin.php:86 emails/emails-admin.php:89
+#: emails/emails-admin.php:90 emails/emails.php:112 emails/emails.php:115
+#: emails/emails.php:116 emails/presets.php:97 emails/presets.php:98
+#: includes/controls.php:1180
+msgid "Edit"
+msgstr "Düzenle"
+
+#: includes/controls.php:552 includes/fields.php:317 subscription/form.php:189
+msgid "Yes"
+msgstr "Evet"
+
+#: includes/module-base.php:1154 includes/module-base.php:1156
+#: includes/module-base.php:1213
+msgid "of"
+msgstr "tanesi"
+
+#: includes/module-base.php:1103
+msgid "Sending"
+msgstr "Gönderiliyor"
+
+#: includes/module-base.php:1105
+msgid "Scheduled"
+msgstr "Zamanlandı"
+
+#: emails/index.php:99 users/index.php:179 users/logs.php:54
+msgid "Date"
+msgstr "Tarih"
+
+#: emails/index.php:98
+msgid "Progress"
+msgstr "Aşama"
+
+#: emails/index.php:96 emails/presets.php:74
+#: emails/tnp-composer/index-v2.php:69 main/autorespondermessages.php:74
+msgid "Subject"
+msgstr "Konu"
+
+#: includes/controls.php:1028
+msgid "Proceed?"
+msgstr "Devam et?"
+
+#: admin.php:187 emails/automated.php:15 emails/autoresponder.php:15
+#: emails/index.php:72 emails/nav.php:6 emails/presets.php:56 header.php:100
+#: includes/controls.php:1172 main/automatednav.php:10 main/index.php:365
+#: users/edit-nav.php:7 users/newsletters.php:32 users/users-admin.php:29
+msgid "Newsletters"
+msgstr "Bültenler"
+
+#: emails/index.php:39 emails/presets.php:21
+msgid "Message duplicated."
+msgstr "Mesaj kopyalandı."
+
+#: emails/edit.php:565
+msgid "Track clicks and message opening"
+msgstr "Tıklamaları ve açılan mesajları takip et"
+
+#: profile/index.php:115 subscription/customfields.php:41
+#: subscription/form.php:34
+msgid "Required"
+msgstr "Gerekli"
+
+#: emails/edit.php:559
+msgid "Hide/show from public sent newsletter list."
+msgstr "Genel bülten listesinden gizle/göster."
+
+#: emails/edit.php:552
+msgid "Keep private"
+msgstr "Gizliliği koru"
+
+#: emails/edit.php:448 includes/classes.php:308 users/statistics.php:76
+msgid "Not confirmed"
+msgstr "Onaylanmadı"
+
+#: emails/edit.php:448 includes/classes.php:311 users/massive.php:174
+#: users/statistics.php:70
+msgid "Confirmed"
+msgstr "Onaylandı"
+
+#: admin.php:189 emails/edit.php:416 header.php:81 profile/index.php:165
+#: subscription/form.php:67 subscription/lists.php:60 subscription/lists.php:76
+#: users/edit.php:111 users/edit.php:173 users/index.php:180 users/logs.php:57
+#: users/massive.php:152
+msgid "Lists"
+msgstr "Listeler"
+
+#: emails/edit.php:440 profile/index.php:148 subscription/form.php:142
+#: subscription/form.php:226 users/edit.php:141 users/statistics.php:324
+msgid "Gender"
+msgstr "Cinsiyet"
+
+#: emails/edit.php:446 emails/index.php:97 statistics/view-users.php:105
+#: subscription/customfields.php:90 system/system-admin.php:30
+#: users/edit.php:147 users/index.php:178 users/massive.php:159
+#: users/statistics.php:58 users/statistics.php:206
+msgid "Status"
+msgstr "Durum"
+
+#: users/edit.php:113
+msgid "Other"
+msgstr "Diğer"
+
+#: emails/edit.php:403
+msgid "Targeting"
+msgstr "Hedefleme"
+
+#: emails/edit.php:355
+msgid "This totally stop the delivery, ok?"
+msgstr "Bu tamamen dağıtımı durdurur, tamam mı?"
+
+#: emails/edit.php:355
+msgid "Stop"
+msgstr "Durdur"
+
+#: emails/edit.php:354
+msgid "Continue"
+msgstr "Continue"
+
+#: emails/edit.php:353
+msgid "Pause the delivery?"
+msgstr "Dağıtımı duraklat?"
+
+#: emails/edit.php:353
+msgid "Pause"
+msgstr "Duraklat"
+
+#: emails/edit.php:352
+msgid "Start real delivery?"
+msgstr "Gerçek dağıtımı başlat?"
+
+#: emails/tnp-composer/modal/test-newsletter.php:23
+#: emails/tnp-composer/modal/test-newsletter.php:38 system/delivery.php:130
+msgid "Send"
+msgstr "Gönder"
+
+#: emails/emails-admin.php:478 emails/tnp-composer/modal/test-newsletter.php:43
+msgid "Read more about test subscribers"
+msgstr "Deneme aboneler hakkında daha fazla okuyun"
+
+#: emails/emails-admin.php:452
+msgid "There are no test subscribers to send to"
+msgstr "Gönderilecek deneme abonesi bulunmuyor"
+
+#: emails/edit.php:43
+msgid "Delivery definitively cancelled"
+msgstr "Dağıtım tamamen iptal edildi"
+
+#: emails/edit.php:277
+msgid "A subject is required to send"
+msgstr "Göndermek için bir konu gerekli"
+
+#: emails/new.php:11 emails/new.php:36 emails/new.php:78
+msgid "Here the email subject"
+msgstr "E-posta konusu"

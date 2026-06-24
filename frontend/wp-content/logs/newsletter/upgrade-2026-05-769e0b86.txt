@@ -1,0 +1,33 @@
+27-05-2026 09:18:15 - INFO  - 9.2.6 - 1355 - 16,2 MB/2 GB -  > Start upgrade from 9.2.5
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Array
+(
+)
+
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Array
+(
+)
+
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Array
+(
+)
+
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Array
+(
+)
+
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Array
+(
+)
+
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Array
+(
+)
+
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Array
+(
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Deleting settings backup newsletter_backup_9.1.7
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,2 MB/2 GB -  > Backing up options of 9.2.5
+27-05-2026 09:18:16 - INFO  - 9.2.6 - 1355 - 21,5 MB/2 GB -  > End

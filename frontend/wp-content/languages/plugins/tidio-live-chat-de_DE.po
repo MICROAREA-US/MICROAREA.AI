@@ -1,0 +1,49 @@
+# Translation of Plugins - Tidio – Live Chat &amp; AI Chatbots - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Tidio – Live Chat &amp; AI Chatbots - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-13 22:50:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Tidio – Live Chat &amp; AI Chatbots - Stable (latest release)\n"
+
+#. Author of the plugin
+#: tidio-elements.php
+msgid "Tidio LLC"
+msgstr "Tidio LLC"
+
+#: src/Admin/Notice/Views/NoticeTemplate.php:131
+msgid "Click me"
+msgstr "Klick mich"
+
+#: src/Admin/Notice/Views/NoticeTemplate.php:128
+msgid "Praesent tincidunt lorem non mauris tincidunt pharetra."
+msgstr "Praesent tincidunt lorem non mauris tincidunt pharetra."
+
+#: src/Admin/Notice/Views/NoticeTemplate.php:127
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar urna sit amet sapien sagittis lacinia. Etiam mollis ante sed ipsum pretium, et bibendum urna iaculis. "
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar urna sit amet sapien sagittis lacinia. Etiam mollis ante sed ipsum pretium, et bibendum urna iaculis. "
+
+#: src/Admin/Notice/Views/NoticeTemplate.php:123
+msgid "Sed ac scelerisque massa."
+msgstr "Sed ac scelerisque massa."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: tidio-elements.php
+msgid "http://www.tidio.com"
+msgstr "http://www.tidio.com"
+
+#. Plugin Name of the plugin
+#: tidio-elements.php
+msgid "Tidio Chat"
+msgstr "Tidio Chat"
+
+#. Description of the plugin
+#: tidio-elements.php
+msgid "Tidio Live Chat - live chat boosted with chatbots for your online business. Integrates with your website in less than 20 seconds."
+msgstr "Tidio Live Chat - mit Chatbots aufgewerteter Live-Chat für dein Online-Geschäft. Integriert sich in weniger als 20 Sekunden in deine Website."

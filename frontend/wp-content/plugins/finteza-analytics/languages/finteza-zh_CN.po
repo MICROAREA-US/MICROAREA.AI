@@ -1,0 +1,302 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Finteza Analytics POT\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2019-04-18 17:07+0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: finteza-analytics.php\n"
+"X-Poedit-SearchPath-2: inc/input-settings.php\n"
+"X-Poedit-SearchPath-3: inc/input-register.php\n"
+
+#: tr/langs.php:12
+msgid "Add an event in Finteza"
+msgstr "在Finteza中添加事件"
+
+#: tr/langs.php:13
+msgid "Event name"
+msgstr "Event name"
+
+#: tr/langs.php:14
+msgid "The event name to be used in statistics records"
+msgstr "此事件名称将在统计记录中使用"
+
+#: finteza-analytics.php:69
+msgid "Website ID"
+msgstr "网站ID"
+
+#: finteza-analytics.php:70 inc/settings-display.php:40
+msgid "Tracking settings"
+msgstr "跟踪设置"
+
+#: finteza-analytics.php:71
+msgid "Proxy token"
+msgstr "Proxy token"
+
+#: finteza-analytics.php:75
+msgid "Domain"
+msgstr "Domain"
+
+#: finteza-analytics.php:76
+msgid "UTC offset"
+msgstr "UTC offset"
+
+#: finteza-analytics.php:77
+msgid "Your full name"
+msgstr "您的全名"
+
+#: finteza-analytics.php:78
+msgid "Company"
+msgstr "公司"
+
+#: finteza-analytics.php:79
+msgid "Email"
+msgstr "电子邮箱"
+
+#: finteza-analytics.php:80
+msgid "Password"
+msgstr "密码"
+
+#: finteza-analytics.php:89 finteza-analytics.php:90
+msgid "Finteza Analytics"
+msgstr "Finteza Analytics"
+
+#: finteza-analytics.php:162
+msgid "an account with this email address already exists"
+msgstr "此电邮地址的账户已经存在"
+
+#: finteza-analytics.php:165
+msgid "invalid email address"
+msgstr "无效密码"
+
+#: finteza-analytics.php:168
+msgid "Registration error.email_invalid"
+msgstr "无效电邮地址"
+
+#: finteza-analytics.php:171
+msgid "a company with this name already exists"
+msgstr "此公司名已经存在"
+
+#: finteza-analytics.php:174
+msgid "invalid website address"
+msgstr "无效网站地址"
+
+#: finteza-analytics.php:177
+msgid "registration limit exceeded"
+msgstr "超过注册限制"
+
+#: finteza-analytics.php:181
+msgid "Registration error"
+msgstr "注册错误"
+
+#: inc/input-register.php:40
+msgid "Will be used as login"
+msgstr "将用作登录名"
+
+#: inc/input-register.php:49
+msgid ""
+"Must have at least 6 characters, upper and lower case letters and numbers"
+msgstr "不得少于6个字符，且必须包含大小写字母和数字"
+
+#: inc/input-register.php:60
+msgid ""
+"I have read and understood <a href=https://www.finteza.com/en/privacy "
+"target=_blank>privacy and data protection policy</a>"
+msgstr ""
+"我已阅读并理解<a href=https://www.finteza.com/zh/privacy?"
+"utm_source=wordpress.admin&utm_medium=link&utm_term=finteza.privacy."
+"policy&utm_content=finteza.plugin.wordpress&utm_campaign=finteza.wordpress "
+"target=_blank>隐私和数据保护政策</a>"
+
+#: inc/input-register.php:66
+msgid ""
+"I agree to <a href=https://www.finteza.com/en/agreement "
+"target=_blank>subscription service agreement</a>"
+msgstr ""
+"我同意<a href=https://www.finteza.com/zh/agreement?utm_source=wordpress."
+"admin&utm_medium=link&utm_term=finteza.subscription."
+"agreement&utm_content=finteza.plugin.wordpress&utm_campaign=finteza."
+"wordpress target=_blank>订阅服务协议</a>"
+
+#: inc/input-settings.php:9
+msgid ""
+"<a href=https://www.finteza.com/en/register data-target=registration "
+"target=_blank>Register</a> an account in Finteza"
+msgstr ""
+"<a href=https://www.finteza.com/zh/register?utm_source=wordpress."
+"admin&utm_medium=link&utm_term=finteza.register&utm_content=finteza.plugin."
+"wordpress&utm_campaign=finteza.wordpress data-target=registration "
+"target=_blank>注册</a>一个Finteza账户"
+
+#: inc/input-settings.php:22
+msgid ""
+"You can get this value in the website settings of the <a href=\"https://"
+"panel.finteza.com/\" target=_blank>Finteza panel</a>"
+msgstr ""
+"You can get this value in the website settings of the <a href=\"https://"
+"panel.finteza.com/\" target=_blank>Finteza panel</a>"
+
+#: inc/input-settings.php:26
+#, php-format
+msgid ""
+"<b>Important!</b> To use proxying enable <a href=\"%s\" "
+"target=_blank>permalinks</a> in any mode except \"Plain\""
+msgstr ""
+"<b>Important!</b> To use proxying enable <a href=\"%s\" "
+"target=_blank>permalinks</a> in any mode except \"Plain\""
+
+#: inc/input-settings.php:33
+msgid "Track hash changes in the address bar"
+msgstr "跟踪地址栏中的更改"
+
+#: inc/input-settings.php:34
+msgid "Track outbound links"
+msgstr "跟踪出站链接"
+
+#: inc/input-settings.php:35
+msgid "Exact time on website"
+msgstr "网站准确时间"
+
+#: inc/input-settings.php:36
+msgid "Disable tracking of admin visits"
+msgstr "禁止跟踪管理员访问"
+
+#: inc/input-settings.php:39
+msgid "Proxying the script and requests"
+msgstr "Proxying the script and requests"
+
+#: inc/input-settings.php:40
+msgid ""
+"Proxy scripts through your website to get precise and secure analytics. "
+"Learn how to do that in the <a href=\"https://www.finteza.com/en/developer/"
+"insert-code/proxy-script-request\" target=_blank>user guide</a>"
+msgstr ""
+"Proxy scripts through your website to get precise and secure analytics. "
+"Learn how to do that in the <a href=\"https://www.finteza.com/en/developer/"
+"insert-code/proxy-script-request\" target=_blank>user guide</a>"
+
+#: inc/settings-display.php:20
+msgid "Registration completed successfully"
+msgstr "Registration completed successfully"
+
+#: inc/settings-display.php:20
+msgid ""
+"Please activate your account using the link sent to your "
+"registration_complete email"
+msgstr ""
+"Please activate your account using the link sent to your registered email"
+
+#: inc/settings-display.php:23
+msgid ""
+"Real-time web analytics. Track your site visits, page views and events. "
+"Analyze the incoming traffic quality, explore user behavior and create "
+"conversion funnels. With the user-friendly interface, you can access the "
+"most realistic unsampled data without delays"
+msgstr ""
+"实时网络分析。跟踪您网站的访问量、页面浏览量和事件。分析接入流量质量，探索用"
+"户行为以及创建转化漏斗模型。通过友好的用户界面，您可以访问最真实的未采样数据"
+"且没有任何延迟"
+
+#: inc/settings-display.php:26
+msgid "Official website"
+msgstr "官方网站"
+
+#: inc/settings-display.php:30
+msgid "Demo"
+msgstr "模拟"
+
+#: inc/settings-display.php:32
+msgid "View statistics"
+msgstr "查看统计数据"
+
+#: inc/settings-display.php:56
+msgid "Registration"
+msgstr "注册"
+
+#: inc/settings-display.php:63
+msgid "Register"
+msgstr "注册"
+
+#: inc/settings-display.php:72
+msgid "Getting started"
+msgstr "开始使用"
+
+#: inc/settings-display.php:76
+msgid ""
+"How to use the plugin: 1. <a href=https://www.finteza.com/en/register data-"
+"target=registration target=_blank>Register</a> an account in Finteza; 2. "
+"Save the generated website ID in the settings; 3. Configure tracking of link "
+"click events; 4. View your website visit statistics in the <a href=https://"
+"panel.finteza.com target=_blank>Finteza dashboard</a>"
+msgstr ""
+"如何使用插件：\n"
+"\n"
+"1. <a href=https://www.finteza.com/zh/register?utm_source=wordpress."
+"admin&utm_medium=link&utm_term=finteza.register&utm_content=finteza.plugin."
+"wordpress&utm_campaign=finteza.wordpress data-target=registration "
+"target=_blank>注册</a>一个Finteza账户\n"
+"2. 在设置中保存生成的网站ID\n"
+"3. 配置跟踪链接点击事件\n"
+"4. 在<a href=https://panel.finteza.com?utm_source=wordpress."
+"admin&utm_medium=link&utm_content=finteza.plugin.wordpress&utm_term=finteza."
+"panel&utm_campaign=finteza.wordpress target=_blank>Finteza控制板</a>中查看您"
+"网站访问的统计数据"
+
+#: inc/settings-display.php:83
+msgid "How to track clicks"
+msgstr "如何跟踪点击量"
+
+#: inc/settings-display.php:87
+msgid ""
+"To enable tracking of link click events in your website: 1. Open a website "
+"page or message for editing; 2. In the text editor, select the link element "
+"and click on the Finteza button; 3. Enter the click event name to be used in "
+"statistics; 4. View event statistics in the <a href=https://panel.finteza."
+"com target=_blank>Finteza dashboard</a>"
+msgstr ""
+"若要启用在网站中跟踪链接点击事件：\n"
+"\n"
+"1. 请打开网页或消息进行编辑\n"
+"2. 在文本编辑器中，选择链接并点击Finteza按键\n"
+"3. 输入将在统计中使用的点击事件名称\n"
+"4. 在<a href=https://panel.finteza.com?utm_source=wordpress."
+"admin&utm_medium=link&utm_content=finteza.plugin.wordpress&utm_term=finteza."
+"panel&utm_campaign=finteza.wordpress target=_blank>Finteza控制板</a>中查看事"
+"件统计"
+
+#: inc/settings-display.php:93
+msgid "Where to view statistics"
+msgstr "在哪里查看统计数据"
+
+#: inc/settings-display.php:97
+msgid ""
+"Statistics on your website visits is collected in the <a href=https://panel."
+"finteza.com target=_blank>Finteza dashboard</a>. Log in using the email and "
+"password specified during registration. If you forgot the password, use the "
+"<a href=https://panel.finteza.com/recovery target=_blank>password recovery</"
+"a> page"
+msgstr ""
+"在<a href=https://panel.finteza.com?utm_source=wordpress."
+"admin&utm_medium=link&utm_content=finteza.plugin.wordpress&utm_term=finteza."
+"panel&utm_campaign=finteza.wordpress target=_blank>Finteza控制板</a>中收集您"
+"网站访问的统计数据。使用注册时指定的电子邮箱和密码进行登录。如果您忘记密码，"
+"请使用<a href=https://panel.finteza.com/recovery?utm_source=wordpress."
+"admin&utm_medium=link&utm_term=finteza.password.recovery&utm_content=finteza."
+"plugin.wordpress&utm_campaign=finteza.wordpress target=_blank>找回密码</a>页"

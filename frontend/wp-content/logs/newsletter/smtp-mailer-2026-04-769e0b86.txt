@@ -1,0 +1,30 @@
+01-04-2026 01:28:44 - FATAL - 9.2.1 - 3375 - 17,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jmartos@bufetejesusmartos.es: <jmartos@bufetejesusmartos.es>: Recipient address rejected: Domain not found
+
+01-04-2026 04:03:45 - FATAL - 9.2.1 - 1584 - 17,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: administracion@ryb-alimentaria.com: <administracion@ryb-alimentaria.com>: Recipient address rejected: Domain not found
+
+01-04-2026 06:02:16 - FATAL - 9.2.1 - 2675 - 17,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: demetrio@aglomeradoscarrion.es: <demetrio@aglomeradoscarrion.es>: Recipient address rejected: Domain not found
+
+01-04-2026 07:12:46 - FATAL - 9.2.1 - 2446 - 17,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@pangeagestion.com: <info@pangeagestion.com>: Recipient address rejected: Domain not found
+
+01-04-2026 07:17:32 - FATAL - 9.2.1 - 3907 - 17,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: irene@echestudio.com: <irene@echestudio.com>: Recipient address rejected: Domain not found
+
+01-04-2026 07:23:18 - FATAL - 9.2.1 - 9977 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: javigal@arrakis.es: <javigal@arrakis.es>: Recipient address rejected: Domain not found
+
+01-04-2026 10:08:34 - FATAL - 9.2.1 - 6713 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: carlos.subero@colep-pq.com: <carlos.subero@colep-pq.com>: Recipient address rejected: Domain not found
+
+08-04-2026 17:03:21 - FATAL - 9.2.1 - 5334 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: elena@hernandezmamblona.com: <elena@hernandezmamblona.com>: Recipient address rejected: Domain not found
+
+08-04-2026 17:43:10 - FATAL - 9.2.1 - 4440 - 17,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jmartos@bufetejesusmartos.es: <jmartos@bufetejesusmartos.es>: Recipient address rejected: Domain not found
+
+08-04-2026 18:59:51 - FATAL - 9.2.1 - 6415 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: administracion@ryb-alimentaria.com: <administracion@ryb-alimentaria.com>: Recipient address rejected: Domain not found
+
+08-04-2026 20:15:03 - FATAL - 9.2.1 - 4291 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: demetrio@aglomeradoscarrion.es: <demetrio@aglomeradoscarrion.es>: Recipient address rejected: Domain not found
+
+08-04-2026 21:30:30 - FATAL - 9.2.1 - 7060 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@pangeagestion.com: <info@pangeagestion.com>: Recipient address rejected: Domain not found
+
+08-04-2026 21:36:55 - FATAL - 9.2.1 - 3680 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: irene@echestudio.com: <irene@echestudio.com>: Recipient address rejected: Domain not found
+
+08-04-2026 21:40:38 - FATAL - 9.2.1 - 6411 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: javigal@arrakis.es: <javigal@arrakis.es>: Recipient address rejected: Domain not found
+
+09-04-2026 00:33:21 - FATAL - 9.2.1 - 9980 - 17,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: carlos.subero@colep-pq.com: <carlos.subero@colep-pq.com>: Recipient address rejected: Domain not found
+

@@ -1,0 +1,6 @@
+24-01-2024 10:40:19 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line efernandezo@icam
+24-01-2024 10:40:20 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line gestió@refilat.com
+24-01-2024 10:40:21 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line jcarlos@gestcarconsulting
+24-01-2024 10:40:21 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line juaninavarro16@hotmail.com:asesoria@pymesasesores.
+24-01-2024 10:40:22 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line patricia@cpasesores.com: sheila@cpasesores.com
+24-01-2024 10:40:23 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line secretaria@caletvalero.es: alcira@caletvalero.

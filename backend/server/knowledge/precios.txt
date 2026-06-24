@@ -1,0 +1,71 @@
+========================================================================
+TARIFAS Y PRECIOS OFICIALES DE LOS PROGRAMAS DE MICROAREA
+========================================================================
+
+A continuación se detallan los precios oficiales de las licencias y cuotas de mantenimiento anual para cada uno de los programas y módulos de Microarea:
+
+ÁREA LABORAL (Winlab)
+---------------------
+* Winlab 8 (Gestión Completa de Nóminas y Seguridad Social):
+  - Licencia: 1.500 €
+  - Mantenimiento Anual: 1.500 €
+* Winlab 8 ONE (Versión limitada para una única empresa):
+  - Licencia: 250 €
+  - Mantenimiento Anual: 250 €
+* Módulo de Envío por correo (envío automatizado de nóminas por email):
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+* Módulo e-Winlab (portal del empleado/comunicación masiva):
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+* Módulo Régimen Agrario:
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+* Módulo Régimen de Artistas:
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+* Módulo de Costes Salariales (simulación y análisis de costes):
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+* Módulo de Control de Permisos y Vacaciones:
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+
+ÁREA ERP / GESTIÓN COMERCIAL (Magest)
+------------------------------------
+* Magest (Gestión comercial, almacén y facturación):
+  - Licencia: 1.000 €
+  - Mantenimiento Anual: 750 €
+
+ÁREA CONTABILIDAD (Maconta)
+---------------------------
+* Maconta (Contabilidad general):
+  - Licencia: 750 €
+  - Mantenimiento Anual: 750 €
+* Módulo SII (Suministro Inmediato de Información del IVA):
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+* Módulo Norma 43 (Conciliación bancaria automatizada):
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+* Módulo Contabilidad Analítica:
+  - Licencia: 330 €
+  - Mantenimiento Anual: No aplica (-)
+
+ÁREA FISCALIDAD (EosWin)
+------------------------
+* EosWin 10 (Estimaciones y Modelos Oficiales de IRPF e IVA):
+  - Licencia: 750 €
+  - Mantenimiento Anual: 750 €
+* Módulo OCR (Reconocimiento óptico de facturas y documentos):
+  - Licencia: 180 €
+  - Mantenimiento Anual: No aplica (-)
+
+ÁREA JURÍDICA / DESPACHOS (LexNext)
+-----------------------------------
+* LexNext (Gestión integral de expedientes, tareas e IRPF de abogados):
+  - Licencia: 750 €
+  - Mantenimiento Anual: 750 €
+* LexNext Solo Facturación (Versión básica para emitir minutas y facturas):
+  - Licencia: 250 €
+  - Mantenimiento Anual: 250 €

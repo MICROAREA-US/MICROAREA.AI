@@ -1,0 +1,2526 @@
+# Translation of Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-04-25 19:09:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release)\n"
+
+#: subscription/welcome.php:127
+msgid "Welcome page"
+msgstr "Willkommensseite"
+
+#: subscription/confirmation.php:141 subscription/options.php:165
+msgid "Customize"
+msgstr "Anpassen"
+
+#: subscription/confirmation.php:133
+msgid "Confirmation page"
+msgstr "Bestätigungsseite"
+
+#: profile/index.php:68 subscription/confirmation.php:123
+#: subscription/welcome.php:115
+msgid "Page"
+msgstr "Seite"
+
+#: header.php:75
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/controls.php:1720
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: includes/controls.php:1704
+msgid "Ignore"
+msgstr "Ignorieren"
+
+#: emails/settings.php:61
+msgid "Custom CSS"
+msgstr "Individuelles CSS"
+
+#: system/status.php:147
+msgid "Parameters"
+msgstr "Parameter"
+
+#: system/status.php:145
+msgid "Database"
+msgstr "Datenbank"
+
+#: profile/profile.php:44
+msgid "Export your data"
+msgstr "Deine Daten exportieren"
+
+#: users/edit.php:130
+msgid "Main"
+msgstr "Main"
+
+#: composer/index.php:178 emails/tnp-composer/index-v2.php:177
+msgid "Mobile padding"
+msgstr "Mobil Innenabstand"
+
+#: emails/blocks/posts/options.php:105
+msgid "Image crop"
+msgstr "Bildausschnitt"
+
+#: emails/blocks/posts/options.php:99 emails/blocks/posts/options.php:149
+msgid "Author"
+msgstr "Autor"
+
+#: includes/controls.php:2194
+msgid "Less email safe fonts"
+msgstr "Weniger E-Mail-sichere Schriftarten"
+
+#: includes/controls.php:2183
+msgid "Email safe fonts"
+msgstr "E-Mail-sichere Schriftarten"
+
+#: emails/blocks/image/options.php:31
+msgid "Link and appearance"
+msgstr "Link und Darstellung"
+
+#: emails/blocks/image/options.php:27
+msgid "Image URL"
+msgstr "Bild-URL"
+
+#: emails/blocks/image/options.php:19
+msgid "External URL"
+msgstr "Externe URL"
+
+#: emails/blocks/image/options.php:14
+msgid "Media gallery"
+msgstr "Medien-Galerie"
+
+#: emails/blocks/footer/options.php:69
+msgid "Fonts"
+msgstr "Schriften"
+
+#: emails/blocks/footer/options.php:48
+msgid "Socials"
+msgstr "Soziale Medien"
+
+#: emails/blocks/footer/options.php:23
+msgid "Elements"
+msgstr "Elemente"
+
+#: emails/blocks/footer/options.php:18 emails/blocks/header/options.php:26
+#: emails/blocks/posts/options.php:40
+msgid "Boxed"
+msgstr "Boxed"
+
+#: emails/blocks/footer/options.php:17 emails/blocks/header/options.php:25
+#: emails/blocks/posts/options.php:39
+msgid "Inverted"
+msgstr "Invertiert"
+
+#: emails/blocks/cta/options.php:60 emails/blocks/footer/options.php:81
+#: emails/blocks/giphy/options.php:24 emails/blocks/heading/options.php:31
+#: emails/blocks/hero/options.php:46 emails/blocks/html/options.php:50
+#: emails/blocks/image/options.php:45 emails/blocks/separator/options.php:24
+#: emails/blocks/social/options.php:17
+msgid "Commons"
+msgstr "Commons"
+
+#: emails/blocks/cta/options.php:11 emails/blocks/heading/options.php:20
+#: emails/blocks/hero/options.php:23 emails/blocks/html/options.php:34
+#: emails/blocks/separator/options.php:8 emails/blocks/social/options.php:9
+msgid "Appearance"
+msgstr "Darstellung"
+
+#: main/main.php:283
+msgid "To be set for every language"
+msgstr "Für jede Sprache einstellbar"
+
+#: header.php:392
+msgid "Maybe later"
+msgstr "Vielleicht später"
+
+#: header.php:390
+msgid "Yes, you deserve it!"
+msgstr "Ja, ihr habt es verdient!"
+
+#: subscription/lists.php:134
+msgid "If you check a language, all your new subscribers with that language will be automatically added to the list"
+msgstr "Wenn Du eine Sprache auswählst, werden alle neuen Abonnenten mit dieser Sprache automatisch zur Liste hinzugefügt."
+
+#: users/index.php:36
+msgid "The welcome email is disabled."
+msgstr "Das Willkommens-E-Mail ist deaktiviert."
+
+#: subscription/options.php:160
+msgid "Allowed (double opt-in)"
+msgstr "Erlaubt (Double-Opt-In)"
+
+#: subscription/options.php:159
+msgid "Allowed (single opt-in)"
+msgstr "Erlaubt (single opt-in)"
+
+#: header.php:256 header.php:260
+msgid "License expiring"
+msgstr "Lizenz läuft ab"
+
+#: header.php:231
+msgid "License check failed"
+msgstr "Lizenzprüfung fehlgeschlagen"
+
+#: emails/edit.php:306
+msgid "The first batch of emails will be delivered in 5 minutes."
+msgstr "Die erste Gruppe von E-Mails wird in 5 Minuten versendet."
+
+#: main/main.php:461
+msgid "Tracking and action links"
+msgstr "Tracking und Aktions-Links"
+
+#: system/delivery.php:240
+msgid "Time to finish"
+msgstr "Zeit bis zur Fertigstellung"
+
+#: admin.php:131
+msgid "Newsletters sending (updated every 10 minutes)"
+msgstr "Versand von Newslettern (wird alle 10 Minuten aktualisiert)"
+
+#: subscription/subscription-admin.php:89
+msgid "Newsletter custom welcome page, keep public and published"
+msgstr "Benutzerdefinierte Newsletter-Willkommensseite, öffentlich und veröffentlicht halten"
+
+#: profile/profile-admin.php:43 profile/profile-admin.php:49
+#: subscription/subscription-admin.php:83
+msgid "Newsletter custom profile page, keep public and published"
+msgstr "Benutzerdefinierte Newsletter-Profilseite, öffentlich und veröffentlicht halten"
+
+#: header.php:56 users/nav.php:12 users/nav.php:14 users/users-admin.php:32
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: subscription/lists.php:188
+msgid "Add everyone"
+msgstr "Alle hinzufügen"
+
+#: statistics/view.php:62
+msgid "Opens"
+msgstr "Geöffnet"
+
+#: emails/blocks/posts/options.php:141
+msgid "Reverse"
+msgstr "Umkehren"
+
+#: users/logs.php:53
+msgid "Source"
+msgstr "Quelle"
+
+#: users/index.php:127
+msgid "Any list"
+msgstr "Jede Liste"
+
+#: users/index.php:158
+msgid "Any status"
+msgstr "Jeder Status"
+
+#: statistics/view.php:88
+msgid "clicks out of"
+msgstr "davon angeklickt"
+
+#: statistics/view.php:84
+msgid "Reactivity"
+msgstr "Reaktion"
+
+#: statistics/view.php:78
+msgid "total people that clicked a link in your email"
+msgstr "Gesamtzahl der Personen, die auf einen Link in Deinem E-Mail geklickt haben"
+
+#: statistics/view.php:67
+msgid "total people that opened your email"
+msgstr "Gesamtanzahl der Personen, die Deine E-Mail geöffnet haben"
+
+#: statistics/view.php:57
+msgid "Total people that got your email"
+msgstr "Gesamtanzahl der Personen, die Dein E-Mail erhalten haben"
+
+#: statistics/nav.php:10
+msgid "Full report"
+msgstr "Vollständiger Bericht"
+
+#: includes/module-admin.php:193
+msgid "You are configuring the language %s. Switch to \"all languages\" to see or edit all options."
+msgstr "Du konfigurierst die Sprache %s. Wechsle zu „Alle Sprachen“, um alle Optionen anzuzeigen oder zu bearbeiten."
+
+#: emails/nav.php:10
+msgid "Series"
+msgstr "Serien"
+
+#: emails/nav.php:9
+msgid "Recurring"
+msgstr "Wiederkehrend"
+
+#: users/edit-nav.php:9 users/users-admin.php:29
+msgid "Autoresponders"
+msgstr "Autoresponder"
+
+#: main/autoresponderstatistics.php:73
+msgid "By status"
+msgstr "Nach Status"
+
+#: main/autoresponderstatistics.php:72
+msgid "By email"
+msgstr "Nach E-Mail"
+
+#: main/autorespondernav.php:18
+msgid "Emails"
+msgstr "E-Mails"
+
+#: main/autorespondermessages.php:76
+msgid "Subscribers waiting"
+msgstr "Abonnenten wartend"
+
+#: main/autoresponderedit.php:45
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: main/index.php:266
+msgid "Unconfirmed subscriptions"
+msgstr "Nicht bestätigte Anmeldungen"
+
+#: main/index.php:210 main/index.php:267
+msgid "Full statistics"
+msgstr "Vollständige Statistik"
+
+#: main/index.php:209
+msgid "Confirmed subscriptions"
+msgstr "Bestätigte Anmeldungen"
+
+#: main/index.php:120
+msgid "Total sent emails"
+msgstr "Gesamtanzahl der gesendeten E-Mails"
+
+#: main/index.php:114
+msgid "Queued emails"
+msgstr "E-Mails in Warteschlange"
+
+#: main/index.php:106
+msgid "Last 30 days"
+msgstr "Letzte 30 Tage"
+
+#: main/dashboard-nav.php:6
+msgid "Flow view"
+msgstr "Flow-Ansicht"
+
+#: includes/controls.php:2441
+msgid "Get help"
+msgstr "Hilfe bekommen"
+
+#: emails/blocks/cta/options.php:32
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: unsubscription/index.php:67 unsubscription/unsubscription.php:65
+msgid "Resubscribe"
+msgstr "Erneut anmelden"
+
+#: subscription/antispam.php:111
+msgid "Shown after the form submission as a confirmation step"
+msgstr "Wird nach dem Absenden des Formulars als Bestätigungsschritt angezeigt"
+
+#: includes/defaults.php:256
+msgid "Your subscription has been deleted. If that was an error you can subscribe again."
+msgstr "Dein Abonnement wurde gelöscht. Falls das ein Irrtum war, kannst Du dich erneut anmelden."
+
+#: includes/defaults.php:253
+msgid "Please confirm you want to unsubscribe."
+msgstr "Bitte bestätige, dass Du dich abmelden möchtest."
+
+#: composer/index.php:115 emails/tnp-composer/index-v2.php:113
+msgid "Switch preview mode"
+msgstr "Vorschaumodus wechseln"
+
+#: emails/edit.php:751
+msgid "Convert"
+msgstr "Umwandeln"
+
+#: system/support.php:57
+msgid "Open a ticket"
+msgstr "Eröffne ein Ticket"
+
+#: system/backup.php:30 system/backup.php:43
+msgid "Settings backup"
+msgstr "Einstellungen sichern"
+
+#: header.php:196 header.php:200 system/support.php:18
+#: system/system-admin.php:38
+msgid "Support"
+msgstr "Support"
+
+#: header.php:176
+msgid "Help"
+msgstr "Hilfe"
+
+#: subscription/subscription.php:238 subscription/subscription.php:273
+msgid "Registration failed."
+msgstr "Registrierung fehlgeschlagen."
+
+#: subscription/form.php:162
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: main/main-admin.php:123 main/main-admin.php:129
+msgid "Newsletter public page, keep public and published"
+msgstr "Öffentliche Seite des Newsletters, öffentlich und online halten"
+
+#: users/statistics.php:47
+msgid "By Time"
+msgstr "Nach Zeit"
+
+#: users/statistics.php:46
+msgid "By Gender"
+msgstr "Nach Geschlecht"
+
+#: users/statistics.php:45
+msgid "By URL"
+msgstr "Nach URL"
+
+#: users/statistics.php:44
+msgid "By Referrer"
+msgstr "Nach Referrer"
+
+#: users/statistics.php:43
+msgid "By location"
+msgstr "Nach Ort"
+
+#: users/statistics.php:42
+msgid "By Language"
+msgstr "Nach Sprache"
+
+#: users/statistics.php:41
+msgid "By Lists"
+msgstr "Nach Listen"
+
+#: users/statistics.php:40
+msgid "By Status"
+msgstr "Nach Status"
+
+#: header.php:78 subscription/subscription-admin.php:45
+msgid "Popup"
+msgstr "Pop-up"
+
+#: subscription/subscription-admin.php:44
+msgid "Injection"
+msgstr "Injection"
+
+#: subscription/inject.php:72 subscription/popup.php:70
+msgid "Shown before the form"
+msgstr "Wird vor dem Formular angezeigt"
+
+#: profile/profile.php:107
+msgid "Subscriber not found or not confirmed or started from a test newsletter."
+msgstr "Abonnent wurde nicht gefunden oder nicht bestätigt."
+
+#: profile/index.php:79 subscription/confirmation.php:139
+#: subscription/welcome.php:134
+msgid "Page content"
+msgstr "Seiteninhalt"
+
+#: main/main.php:262
+msgid "Public page"
+msgstr "Öffentliche Seite"
+
+#: main/extensions.php:46 main/extensions.php:59
+msgid "Free"
+msgstr "Kostenlos"
+
+#: includes/module-base.php:1338
+msgid ""
+"This email requires a modern e-mail reader.\n"
+"View online: {email_url}\n"
+"Change your subscription: {profile_url}\n"
+"Unsubscribe: {unsubscription_url}"
+msgstr ""
+"Dieses E-Mail benötigt einen modernen E-Mail-Reader.\n"
+"Online ansehen: {email_url}\n"
+"Abonnement ändern: {profile_url}\n"
+"Abmelden: {unsubscription_url}"
+
+#: subscription/welcome.php:174
+msgid "Do not send"
+msgstr "Nicht senden"
+
+#: users/edit.php:269
+msgid "HTTP Referrer"
+msgstr "HTTP Referrer"
+
+#: includes/controls.php:2544
+msgid "Lists to deactivate"
+msgstr "Listen zum Deaktivieren"
+
+#: includes/controls.php:2540
+msgid "Lists to activate"
+msgstr "Listen zum Aktivieren"
+
+#: composer/modals/attachment.php:4 emails/tnp-composer/modal/attachment.php:4
+msgid "Read more."
+msgstr "Weiterlesen."
+
+#: composer/modals/attachment.php:3 emails/tnp-composer/modal/attachment.php:3
+msgid "Attachments are not supported."
+msgstr "Anhänge werden nicht unterstützt."
+
+#: composer/modals/placeholders.php:8 emails/tnp-composer/index-v2.php:232
+msgid "Email online view"
+msgstr "E-Mail Online-Ansicht"
+
+#: composer/modals/placeholders.php:7
+msgid "Profile numner N with N=1, 2, 3, ..."
+msgstr "Profil-Nummer N mit N=1, 2, 3, ..."
+
+#: composer/index.php:109 composer/modals/placeholders.php:2
+#: emails/tnp-composer/index-v2.php:103 emails/tnp-composer/index-v2.php:226
+msgid "Placeholders"
+msgstr "Platzhalter"
+
+#: main/main.php:276
+msgid "The page content must be only the shortcode [newsletter]"
+msgstr "Der Seitenhalt darf nur aus dem Shortcode  [newsletter] bestehen"
+
+#: composer/index.php:107 emails/nav.php:7 header.php:128
+msgid "Templates"
+msgstr "Templates"
+
+#: emails/index.php:23
+msgid "Template created."
+msgstr "Vorlage erstellt."
+
+#: emails/blocks/heading/options.php:10 includes/fields.php:353
+msgid "Full"
+msgstr "Vollständig"
+
+#: emails/blocks/footer/options.php:59 statistics/nav.php:7
+msgid "Links"
+msgstr "Links"
+
+#: main/nav.php:6
+msgid "Setup Wizard"
+msgstr "Setup-Assistent"
+
+#: main/nav.php:5
+msgid "Company"
+msgstr "Firma"
+
+#: emails/blocks/hero/options.php:18
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: includes/paginator.php:132
+msgid "item(s) found"
+msgstr "Element(e) gefunden"
+
+#: unsubscription/index.php:65
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: system/status.php:134
+msgid "Reset news"
+msgstr "News zurücksetzen"
+
+#: system/backup-view.php:35
+msgid "Options"
+msgstr "Einstellungen"
+
+#: main/dashboard-nav.php:5 statistics/index-nav.php:5 statistics/nav.php:6
+#: subscription/subscription-admin.php:48
+msgid "Overview"
+msgstr "Übersicht"
+
+#: subscription/form.php:265
+msgid "Checked"
+msgstr "Ausgewählt"
+
+#: subscription/form.php:138
+msgid "Option labels"
+msgstr "Optionsbezeichnungen"
+
+#: subscription/form.php:51
+msgid "Main fields"
+msgstr "Hauptfelder"
+
+#: subscription/customfields.php:78
+msgid "Fields"
+msgstr "Felder"
+
+#: includes/defaults.php:246
+msgid "Read our privacy policy"
+msgstr "Lies unsere Datenschutzerklärung"
+
+#: includes/defaults.php:240
+msgid "If you change your email address a confirmation email will be sent to activate it."
+msgstr "Wenn Du Deine E-Mail-Adresse änderst, wird eine Bestätigungs-E-Mail zur Aktivierung gesendet."
+
+#: includes/defaults.php:215
+msgid "Woman"
+msgstr "Frau"
+
+#: includes/defaults.php:214
+msgid "Man"
+msgstr "Herr"
+
+#: includes/defaults.php:206
+msgid "I accept the privacy policy"
+msgstr "Hiermit akzeptiere ich die Datenschutzbestimmungen"
+
+#: includes/controls.php:864 includes/controls.php:865
+msgid "Single"
+msgstr "Einzel"
+
+#: includes/controls.php:864 includes/controls.php:865
+msgid "Double"
+msgstr "Doppelt"
+
+#: includes/controls.php:575 profile/index.php:122 subscription/form.php:92
+#: subscription/form.php:111 subscription/form.php:264
+#: subscription/form.php:303
+msgid "Show"
+msgstr "Anzeigen"
+
+#: includes/controls.php:570
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: header.php:101 profile/index.php:188 subscription/customfields.php:59
+#: subscription/form.php:53 subscription/subscription-admin.php:49
+#: users/edit.php:132
+msgid "Custom fields"
+msgstr "Individuelle Felder"
+
+#: profile/index.php:57
+msgid "Form"
+msgstr "Formular"
+
+#: emails/emails-admin.php:186 emails/emails-admin.php:235
+msgid "Test sent to:"
+msgstr "Test gesendet an:"
+
+#: users/massive.php:232
+msgid "Change"
+msgstr "Ändern"
+
+#: users/massive.php:224
+msgid "Change status"
+msgstr "Status ändern"
+
+#: header.php:120
+msgid "All newsletters"
+msgstr "Alle Newsletter"
+
+#: header.php:37
+msgid "All subscribers"
+msgstr "Alle Abonnenten"
+
+#: system/status.php:132
+msgid "Reset warnings"
+msgstr "Warnungen zurücksetzen"
+
+#: users/index.php:155
+msgid "Search by ID, email, name"
+msgstr "Suche nach ID, E-Mail, Name"
+
+#: subscription/antispam.php:57
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: unsubscription/index.php:79
+msgid "Opt-out message"
+msgstr "Opt-out-Nachricht"
+
+#: header.php:180
+msgid "WP Site Health"
+msgstr "Website-Zustand"
+
+#: header.php:105
+msgid "Antispam"
+msgstr "Spamschutz"
+
+#: subscription/form.php:216
+msgid "Generic"
+msgstr "Generisch"
+
+#: subscription/form.php:207
+msgid "Salutation"
+msgstr "Anrede"
+
+#: subscription/subscription-admin.php:46
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: emails/index.php:79 users/index.php:179
+msgid "Add new"
+msgstr "Hinzufügen"
+
+#: emails/edit.php:680
+msgid "Used by"
+msgstr "Verwendet von"
+
+#: emails/blocks/posts/options.php:115
+msgid "Chars"
+msgstr "Zeichen"
+
+#: emails/blocks/posts/options.php:115
+msgid "Words"
+msgstr "Wörter"
+
+#: emails/blocks/posts/options.php:112
+msgid "Excerpt length"
+msgstr "Länge des Textauszugs"
+
+#: header.php:206 system/system-admin.php:37
+msgid "Backup"
+msgstr "Backup"
+
+#: emails/edit.php:726
+msgid "Hand edited"
+msgstr "Händisch bearbeitet"
+
+#: emails/edit.php:726
+msgid "Autogenerate"
+msgstr "Autogenerieren"
+
+#: emails/blocks/footer/block.php:25 unsubscription/unsubscription.php:48
+#: users/nav.php:8
+msgid "Unsubscribe"
+msgstr "Abbestellen"
+
+#: tnp-footer.php:25
+msgid "Get news and promotions"
+msgstr "News und Angebote erhalten"
+
+#: users/users-admin.php:26
+msgid "Subscriber Edit"
+msgstr "AbonnentIn bearbeiten"
+
+#: users/users-admin.php:25
+msgid "New subscriber"
+msgstr "Neue/r Abonnent/In"
+
+#: users/nav.php:6
+msgid "Manage"
+msgstr "Verwalten"
+
+#: admin.php:244 header.php:68 header.php:94 subscription/nav-forms.php:5
+#: subscription/subscription-admin.php:42
+msgid "Forms"
+msgstr "Formulare"
+
+#: includes/classes.php:348 users/massive.php:214 users/statistics.php:96
+msgid "Complained"
+msgstr "Reklamiert"
+
+#: users/massive.php:22
+msgid "Subscribers complained deleted: "
+msgstr "Reklamierte Abonnenten gelöscht:"
+
+#: header.php:190 system/logs.php:44 system/system-admin.php:34
+msgid "Scheduler"
+msgstr "Zeitplaner"
+
+#: composer/index.php:111 emails/tnp-composer/index-v2.php:105
+msgid "Attachments"
+msgstr "Anhänge"
+
+#: composer/modals/test.php:17 emails/modals/test.php:17
+#: emails/tnp-composer/modal/test-newsletter.php:31
+msgid "Send a test to test subscribers"
+msgstr "Einen Test an Test-AbonnentInnen senden"
+
+#: composer/modals/test.php:13 emails/modals/test.php:13
+#: emails/tnp-composer/modal/test-newsletter.php:27
+msgid "or"
+msgstr "oder"
+
+#: composer/modals/test.php:8 emails/modals/test.php:8
+#: emails/tnp-composer/modal/test-newsletter.php:16
+msgid "Send a test to"
+msgstr "Test senden an"
+
+#: composer/index.php:95 emails/tnp-composer/index-v2.php:90
+msgid "Shown by some email clients as excerpt"
+msgstr "Wird bei einigen E-Mail Clients als Excerpt angezeigt"
+
+#: composer/index.php:72 emails/tnp-composer/index-v2.php:71
+msgid "From"
+msgstr "Von"
+
+#: emails/blocks/footer/options.php:66
+msgid "Unsubscribe link"
+msgstr "Abmelde-Link"
+
+#: emails/blocks/footer/options.php:64
+msgid "Subscriber profile link"
+msgstr "Link zum Benutzerprofil"
+
+#: emails/blocks/footer/options.php:62
+msgid "View online link"
+msgstr "Online Link ansehen"
+
+#: system/system-admin.php:32
+msgid "Delivery Diagnostic"
+msgstr "Versendung Diagnose"
+
+#: main/main.php:420
+msgid "Standard styles"
+msgstr "Standard-Stile"
+
+#: includes/fields.php:362
+msgid "Align"
+msgstr "Ausrichtung"
+
+#: emails/edit.php:337
+msgid "Stopped by fatal error: %s"
+msgstr "Gestoppt durch schwerwiegenden Fehler. \"%s\""
+
+#: includes/controls.php:1262
+msgid "Design"
+msgstr "Design"
+
+#: emails/blocks/hero/block.php:27
+msgid "Click Here"
+msgstr "Hier klicken"
+
+#: emails/blocks/canspam/options.php:8 emails/blocks/header/options.php:10
+msgid "Company data can be globally set on <a href=\"%s\" target=\"_blank\">company info panel</a>."
+msgstr "Firmendaten können hier gespeichert werden <a href=\"%s\" target=\"_blank\">Unternehmens-Informationen</a>."
+
+#: emails/blocks/image/options.php:33
+msgid "Link URL"
+msgstr "Link-URL"
+
+#: emails/blocks/posts/options.php:174
+msgid "Read more button"
+msgstr "Weiterlesen-Button"
+
+#: emails/blocks/posts/options.php:94
+msgid "Post info"
+msgstr "Beitrags-Information"
+
+#: emails/blocks/posts/options.php:32
+msgid "Full post"
+msgstr "Kompletter Beitrag"
+
+#: emails/blocks/posts/options.php:29
+msgid "One column variant"
+msgstr "Einspaltige Variante"
+
+#: composer/index.php:167 emails/tnp-composer/index-v2.php:167
+msgid "Button style"
+msgstr "Button-Stil"
+
+#: composer/index.php:164 emails/tnp-composer/index-v2.php:165
+msgid "Titles font"
+msgstr "Schrift des Titels"
+
+#: composer/index.php:157 emails/tnp-composer/index-v2.php:158
+msgid "Main background"
+msgstr "Haupt-Hintergrund"
+
+#: composer/composer-admin.php:327
+msgid "Successfully updated"
+msgstr "Erfolgreich aktualisiert"
+
+#: composer/composer-admin.php:348
+msgid "Looking for legacy themes?"
+msgstr "Auf der Suche nach alten Themes?"
+
+#: emails/theme.php:69
+msgid "Legacy themes"
+msgstr "Vorbereitete Themes"
+
+#: subscription/subscription.php:824
+msgid "Your subscription has been confirmed."
+msgstr "Deine Anmeldung wurde bestätigt."
+
+#: subscription/subscription.php:822
+msgid "To confirm your subscription follow the link below."
+msgstr "Um Deine Anmeldung zu bestätigen, folge bitte dem nachstehenden Link."
+
+#: composer/modals/subjects.php:22 emails/subjects.php:24
+msgid "Black Friday Sale: few hours left!"
+msgstr "Black Friday Sale: nur noch ein paar Stunden!"
+
+#: composer/modals/subjects.php:21 emails/subjects.php:23
+msgid "Black Friday Sale is Live"
+msgstr "Black Friday Sale ist LIVE"
+
+#: composer/modals/subjects.php:17 emails/subjects.php:19
+msgid "Last day to save 30%"
+msgstr "Last day to save 30%"
+
+#: subscription/customfields.php:101
+msgid "List values comma separated"
+msgstr "Listwerte komma-getrennt"
+
+#: subscription/customfields.php:99
+msgid "Rule"
+msgstr "Regel"
+
+#: subscription/customfields.php:94
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+#: subscription/customfields.php:93
+msgid "Name/Label"
+msgstr "Name/Label"
+
+#: profile/index.php:120 subscription/customfields.php:92
+msgid "Field"
+msgstr "Feld"
+
+#: subscription/form.php:196
+msgid "To use the WordPress privacy page, switch to \"all language\" and activate it."
+msgstr "Um die WordPress-Seite mit den Datenschutzbestimmungen zu verwenden, auf \"Alle Sprachen\" wechseln und aktivieren."
+
+#: subscription/form.php:186
+msgid "The \"all language\" setting is set to use the WordPress default privacy page. Please translate that page."
+msgstr "Die \"Alle Sprachen\"-Einstellung ist verwendet, um die WordPress-Seite mit den Datenschutzbestimmungen zu verwenden. Bitte übersetze diese Seite."
+
+#: subscription/form.php:174
+msgid "Only the notice"
+msgstr "Nur die Nachricht"
+
+#: subscription/form.php:172 subscription/inject.php:60
+msgid "Enabled?"
+msgstr "Aktiviert?"
+
+#: subscription/form.php:231
+msgid "Salutation titles are inserted in emails message when the tag {title} is used. For example \"Good morning {title} {surname} {name}\"."
+msgstr "Anrede-Begriffe werden in die E-Mails mit dem Tag {title} eingefügt, z.B.\" Guten Morgen {title} {surname} {name}\"."
+
+#: main/main.php:400
+msgid "Tracking default"
+msgstr "Tracking Standard"
+
+#: composer/index.php:95 emails/tnp-composer/index-v2.php:90
+msgid "Snippet"
+msgstr "Snippet"
+
+#: statistics/statistics.php:85 unsubscription/unsubscription.php:116
+msgid "Subscriber not found"
+msgstr "AbonnentIn nicht gefunden"
+
+#: includes/defaults.php:222
+msgid "This email address is already subscribed, please contact the site administrator."
+msgstr "Diese E-Mail-Adresse ist bereits registriert. Bitte wende Dich an den Administrator der Website."
+
+#: subscription/options.php:158 subscription/options.php:185
+msgid "Allowed"
+msgstr "Erlaubt"
+
+#: subscription/options.php:157 subscription/options.php:184
+msgid "Not allowed"
+msgstr "Nicht erlaubt!"
+
+#: emails/blocks/header/options.php:17
+msgid "Only the logo"
+msgstr "Nur das Logo"
+
+#: emails/blocks/footer/options.php:16 emails/blocks/header/options.php:16
+#: emails/blocks/header/options.php:24 emails/blocks/heading/options.php:9
+#: emails/blocks/posts/options.php:38 includes/controls.php:864
+#: includes/controls.php:2180 subscription/confirmation.php:166
+#: subscription/welcome.php:174
+msgid "Default"
+msgstr "Standard"
+
+#: profile/profile.php:312 profile/profile.php:547
+msgid "Select language"
+msgstr "Sprache auswählen"
+
+#: emails/blocks/posts/options.php:31
+msgid "One column, big image"
+msgstr "Eine Spalte, großes Bild"
+
+#: emails/blocks/posts/options.php:61
+msgid "Include specified max posts"
+msgstr "Definierte max. Anzahl von Beiträgen einfügen"
+
+#: emails/blocks/posts/options.php:60
+msgid "Include only new posts"
+msgstr "Nur neue Beiträge einfügen"
+
+#: emails/blocks/posts/options.php:58
+msgid "If there are new posts"
+msgstr "Falls es neue Beiträge gibt"
+
+#: subscription/lists.php:133
+msgid "Enforced by language"
+msgstr "Erzwungen durch Spracheinstellung"
+
+#: subscription/lists.php:130
+msgid "If you check this box, all your new subscribers will be automatically added to this list"
+msgstr "Wenn Du diese Box checkst, werden alle neuen Abonnent*innen automatisch zu dieser Liste hinzugefügt"
+
+#: subscription/lists.php:130 subscription/lists.php:139
+msgid "Enforced"
+msgstr "Erzwungen"
+
+#: subscription/customfields.php:46 subscription/lists.php:63
+msgid "Public"
+msgstr "Öffentlich"
+
+#: statistics/view.php:28
+msgid "This newsletter has the tracking disabled. No statistics will be available."
+msgstr "Tracking ist zu diesem Newsletter deaktiviert. Es werden keine Statistiken zur Verfügung stehen."
+
+#: emails/edit.php:501
+msgid "Do not filter by this field"
+msgstr "Nicht nach diesem Feld filtern"
+
+#: emails/edit.php:500
+msgid "is one of:"
+msgstr "ist eines von:"
+
+#: emails/edit.php:496
+msgid "Profile fields"
+msgstr "Profil Felder"
+
+#: admin.php:204
+msgid "Save the newsletter to update the counter!"
+msgstr "Newsletter speichern um den Zähler zu aktualisieren!"
+
+#: unsubscription/index.php:207
+msgid "Disable unsubscribe headers"
+msgstr "Abmelde-Header deaktivieren"
+
+#: unsubscription/index.php:217
+msgid "Cancellation requests via email"
+msgstr "Stornoanfragen via Email"
+
+#: main/index-steps.php:93
+msgid "Run a test"
+msgstr "Test starten"
+
+#: emails/blocks/posts/options.php:68
+msgid "If there are not new posts"
+msgstr "Falls es keine neuen Beiträge gibt"
+
+#: emails/blocks/hero/options.php:15
+msgid "Schema"
+msgstr "Schema"
+
+#: emails/blocks/posts/options.php:135
+msgid "Posts offset"
+msgstr "Beiträge überspringen"
+
+#: emails/themes/default/theme-options.php:15
+msgid "External background color"
+msgstr "Hintergrundfarbe außen"
+
+#: statistics/index.php:75
+msgid "Overall basic statistics (last 20 newsletters)"
+msgstr "Übersicht Basis-Statistik (letzte 20 Newsletter)"
+
+#: statistics/index.php:54
+msgid "No newsletters have been sent till now"
+msgstr "Es wurden noch keine Newsletter versendet"
+
+#: statistics/view.php:73
+msgid "Clicks"
+msgstr "Klicks"
+
+#: statistics/view.php:89
+msgid "opens"
+msgstr "Geöffnet"
+
+#: statistics/view.php:54
+msgid "Reach"
+msgstr "Reichweite"
+
+#: statistics/view.php:24
+msgid "Newsletter still sending"
+msgstr "Newsletter wird noch gesendet"
+
+#: statistics/view.php:22
+msgid "Draft newsletter, no data available"
+msgstr "Newsletter-Entwurf, keine Daten vorhanden"
+
+#: subscription/antispam.php:140
+msgid "One per line"
+msgstr "Eine pro Zeile"
+
+#: includes/controls.php:1238 main/index-steps.php:31 main/index-steps.php:45
+#: profile/index.php:176 profile/index.php:189 subscription/form.php:284
+#: subscription/form.php:320 users/edit.php:197 users/edit.php:216
+msgid "Configure"
+msgstr "Konfigurieren"
+
+#: main/main.php:380
+msgid "Allowed roles"
+msgstr "Freigegebene Benutzerrollen"
+
+#: main/main-admin.php:81 main/main-admin.php:84
+msgid "Addons"
+msgstr "Add-ons"
+
+#: emails/blocks/footer/options.php:38 main/main-admin.php:63
+msgid "Company info"
+msgstr "Firmen Info"
+
+#: includes/fields.php:710
+msgid "Terms"
+msgstr "Begriffe"
+
+#: system/status.php:142
+msgid "Filters"
+msgstr "Filter"
+
+#: emails/blocks/posts/options.php:172
+msgid "Excerpt font"
+msgstr "Schrift für Auszug"
+
+#: emails/blocks/posts/options.php:30
+msgid "Two columns"
+msgstr "Zwei Spalten"
+
+#: emails/blocks/posts/options.php:28
+msgid "One column"
+msgstr "Eine Spalte"
+
+#: emails/blocks/preheader/options.php:10
+msgid "Font"
+msgstr "Schriftart"
+
+#: includes/controls.php:808 profile/index.php:262
+#: subscription/confirmation.php:155 subscription/popup.php:65
+#: subscription/welcome.php:160 unsubscription/index.php:245
+msgid "Preview"
+msgstr "Vorschau"
+
+#: emails/edit.php:438 main/autoresponderedit.php:44 main/main.php:192
+#: subscription/options.php:107 unsubscription/index.php:68 users/edit.php:133
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: emails/edit.php:393
+msgid "Schedule delivery?"
+msgstr "Versendung planen?"
+
+#: emails/edit.php:385
+msgid "Send now"
+msgstr "Jetzt senden"
+
+#: emails/edit.php:309
+msgid "Scheduled."
+msgstr "Geplant."
+
+#: emails/edit.php:305
+msgid "Now sending."
+msgstr "Wird gesendet."
+
+#: emails/emails-admin.php:213
+msgid "Newsletter should be saved before send a test"
+msgstr "Newsletter sollte vor der Versendung eines Tests gespeichert werden"
+
+#: composer/index.php:183 composer/index.php:193
+#: emails/tnp-composer/index-v2.php:181 emails/tnp-composer/index-v2.php:191
+msgid "Apply"
+msgstr "Anwenden"
+
+#: emails/tnp-composer/modal/test-newsletter.php:8
+msgid "Send a test"
+msgstr "Test senden"
+
+#: emails/emails-admin.php:180
+msgid "Test subscribers:"
+msgstr "Test Abonnent/innen:"
+
+#: composer/index.php:137 emails/tnp-composer/index-v2.php:137
+msgid "Blocks"
+msgstr "Blöcke"
+
+#: emails/composer.php:133 emails/editorhtml.php:135
+#: emails/editortinymce.php:129
+msgid "Back to last save"
+msgstr "Zurück zur zuletzt gespeicherten Version"
+
+#: emails/index.php:81 users/index.php:180
+msgid "Delete selected"
+msgstr "Auswahl löschen"
+
+#: users/massive.php:272
+msgid "subscribers without a language"
+msgstr "Abonnenten ohne Spracheinstellung"
+
+#: users/massive.php:271
+msgid "Set to"
+msgstr "Einstellen auf"
+
+#: users/statistics.php:221
+msgid "Without language"
+msgstr "Ohne Spracheinstellung"
+
+#: header.php:124
+msgid "Create newsletter"
+msgstr "Newsletter erstellen"
+
+#: header.php:225 header.php:237
+msgid "Get Professional Addons"
+msgstr "Hole professionelle Addons"
+
+#: emails/emails-admin.php:184 emails/emails-admin.php:196
+#: emails/emails-admin.php:231 emails/emails-admin.php:241
+msgid "Read more about delivery issues"
+msgstr "Lies mehr über Zustellungsprobleme"
+
+#: includes/controls.php:2289
+msgid "Install a multilanguage plugin."
+msgstr "Installiere ein Mehrsprachen-Plugin"
+
+#: emails/blocks/hero/options.php:30 emails/blocks/posts/options.php:102
+msgid "Image"
+msgstr "Bild"
+
+#: composer/index.php:172 emails/blocks/cta/options.php:29
+#: emails/blocks/header/options.php:53 emails/blocks/image/options.php:37
+#: emails/tnp-composer/index-v2.php:171
+msgid "Width"
+msgstr "Breite"
+
+#: emails/blocks/posts/options.php:171
+msgid "Title font"
+msgstr "Title Schriftart"
+
+#: composer/index.php:165 emails/tnp-composer/index-v2.php:166
+msgid "Text font"
+msgstr "Schrifteinstellung des Textes"
+
+#: includes/controls.php:2320
+msgid "Your multilanguage plugin is not supported or there are no languages defined"
+msgstr "Dein Multilanguage-Plugin wird nicht unterstützt oder es sind keine Sprachen definiert"
+
+#: includes/controls.php:2313
+msgid "Install WPML or Polylang for multilanguage support"
+msgstr "Installiere WMPL oder Polylang für Unterstützung der Mehrsprachigkeit"
+
+#: users/index.php:34
+msgid "Welcome email sent."
+msgstr "Willkommen-Email gesendet,"
+
+#: users/index.php:26
+msgid "Activation email sent."
+msgstr "Aktivierungs-E-Mail gesendet."
+
+#: unsubscription/index.php:190
+msgid "On error"
+msgstr "Bei Fehler"
+
+#: emails/edit.php:466 includes/fields.php:748 profile/index.php:165
+#: profile/profile.php:305 profile/profile.php:544 users/edit.php:177
+msgid "Language"
+msgstr "Sprache"
+
+#: subscription/form.php:179 subscription/form.php:212
+msgid "Label"
+msgstr "Beschriftung"
+
+#: emails/blocks/hero/options.php:36 emails/blocks/posts/options.php:118
+#: subscription/form.php:153
+msgid "Button"
+msgstr "Button"
+
+#: includes/fields.php:866
+msgid "Padding"
+msgstr "Innenabstand"
+
+#: main/main.php:443
+msgid "Do not store"
+msgstr "Nicht speichern"
+
+#: main/main.php:443
+msgid "Anonymize"
+msgstr "Anonymisieren"
+
+#: main/main.php:443
+msgid "Store"
+msgstr "Speichern"
+
+#: main/main.php:441
+msgid "IP addresses"
+msgstr "IP Adressen"
+
+#: subscription/lists.php:187
+msgid "Unlink everyone"
+msgstr "Alle Links entfernen"
+
+#: includes/module.php:383 includes/module.php:391
+msgid "No subscriber found."
+msgstr "Keine Abonnenten gefunden"
+
+#: profile/profile.php:213 profile/profile.php:219 profile/profile.php:434
+#: subscription/subscription.php:293
+msgid "Subscriber not found."
+msgstr "Keine Abonnenten gefunden."
+
+#: profile/index.php:58
+msgid "Labels"
+msgstr "Beschriftungen"
+
+#: profile/index.php:208
+msgid "Profile saved"
+msgstr "Profil gespeichert"
+
+#: subscription/form.php:190
+msgid "Use WordPress privacy URL"
+msgstr "Datenschutz-URL von WordPress übernehmen"
+
+#: classes/NewsletterMailerAddon.php:83 emails/edit-nav.php:19 header.php:204
+#: subscription/antispam.php:45 system/logs.php:43 system/system-admin.php:33
+#: users/edit-nav.php:7 users/logs.php:36 users/users-admin.php:27
+msgid "Logs"
+msgstr "Protokolle"
+
+#: unsubscription/index.php:162
+msgid "Reactivated message"
+msgstr "Wiederhergestellte Nachricht"
+
+#: subscription/customfields.php:47 subscription/form.php:21
+msgid "Optional"
+msgstr "Optional"
+
+#: emails/blocks/posts/options.php:138 subscription/customfields.php:46
+#: subscription/lists.php:63
+msgid "Private"
+msgstr "Privat"
+
+#: subscription/options.php:220
+msgid "Override Opt In"
+msgstr "Opt-In übergehen"
+
+#: includes/defaults.php:259
+msgid "Your subscription has been reactivated."
+msgstr "Dein Abonnement wurde wiederhergestellt"
+
+#: includes/defaults.php:258
+msgid "This message confirms that you have unsubscribed from our newsletter. Thank you."
+msgstr "Mit dieser Nachricht wird bestätigt, dass Du dich von unserem Newsletter abgemeldet hast. Danke."
+
+#: includes/defaults.php:257 unsubscription/index.php:66
+msgid "Goodbye"
+msgstr "Auf Wiedersehen"
+
+#: includes/defaults.php:255
+msgid "Subscriber not found, it probably has already been removed. No further actions are required."
+msgstr "Abonnent/in nicht gefunden, die Daten sind wahrscheinlich bereits gelöscht. Es ist nichts weiter zu tun."
+
+#: includes/defaults.php:234
+msgid "Change your profile"
+msgstr "Ändere Dein Profil"
+
+#: includes/defaults.php:232
+msgid "This message confirms your subscription to our newsletter. Thank you!"
+msgstr "Mit dieser Nachricht wird Deine Anmeldung zu unserem Newsletter bestätigt. Danke!"
+
+#: includes/defaults.php:229
+msgid "Your subscription has been confirmed"
+msgstr "Deine Anmeldung wurde bestätigt"
+
+#: includes/defaults.php:227
+msgid "Please confirm your subscription <a href=\"{subscription_confirm_url}\">clicking here</a>"
+msgstr "Bitte bestätige Deine Anmeldung, indem Du <a href=\"{subscription_confirm_url}\">hier klickst</a>"
+
+#: includes/defaults.php:226
+msgid "Please confirm your subscription"
+msgstr "Bitte bestätige Deine Anmeldung"
+
+#: includes/defaults.php:225
+msgid "A confirmation email is on the way. Follow the instructions and check the spam folder. Thank you."
+msgstr "Eine E-Mail zur Bestätigung ist unterwegs. Bitte folge den Anweisungen darin und prüfe auch den Spamordner. Danke."
+
+#: includes/defaults.php:212
+msgid "Dear"
+msgstr "Liebe/r"
+
+#: includes/defaults.php:211
+msgid "Mr."
+msgstr "Herr"
+
+#: includes/defaults.php:210
+msgid "Ms."
+msgstr "Frau"
+
+#: includes/defaults.php:204
+msgid "I'm"
+msgstr "Ich bin"
+
+#: profile/index.php:240
+msgid "Privacy link text"
+msgstr "Datenschutzlink Text"
+
+#: profile/index.php:233
+msgid "\"Save\" label"
+msgstr "\"Speichern\" Label"
+
+#: profile/index.php:226
+msgid "General error"
+msgstr "Genereller Fehler"
+
+#: profile/index.php:216
+msgid "Email changed alert"
+msgstr "Hinweis zur E-Mail-Änderung"
+
+#: includes/defaults.php:244
+msgid "Your email is not valid or already in use."
+msgstr "Deine E-Mail-Adresse ist nicht gültig oder wird bereits verwendet."
+
+#: includes/defaults.php:243
+msgid "Your email has been changed, an activation email has been sent with instructions."
+msgstr "Deine E-Mail-Adresse wurde geändert, eine Aktivierungsnachricht mit weiteren Anweisungen wurde versendet."
+
+#: includes/controls.php:481
+msgid "Options reset."
+msgstr "Einstellungen zurückgesetzt."
+
+#: includes/controls.php:467 includes/controls.php:474
+msgid "Deleted."
+msgstr "Gelöscht."
+
+#: includes/controls.php:542 subscription/form.php:224 users/statistics.php:344
+msgid "Male"
+msgstr "Männlich"
+
+#: users/massive.php:314
+msgid "subscribers without a list"
+msgstr "Abonnenten ohne Liste"
+
+#: users/massive.php:313
+msgid "Add to list"
+msgstr "Zur Liste hinzufügen"
+
+#: users/massive.php:247 users/massive.php:248 users/massive.php:249
+#: users/massive.php:250 users/massive.php:251 users/massive.php:252
+#: users/massive.php:253 users/massive.php:254 users/massive.php:255
+msgid "years"
+msgstr "Jahre"
+
+#: users/massive.php:246
+msgid "year"
+msgstr "Jahr"
+
+#: users/massive.php:244 users/massive.php:245
+msgid "months"
+msgstr "Monate"
+
+#: users/massive.php:238
+msgid "Inactive since"
+msgstr "Inaktiv seit"
+
+#: users/massive.php:60
+msgid "deleted"
+msgstr "gelöscht"
+
+#: users/edit.php:275
+msgid "Last activity"
+msgstr "Letzte Aktivität"
+
+#: subscription/antispam.php:44
+msgid "Blacklists"
+msgstr "Sperrlisten"
+
+#: subscription/subscription-admin.php:41
+msgid "Security"
+msgstr "Sicherheit"
+
+#: subscription/antispam.php:136
+msgid "Address blacklist"
+msgstr "Adressen-Sperrliste"
+
+#: subscription/antispam.php:106
+msgid "Captcha"
+msgstr "Captcha"
+
+#: includes/fields.php:859
+msgid "Block Background"
+msgstr "Block Hintergrund"
+
+#: emails/blocks/header/options.php:15 emails/blocks/hero/options.php:12
+#: emails/blocks/posts/options.php:26
+msgid "Layout"
+msgstr "Layout"
+
+#: emails/blocks/posts/block.php:43
+msgid "Read more..."
+msgstr "Weiterlesen …"
+
+#: composer/modals/subjects.php:46 emails/subjects.php:48
+msgid "Get/Become <em>[something]</em>. 10 Ideas That Work"
+msgstr "Erhalte/Werde <em>[Begriff]</em>. 10 Ideen, die funktionieren"
+
+#: composer/modals/subjects.php:45 emails/subjects.php:47
+msgid "The 10 Rules for <em>[something]</em>"
+msgstr "Die 10 Regeln für <em>[Begriff]</em>"
+
+#: composer/modals/subjects.php:44 emails/subjects.php:46
+msgid "The Top 10 <em>[something]</em>"
+msgstr "Die Top 10 <em>[Begriff]</em>"
+
+#: composer/modals/subjects.php:43 emails/subjects.php:45
+msgid "10 Ways to <em>[something]</em>"
+msgstr "10 Wege zu <em>[Begriff]</em>"
+
+#: composer/modals/subjects.php:40 emails/subjects.php:42
+msgid "Don't do These 10 Things When <em>[something]</em>"
+msgstr "10 Dinge, die du nicht tun solltest, wenn <em>[Begriff]</em>"
+
+#: composer/modals/subjects.php:39 emails/subjects.php:41
+msgid "10 <em>[something]</em> Mistakes That Make You Look Dumb"
+msgstr "10 <em>[Begriff]</em> Fehler, die dich dumm aussehen lassen"
+
+#: composer/modals/subjects.php:38 emails/subjects.php:40
+msgid "Do You Make These 10 <em>[something]</em> Mistakes?"
+msgstr "Machst Du diese 10 <em>[Begriff]</em> Fehler?"
+
+#: composer/modals/subjects.php:35 emails/subjects.php:37
+msgid "Secrets of [famous people]"
+msgstr "Geheimnisse von [famous people]"
+
+#: composer/modals/subjects.php:34 emails/subjects.php:36
+msgid "How to End [problem]"
+msgstr "Wie du  [Problem] beendest"
+
+#: composer/modals/subjects.php:33 emails/subjects.php:35
+msgid "Get Rid of <em>[problem]</em> Once and Forever"
+msgstr "Werde <em>[Problem]</em> für immer los"
+
+#: composer/modals/subjects.php:32 emails/subjects.php:34
+msgid "10 Ways to Simplify Your <em>[something]</em>"
+msgstr "10 Wege dein <em>[Begriff]</em> zu vereinfachen"
+
+#: composer/modals/subjects.php:27 emails/subjects.php:29
+msgid "10 Lies <em>[kind of people]</em> Likes to Tell"
+msgstr "10 Unwahrheiten, die <em>[bestimmte Leute]</em> gerne erzählen"
+
+#: composer/modals/subjects.php:26 emails/subjects.php:28
+msgid "10 Warning Signs That <em>[something]</em>"
+msgstr "10 Warnsignale für <em>[Begriff]</em>"
+
+#: composer/modals/subjects.php:25 emails/subjects.php:27
+msgid "How safe is your <em>[something]</em> from <em>[danger]</em>?"
+msgstr "Wie sicher ist dein <em>[Begriff]</em> vor <em>[Gefahr]</em>?"
+
+#: emails/editorhtml.php:144 emails/editortinymce.php:121
+msgid "Get ideas"
+msgstr "Erhalte Ideen"
+
+#: emails/composer.php:135 emails/editorhtml.php:138
+#: emails/editortinymce.php:132 main/welcome.php:230
+msgid "Next"
+msgstr "Weiter"
+
+#: main/welcome.php:229
+msgid "Previous"
+msgstr "Zurück"
+
+#: main/welcome.php:223
+msgid "Go to your dashboard"
+msgstr "Gehe zum Dashboard"
+
+#: main/welcome.php:218
+msgid "If you are unsure on how to use some features of Newsletter, reach for our official documentation."
+msgstr "Falls Du unsicher bist, wie einzelne Funktionen des Newsletter verwendet werden, verwendet die offizielle Dokumentation. "
+
+#: main/welcome.php:211
+msgid "You can also follow us through our social accounts"
+msgstr "Du kannst uns auch auf unseren Social-Media-Accounts folgen"
+
+#: main/welcome.php:206
+msgid "Your email"
+msgstr "Deine E-Mail-Adresse"
+
+#: main/welcome.php:205
+msgid "Be always updated with the latest releases and tips from our headquarters"
+msgstr "Sei immer informiert über die neuesten Veröffentlichungen und Tipps aus der Newsletter-Schmiede"
+
+#: main/welcome.php:201
+msgid "You're now ready to begin using Newsletter!"
+msgstr "Du kannst nun Newsletter verwenden"
+
+#: main/welcome.php:190
+msgid "Take me to my widget settings (opens in a new window)"
+msgstr "Zu den Widget-Einstellungen (öffnet in einem neuen Fenster)"
+
+#: main/welcome.php:188
+msgid "If you use sidebars in your blog, it may be a good idea to add a subscription form there. Remember to come back here when you're done"
+msgstr "Falls Du Sidebars in Deiner Website verwendest, wäre es vielleicht eine gute Idee, dort ein Anmeldeformular zu platzieren. Vergiss nicht, zurück zu kommen, sobald Du fertig bist."
+
+#: main/welcome.php:187
+msgid "Add Newsletter widget to sidebar"
+msgstr "Füge das Newsletter-Widget in die Sidebar ein"
+
+#: main/welcome.php:177
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: main/welcome.php:176
+msgid "Check if your website can send emails correctly."
+msgstr "Prüfe, ob die E-Mails korrekt versendet werden können."
+
+#: main/welcome.php:175
+msgid "Time for some tests!"
+msgstr "Zeit für ein paar Tests!"
+
+#: main/welcome.php:170
+msgid "We've just created the page where your visitors will subscribe and where they will edit their preferences."
+msgstr "Wir haben gerade die Seite erstellt, auf der sich BesucherInnen anmelden und ihre Einstellungen bearbeiten können."
+
+#: main/welcome.php:169
+msgid "Subscription and Edit page creation"
+msgstr "Anmeldung und Bearbeitung Seitenerstellung"
+
+#: main/welcome.php:157
+msgid "Add a privacy checkbox"
+msgstr "Füge eine Datenschutz-Checkbox hinzu"
+
+#: main/welcome.php:150
+msgid "Ask for their name"
+msgstr "Nach dem Namen fragen"
+
+#: main/welcome.php:147
+msgid "Choose what to ask to your subscribers in your forms."
+msgstr "Lege fest, was Du von den Abonnenten bei der Anmeldung wissen möchtest."
+
+#: main/welcome.php:146
+msgid "Subscription Forms"
+msgstr "Anmeldeformulare"
+
+#: main/main.php:204 main/welcome.php:140
+msgid "Sender email"
+msgstr "E-Mail-Adresse des Absenders"
+
+#: main/welcome.php:138
+msgid "Choose which name and email address you'd like to appear as the sender of your newsletters."
+msgstr "Lege fest, welcher Name und welche E-Mail-Adresse als Absender Deiner Newsletter angezeigt werden soll."
+
+#: main/welcome.php:137
+msgid "Sender"
+msgstr "Absender"
+
+#: main/welcome.php:131
+msgid "In this short tutorial we will guide you through some of the basic settings to get the most out of our plugin. "
+msgstr "In dieser kurzen Anleitung begleiten wird Dich durch einige der Basiseinstellungen, damit Du das Optimum aus dem Plugin herausholen kannst."
+
+#: main/welcome.php:130
+msgid "Welcome to The Newsletter Plugin and thank you for choosing the best mail management system for Wordpress!"
+msgstr "Willkommen beim Newsletter Plugin und danke, dass Du Dich für das beste Mail-Management-System für WordPress entschieden hast."
+
+#: main/welcome.php:55
+msgid "There was an error. Complete the setup and then use the System panels to test again."
+msgstr "Es gab einen Fehler. Schließe das Setup ab und verwende dann die Systemanzeigen zum erneuten Testen."
+
+#: main/welcome.php:49
+msgid "Check your mailbox for a test message. Check the spam folder as well."
+msgstr "Kontrolliere Deine Mailbox nach einer Testnachricht. Überprüfe auch den Spamordner"
+
+#: main/welcome.php:37
+msgid "Please check the email address, it seems wrong."
+msgstr "Bitte überprüfe die E-Mail-Adresse; sie scheint nicht korrekt zu sein."
+
+#: main/main.php:228
+msgid "A license key is set"
+msgstr "Ein Lizenz-Schlüssel wurde gesetzt."
+
+#: users/massive.php:52
+msgid "removed from list"
+msgstr "aus der Liste entfernt"
+
+#: users/massive.php:47
+msgid "added to list"
+msgstr "zur Liste hinzugefügt"
+
+#: includes/controls.php:542 includes/defaults.php:216 users/statistics.php:352
+msgid "Not specified"
+msgstr "Nicht definiert"
+
+#: includes/controls.php:542 subscription/form.php:220 users/statistics.php:336
+msgid "Female"
+msgstr "Weiblich"
+
+#: users/edit.php:263 users/statistics.php:252
+msgid "Referrer"
+msgstr "Referrer"
+
+#: users/statistics.php:66
+msgid "Any"
+msgstr "Beliebig"
+
+#: users/new.php:22
+msgid "This subscriber already exists."
+msgstr "Dieser Abonnent existiert bereits"
+
+#: users/new.php:13
+msgid "Wrong email address."
+msgstr "Falsche E-Mail-Adresse"
+
+#: users/massive.php:228 users/massive.php:305
+msgid "to"
+msgstr "zu"
+
+#: users/massive.php:304
+msgid "all subscribers in"
+msgstr "alle Abonnenten in"
+
+#: users/edit.php:301
+msgid "Profile URL"
+msgstr "Profil URL"
+
+#: users/edit.php:295
+msgid "Secret token"
+msgstr "Sicherheitsschlüssel"
+
+#: users/edit.php:289
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#: users/edit.php:224 users/edit.php:341
+msgid "Value"
+msgstr "Wert"
+
+#: subscription/lists.php:127 users/edit.php:223 users/edit.php:340
+#: users/index.php:191
+msgid "Name"
+msgstr "Name"
+
+#: users/edit.php:183
+msgid "Test subscriber"
+msgstr "Test-Abonnent"
+
+#: composer/modals/placeholders.php:5 emails/tnp-composer/index-v2.php:229
+#: includes/defaults.php:203 profile/index.php:149 subscription/form.php:108
+#: users/edit.php:158
+msgid "Last name"
+msgstr "Nachname"
+
+#: composer/modals/placeholders.php:4 emails/tnp-composer/index-v2.php:228
+#: includes/defaults.php:202 profile/index.php:140 subscription/form.php:89
+#: users/edit.php:152
+msgid "First name"
+msgstr "Vorname"
+
+#: composer/modals/placeholders.php:6 composer/modals/test.php:9
+#: emails/modals/test.php:9 emails/tnp-composer/index-v2.php:230
+#: emails/tnp-composer/modal/test-newsletter.php:19 includes/defaults.php:201
+#: profile/index.php:131 subscription/confirmation.php:124
+#: subscription/form.php:74 subscription/welcome.php:116 users/edit.php:146
+#: users/index.php:190 users/new.php:49
+msgid "Email"
+msgstr "E-Mail-Adresse"
+
+#: users/edit.php:31
+msgid "The email address is already in use"
+msgstr "Diese E-Mail-Adresse wird bereits verwendet"
+
+#: users/edit.php:22
+msgid "Wrong email address"
+msgstr "Falsche E-Mail-Adresse"
+
+#: subscription/welcome.php:149
+msgid "Conversion tracking code"
+msgstr "Tracking Code für die Umwandlung"
+
+#: subscription/antispam.php:80
+msgid "Antiflood"
+msgstr "Antiflood"
+
+#: subscription/options.php:123
+msgid "Subscription page"
+msgstr "Anmeldeseite"
+
+#: subscription/options.php:227 unsubscription/index.php:183
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: main/main.php:271
+msgid "Create the page"
+msgstr "Erstelle die Seite"
+
+#: subscription/options.php:119
+msgid "Single Opt In"
+msgstr "Single Opt-In"
+
+#: subscription/options.php:119
+msgid "Double Opt In"
+msgstr "Double Opt-In"
+
+#: subscription/options.php:117
+msgid "Opt In"
+msgstr "Opt-In"
+
+#: includes/defaults.php:230 main/main-admin.php:66
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: main/main.php:474
+msgid "Email encoding"
+msgstr "E-Mail-Verschlüsselung"
+
+#: main/main.php:449
+msgid "Debug mode"
+msgstr "Debug-Modus"
+
+#: main/main.php:412
+msgid "Log level"
+msgstr "Log Ebene"
+
+#: main/main.php:232
+msgid "Find it in <a href=\"%s\" target=\"_blank\">your account</a> page"
+msgstr "Du findest es auf <a href=\"%s\" target=\"_blank\">Deiner Kontoseite</a>."
+
+#: main/main.php:224
+msgid "License key"
+msgstr "Lizenzschlüssel"
+
+#: main/main.php:118
+msgid "Your Return Path domain is different from your Sender domain. Providers may require them to match."
+msgstr "Der Rückgabepfad unterscheidet sich von der URL des Absenders. Möglicherweise verlangen die Vorgaben des Providers, dass beide übereinstimmen"
+
+#: main/info.php:93
+msgid "Copyright or legal text"
+msgstr "Copyright oder Rechtstext"
+
+#: main/info.php:87
+msgid "Address"
+msgstr "Adresse"
+
+#: main/info.php:81
+msgid "Company name"
+msgstr "Firma"
+
+#: main/info.php:72
+msgid "Motto"
+msgstr "Motto"
+
+#: emails/blocks/footer/options.php:28 main/info.php:59
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/controls.php:2419 includes/controls.php:2431
+msgid "Need help?"
+msgstr "Brauchst du Hilfe?"
+
+#: emails/emails-admin.php:171 includes/controls.php:2290
+#: includes/controls.php:2393 system/delivery.php:89
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: emails/blocks/cta/options.php:32 includes/controls.php:2210
+#: includes/fields.php:363 includes/fields.php:481
+msgid "Center"
+msgstr "Zentriert"
+
+#: emails/blocks/cta/options.php:32 includes/controls.php:2209
+#: includes/fields.php:363 includes/fields.php:481
+msgid "Right"
+msgstr "Rechts"
+
+#: emails/blocks/cta/options.php:32 includes/controls.php:2209
+#: includes/fields.php:363 includes/fields.php:481
+msgid "Left"
+msgstr "Links"
+
+#: emails/themes/default/theme-options.php:69
+msgid "Post types"
+msgstr "Inhaltstypen"
+
+#: emails/blocks/posts/options.php:132
+#: emails/themes/default/theme-options.php:63
+msgid "Max posts"
+msgstr "Max. Beiträge "
+
+#: emails/blocks/posts/options.php:165
+#: emails/themes/default/theme-options.php:56
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: emails/themes/default/theme-options.php:28
+msgid "Posts"
+msgstr "Beiträge"
+
+#: emails/themes/cta-2015/theme-options.php:6
+#: emails/themes/default/theme-options.php:8
+msgid "Primary color"
+msgstr "Hauptfarbe"
+
+#: emails/themes/blank/theme-options.php:6
+#: emails/themes/default/theme-options.php:22
+msgid "Disable social links"
+msgstr "SocialMedia-Links entfernen"
+
+#: emails/edit.php:486
+msgid "Only to subscribers linked to WP users"
+msgstr "Nur an Abonnenten, die auch WP-Benutzer sind"
+
+#: emails/edit.php:461 includes/controls.php:2542 includes/controls.php:2546
+#: includes/controls.php:2551 includes/controls.php:2556 users/edit.php:179
+#: users/statistics.php:188
+msgid "None"
+msgstr "Kein"
+
+#: emails/edit.php:456 header.php:72
+msgid "All"
+msgstr "Alle"
+
+#: emails/edit.php:454
+msgid "Match all of"
+msgstr "Entsprechen allen von"
+
+#: emails/edit.php:454
+msgid "Match at least one of"
+msgstr "Entspricht zumindest einem von"
+
+#: emails/edit.php:445
+msgid "Leaving all multichoice options unselected is like to select all them"
+msgstr "Bei der Mehrfachauswahl nichts auszuwählen bedeutet, dass alle ausgewählt werden"
+
+#: composer/index.php:113 emails/editorhtml.php:136
+#: emails/editortinymce.php:130 emails/tnp-composer/index-v2.php:108
+#: includes/controls.php:1283 system/system-admin.php:36
+msgid "Test"
+msgstr "Test"
+
+#: emails/edit.php:329
+msgid "This newsletter will be sent to not confirmed subscribers."
+msgstr "Dieser Newsletter wird an nichtbestätigte Abonnenten gesendet."
+
+#: emails/blocks/separator/options.php:18
+msgid "Height"
+msgstr "Höhe"
+
+#: emails/blocks/separator/options.php:14
+msgid "Color"
+msgstr "Farbe"
+
+#: includes/controls.php:1254
+msgid "View"
+msgstr "Ansicht"
+
+#: subscription/antispam.php:90 subscription/antispam.php:91
+#: subscription/antispam.php:92 subscription/antispam.php:93
+#: subscription/antispam.php:94 subscription/antispam.php:95
+msgid "minutes"
+msgstr "Minuten"
+
+#: subscription/antispam.php:89
+msgid "minute"
+msgstr "Minute"
+
+#: subscription/antispam.php:85 subscription/antispam.php:86
+#: subscription/antispam.php:87 subscription/antispam.php:88
+msgid "seconds"
+msgstr "Sekunden"
+
+#: classes/NewsletterMailerAddon.php:120 classes/NewsletterMailerAddon.php:129
+#: includes/controls.php:591 main/autorespondernav.php:10
+#: subscription/antispam.php:69 subscription/antispam.php:84
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: emails/blocks/footer/block.php:19 emails/blocks/preheader/options.php:9
+msgid "View online"
+msgstr "Online ansehen"
+
+#: emails/blocks/footer/block.php:22
+msgid "Manage your subscription"
+msgstr "Verwalte dein Abonnement"
+
+#: users/edit.php:281
+msgid "WP user ID"
+msgstr "WP User-ID"
+
+#: users/edit.php:257
+msgid "Created"
+msgstr "Erstellt"
+
+#: emails/themes/vimeo-like/theme-defaults.php:7
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: includes/controls.php:553 includes/fields.php:379 subscription/form.php:174
+msgid "No"
+msgstr "Nein"
+
+#: header.php:412 includes/defaults.php:208 main/welcome.php:208
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: includes/controls.php:1213 includes/controls.php:1217
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: widget/minimal.php:89 widget/standard.php:131
+msgid "Automatically subscribe to"
+msgstr "Automatisch abonnieren"
+
+#: emails/tnp-composer/index-v2.php:99 main/automatednav.php:12
+#: subscription/subscription-admin.php:47
+msgid "Template"
+msgstr "Template"
+
+#: main/extensions.php:14
+msgid "Error while activating:"
+msgstr "Fehler beim Aktivieren:"
+
+#: includes/controls.php:1713
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: users/massive.php:263
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: emails/edit-nav.php:20
+msgid "Versions"
+msgstr "Versionen"
+
+#: subscription/customfields.php:98 subscription/lists.php:129
+msgid "Type"
+msgstr "Type"
+
+#: subscription/subscription-admin.php:43
+msgid "Sources"
+msgstr "Quellen"
+
+#: system/status.php:143
+msgid "Plugins"
+msgstr "Plugins"
+
+#: main/welcome.php:179
+msgid "Send a test message"
+msgstr "Sende eine Nachricht"
+
+#: main/main.php:427
+msgid "Custom styles"
+msgstr "Individuelle Stile"
+
+#: subscription/template.php:33
+msgid "No test subscribers found."
+msgstr "Kein Test-Abonnent gefunden"
+
+#: subscription/template.php:58
+msgid "The tag {message} is missing in your template"
+msgstr "Der Tag {message} fehlt in deiner Vorlage"
+
+#: includes/controls.php:463 includes/controls.php:488
+msgid "Done."
+msgstr "erledigt"
+
+#: header.php:183 system/backup-view.php:22 system/delivery.php:206
+#: system/logs.php:30 system/nav.php:5
+msgid "System"
+msgstr "System"
+
+#: emails/edit.php:390 emails/edit.php:393
+msgid "Schedule"
+msgstr "Planer"
+
+#: emails/themes/default/theme-options.php:50 includes/fields.php:686
+msgid "Categories"
+msgstr "Kategorien"
+
+#: emails/blocks/canspam/options.php:11 emails/blocks/footer/options.php:72
+#: emails/blocks/header/options.php:43 emails/blocks/heading/options.php:23
+#: emails/blocks/heading/options.php:25 emails/blocks/hero/options.php:32
+#: emails/blocks/preheader/options.php:8 subscription/customfields.php:48
+msgid "Text"
+msgstr "Text"
+
+#: emails/blocks/header/options.php:35 emails/blocks/hero/options.php:26
+#: emails/blocks/posts/options.php:81 main/info.php:66 widget/standard.php:99
+msgid "Title"
+msgstr "Titel"
+
+#: composer/index.php:192 emails/edit.php:394
+#: emails/tnp-composer/index-v2.php:190
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://www.thenewsletterplugin.com"
+msgstr "https://www.thenewsletterplugin.com"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Stefano Lissa & The Newsletter Team"
+msgstr ""
+"Stefano Lissa &\n"
+"Das Newsletter Team"
+
+#. Description of the plugin
+#: plugin.php
+msgid "Newsletter is a cool plugin to create your own subscriber list, to send newsletters, to build your business. <strong>Before update give a look to <a href=\"https://www.thenewsletterplugin.com/category/release\">this page</a> to know what's changed.</strong>"
+msgstr "Newsletter ist ein cooles Plugin um damit eine eigene Abonnentenliste zu erstellen, Newsletter zu versenden und um deine Arbeit bekannter zu machen. <strong>Wirf vor dem Update einen Blick auf <a href=\"https://www.thenewsletterplugin.com/category/release\">diese Seite</a>, um mehr über die Änderungen zu erfahren.</strong>"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: users/new.php:36
+msgid "New Subscriber"
+msgstr "Neuer Abonnent"
+
+#: includes/classes.php:345 users/massive.php:204 users/statistics.php:90
+msgid "Bounced"
+msgstr "unzustellbar"
+
+#: includes/classes.php:342 users/massive.php:194 users/statistics.php:84
+msgid "Unsubscribed"
+msgstr "Abgemeldet"
+
+#: users/massive.php:190
+msgid "Are you sure you want to mark ALL subscribers as confirmed?"
+msgstr "Bist du sicher? Alle Abonnenten als \"Bestätigt\" markieren?"
+
+#: subscription/lists.php:190 users/massive.php:190
+msgid "Confirm all"
+msgstr "Alle bestätigen"
+
+#: subscription/lists.php:189 users/massive.php:180
+msgid "Unconfirm all"
+msgstr "Alle abwählen"
+
+#: users/massive.php:171
+msgid "Are you sure you want to remove ALL subscribers?"
+msgstr "Bist du sicher, dass du ALLE Abonnenten löschen möchtest?"
+
+#: users/massive.php:171 users/massive.php:189 users/massive.php:199
+#: users/massive.php:209 users/massive.php:219
+msgid "Delete all"
+msgstr "Alle löschen"
+
+#: subscription/lists.php:145 users/massive.php:162
+msgid "Actions"
+msgstr "Aktionen"
+
+#: users/massive.php:161 users/massive.php:166 users/statistics.php:61
+#: users/statistics.php:149 users/statistics.php:209 users/statistics.php:253
+#: users/statistics.php:288
+msgid "Total"
+msgstr "Gesamt"
+
+#: users/massive.php:136
+msgid "Please backup before running maintenance actions."
+msgstr "Bitte mache ein Backup Deiner Daten, bevor Du eine Instandhaltungsaktion ausführst."
+
+#: users/users-admin.php:30
+msgid "Subscribers Maintenance"
+msgstr "Abonnentenverwaltung"
+
+#: users/massive.php:42
+msgid "Subscribers deleted: "
+msgstr "Abonnenten gelöscht:"
+
+#: users/massive.php:37
+msgid "Subscribers changed to confirmed: "
+msgstr "Abonnenten geändert auf \"bestätigt\""
+
+#: users/massive.php:32
+msgid "Subscribers changed to not confirmed: "
+msgstr "Abonnenten geändert auf \"nicht bestätigt\""
+
+#: users/massive.php:27
+msgid "Subscribers bounced deleted: "
+msgstr "Nicht abgeschlossene Anmeldungen gelöscht:"
+
+#: users/massive.php:17
+msgid "Subscribers unsubscribed deleted: "
+msgstr "Abgemeldete Abonnenten gelöscht:"
+
+#: users/massive.php:12
+msgid "Subscribers not confirmed deleted: "
+msgstr "Nicht-bestätigte Abonnenten gelöscht:"
+
+#: header.php:41 users/nav.php:7
+msgid "Profile page"
+msgstr "Profilseite"
+
+#: users/index.php:177
+msgid "subscriber(s) found"
+msgstr "Abonnent(en) gefunden"
+
+#: includes/paginator.php:129 users/index.php:173
+msgid "Go"
+msgstr "Start"
+
+#: users/index.php:165
+msgid "Reset Filters"
+msgstr "Filter zurücksetzen"
+
+#: emails/blocks/giphy/options.php:10 users/index.php:163
+msgid "Search"
+msgstr "Suchen"
+
+#: header.php:244 header.php:248
+msgid "License expired"
+msgstr "Lizenz abgelaufen"
+
+#: header.php:267
+msgid "License active"
+msgstr "Lizenz aktiv"
+
+#: system/system-admin.php:35
+msgid "Diagnostic"
+msgstr "Diagnose"
+
+#: header.php:161
+msgid "Messages Template"
+msgstr "Nachrichten-Vorlage"
+
+#: header.php:45 header.php:109
+msgid "Unsubscription"
+msgstr "Abmeldung"
+
+#: admin.php:243 header.php:86 subscription/antispam.php:29
+#: subscription/nav.php:5 subscription/options.php:93
+#: subscription/options.php:106 subscription/subscription-admin.php:39
+#: subscription/subscription-admin.php:40
+msgid "Subscription"
+msgstr "Anmeldung"
+
+#: header.php:61 users/nav.php:10
+msgid "Maintenance"
+msgstr "Wartung"
+
+#: admin.php:246 header.php:34 includes/controls.php:1242
+#: main/autorespondernav.php:20 main/index.php:98 main/index.php:134
+#: profile/index.php:39 statistics/nav.php:8 subscription/lists.php:143
+#: unsubscription/index.php:51 users/import.php:16 users/index.php:142
+#: users/massive.php:127 users/nav.php:5 users/statistics.php:27
+msgid "Subscribers"
+msgstr "Abonnenten"
+
+#: tnp-footer.php:15
+msgid "Blog"
+msgstr "Blog"
+
+#: tnp-footer.php:14
+msgid "Forum"
+msgstr "Forum"
+
+#: tnp-footer.php:13
+msgid "Your Account"
+msgstr "Dein Konto"
+
+#: tnp-footer.php:8
+msgid "Get Premium"
+msgstr "Premium holen"
+
+#: unsubscription/index.php:116
+msgid "Goodbye email"
+msgstr "Goodbye-E-Mail"
+
+#: unsubscription/index.php:102
+msgid "Goodbye message"
+msgstr "Goodbye-Nachricht"
+
+#: subscription/template.php:84
+msgid "Messages template"
+msgstr "Nachrichten Vorlage"
+
+#: admin.php:249 composer/index.php:138 emails/nav.php:8
+#: emails/tnp-composer/index-v2.php:138 header.php:90 header.php:148
+#: main/automatednav.php:11 main/autorespondernav.php:17 main/info.php:29
+#: main/main.php:169 main/main.php:190 main/nav.php:3
+#: subscription/inject.php:51 subscription/popup.php:53
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: main/main.php:299
+msgid "Max emails per hour"
+msgstr "Maximale E-Mails pro Stunde"
+
+#: main/main.php:251
+msgid "Reply to"
+msgstr "Antworten an"
+
+#: main/main.php:241
+msgid "Return path"
+msgstr "Rückgabe Pfad"
+
+#: emails/edit.php:704 main/main.php:216 main/welcome.php:139
+msgid "Sender name"
+msgstr "Absender-Name"
+
+#: emails/edit.php:691
+msgid "Sender email address"
+msgstr "Absender-E-Mail-Adresse"
+
+#: main/main.php:54
+msgid "Reply to email is not correct."
+msgstr "Die Antwort-E-Mail-Adresse ist nicht korrekt."
+
+#: main/main.php:39
+msgid "Return path email is not correct."
+msgstr "Die Rückgabe-E-Mail-Adresse ist nicht korrekt."
+
+#: main/main.php:33
+msgid "The sender email address is not correct."
+msgstr "Die E-Mail-Adresse ist nicht korrekt."
+
+#: emails/themes/vimeo-like/theme-options.php:25 main/info.php:44
+msgid "Social"
+msgstr "Soziale Netzwerke"
+
+#: emails/themes/vimeo-like/theme-options.php:24 main/autoresponderedit.php:43
+#: main/info.php:43 main/nav.php:4 profile/index.php:56
+#: statistics/settings.php:37 subscription/antispam.php:43
+#: system/status.php:141 users/edit-nav.php:6 users/massive.php:152
+msgid "General"
+msgstr "Allgemein"
+
+#: header.php:157
+msgid "Company Info"
+msgstr "Unternehmensinformation"
+
+#: profile/profile-admin.php:25
+msgid "Profile"
+msgstr "Profil"
+
+#: users/index.php:158
+msgid "Test subscribers"
+msgstr "Test Abonnenten"
+
+#: emails/presets.php:67
+msgid "New"
+msgstr "Neu"
+
+#: subscription/customfields.php:48 users/statistics.php:148
+msgid "List"
+msgstr "Liste"
+
+#: main/index.php:323 main/welcome.php:219
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: admin.php:242 main/dashboard-nav.php:4 main/flow.php:119
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: header.php:152
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: emails/blocks/posts/options.php:165
+msgid "Comma separated"
+msgstr "Komma getrennt"
+
+#: classes/NewsletterMailerAddon.php:118 classes/NewsletterMailerAddon.php:127
+#: includes/controls.php:596 main/autorespondernav.php:8
+#: subscription/antispam.php:70 subscription/popup.php:62
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: includes/module-base.php:1323
+msgid "Draft"
+msgstr "Entwurf"
+
+#: includes/module-base.php:1321
+msgid "Paused"
+msgstr "Pausiert"
+
+#: includes/module-base.php:1319
+msgid "Sent"
+msgstr "Gesendet"
+
+#: includes/controls.php:1225 includes/controls.php:1234
+msgid "Delete"
+msgstr "Löschen"
+
+#: emails/new.php:118 includes/controls.php:1271 includes/controls.php:1279
+msgid "Back"
+msgstr "Zurück"
+
+#: includes/controls.php:1209
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: emails/composer.php:134 emails/edit.php:676 emails/editorhtml.php:137
+#: emails/editortinymce.php:131 includes/controls.php:1201
+#: includes/controls.php:1205 includes/defaults.php:245
+msgid "Save"
+msgstr "Speichern"
+
+#: includes/controls.php:1027
+msgid "Valid email address"
+msgstr "Gültige E-Mail-Adresse"
+
+#: includes/controls.php:455 includes/controls.php:459
+#: includes/defaults.php:247
+msgid "Saved."
+msgstr "Gesichert."
+
+#: emails/new.php:134
+msgid "Refresh the preview"
+msgstr "Vorschau aktualisieren"
+
+#: emails/new.php:117
+msgid "Create a newsletter"
+msgstr "Erstelle einen Newsletter"
+
+#: emails/nav.php:13 emails/nav.php:15 header.php:51 header.php:133
+#: header.php:138 includes/controls.php:1246 includes/controls.php:1250
+#: main/autorespondernav.php:22 statistics/index-nav.php:4
+#: statistics/settings.php:24 users/nav.php:9 users/users-admin.php:33
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: emails/edit-nav.php:16 emails/emails-admin.php:75 emails/emails-admin.php:78
+#: emails/emails-admin.php:79 emails/emails.php:112 emails/emails.php:115
+#: emails/emails.php:116 emails/presets.php:97 emails/presets.php:98
+#: includes/controls.php:1266
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/controls.php:558 includes/fields.php:384 subscription/form.php:174
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/module-base.php:1374 includes/module-base.php:1376
+#: includes/module-base.php:1433
+msgid "of"
+msgstr "von"
+
+#: emails/edit-nav.php:18 header.php:192 includes/module-base.php:1315
+#: main/main.php:191 system/delivery.php:223
+msgid "Sending"
+msgstr "Sendet"
+
+#: includes/module-base.php:1317
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: emails/blocks/posts/options.php:96 emails/index.php:97 users/index.php:193
+#: users/logs.php:52
+msgid "Date"
+msgstr "Datum"
+
+#: emails/index.php:96 system/delivery.php:232
+msgid "Progress"
+msgstr "Fortschritt"
+
+#: composer/index.php:78 emails/index.php:94 emails/presets.php:74
+#: emails/tnp-composer/index-v2.php:77 main/autorespondermessages.php:74
+msgid "Subject"
+msgstr "Betreff"
+
+#: includes/controls.php:1107
+msgid "Proceed?"
+msgstr "Fortfahren?"
+
+#: admin.php:245 emails/automated.php:15 emails/autoresponder.php:15
+#: emails/index.php:66 emails/nav.php:5 emails/nav.php:6 emails/presets.php:56
+#: emails/settings.php:42 header.php:117 includes/controls.php:1258
+#: main/automatednav.php:13 main/index.php:165 statistics/index-nav.php:6
+#: users/edit-nav.php:8 users/newsletters.php:35 users/users-admin.php:28
+msgid "Newsletters"
+msgstr "Newsletters"
+
+#: emails/index.php:41 emails/presets.php:21
+msgid "Message duplicated."
+msgstr "Nachricht dupliziert"
+
+#: emails/edit.php:685
+msgid "Track clicks and message opening"
+msgstr "Klicks und Öffnen der Nachricht nachverfolgen"
+
+#: profile/index.php:125 subscription/customfields.php:47
+#: subscription/form.php:21
+msgid "Required"
+msgstr "Erforderlich"
+
+#: emails/edit.php:679
+msgid "Hide/show from public sent newsletter list."
+msgstr "Anzeigen/Verbergen auf der öffentlichen Liste der versendeten Newsletter"
+
+#: emails/edit.php:672
+msgid "Keep private"
+msgstr "Privat halten"
+
+#: emails/edit.php:481 includes/classes.php:336 users/massive.php:184
+#: users/statistics.php:78
+msgid "Not confirmed"
+msgstr "Nicht bestätigt"
+
+#: emails/edit.php:481 includes/classes.php:339 users/massive.php:175
+#: users/statistics.php:72
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#: admin.php:247 emails/blocks/cta/options.php:40 emails/edit.php:449
+#: header.php:98 profile/index.php:175 subscription/form.php:52
+#: subscription/lists.php:85 subscription/lists.php:111 users/edit.php:131
+#: users/edit.php:203 users/index.php:197 users/logs.php:55
+#: users/massive.php:153
+msgid "Lists"
+msgstr "Listen"
+
+#: emails/edit.php:473 profile/index.php:158 subscription/form.php:127
+#: subscription/form.php:211 users/edit.php:164 users/statistics.php:326
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: emails/edit.php:479 emails/index.php:95 statistics/view-users.php:107
+#: subscription/customfields.php:97 system/system-admin.php:31
+#: users/edit.php:170 users/index.php:192 users/massive.php:160
+#: users/statistics.php:60 users/statistics.php:208
+msgid "Status"
+msgstr "Status"
+
+#: subscription/form.php:234
+msgid "Other"
+msgstr "Sonstiges"
+
+#: emails/edit.php:435
+msgid "Targeting"
+msgstr "Auswahl der Empfänger"
+
+#: emails/edit.php:388
+msgid "Stop"
+msgstr "Stopp"
+
+#: emails/edit.php:387
+msgid "Continue"
+msgstr "Fortfahren"
+
+#: emails/edit.php:386
+msgid "Pause the delivery?"
+msgstr "Versendung unterbrechen?"
+
+#: emails/edit.php:386
+msgid "Pause"
+msgstr "Pausieren"
+
+#: emails/edit.php:385
+msgid "Start real delivery?"
+msgstr "Realen Versand starten ?"
+
+#: composer/modals/test.php:10 composer/modals/test.php:23
+#: emails/modals/test.php:10 emails/modals/test.php:23
+#: emails/tnp-composer/modal/test-newsletter.php:23
+#: emails/tnp-composer/modal/test-newsletter.php:38 system/delivery.php:301
+msgid "Send"
+msgstr "Absenden"
+
+#: emails/emails-admin.php:195 emails/tnp-composer/modal/test-newsletter.php:43
+msgid "Read more about test subscribers"
+msgstr "Erfahre mehr über Test-Abonnenten"
+
+#: emails/emails-admin.php:169
+msgid "There are no test subscribers to send to"
+msgstr "Es gibt keine Testabonnenten an die der Newsletter versendet werden kann"
+
+#: emails/edit.php:299
+msgid "A subject is required to send"
+msgstr "Zum Senden wird ein Betreff benötigt"
+
+#: emails/editorhtml.php:14 emails/new.php:19 emails/new.php:61
+msgid "Here the email subject"
+msgstr "Betreff der E-Mail"

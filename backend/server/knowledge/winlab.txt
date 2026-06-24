@@ -1,0 +1,19 @@
+========================================================================
+DOCUMENTACIÓN DE SOPORTE TÉCNICO - WINLAB DENTAL v12
+========================================================================
+WinLab es la aplicación líder en España y Latinoamérica para la gestión de laboratorios de prótesis dental. Está totalmente adaptado al Reglamento Europeo de Productos Sanitarios (MDR) para garantizar la trazabilidad de los materiales y la emisión de la Declaración de Conformidad obligatoria.
+
+CARACTERÍSTICAS PRINCIPALES:
+1. Ficha del Trabajo: Registro detallado de la orden de trabajo, facultativo (odontólogo), paciente, tipo de prótesis (fija, removible, sobre implantes), y las fechas de entrada, prueba y entrega.
+2. Trazabilidad Completa: Gestión de lotes de materiales utilizados en cada prótesis (metales, resinas, dientes, prefabricados). El programa avisa si un lote ha caducado.
+3. Declaración de Conformidad: Generación automatizada en formato PDF/papel con el anexo de materiales y lote, lista para entregar al clínico.
+4. Facturación: Emisión de facturas por clínica o por doctor, facturas rectificativas y remesas bancarias SEPA.
+5. Agenda de Entregas: Vista de calendario interactivo para planificar el trabajo diario del laboratorio.
+
+SOPORTE TÉCNICO COMÚN (Preguntas Frecuentes):
+* ¿Cómo registrar un nuevo material y su lote?
+  Ve al menú Archivos -> Materiales. Haz clic en Nuevo, introduce el nombre del material, fabricante y el número de lote de compra. Al crear un trabajo, el programa te permitirá elegir este lote haciendo doble clic en el campo de materiales de la orden.
+* ¿Cómo generar la Declaración de Conformidad?
+  Una vez finalizada la orden de trabajo y cargados los materiales, pulsa el botón "Declaración" en la barra de herramientas del trabajo. El programa rellenará automáticamente los datos del paciente, clínico y la declaración legal de cumplimiento normativo.
+* Teléfono de Soporte para WinLab: (+34) 96 338 78 20 (opción 1).
+* Email: winlab@microareanext.com

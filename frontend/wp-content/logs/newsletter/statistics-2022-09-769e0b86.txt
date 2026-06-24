@@ -1,0 +1,7 @@
+13-09-2022 09:28:56 - ERROR - 7.5.3 - 24,6 MB/2 GB -  > Open tracking request for unexistant subscriber
+13-09-2022 09:29:10 - ERROR - 7.5.3 - 24,6 MB/2 GB -  > Open tracking request for unexistant subscriber
+13-09-2022 11:09:54 - ERROR - 7.5.3 - 24,6 MB/2 GB -  > Open tracking request for unexistant subscriber
+13-09-2022 11:10:06 - ERROR - 7.5.3 - 24,6 MB/2 GB -  > Open tracking request for unexistant subscriber
+13-09-2022 13:57:52 - ERROR - 7.5.3 - 24,6 MB/2 GB -  > Open tracking request for unexistant subscriber
+13-09-2022 14:19:12 - ERROR - 7.5.3 - 24,7 MB/2 GB -  > Open tracking request for unexistant subscriber
+13-09-2022 14:22:17 - ERROR - 7.5.3 - 24,7 MB/2 GB -  > Open tracking request for unexistant subscriber

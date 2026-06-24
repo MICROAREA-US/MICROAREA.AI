@@ -1,0 +1,90 @@
+.wp-admin .notice,
+.wp-admin .updated {
+  margin-left: 2px;
+}
+
+.wp-admin .fz-page {
+  margin-right: 12px;
+}
+
+.wp-admin .fz-page__header {
+  margin: 24px 0 24px 0;
+}
+
+.wp-admin .fz-header {
+  padding-left: 36px;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  background-position: left bottom;
+  margin-bottom: 12px;
+}
+
+.wp-admin .fz-header__title {
+  font-size: 23px;
+  font-weight: 400;
+  margin: 0;
+  padding: 9px 0 0;
+  line-height: 29px;
+}
+
+.wp-admin .fz-header__meta {
+  line-height: 12px;
+  font-size: 12px;
+  color: #bbb;
+}
+
+.wp-admin .fz-header__description {
+  margin: 0;
+}
+
+.wp-admin .fz-menu {
+  display: flex;
+}
+.wp-admin .fz-menu__item {
+  padding: 0 12px;
+  position: relative;
+}
+.wp-admin .fz-menu__item:first-child {
+  padding-left: 0;
+}
+.wp-admin .fz-menu__item:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 100%;
+  border-right: 1px solid;
+}
+.wp-admin .fz-menu__item:last-child:after {
+  border: 0;
+}
+
+/* TODO: */
+.wp-admin .fz-panel-usage .fz-caption {
+  margin: 15px;
+}
+
+.wp-admin .fz-panel {
+  padding: 15px;
+}
+.wp-admin .fz-panel__title {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.wp-admin .fz-panel .toggle {
+  padding-top: 15px;
+}
+
+.wp-admin .fz-panel p.submit {
+  padding-bottom: 0px !important;
+}
+
+.wp-admin .fz-panel input[type="text"],
+.wp-admin .fz-panel input[type="email"],
+.wp-admin .fz-panel input[type="password"] {
+  width: 280px;
+  max-width: 100%;
+}

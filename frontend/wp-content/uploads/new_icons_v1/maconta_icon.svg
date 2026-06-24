@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="mainBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.1" />
+    </linearGradient>
+    <filter id="svgBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="200" cy="320" rx="120" ry="25" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Base Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 200,310 L 310,255 L 200,200 L 90,255 Z" fill="url(#pastelBlue)" stroke="#85a7e6" stroke-width="1.5"/>
+    <path d="M 200,310 L 310,255 L 310,263 L 200,318 Z" fill="#b3cced"/>
+    <path d="M 90,255 L 200,310 L 200,318 L 90,263 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- Accounting Books (Libros) -->
+  <g transform="translate(0, -10)" filter="url(#shadow)">
+    <!-- Binder 1 -->
+    <path d="M 150,260 L 220,225 L 180,205 L 110,240 Z" fill="#ffffff" stroke="#4471b1" stroke-width="1.5"/>
+    <path d="M 110,240 L 150,260 L 150,268 L 110,248 Z" fill="#2130b7"/>
+    <path d="M 150,260 L 220,225 L 220,233 L 150,268 Z" fill="#141d6f"/>
+    
+    <!-- Binder 2 (Stacked above) -->
+    <path d="M 160,245 L 230,210 L 190,190 L 120,225 Z" fill="#ffffff" stroke="#2130b7" stroke-width="1.5"/>
+    <path d="M 120,225 L 160,245 L 160,253 L 120,233 Z" fill="#2130b7"/>
+    <path d="M 160,245 L 230,210 L 230,218 L 160,253 Z" fill="#141d6f"/>
+  </g>
+
+  <!-- Calculator / Numbers floating (Números) -->
+  <g transform="translate(50, -65)" filter="url(#shadow)">
+    <!-- Translucent panel -->
+    <path d="M 200,230 L 260,200 L 200,170 L 140,200 Z" fill="url(#glassGrad)" stroke="rgba(33,48,183,0.4)" stroke-width="1.5"/>
+    
+    <!-- Floating Numbers outline -->
+    <!-- Number 1 -->
+    <text x="165" y="195" font-family="Outfit, Inter, sans-serif" font-size="22" font-weight="800" fill="#2130b7">1</text>
+    <!-- Number 2 -->
+    <text x="215" y="195" font-family="Outfit, Inter, sans-serif" font-size="20" font-weight="800" fill="#4471b1">2</text>
+    <!-- Math symbol + -->
+    <text x="192" y="185" font-family="Outfit, Inter, sans-serif" font-size="22" font-weight="800" fill="#2130b7">+</text>
+  </g>
+</svg>

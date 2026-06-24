@@ -1,0 +1,256 @@
+# Translation of Plugins - Nav Menu Roles - Development (trunk) in Italian
+# This file is distributed under the same license as the Plugins - Nav Menu Roles - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-13 19:44:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Nav Menu Roles - Development (trunk)\n"
+
+#: inc/customizer.php:91
+msgid "Target Roles"
+msgstr "Ruoli destinatari"
+
+#: inc/customizer.php:74
+msgid "Target Audience"
+msgstr "Destinatari"
+
+#: inc/class-nav-menu-roles.php:422
+msgid "Target role"
+msgstr "Ruolo destinatario"
+
+#: inc/class-nav-menu-roles.php:400
+msgid "Target audience"
+msgstr "Destinatari"
+
+#: inc/class-nav-menu-roles.php:394 inc/customizer.php:68
+msgid "Hide"
+msgstr "Nascondi"
+
+#: inc/class-nav-menu-roles.php:389 inc/customizer.php:63
+msgid "Show"
+msgstr "Mostra"
+
+#: inc/class-nav-menu-roles.php:77
+msgid "Unserializing instances of this class is forbidden."
+msgstr "La de-serializzazione delle istanze di questa classe non è consentita."
+
+#: inc/class-nav-menu-roles.php:68
+msgid "Cloning this object is forbidden."
+msgstr "Clonare questo oggetto è proibito."
+
+#: inc/class-nav-menu-roles.php:294
+msgid "Donate"
+msgstr "Fai una donazione"
+
+#: inc/class-nav-menu-roles.php:293
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:157
+msgid "Edit"
+msgstr "Modifica"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:157
+msgid "Edit menu item"
+msgstr "Modifica voce del menu"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:186
+#: inc/class-walker-nav-menu-edit-roles.php:189
+msgid "Open link in a new tab"
+msgstr "Apri link in una nuova scheda"
+
+#. Author URI of the plugin
+msgid "http://www.kathyisawesome.com"
+msgstr "http://www.kathyisawesome.com"
+
+#. Author of the plugin
+msgid "Kathy Darling"
+msgstr "Kathy Darling"
+
+#. Description of the plugin
+msgid "Hide custom menu items based on user roles."
+msgstr "Nascondi voci di menu personalizzate a seconda dei ruoli utente."
+
+#. Plugin URI of the plugin
+msgid "http://www.kathyisawesome.com/449/nav-menu-roles/"
+msgstr "http://www.kathyisawesome.com/449/nav-menu-roles/"
+
+#: inc/class-nav-menu-roles.php:416 inc/customizer.php:86
+msgid "Everyone"
+msgstr "Tutti"
+
+#: inc/class-nav-menu-roles.php:411 inc/customizer.php:82
+msgid "Logged Out Users"
+msgstr "Utenti disconnessi"
+
+#: inc/class-nav-menu-roles.php:406 inc/customizer.php:78
+msgid "Logged In Users"
+msgstr "Utenti connessi"
+
+#: inc/class-nav-menu-roles.php:383 inc/customizer.php:59
+msgid "Display Mode"
+msgstr "Modalità Display"
+
+#: inc/class-nav-menu-roles.php:161
+msgid "Import <strong>nav menu roles</strong> and other menu item meta skipped by the default importer"
+msgstr "L'importazione dei <strong>ruoli del menu di navigazione</strong> e di altri metadati degli elementi del menu è stata saltata dall'importatore predefinito"
+
+#. Plugin Name of the plugin
+#: inc/class-nav-menu-roles.php:161
+msgid "Nav Menu Roles"
+msgstr "Nav Menu Roles"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:252
+#: inc/class-walker-nav-menu-edit-roles.php:261
+msgid "Cancel"
+msgstr "Annulla"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:245
+#: inc/class-walker-nav-menu-edit-roles.php:249
+msgid "Remove"
+msgstr "Rimuovi"
+
+#. translators: %s is original menu item title.
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:229
+#: inc/class-walker-nav-menu-edit-roles.php:234
+msgid "Original: %s"
+msgstr "Originale: %s"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:222
+#: inc/class-walker-nav-menu-edit-roles.php:225
+msgid "To the top"
+msgstr "Vai in alto"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:219
+#: inc/class-walker-nav-menu-edit-roles.php:222
+msgid "Down one"
+msgstr "In basso di una posizione"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:218
+#: inc/class-walker-nav-menu-edit-roles.php:221
+msgid "Up one"
+msgstr "In alto di una posizione"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:217
+#: inc/class-walker-nav-menu-edit-roles.php:220
+msgid "Move"
+msgstr "Sposta"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:205
+#: inc/class-walker-nav-menu-edit-roles.php:208
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr "La descrizione sarà visualizzata nel menu se il tema supporta questa funzionalità."
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:203
+#: inc/class-walker-nav-menu-edit-roles.php:206
+msgid "Description"
+msgstr "Descrizione"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:197
+#: inc/class-walker-nav-menu-edit-roles.php:200
+msgid "Link Relationship (XFN)"
+msgstr "Relazioni tra link (XFN)"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:191
+#: inc/class-walker-nav-menu-edit-roles.php:194
+msgid "CSS Classes (optional)"
+msgstr "Classi CSS (opzionale)"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:179
+#: inc/class-walker-nav-menu-edit-roles.php:182
+msgid "Title Attribute"
+msgstr "Attributi del Titolo"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:173
+#: inc/class-walker-nav-menu-edit-roles.php:176
+msgid "Navigation Label"
+msgstr "Etichetta di navigazione"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:166
+#: inc/class-walker-nav-menu-edit-roles.php:169
+msgid "URL"
+msgstr "URL"
+
+#: inc/class-walker-nav-menu-edit-roles.php:158
+#: inc/class-walker-nav-menu-edit-roles.php:160
+msgid "Edit Menu Item"
+msgstr "Modifica voce del menu"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:151
+#: inc/class-walker-nav-menu-edit-roles.php:156
+msgid "Move down"
+msgstr "Sposta in basso"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:136
+#: inc/class-walker-nav-menu-edit-roles.php:143
+msgid "Move up"
+msgstr "Sposta in alto"
+
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:119
+#: inc/class-walker-nav-menu-edit-roles.php:128
+msgid "sub item"
+msgstr "sottoelemento"
+
+#. translators: %s: title of menu item in draft status
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:105
+#: inc/class-walker-nav-menu-edit-roles.php:113
+msgid "%s (Pending)"
+msgstr "%s (In attesa)"
+
+#. translators: %s: title of menu item which is invalid
+#: inc/class-walker-nav-menu-edit-roles-4.5.php:101
+#: inc/class-walker-nav-menu-edit-roles.php:109
+msgid "%s (Invalid)"
+msgstr "%s (Non valido)"
+
+#: inc/class-nav-menu-roles-import.php:283
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "Scegli un file WXR (.xml) da caricare, poi fai clic su Carica file e importalo."
+
+#: inc/class-nav-menu-roles-import.php:282
+msgid "Re-Upload your normal WordPress eXtended RSS (WXR) file and we&#8217;ll import the Nav Menu Roles and any other missing post meta for the Nav Menu items."
+msgstr "Ricarica il tuo consueto file eXtended RSS (WXR) di WordPress e noi importeremo i ruoli del menu di navigazione e ogni altro dato meta mancante dell'articolo per gli elementi del menu di navigazione."
+
+#. translators: %s is importer version number.
+#: inc/class-nav-menu-roles-import.php:267
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "È disponibile una nuova versione di questo importatore. Aggiorna alla versione %s per garantire la compatibilità con i file di esportazione più recenti."
+
+#: inc/class-nav-menu-roles-import.php:259
+msgid "Import Nav Menu Roles"
+msgstr "Importa Nav Menu Roles"
+
+#. translators: %s is file version number.
+#: inc/class-nav-menu-roles-import.php:191
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "Questo file WXR (versione %s) potrebbe non essere supportato da questa versione dell'importatore. Valuta un aggiornamento."
+
+#. translators: %s is export file name.
+#: inc/class-nav-menu-roles-import.php:174
+msgid "The export file could not be found at %s. It is likely that this was caused by a permissions problem."
+msgstr "Il file di esportazione non è stato trovato in %s. È probabile che questo sia causato da un problema di autorizzazioni."
+
+#: inc/class-nav-menu-roles-import.php:153
+msgid "Have fun!"
+msgstr "Divertirti!"
+
+#: inc/class-nav-menu-roles-import.php:153
+msgid "All done."
+msgstr "Completato"
+
+#: inc/class-nav-menu-roles-import.php:114
+msgid "The file does not exist, please try again."
+msgstr "Il file non esiste, riprova."
+
+#: inc/class-nav-menu-roles-import.php:113
+#: inc/class-nav-menu-roles-import.php:122
+#: inc/class-nav-menu-roles-import.php:168
+#: inc/class-nav-menu-roles-import.php:172
+#: inc/class-nav-menu-roles-import.php:182
+msgid "Sorry, there has been an error."
+msgstr "Si è verificato un errore."

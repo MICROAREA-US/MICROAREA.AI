@@ -1,0 +1,25 @@
+INSTRUCCIONES PARA CORREGIR EL ACCESO DE ESCRITURA EN EL SERVIDOR DE LONG ISLAND (LIC-WEBSERVER)
+
+El script de copia automática desde esta máquina se conecta exitosamente a la carpeta compartida en "lic-webserver" (100.87.196.92), pero Windows bloquea la escritura de archivos debido a restricciones de seguridad NTFS en la carpeta física de destino.
+
+Para solucionarlo de forma definitiva y permitir que la copia de seguridad se realice correctamente, siga estos pasos:
+
+PASO 1: CONCEDER PERMISOS EN EL DESTINO (LIC-WEBSERVER)
+1. Inicie sesión en la máquina de destino "lic-webserver".
+2. Abra la aplicación "Terminal (Administrador)" o "Windows PowerShell (Administrador)".
+3. Copie y pegue la siguiente línea de comandos, según el idioma del sistema operativo Windows en esa máquina:
+
+   Si el Windows de la máquina de destino está en ESPAÑOL, ejecute:
+   icacls "C:\www" /grant "Todos:(OI)(CI)F" /T
+
+   Si el Windows de la máquina de destino está en INGLÉS (English), ejecute:
+   icacls "C:\www" /grant "Everyone:(OI)(CI)F" /T
+
+4. Presione Enter para ejecutar el comando.
+
+PASO 2: VERIFICAR QUE TODO FUNCIONA (DESDE LA MÁQUINA ORIGEN)
+Una vez aplicados los permisos en el destino, puede verificar que la copia automática funciona de la siguiente manera:
+1. En esta máquina de origen, abra una terminal (PowerShell o CMD).
+2. Ejecute el siguiente comando para iniciar la copia manualmente de inmediato:
+   schtasks /run /tn "Copia_WWW_a_LIC"
+3. Abra el archivo de registro en "C:\log_copia_www.txt" para verificar que los archivos se copiaron correctamente sin errores.

@@ -1,0 +1,6 @@
+16-09-2025 13:20:18 - FATAL - 8.9.4 - 17,5 MB/2 GB - [cron] > Delivery engine lock already set: can be due to concurrente executions or fatal error during delivery
+19-09-2025 07:32:25 - FATAL - 8.9.4 - 17,5 MB/2 GB - [cron] > Delivery engine lock already set: can be due to concurrente executions or fatal error during delivery
+19-09-2025 21:16:24 - FATAL - 8.9.4 - 17,4 MB/2 GB - [cron] > Delivery engine lock already set: can be due to concurrente executions or fatal error during delivery
+20-09-2025 21:51:19 - FATAL - 8.9.4 - 17,6 MB/2 GB - [cron] > Delivery engine lock already set: can be due to concurrente executions or fatal error during delivery
+21-09-2025 07:39:25 - FATAL - 8.9.4 - 17,6 MB/2 GB - [cron] > Delivery engine lock already set: can be due to concurrente executions or fatal error during delivery
+21-09-2025 10:12:03 - FATAL - 8.9.4 - 17,6 MB/2 GB - [cron] > Delivery engine lock already set: can be due to concurrente executions or fatal error during delivery

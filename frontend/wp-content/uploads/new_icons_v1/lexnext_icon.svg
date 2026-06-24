@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="mainBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.1" />
+    </linearGradient>
+    <filter id="svgBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="200" cy="320" rx="120" ry="25" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Isometric Base Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 200,310 L 310,255 L 200,200 L 90,255 Z" fill="url(#pastelBlue)" stroke="#85a7e6" stroke-width="1.5"/>
+    <path d="M 200,310 L 310,255 L 310,263 L 200,318 Z" fill="#b3cced"/>
+    <path d="M 90,255 L 200,310 L 200,318 L 90,263 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- Law Justice Pillars (Isometric projection) -->
+  <g transform="translate(0, -10)" filter="url(#shadow)">
+    <!-- Pillar Base -->
+    <path d="M 160,260 L 240,220 L 200,200 L 120,240 Z" fill="url(#mainBlue)"/>
+    <path d="M 160,260 L 240,220 L 240,225 L 160,265 Z" fill="#141d6f"/>
+    <path d="M 120,240 L 160,260 L 160,265 L 120,245 Z" fill="#1c2899"/>
+
+    <!-- Left Judicial Column -->
+    <g transform="translate(-25, -40)">
+      <path d="M 170,220 L 190,210 L 190,212 L 170,222 Z" fill="#4471b1"/>
+      <rect x="170" y="180" width="20" height="40" fill="url(#pastelBlue)" stroke="#2130b7" stroke-width="1.5"/>
+    </g>
+    <!-- Center Judicial Column -->
+    <g transform="translate(0, -50)">
+      <rect x="190" y="180" width="20" height="50" fill="url(#pastelBlue)" stroke="#2130b7" stroke-width="1.5"/>
+    </g>
+    <!-- Right Judicial Column -->
+    <g transform="translate(25, -40)">
+      <rect x="210" y="180" width="20" height="40" fill="url(#pastelBlue)" stroke="#2130b7" stroke-width="1.5"/>
+    </g>
+
+    <!-- Pillar Top (Pediment) -->
+    <path d="M 140,175 L 260,115 L 200,85 Z" fill="url(#mainBlue)"/>
+    <path d="M 140,175 L 260,115 L 260,123 L 140,183 Z" fill="#141d6f"/>
+    <path d="M 140,175 L 200,85 L 200,93 L 140,183 Z" fill="#1c2899" opacity="0.3"/>
+  </g>
+
+  <!-- Floating Scale of Justice Symbol (Isometric, Minimalist Blue/White) -->
+  <g transform="translate(70, -60)" filter="url(#shadow)">
+    <!-- Translucent glass plate -->
+    <path d="M 200,210 L 260,180 L 200,150 L 140,180 Z" fill="url(#glassGrad)" stroke="rgba(33,48,183,0.3)" stroke-width="1.5"/>
+    <!-- Scale Center pillar -->
+    <line x1="200" y1="165" x2="200" y2="195" stroke="#2130b7" stroke-width="3" stroke-linecap="round"/>
+    <!-- Crossbeam -->
+    <line x1="180" y1="172" x2="220" y2="172" stroke="#2130b7" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Left pan -->
+    <line x1="180" y1="172" x2="180" y2="185" stroke="#4471b1" stroke-width="1.2"/>
+    <path d="M 175,185 L 185,185 L 180,189 Z" fill="#2130b7"/>
+    <!-- Right pan -->
+    <line x1="220" y1="172" x2="220" y2="185" stroke="#4471b1" stroke-width="1.2"/>
+    <path d="M 215,185 L 225,185 L 220,189 Z" fill="#2130b7"/>
+  </g>
+</svg>

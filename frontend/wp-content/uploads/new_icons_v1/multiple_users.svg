@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="svgBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3.5" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="80" cy="130" rx="55" ry="12" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Base Isometric Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 80,126 L 130,103 L 80,80 L 30,103 Z" fill="url(#pastelGrad)" stroke="#85a7e6" stroke-width="1"/>
+    <path d="M 80,126 L 130,103 L 130,107 L 80,130 Z" fill="#b3cced"/>
+    <path d="M 30,103 L 80,126 L 80,130 L 30,107 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- Connections / Hub (drawn behind/between cards) -->
+  <g stroke="#2130b7" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7">
+    <!-- Hub center at (75, 78) -->
+    <line x1="75" y1="78" x2="52" y2="53"/>
+    <line x1="75" y1="78" x2="82" y2="60"/>
+    <line x1="75" y1="78" x2="62" y2="70"/>
+    <circle cx="75" cy="78" r="3.5" fill="#2130b7"/>
+  </g>
+
+  <!-- Stacked User cards floating in 3D -->
+  <!-- User Card 1 (Back Left) -->
+  <g transform="translate(-18, -25)" filter="url(#shadow)">
+    <path d="M 60,85 L 100,67 L 75,55 L 35,73 Z" fill="url(#glassGrad)" stroke="rgba(255,255,255,0.7)" stroke-width="1"/>
+    <!-- Avatar head -->
+    <circle cx="67" cy="68" r="4" fill="#4471b1"/>
+    <!-- Avatar body -->
+    <path d="M 59,79 C 59,74 75,74 75,79 Z" fill="#4471b1"/>
+  </g>
+
+  <!-- User Card 2 (Front Right) -->
+  <g transform="translate(12, -15)" filter="url(#shadow)">
+    <path d="M 60,85 L 100,67 L 75,55 L 35,73 Z" fill="#ffffff" stroke="#2130b7" stroke-width="1.2"/>
+    <!-- Avatar head -->
+    <circle cx="67" cy="68" r="4" fill="#2130b7"/>
+    <!-- Avatar body -->
+    <path d="M 59,79 C 59,74 75,74 75,79 Z" fill="#2130b7"/>
+  </g>
+
+  <!-- User Card 3 (Center Bottom) -->
+  <g transform="translate(-5, 0)" filter="url(#shadow)">
+    <path d="M 60,85 L 100,67 L 75,55 L 35,73 Z" fill="#ffffff" stroke="#2130b7" stroke-width="1.5"/>
+    <!-- Avatar head -->
+    <circle cx="67" cy="68" r="4.5" fill="#2130b7"/>
+    <!-- Avatar body -->
+    <path d="M 59,79 C 59,74 75,74 75,79 Z" fill="#2130b7"/>
+  </g>
+</svg>

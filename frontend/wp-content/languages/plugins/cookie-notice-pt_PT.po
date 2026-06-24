@@ -1,0 +1,193 @@
+# Translation of Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Development (trunk) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-13 13:55:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Development (trunk)\n"
+
+#: includes/settings.php:1156
+msgid "Select the privacy policy link position."
+msgstr "Seleccione a posição da ligação para a política de privacidade."
+
+#: includes/settings.php:145
+msgid "Banner"
+msgstr "Banner"
+
+#: includes/settings.php:654
+msgid "Reloading"
+msgstr "A recarregar"
+
+#: includes/settings.php:653
+msgid "Script blocking"
+msgstr "Bloqueio de scripts"
+
+#: includes/settings.php:122 includes/welcome.php:497
+msgid "Top"
+msgstr "Topo"
+
+#: includes/settings.php:123 includes/welcome.php:496
+msgid "Bottom"
+msgstr "Fundo"
+
+#: includes/settings.php:150
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: includes/settings.php:152
+msgid "Bar color"
+msgstr "Cor da barra"
+
+#: includes/settings.php:159
+msgid "1 day"
+msgstr "1 dia"
+
+#: includes/settings.php:160
+msgid "1 week"
+msgstr "1 semana"
+
+#: includes/consent-logs.php:130 includes/settings.php:161
+msgid "1 month"
+msgstr "1 mês"
+
+#: includes/consent-logs.php:132 includes/settings.php:162
+msgid "3 months"
+msgstr "3 meses"
+
+#: includes/consent-logs.php:134 includes/settings.php:163
+msgid "6 months"
+msgstr "6 meses"
+
+#: includes/consent-logs.php:136 includes/settings.php:164
+msgid "1 year"
+msgstr "1 ano"
+
+#: includes/settings.php:165
+msgid "infinity"
+msgstr "infinito"
+
+#: includes/settings.php:171
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: includes/settings.php:172
+msgid "Slide"
+msgstr "Deslizar"
+
+#: includes/settings.php:146 includes/settings.php:648
+msgid "Message"
+msgstr "Mensagem"
+
+#: includes/settings.php:665
+msgid "Position"
+msgstr "Posição"
+
+#: includes/settings.php:667
+msgid "Colors"
+msgstr "Cores"
+
+#: cookie-notice.php:1130 includes/settings.php:268 includes/settings.php:311
+msgid "Settings"
+msgstr "Definições"
+
+#: includes/settings.php:220
+msgid "Ok"
+msgstr "Ok"
+
+#: includes/settings.php:649
+msgid "Button text"
+msgstr "Texto do botão"
+
+#: includes/settings.php:139
+msgid "Custom link"
+msgstr "Ligação personalizada"
+
+#: includes/settings.php:176
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: includes/settings.php:177
+msgid "Footer"
+msgstr "Rodapé"
+
+#: includes/settings.php:221
+msgid "No"
+msgstr "Não"
+
+#: includes/settings.php:456
+msgid "Reset to defaults"
+msgstr "Repor valores por omissão"
+
+#: includes/settings.php:655
+msgid "On scroll"
+msgstr "Ao deslocar"
+
+#: includes/settings.php:660
+msgid "Script placement"
+msgstr "Posicionamento do script"
+
+#: includes/settings.php:637 includes/settings.php:661
+msgid "Deactivation"
+msgstr "Desactivação"
+
+#: includes/settings.php:666
+msgid "Animation"
+msgstr "Animação"
+
+#: includes/settings.php:1219
+msgid "Select where all the plugin scripts should be placed."
+msgstr "Seleccione onde todos os scripts de plugins deverão ser posicionados."
+
+#: includes/settings.php:1818
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Tem a certeza que quer repor estas definições para valores por omissão?"
+
+#: includes/settings.php:127 includes/settings.php:170
+msgid "None"
+msgstr "Nenhuma"
+
+#: includes/settings.php:138
+msgid "Page link"
+msgstr "Ligação de página"
+
+#: includes/settings.php:1300
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr "Seleccionar caso pretenda eliminar todos os dados do plugin ao desactivar."
+
+#: includes/settings.php:1112
+msgid "-- select page --"
+msgstr "-- seleccionar página --"
+
+#: includes/settings.php:219
+msgid "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+msgstr "Este site utiliza cookies para permitir uma melhor experiência por parte do utilizador. Ao navegar no site estará a consentir a sua utilização."
+
+#: includes/settings.php:958
+msgid "Enter the cookie notice message."
+msgstr "Insira a mensagem de informação do cookie"
+
+#: includes/dashboard.php:515 includes/settings.php:267
+#: includes/welcome.php:420
+msgid "Cookie Notice"
+msgstr "Cookie Notice"
+
+#: includes/settings.php:1722
+msgid "Settings restored to defaults."
+msgstr "Definições repostas."
+
+#: includes/settings.php:1123
+msgid "Select from one of your site's pages."
+msgstr "Seleccione uma das suas páginas do seu site."
+
+#: includes/settings.php:1136
+msgid "Enter the full URL starting with http(s)://"
+msgstr "Insira o URL completo a começar com http(s)://"
+
+#: includes/settings.php:986
+msgid "Enable to give to the user the possibility to refuse third party non functional cookies."
+msgstr "Active para dar ao utilizador a opção de rejeitar cookies não funcionais de terceiros."

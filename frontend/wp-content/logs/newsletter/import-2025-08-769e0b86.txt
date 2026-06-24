@@ -1,0 +1,52 @@
+04-08-2025 08:38:25 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line DESPACHO JURIDICO VIZOR S.L.P.;"cristinaoher@icam.es;cristinaoher@gmail.com"
+04-08-2025 08:38:25 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line MARIA GRACIA COLOMA MARTINEZ;"gcoloma@lexandcom.es; rcolomas@lexandcom.es"
+04-08-2025 08:38:25 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line FRANCISCO JAVIER RAMOS MERIDA;"fjramos@icam.es; alfonsoruizescribano@gmail.com"
+04-08-2025 08:38:25 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line CARMEN MARIA MUÑOZ JIMENEZ;"CMUNOZJ@icam.es; jcrodriguez@pragmatisasesores.com"
+04-08-2025 08:38:25 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line MANUELA MOYA LARA;"manuelamoyalara@yahoo.es; abog59223@icam.es"
+04-08-2025 08:38:26 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line AVR ABOGADOS ASESORIA INTEGRAL S.L.;"avrabogados@avrabogados.com;rebeca.martinez@avrabo"
+04-08-2025 08:38:26 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line ANTONIO PEREJON MAS;"apermas@hotmail.com;marcamarasesores@hotmail.es"
+04-08-2025 08:38:26 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line HIPOGESBAN, S.A.;"josefraile@icam.es;hipogesban@gmail.com"
+04-08-2025 08:38:28 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line CONCEPCIÓN CRISTOBALENA JORQUERA;administración@cristobalena.com
+04-08-2025 08:38:28 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line EGIDO ABOGADOS, SCP;"egido@egidoabogados.com; sonia@egidoabogados.com"
+04-08-2025 08:38:28 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line GIE JURIDICO MERCANTIL Y LABORAL, S.L;"jcrodriguez@gie.es; agarzon@gie.es"
+04-08-2025 08:38:28 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line GABINETE JURIDICO HERTA & ASOCIADOS;gjha@icam,es
+04-08-2025 08:38:28 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line MIGUEL ANGEL NIETO NUÑEZ;"concha.sierra@telefonica.net; manieto@icam.es"
+04-08-2025 08:38:29 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line BERLANGA GESTION;"sabino@icam.es; salonso@berlangagestion.com"
+04-08-2025 08:38:29 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line MANUEL SERRADILLA SANCHEZ;"elenablasco@telefonica.net;manuel@esser.yazztel.es"
+04-08-2025 08:38:29 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line LUIS MIGUEL VAZQUEZ;"luismiguel@icam.es; miriamsv@hotmail.com"
+04-08-2025 08:38:30 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line BELEN DEL POZO CASTRO;belen@venyloverás.com
+04-08-2025 08:38:30 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line SOFIA MARTINEZ VIELVA;"smvielva@gmail.com; smvielva@icam.es"
+04-08-2025 08:38:31 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line JOSE ENRIQUE CARBAJO FERNANDEZ;"jcarbajo@icam.es; zunigayasociados@icam.es"
+04-08-2025 08:38:32 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line EUGENIO FERNANDEZ ORTEGA;efernandezo@icam
+04-08-2025 08:38:32 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line MARIA CAGIGAL DIAZ DE BUSTAMANTE;mcagigal@cagigalasesores.es--Este no
+04-08-2025 08:38:33 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line CRISTINA PEREZ ROJAS;"cp.rojas@bermudezyrojas.es; cp.rojas@telefonica.ne"
+04-08-2025 08:38:33 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line MULTIGESTION ASES S.L.;"jdfg@grupomultigestion.com; laboral2@grupomultiges"
+04-08-2025 08:38:34 - FATAL - 8.9.2 - 18,8 MB/2 GB - admon > Invalid email on line ARCADIO BARRIO PACHO;"arcadiobarrio@icam.es; sj.jimenez@icam.es"
+04-08-2025 08:38:36 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line GESTION JURIDICA DE NEGOCIOS;"jlopez@icam.es;gestionjuridicadenegocios@gmail.com"
+04-08-2025 08:38:37 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line OSCAR MUÑOZ PEREZ;"oscarmunoz@icam.es; oscar@advocati.es"
+04-08-2025 08:38:37 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line CARLOS BLANCO FERNANDEZ;"cblanco@mdm1.es.; faztarain@mdm1.es"
+04-08-2025 08:38:38 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line ANGEL LUIS TORREGO MUÑOZ;"santalla@icam.es;santatorre11@gmail.com"
+04-08-2025 08:38:38 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line EMILIO GUDE;egude@cecamagan
+04-08-2025 08:38:40 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line GTR ABOGADOS SLU;"rgaitero@gmail.com;rgaitero@icam.es"
+04-08-2025 08:38:40 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line MEYLIN MARTI VAZQUEZ;"martiabog@icam.es;@msn.com"
+04-08-2025 08:38:41 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line MARIANO GONZALEZ RODRIGUEZ;"918961032@telefonica.net; roman_slan@hotmail.com"
+04-08-2025 08:38:41 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line RAFAEL GAITERO HITA;"rgaitero@gmail.com;rgaitero@icam.es"
+04-08-2025 08:38:42 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line CRITERIO ABOGADOS;"m.ledesma@criterioabgados.com;"
+04-08-2025 08:38:42 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line ALMUDENA ESTER MARTINEZ GARCIA;a,martinezgarcia@icam.es
+04-08-2025 08:38:43 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line GRUPO ESCEVOLA S.L.;"susana.barquilla.reina@icam.es;mdescrig@icam.es"
+04-08-2025 08:38:43 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line CUBERO CONSULTORES S.L.;macarena 79@telefonica.net
+04-08-2025 08:38:44 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line ELENA LOPEZ DE ORO;"elenadeoro@icam.es; bonillaydeoro@gmail.com"
+04-08-2025 08:38:45 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line GESEMPA-PYMES, S.L.;"gesempa.pyme@gmail.com; asanchez@"
+04-08-2025 08:38:45 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line BLANCA COSO JUAREZ;"blancacoso@icam.es; blancacoso@gmail.com"
+04-08-2025 08:38:45 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line JOSE LUIS PEREZ MARTIN;"jlpm@icam.es; emilio.npyasociados@gmail.com"
+04-08-2025 08:38:49 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line ANA MARIA HOLGADO MONTERO;"holgadomontero@yahoo.es; holgado@icam.es"
+04-08-2025 08:38:54 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line SOLEDAD IGLEISAS GUISADO;"iglesiasguisado@gmail.com; oicr@icam.es"
+04-08-2025 08:38:54 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line JOSE CESAR CARO SIERRA;"a77511@hotmail.com; mariamparra@hotmail.com"
+04-08-2025 08:38:54 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line JUAN CARLOS LOIS PEREZ;jcloisp@gmail,com
+04-08-2025 08:38:55 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line Vanesa Orgaz Flores;"agenciarrhh@vanesaorgaz.com; vanesa_orgaz@yahoo.es"
+04-08-2025 08:38:55 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line ALFONSO DE RATO VELARDE;"abogados@rato.com; alfonsorato@rato.com"
+04-08-2025 08:38:56 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line GESTCAR CONSULTING, S.L.;"jcarlos-zabala@icam.es; jcarlos@gestcarconsulting"
+04-08-2025 08:38:56 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line G. ONLINE GALA S.L.;"fjgala@icam.es;sara@gestoriagala.com"
+04-08-2025 08:38:57 - FATAL - 8.9.2 - 19,1 MB/2 GB - admon > Invalid email on line RATO ABOGADOS S.L.P.;"abogados@rato.com; alfonsorato@rato.com"
+04-08-2025 08:38:59 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line NATALIA MUÑOZ MARTINEZ;muñozabogados@yahoo.es
+04-08-2025 08:38:59 - FATAL - 8.9.2 - 18,9 MB/2 GB - admon > Invalid email on line DOMINGO BEJARANO CALABUIG;SIN MANTENIMIENTO

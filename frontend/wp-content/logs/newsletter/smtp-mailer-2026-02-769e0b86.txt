@@ -1,0 +1,20 @@
+03-02-2026 10:18:17 - FATAL - 9.1.2 - 19,9 MB/2 GB - [cron] > SMTP Error: The following recipients failed: elena@hernandezmamblona.com: <elena@hernandezmamblona.com>: Recipient address rejected: Domain not found
+
+03-02-2026 10:49:58 - FATAL - 9.1.2 - 19,9 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jmartos@bufetejesusmartos.es: <jmartos@bufetejesusmartos.es>: Recipient address rejected: Domain not found
+
+03-02-2026 13:02:26 - FATAL - 9.1.2 - 19,9 MB/2 GB - [cron] > SMTP Error: The following recipients failed: demetrio@aglomeradoscarrion.es: <demetrio@aglomeradoscarrion.es>: Recipient address rejected: Domain not found
+
+03-02-2026 14:03:25 - FATAL - 9.1.2 - 20,0 MB/2 GB - [cron] > SMTP Error: The following recipients failed: elena@hernandezmamblona.com: <elena@hernandezmamblona.com>: Recipient address rejected: Domain not found
+
+03-02-2026 15:09:33 - FATAL - 9.1.2 - 20,0 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jmartos@bufetejesusmartos.es: <jmartos@bufetejesusmartos.es>: Recipient address rejected: Domain not found
+
+03-02-2026 17:32:25 - FATAL - 9.1.2 - 19,9 MB/2 GB - [cron] > SMTP Error: The following recipients failed: demetrio@aglomeradoscarrion.es: <demetrio@aglomeradoscarrion.es>: Recipient address rejected: Domain not found
+
+03-02-2026 18:37:58 - FATAL - 9.1.2 - 19,9 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@pangeagestion.com: <info@pangeagestion.com>: Recipient address rejected: Domain not found
+
+03-02-2026 18:43:38 - FATAL - 9.1.2 - 19,9 MB/2 GB - [cron] > SMTP Error: The following recipients failed: irene@echestudio.com: <irene@echestudio.com>: Recipient address rejected: Domain not found
+
+03-02-2026 18:49:10 - FATAL - 9.1.2 - 19,9 MB/2 GB - [cron] > SMTP Error: The following recipients failed: javigal@arrakis.es: <javigal@arrakis.es>: Recipient address rejected: Domain not found
+
+03-02-2026 21:37:28 - FATAL - 9.1.2 - 14,8 MB/2 GB - [cron] > SMTP Error: The following recipients failed: carlos.subero@colep-pq.com: <carlos.subero@colep-pq.com>: Recipient address rejected: Domain not found
+

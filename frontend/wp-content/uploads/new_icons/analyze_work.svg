@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#4c12a4" />
+    </linearGradient>
+    <linearGradient id="pastelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e4ff" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#0072ff" />
+    </linearGradient>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#ff5e62" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#e2e4ff" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="svgBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#192a7a" flood-opacity="0.2"/>
+    </filter>
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <ellipse cx="80" cy="128" rx="42" ry="10" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+  <g filter="url(#shadow)">
+    <path d="M 80,124 L 122,104 L 80,84 L 38,104 Z" fill="url(#pastelGrad)" stroke="#85a7e6" stroke-width="1.2"/>
+    <path d="M 80,124 L 122,104 L 122,108 L 80,128 Z" fill="#b9beed"/>
+    <path d="M 38,104 L 80,124 L 80,128 L 38,108 Z" fill="#cfd3f5"/>
+  </g>
+  <g transform="translate(0, -8)" filter="url(#shadow)">
+    <path d="M 58,90 L 102,70 L 102,40 L 58,60 Z" fill="#ffffff" stroke="#4471b1" stroke-width="1.2"/>
+    <path d="M 76,53 L 90,46.5 L 90,50.5 L 76,57 Z" fill="url(#blueGrad)"/>
+    <path d="M 66,70 L 84,62" stroke="#e2e4ff" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 66,77 L 80,70.5" stroke="#e2e4ff" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(-15, -5)" filter="url(#shadow)">
+    <g transform="translate(62, 88)">
+      <path d="M 0,0 L 10,-5 L 5,-7.5 L -5,-2.5 Z" fill="#eaf1fb" stroke="#4471b1" stroke-width="0.8"/>
+      <path d="M -5,-2.5 L 0,0 L 0,-15 L -5,-17.5 Z" fill="#b3cced"/>
+      <path d="M 0,0 L 10,-5 L 10,-20 L 0,-15 Z" fill="#cfdff5"/>
+    </g>
+    <g transform="translate(74, 81)">
+      <path d="M 0,0 L 10,-5 L 5,-7.5 L -5,-2.5 Z" fill="#eaf1fb" stroke="#4471b1" stroke-width="0.8"/>
+      <path d="M -5,-2.5 L 0,0 L 0,-25 L -5,-27.5 Z" fill="#b3cced"/>
+      <path d="M 0,0 L 10,-5 L 10,-30 L 0,-25 Z" fill="#cfdff5"/>
+    </g>
+    <g transform="translate(86, 74)">
+      <path d="M 0,0 L 10,-5 L 5,-7.5 L -5,-2.5 Z" fill="url(#pastelGrad)" stroke="#00e5ff" stroke-width="1.2"/>
+      <path d="M -5,-2.5 L 0,0 L 0,-35 L -5,-37.5 Z" fill="url(#cyanGrad)"/>
+      <path d="M 0,0 L 10,-5 L 10,-40 L 0,-35 Z" fill="#0072ff"/>
+    </g>
+  </g>
+  <g transform="translate(96, 72)" filter="url(#shadow)">
+    <ellipse cx="0" cy="5" rx="10" ry="6.2" fill="#141d6f"/>
+    <ellipse cx="0" cy="0" rx="10" ry="6.2" fill="url(#glassGrad)" stroke="#00f0ff" stroke-width="1.5" filter="url(#neonGlow)"/>
+    <ellipse cx="0" cy="0" rx="3.5" ry="2.2" fill="#ffffff" stroke="#2130b7" stroke-width="1"/>
+    <line x1="0" y1="0" x2="7" y2="-4.5" stroke="#2130b7" stroke-width="1"/>
+  </g>
+  <g transform="translate(-15, -5)" filter="url(#shadow)">
+    <path d="M 65,68.5 L 77,51.5 L 89,34.5" fill="none" stroke="url(#pinkGrad)" stroke-width="3" stroke-linecap="round" filter="url(#neonGlow)"/>
+    <circle cx="65" cy="68.5" r="2.5" fill="#ffffff" stroke="#ff007f" stroke-width="1.5"/>
+    <circle cx="77" cy="51.5" r="2.5" fill="#ffffff" stroke="#ff007f" stroke-width="1.5"/>
+    <circle cx="89" cy="34.5" r="3.8" fill="#ffffff" stroke="#ff007f" stroke-width="2" filter="url(#neonGlow)"/>
+  </g>
+</svg>

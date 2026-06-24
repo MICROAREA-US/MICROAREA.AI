@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Soporte - Microarea Live Chat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #00a99d;
+            --primary-dark: #007d74;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        /* --- Header --- */
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 12px rgba(0, 169, 157, 0.2);
+            z-index: 10;
+        }
+
+        header h1 {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .tech-info {
+            font-size: 13px;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 6px 12px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .tech-info::before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            background: #2ecc71;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        /* --- Main Layout --- */
+        .main-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* --- Sidebar (Sessions List) --- */
+        .sidebar {
+            width: 320px;
+            border-right: 1px solid var(--border-color);
+            background: white;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .sidebar-header {
+            padding: 16px;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-muted);
+            background: #fdfdfd;
+        }
+
+        .sessions-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .session-item {
+            padding: 16px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .session-item:hover {
+            background-color: rgba(0, 169, 157, 0.03);
+        }
+
+        .session-item.active-session {
+            background-color: rgba(0, 169, 157, 0.08);
+            border-left: 4px solid var(--primary);
+        }
+
+        .session-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .session-user-name {
+            font-weight: 600;
+            font-size: 14.5px;
+        }
+
+        .session-badge {
+            font-size: 11px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .session-badge.pending {
+            background: rgba(230, 126, 34, 0.15);
+            color: #d35400;
+        }
+
+        .session-badge.active {
+            background: rgba(46, 204, 113, 0.15);
+            color: #27ae60;
+        }
+
+        .session-software {
+            font-size: 12px;
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        .session-last-msg {
+            font-size: 13px;
+            color: var(--text-muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .no-sessions {
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13.5px;
+        }
+
+        /* --- Chat Area --- */
+        .chat-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: #fafafa;
+        }
+
+        .chat-header {
+            background: white;
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-user-details h2 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .chat-user-details p {
+            font-size: 12.5px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .chat-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .btn-danger {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #c0392b;
+        }
+
+        .messages-container {
+            flex: 1;
+            padding: 24px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .message {
+            max-width: 70%;
+            padding: 10px 14px;
+            border-radius: 12px;
+            font-size: 14px;
+            line-height: 1.45;
+            word-wrap: break-word;
+        }
+
+        .message.user {
+            background-color: white;
+            color: var(--text-main);
+            align-self: flex-start;
+            border-bottom-left-radius: 2px;
+            border: 1px solid var(--border-color);
+        }
+
+        .message.tech {
+            background-color: var(--primary);
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 2px;
+        }
+
+        .message.system {
+            background-color: rgba(0, 169, 157, 0.06);
+            color: var(--primary-dark);
+            align-self: center;
+            font-size: 12.5px;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .input-container {
+            background: white;
+            padding: 16px 24px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .chat-input {
+            flex: 1;
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 12px 20px;
+            font-size: 14px;
+            outline: none;
+            background: var(--bg-light);
+            transition: all 0.2s;
+        }
+
+        .chat-input:focus {
+            border-color: var(--primary);
+            background: white;
+            box-shadow: 0 0 0 2px rgba(0, 169, 157, 0.15);
+        }
+
+        .placeholder-chat {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            gap: 12px;
+        }
+
+        .placeholder-icon {
+            font-size: 48px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Panel de Soporte Técnico - Microarea Live Chat</h1>
+        <div class="tech-info">
+            <input type="text" id="tech-agent-name-input" placeholder="Tu Nombre" style="background: transparent; border: none; color: white; font-family: inherit; font-size: 13px; width: 120px; outline: none; font-weight: 500; cursor: text;">
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- Sidebar para sesiones de chat -->
+        <div class="sidebar">
+            <div class="sidebar-header">Conversaciones Activas</div>
+            <div class="sessions-list" id="sessions-container">
+                <div class="no-sessions">Cargando chats...</div>
+            </div>
+        </div>
+
+        <!-- Área de conversación principal -->
+        <div class="chat-area" id="chat-area-container">
+            <div class="placeholder-chat">
+                <div class="placeholder-icon">💬</div>
+                <p>Selecciona una conversación de la lista para comenzar a chatear.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSessionId = null;
+        let sessionsList = [];
+        let messagesList = [];
+        let sessionsInterval = null;
+        let messagesInterval = null;
+
+        // Nombre de agente persistido
+        let agentName = localStorage.getItem('tech_agent_name') || 'Técnico_' + Math.floor(Math.random() * 1000);
+        
+        // Configurar input del nombre de agente
+        window.addEventListener('DOMContentLoaded', () => {
+            const agentInput = document.getElementById('tech-agent-name-input');
+            if (agentInput) {
+                agentInput.value = agentName;
+                agentInput.addEventListener('change', (e) => {
+                    agentName = e.target.value.trim() || 'Técnico';
+                    localStorage.setItem('tech_agent_name', agentName);
+                });
+            }
+        });
+
+        // Cargar las sesiones activas en el servidor
+        async function fetchSessions() {
+            try {
+                const response = await fetch(`/api/chat/sessions?agentName=${encodeURIComponent(agentName)}`);
+                if (!response.ok) return;
+
+                const data = await response.json();
+                sessionsList = data.sessions;
+                renderSessionsList();
+            } catch (err) {
+                console.error('Error fetching sessions:', err);
+            }
+        }
+
+        // Renderizar la lista de sesiones en la barra lateral
+        function renderSessionsList() {
+            const container = document.getElementById('sessions-container');
+            if (sessionsList.length === 0) {
+                container.innerHTML = '<div class="no-sessions">No hay solicitudes de chat en este momento.</div>';
+                return;
+            }
+
+            container.innerHTML = '';
+            sessionsList.forEach(session => {
+                const item = document.createElement('div');
+                item.className = 'session-item';
+                if (session.sessionId === currentSessionId) {
+                    item.className += ' active-session';
+                }
+                item.onclick = () => selectSession(session.sessionId);
+
+                const badgeClass = session.status === 'pending' ? 'pending' : 'active';
+                const badgeText = session.status === 'pending' ? 'esperando' : (session.agentName ? 'atendido (' + session.agentName + ')' : 'activo');
+
+                item.innerHTML = `
+                    <div class="session-item-header">
+                        <span class="session-user-name">${session.name}</span>
+                        <span class="session-badge ${badgeClass}">${badgeText}</span>
+                    </div>
+                    <div class="session-software">${session.software}</div>
+                    <div class="session-last-msg">${session.lastMessage ? session.lastMessage.text : 'Solicitud de chat'}</div>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        // Seleccionar una sesión de la lista
+        function selectSession(sessionId) {
+            currentSessionId = sessionId;
+            renderSessionsList(); // Refresh active state in sidebar
+
+            const session = sessionsList.find(s => s.sessionId === sessionId);
+            if (!session) return;
+
+            // Render chat container template
+            const container = document.getElementById('chat-area-container');
+            container.innerHTML = `
+                <div class="chat-header">
+                    <div class="chat-user-details">
+                        <h2>${session.name}</h2>
+                        <p>Email: ${session.email} | Tel: ${session.phone || 'No indicado'} | Módulo: ${session.software}</p>
+                    </div>
+                    <div class="chat-actions">
+                        ${session.status === 'pending' ? `<button class="btn btn-primary" onclick="joinChat('${session.sessionId}')">Unirse al Chat</button>` : ''}
+                        <button class="btn btn-danger" onclick="closeChat('${session.sessionId}')">Terminar Chat</button>
+                    </div>
+                </div>
+                
+                <div class="messages-container" id="messages-container">
+                    <div class="no-sessions">Cargando mensajes...</div>
+                </div>
+
+                <div class="input-container">
+                    <input type="text" class="chat-input" id="live-chat-input" placeholder="Escribe un mensaje al cliente..." autocomplete="off">
+                    <button class="btn btn-primary" onclick="sendMsg()" style="border-radius: 20px; padding: 10px 24px;">Enviar</button>
+                </div>
+            `;
+
+            // Setup message input enter key listener
+            document.getElementById('live-chat-input').addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    sendMsg();
+                }
+            });
+
+            // Setup typing status sender
+            let lastTypingSent = 0;
+            document.getElementById('live-chat-input').addEventListener('input', () => {
+                const now = Date.now();
+                if (now - lastTypingSent > 2000) {
+                    lastTypingSent = now;
+                    sendTypingStatus(true);
+                }
+            });
+
+            // Start polling for messages
+            if (messagesInterval) clearInterval(messagesInterval);
+            fetchMessages();
+            messagesInterval = setInterval(fetchMessages, 2000);
+        }
+
+        // Recuperar los mensajes de la sesión activa
+        async function fetchMessages() {
+            if (!currentSessionId) return;
+
+            try {
+                const response = await fetch(`/api/chat/messages?sessionId=${currentSessionId}`);
+                if (!response.ok) return;
+
+                const data = await response.json();
+                
+                // If closed, stop messaging interval
+                if (data.status === 'closed') {
+                    alert('El chat ha sido finalizado.');
+                    clearInterval(messagesInterval);
+                    currentSessionId = null;
+                    document.getElementById('chat-area-container').innerHTML = `
+                        <div class="placeholder-chat">
+                            <div class="placeholder-icon">💬</div>
+                            <p>El chat anterior ha sido cerrado. Selecciona otra conversación.</p>
+                        </div>
+                    `;
+                    fetchSessions();
+                    return;
+                }
+
+                renderMessagesList(data.messages);
+            } catch (err) {
+                console.error('Error fetching messages:', err);
+            }
+        }
+
+        // Renderizar los mensajes en el contenedor
+        function renderMessagesList(messages) {
+            const container = document.getElementById('messages-container');
+            container.innerHTML = '';
+
+            messages.forEach(msg => {
+                const msgDiv = document.createElement('div');
+                msgDiv.className = 'message ' + msg.sender;
+                
+                if (msg.sender === 'tech') {
+                    if (msg.agentName) {
+                        const nameSpan = document.createElement('span');
+                        nameSpan.style.display = 'block';
+                        nameSpan.style.fontSize = '10px';
+                        nameSpan.style.fontWeight = 'bold';
+                        nameSpan.style.color = 'rgba(255, 255, 255, 0.8)';
+                        nameSpan.style.marginBottom = '2px';
+                        nameSpan.style.textAlign = 'right';
+                        nameSpan.textContent = msg.agentName;
+                        msgDiv.appendChild(nameSpan);
+                    }
+                }
+                
+                const textSpan = document.createElement('span');
+                textSpan.textContent = msg.text;
+                msgDiv.appendChild(textSpan);
+                
+                container.appendChild(msgDiv);
+            });
+
+            container.scrollTop = container.scrollHeight;
+        }
+
+        // Técnico se une al chat
+        async function joinChat(sessionId) {
+            try {
+                const response = await fetch('/api/chat/join', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ sessionId, agentName })
+                });
+
+                if (response.ok) {
+                    fetchSessions();
+                    selectSession(sessionId);
+                }
+            } catch (err) {
+                console.error('Error joining chat:', err);
+            }
+        }
+
+        // Finalizar chat
+        async function closeChat(sessionId) {
+            if (!confirm('¿Estás seguro de que deseas cerrar esta sesión de soporte?')) return;
+
+            try {
+                const response = await fetch('/api/chat/close', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ sessionId })
+                });
+
+                if (response.ok) {
+                    if (messagesInterval) clearInterval(messagesInterval);
+                    currentSessionId = null;
+                    document.getElementById('chat-area-container').innerHTML = `
+                        <div class="placeholder-chat">
+                            <div class="placeholder-icon">💬</div>
+                            <p>Conversación finalizada. Selecciona otro chat de la barra lateral.</p>
+                        </div>
+                    `;
+                    fetchSessions();
+                }
+            } catch (err) {
+                console.error('Error closing chat:', err);
+            }
+        }
+
+        // Enviar mensaje al cliente
+        async function sendMsg() {
+            const input = document.getElementById('live-chat-input');
+            const text = input.value.trim();
+            if (!text || !currentSessionId) return;
+
+            // Deshabilitar entrada para evitar que el técnico escriba mientras se envía/corrige
+            input.disabled = true;
+            input.placeholder = "Corrigiendo y enviando...";
+
+            // Obtener idioma de la sesión para comprobar el idioma del chat
+            const session = sessionsList.find(s => s.sessionId === currentSessionId);
+            const lang = session ? (session.lang || 'es') : 'es';
+
+            let textToSend = text;
+
+            try {
+                // Realizar la llamada de corrección automática para cualquier idioma
+                const correctResponse = await fetch('/api/correct', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text, lang })
+                });
+                
+                if (correctResponse.ok) {
+                    const correctData = await correctResponse.json();
+                    textToSend = correctData.correctedText || text;
+                }
+            } catch (err) {
+                console.error('Error al corregir ortografía:', err);
+            } finally {
+                input.value = '';
+                input.disabled = false;
+                input.placeholder = "Escribe un mensaje al cliente...";
+                input.focus();
+            }
+
+            try {
+                const response = await fetch('/api/chat/send', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        sessionId: currentSessionId,
+                        sender: 'tech',
+                        text: textToSend,
+                        agentName: agentName
+                    })
+                });
+
+                if (response.ok) {
+                    fetchMessages();
+                }
+            } catch (err) {
+                console.error('Error sending message:', err);
+            }
+        }
+
+        // Enviar estado de escritura
+        async function sendTypingStatus(isTyping) {
+            if (!currentSessionId) return;
+            try {
+                await fetch('/api/chat/typing', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ sessionId: currentSessionId, isTyping })
+                });
+            } catch (err) {
+                console.error('Error sending typing status:', err);
+            }
+        }
+
+        // Inicializar polling de sesiones
+        fetchSessions();
+        sessionsInterval = setInterval(fetchSessions, 3000);
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="svgBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3.5" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="80" cy="130" rx="55" ry="12" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Base Isometric Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 80,126 L 130,103 L 80,80 L 30,103 Z" fill="url(#pastelGrad)" stroke="#85a7e6" stroke-width="1"/>
+    <path d="M 80,126 L 130,103 L 130,107 L 80,130 Z" fill="#b3cced"/>
+    <path d="M 30,103 L 80,126 L 80,130 L 30,107 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- Dashboard clipboard standing (Isometric) -->
+  <g transform="translate(0, -8)" filter="url(#shadow)">
+    <path d="M 50,90 L 110,62 L 110,32 L 50,60 Z" fill="#ffffff" stroke="#4471b1" stroke-width="1.2"/>
+    <!-- Clip at top -->
+    <path d="M 72,55 L 88,48 L 88,52 L 72,59 Z" fill="url(#blueGrad)"/>
+    <!-- Small graph lines on the sheet -->
+    <path d="M 60,70 L 80,61" stroke="#d9e6f7" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 60,78 L 75,71" stroke="#d9e6f7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- 3D Bar Columns standing on the platform -->
+  <g transform="translate(-10, -5)" filter="url(#shadow)">
+    <!-- Column 1 (Small) -->
+    <g transform="translate(58, 88)">
+      <path d="M 0,0 L 12,-6 L 6,-9 L -6,-3 Z" fill="#eaf1fb" stroke="#4471b1" stroke-width="0.8"/>
+      <path d="M -6,-3 L 0,0 L 0,-15 L -6,-18 Z" fill="#b3cced"/>
+      <path d="M 0,0 L 12,-6 L 12,-21 L 0,-15 Z" fill="#cfdff5"/>
+    </g>
+    <!-- Column 2 (Medium) -->
+    <g transform="translate(72, 81)">
+      <path d="M 0,0 L 12,-6 L 6,-9 L -6,-3 Z" fill="#eaf1fb" stroke="#4471b1" stroke-width="0.8"/>
+      <path d="M -6,-3 L 0,0 L 0,-25 L -6,-28 Z" fill="#b3cced"/>
+      <path d="M 0,0 L 12,-6 L 12,-31 L 0,-25 Z" fill="#cfdff5"/>
+    </g>
+    <!-- Column 3 (Tall) -->
+    <g transform="translate(86, 74)">
+      <path d="M 0,0 L 12,-6 L 6,-9 L -6,-3 Z" fill="url(#pastelGrad)" stroke="#2130b7" stroke-width="1"/>
+      <path d="M -6,-3 L 0,0 L 0,-35 L -6,-38 Z" fill="#2130b7"/>
+      <path d="M 0,0 L 12,-6 L 12,-41 L 0,-35 Z" fill="#141d6f"/>
+    </g>
+  </g>
+
+  <!-- Rising trend line floating above column tops -->
+  <g transform="translate(-10, -5)" filter="url(#shadow)">
+    <!-- Nodes at Column tops: 
+         Col 1 top center: (58, 88) + (3, -4.5) - (0, 15) = (61, 68.5)
+         Col 2 top center: (72, 81) + (3, -4.5) - (0, 25) = (75, 51.5)
+         Col 3 top center: (86, 74) + (3, -4.5) - (0, 35) = (89, 34.5)
+    -->
+    <path d="M 61,68.5 L 75,51.5 L 89,34.5" fill="none" stroke="#2130b7" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="61" cy="68.5" r="2.5" fill="#ffffff" stroke="#2130b7" stroke-width="1.5"/>
+    <circle cx="75" cy="51.5" r="2.5" fill="#ffffff" stroke="#2130b7" stroke-width="1.5"/>
+    <circle cx="89" cy="34.5" r="3" fill="#ffffff" stroke="#2130b7" stroke-width="2"/>
+  </g>
+</svg>

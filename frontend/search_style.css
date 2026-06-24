@@ -1,0 +1,711 @@
+/* Premium search styling and menu alignment */
+
+/* Hide default Divi search elements to make sure only ONE search trigger icon exists */
+#et_search_icon, 
+#et_top_search, 
+.et_pb_menu__search-button, 
+.et_pb_menu__search-container,
+.et_search_outer,
+#et-search-alt {
+    display: none !important;
+}
+
+/* Align our custom search button with navigation menu items */
+.menu-search-item {
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+.menu-search-item a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
+    padding: 0 10px !important;
+    color: inherit !important;
+    cursor: pointer !important;
+}
+
+.menu-search-item a svg {
+    color: currentColor !important;
+    stroke: currentColor !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    transition: transform 0.2s ease !important;
+}
+
+.menu-search-item a:hover svg {
+    transform: scale(1.1) !important;
+}
+
+/* Modal Overlay styling */
+#search-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 12, 24, 0.82) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    z-index: 99999999 !important;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vh;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Modal Container */
+#search-modal-container {
+    background: #0f172a !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 20px !important;
+    width: 92% !important;
+    max-width: 680px !important;
+    max-height: 75vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.7) !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    animation: searchGlowFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+@keyframes searchGlowFadeIn {
+    from { opacity: 0; transform: scale(0.97) translateY(-10px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* Header Input */
+.search-modal-header {
+    display: flex !important;
+    align-items: center !important;
+    padding: 18px 24px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+    box-sizing: border-box !important;
+}
+
+.search-modal-header input {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    color: #ffffff !important;
+    font-size: 17px !important;
+    width: 100% !important;
+    font-family: inherit !important;
+    padding: 4px 12px !important;
+    box-sizing: border-box !important;
+}
+
+.search-modal-header input::placeholder {
+    color: #64748b !important;
+}
+
+.search-modal-close-btn {
+    background: transparent !important;
+    border: none !important;
+    color: #94a3b8 !important;
+    font-size: 28px !important;
+    cursor: pointer !important;
+    line-height: 1 !important;
+    padding: 0 4px 0 12px !important;
+    transition: color 0.2s ease !important;
+    flex-shrink: 0 !important;
+}
+
+.search-modal-close-btn:hover {
+    color: #ffffff !important;
+}
+
+/* Results Area */
+.search-modal-results {
+    overflow-y: auto !important;
+    padding: 20px 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    box-sizing: border-box !important;
+    background: #0b0f19 !important;
+}
+
+/* Single Result Box Card */
+.search-result-item {
+    background: rgba(255, 255, 255, 0.02) !important;
+    border: 1px solid rgba(255, 255, 255, 0.04) !important;
+    border-radius: 12px !important;
+    padding: 14px 18px !important;
+    text-decoration: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+    transition: all 0.2s ease !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    text-align: left !important;
+}
+
+.search-result-item:hover {
+    background: rgba(99, 102, 241, 0.08) !important;
+    border-color: rgba(99, 102, 241, 0.3) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Result Title */
+.search-result-title {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+}
+
+.search-result-headings {
+    font-size: 11px !important;
+    color: #38bdf8 !important;
+    font-weight: 500 !important;
+}
+
+.search-result-snippet {
+    font-size: 13px !important;
+    color: #94a3b8 !important;
+    line-height: 1.5 !important;
+}
+
+.search-no-results {
+    text-align: center !important;
+    color: #64748b !important;
+    padding: 40px 20px !important;
+    font-size: 14px !important;
+}
+
+
+/* MicroArea AI CSS styling */
+.menu-ai-item {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    padding-right: 5px;
+}
+.menu-ai-item a:hover {
+    transform: scale(1.05) !important;
+}
+
+#ai-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 12, 24, 0.85) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    z-index: 999999999 !important;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* AI Google Login Card styling */
+#ai-login-card {
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    width: 90% !important;
+    max-width: 450px !important;
+    padding: 40px !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+    color: #202124 !important;
+    animation: searchGlowFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    position: relative !important;
+}
+
+#ai-login-card.dark {
+    background: #1e1e1e !important;
+    color: #e3e3e3 !important;
+    border: 1px solid #333333 !important;
+}
+
+.google-logo-container {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 16px !important;
+}
+
+.google-logo-container svg {
+    height: 24px !important;
+    width: auto !important;
+}
+
+.ai-login-title {
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    margin: 0 0 8px 0 !important;
+    color: inherit !important;
+}
+
+.ai-login-subtitle {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #5f6368 !important;
+    margin: 0 0 32px 0 !important;
+}
+.dark .ai-login-subtitle {
+    color: #9aa0a6 !important;
+}
+
+.google-input-group {
+    position: relative !important;
+    margin-bottom: 24px !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+
+.google-input-group input {
+    width: 100% !important;
+    padding: 16px !important;
+    border: 1px solid #dadce0 !important;
+    border-radius: 4px !important;
+    font-size: 16px !important;
+    box-sizing: border-box !important;
+    background: transparent !important;
+    color: inherit !important;
+    outline: none !important;
+    transition: border-color 0.2s ease !important;
+}
+.dark .google-input-group input {
+    border-color: #3c4043 !important;
+}
+
+.google-input-group input:focus {
+    border-color: #1a73e8 !important;
+    border-width: 2px !important;
+    padding: 15px !important;
+}
+.dark .google-input-group input:focus {
+    border-color: #8ab4f8 !important;
+}
+
+.google-input-group label {
+    position: absolute !important;
+    left: 16px !important;
+    top: 18px !important;
+    color: #5f6368 !important;
+    font-size: 16px !important;
+    pointer-events: none !important;
+    transition: all 0.2s ease !important;
+    background: #ffffff !important;
+    padding: 0 4px !important;
+}
+.dark .google-input-group label {
+    color: #9aa0a6 !important;
+    background: #1e1e1e !important;
+}
+
+.google-input-group input:focus ~ label,
+.google-input-group input:not(:placeholder-shown) ~ label {
+    top: -10px !important;
+    left: 12px !important;
+    font-size: 12px !important;
+    color: #1a73e8 !important;
+}
+.dark .google-input-group input:focus ~ label,
+.dark .google-input-group input:not(:placeholder-shown) ~ label {
+    color: #8ab4f8 !important;
+}
+
+.google-actions {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-top: 32px !important;
+}
+
+.google-link-btn {
+    background: transparent !important;
+    border: none !important;
+    color: #1a73e8 !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    padding: 8px 0 !important;
+}
+.dark .google-link-btn {
+    color: #8ab4f8 !important;
+}
+
+.google-blue-btn {
+    background: #1a73e8 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 10px 24px !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3) !important;
+    transition: background-color 0.2s ease !important;
+}
+.dark .google-blue-btn {
+    background: #8ab4f8 !important;
+    color: #202124 !important;
+}
+
+.google-blue-btn:hover {
+    background: #1557b0 !important;
+}
+.dark .google-blue-btn:hover {
+    background: #93bbf9 !important;
+}
+
+/* Gemini Chat Screen styling */
+#gemini-chat-card {
+    background: #0f172a !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 20px !important;
+    width: 95% !important;
+    max-width: 900px !important;
+    height: 85vh !important;
+    display: flex;
+    flex-direction: column !important;
+    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.7) !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    animation: searchGlowFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.gemini-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 16px 24px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+    background: #0f172a !important;
+    color: #ffffff !important;
+}
+
+.gemini-logo-text {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    background: linear-gradient(70deg, #9bc5ff, #c1a6ff, #ff9eb5) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.gemini-user-profile {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    font-size: 14px !important;
+    color: #94a3b8 !important;
+}
+
+.gemini-user-avatar {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50% !important;
+    background: #38bdf8 !important;
+    color: #ffffff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: bold !important;
+}
+
+.gemini-disconnect-btn {
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    color: #f1f5f9 !important;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+}
+
+.gemini-disconnect-btn:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.gemini-chat-area {
+    flex-grow: 1 !important;
+    overflow-y: auto !important;
+    padding: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    background: #0b0f19 !important;
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+}
+
+.gemini-msg-row {
+    display: flex !important;
+    gap: 16px !important;
+    max-width: 85% !important;
+    align-items: flex-start !important;
+}
+
+.gemini-msg-row.user {
+    align-self: flex-end !important;
+    flex-direction: row-reverse !important;
+}
+
+.gemini-msg-row.ai {
+    align-self: flex-start !important;
+}
+
+.gemini-msg-bubble {
+    padding: 12px 18px !important;
+    border-radius: 16px !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    box-sizing: border-box !important;
+}
+
+.gemini-msg-row.user .gemini-msg-bubble {
+    background: #1e293b !important;
+    color: #f8fafc !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+.gemini-msg-row.ai .gemini-msg-bubble {
+    background: transparent !important;
+    color: #e2e8f0 !important;
+    padding-left: 0 !important;
+}
+
+.gemini-msg-avatar {
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+}
+
+.gemini-msg-row.ai .gemini-msg-avatar {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.gemini-welcome-card {
+    text-align: center !important;
+    padding: 40px 20px !important;
+    max-width: 500px !important;
+    margin: 40px auto !important;
+    color: #94a3b8 !important;
+}
+
+.gemini-welcome-card h3 {
+    color: #ffffff !important;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    margin-bottom: 12px !important;
+    background: linear-gradient(90deg, #9bc5ff, #c1a6ff) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.gemini-input-area {
+    padding: 16px 24px 24px 24px !important;
+    background: #0f172a !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    box-sizing: border-box !important;
+}
+
+.gemini-input-container {
+    display: flex !important;
+    align-items: center !important;
+    background: #1e293b !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 28px !important;
+    padding: 6px 14px 6px 20px !important;
+    gap: 12px !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    transition: border-color 0.2s ease !important;
+}
+
+.gemini-input-container:focus-within {
+    border-color: rgba(138, 180, 248, 0.4) !important;
+}
+
+.gemini-input-container textarea {
+    flex-grow: 1 !important;
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    color: #f8fafc !important;
+    font-size: 15px !important;
+    font-family: inherit !important;
+    resize: none !important;
+    height: 24px !important;
+    max-height: 120px !important;
+    line-height: 24px !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.gemini-input-container textarea::placeholder {
+    color: #64748b !important;
+}
+
+.gemini-send-btn {
+    background: transparent !important;
+    border: none !important;
+    color: #64748b !important;
+    cursor: pointer !important;
+    padding: 8px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.2s ease !important;
+}
+
+.gemini-send-btn.active {
+    color: #8ab4f8 !important;
+    background: rgba(138, 180, 248, 0.1) !important;
+}
+
+.gemini-disclaimer {
+    font-size: 11px !important;
+    color: #475569 !important;
+    text-align: center !important;
+}
+
+/* Typing / loading anim */
+.gemini-typing-indicator {
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    padding: 8px 12px !important;
+}
+
+.gemini-typing-dot {
+    width: 6px !important;
+    height: 6px !important;
+    background: #94a3b8 !important;
+    border-radius: 50% !important;
+    animation: geminiTyping 1.4s infinite ease-in-out !important;
+}
+
+.gemini-typing-dot:nth-child(2) { animation-delay: 0.2s !important; }
+.gemini-typing-dot:nth-child(3) { animation-delay: 0.4s !important; }
+
+@keyframes geminiTyping {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+@keyframes pulseGlow {
+    0%, 100% { opacity: 0.8; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.08); filter: drop-shadow(0 0 6px rgba(138,180,248,0.8)); }
+}
+
+.google-loading-bar {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 4px !important;
+    background: #e8f0fe !important;
+    overflow: hidden !important;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    display: none;
+}
+
+.google-loading-bar-inner {
+    width: 30% !important;
+    height: 100% !important;
+    background: #1a73e8 !important;
+    animation: googleProgress 1.2s infinite linear !important;
+}
+
+@keyframes googleProgress {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(330%); }
+}
+
+.google-signin-btn-custom {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 12px !important;
+    width: 100% !important;
+    padding: 12px 16px !important;
+    background: #ffffff !important;
+    color: #3c4043 !important;
+    border: 1px solid #dadce0 !important;
+    border-radius: 8px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    font-family: 'Google Sans', Roboto, Arial, sans-serif !important;
+    cursor: pointer !important;
+    transition: background-color .2s, border-color .2s, box-shadow .2s !important;
+    margin-top: 20px !important;
+}
+.google-signin-btn-custom:hover {
+    background-color: #f7f8f8 !important;
+    border-color: #d2e3fc !important;
+    box-shadow: 0 1px 3px 1px rgba(60,64,67,.15), 0 1px 2px 0 rgba(60,64,67,.3) !important;
+}
+.google-signin-btn-custom:active {
+    background-color: #f1f3f4 !important;
+}
+.dark .google-signin-btn-custom {
+    background: #131314 !important;
+    color: #e3e3e3 !important;
+    border-color: #8e918f !important;
+}
+.dark .google-signin-btn-custom:hover {
+    background-color: #1e1f20 !important;
+    border-color: #a8dab5 !important;
+}
+
+/* ==========================================================================
+   Ocultar el botón "Entrar" y los formularios emergentes de login/recuperación
+   ========================================================================== */
+
+/* Ocultar el enlace/botón de entrar en todos los idiomas */
+li.menu-item a[href="#popup-entrar"],
+li.menu-item a[href*="popup-entrar"],
+.et-popup-login-button a {
+    display: none !important;
+}
+
+/* Ocultar el elemento de lista contenedor para evitar espacios en blanco */
+li.menu-item:has(a[href*="popup-entrar"]),
+li.et-popup-login-button,
+li.menu-item-592,
+li.menu-item-2267,
+li.menu-item-2237,
+li.menu-item-990,
+li.menu-item-2146,
+li.menu-item-2581,
+li.menu-item-2684 {
+    display: none !important;
+}
+
+/* Ocultar las secciones popup de login y de recuperar contraseña */
+#popup-entrar,
+#recuperar-pass,
+.et-popup-login-button,
+.et-toggle-popup {
+    display: none !important;
+}
+

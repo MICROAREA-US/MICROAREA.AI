@@ -1,0 +1,2 @@
+18-05-2024 09:10:27 - FATAL - 8.3.2 - 14,1 MB/2 GB - [cron] > Delivery lock already set!
+28-05-2024 17:30:17 - FATAL - 8.3.4 - 16,2 MB/2 GB - [cron] > Delivery lock already set!

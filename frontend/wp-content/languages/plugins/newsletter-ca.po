@@ -1,0 +1,2788 @@
+# Translation of Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release) in Catalan
+# This file is distributed under the same license as the Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-04 11:27:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - Newsletter &#8211; Send awesome emails from WordPress - Stable (latest release)\n"
+
+#: emails/settings.php:71
+msgid "Post featured image"
+msgstr "Imatge destacada de l'entrada"
+
+#: main/main.php:335
+msgid "Delay between emails"
+msgstr "Retard entre correus electrònics"
+
+#: users/edit.php:65
+msgid "Database error. Check the log files."
+msgstr "Error de base de dades. Comproveu els fitxers de registre."
+
+#: system/scheduler.php:72
+msgid "Reset statistics"
+msgstr "Reinicialitza les estadístiques"
+
+#: users/edit.php:320
+msgid "Resubscribe URL"
+msgstr "URL de reinscripció"
+
+#: unsubscription/index.php:146
+msgid "Reactivate message"
+msgstr "Reactiva el missatge"
+
+#: includes/defaults.php:262
+msgid "Please confirm you want to reactivate the subscription."
+msgstr "Confirmeu que voleu reactivar la subscripció."
+
+#: system/status.php:159
+msgid "Note"
+msgstr "Nota"
+
+#: system/status.php:157
+msgid "Parameter"
+msgstr "Paràmetre"
+
+#: system/status.php:152
+msgid "General checks"
+msgstr "Comprovacions generals"
+
+#: main/index.php:116
+msgid "emails per hour"
+msgstr "correus electrònics per hora"
+
+#: main/index.php:116
+msgid "Sending speed"
+msgstr "Velocitat de tramesa"
+
+#: main/index.php:102 main/index.php:108
+msgid "Confirmed subscribers"
+msgstr "Subscriptors confirmats"
+
+#: main/index-steps.php:149
+msgid "Check it out."
+msgstr "Revisa-ho."
+
+#: main/index-steps.php:147
+msgid "Everything on autopilot: set the direction and relax"
+msgstr "Tot en pilot automàtic: fixeu la direcció i relaxeu-vos"
+
+#: main/index-steps.php:145
+msgid "Explore the Automated Newsletters"
+msgstr "Explora els butlletins automàtics"
+
+#: main/index-steps.php:131
+msgid "Change the delivery speed"
+msgstr "Canvia la velocitat de lliurament"
+
+#: main/index-steps.php:119
+msgid "Explore the composer and send it."
+msgstr "Exploreu l'editor i envieu-ho."
+
+#: main/index-steps.php:103
+msgid "Your company info and socials"
+msgstr "Informació de l'empresa i xarxes socials"
+
+#: main/index-steps.php:91
+msgid "Check if your blog can deliver emails."
+msgstr "Comproveu si el vostre blog pot enviar correus electrònics."
+
+#: main/index-steps.php:89
+msgid "Test the email delivery"
+msgstr "Prova la tramesa de correu electrònic"
+
+#: main/index-steps.php:74
+msgid "Get it"
+msgstr "Aconseguiu-lo"
+
+#: main/index-steps.php:70
+msgid "Get a free license"
+msgstr "Obteniu una llicència gratuïta"
+
+#: main/index-steps.php:58 main/index-steps.php:107 main/index-steps.php:135
+msgid "Review"
+msgstr "Revisió"
+
+#: main/index-steps.php:57
+msgid "Customize the welcome email to reflect your style."
+msgstr "Personalitzeu el correu electrònic de benvinguda perquè reflecteixi el vostre estil."
+
+#: main/index-steps.php:43
+msgid "Activate the notification when you get a new subscriber."
+msgstr "Activeu la notificació quan rebeu una nova subscripció."
+
+#: main/index-steps.php:41
+msgid "Be notified when someone subscribes"
+msgstr "Rebeu notificació quan algú es subscrigui"
+
+#: main/index-steps.php:27
+msgid "Subscription: popup and inline forms"
+msgstr "Subscripció: finestres emergents i formularis en línia"
+
+#: main/index-steps.php:15
+msgid "From who your subscribers will see the emails coming from?"
+msgstr "Qui veuran els vostres subscriptors que envia els correus electrònics?"
+
+#: main/index-steps.php:13
+msgid "Your sender name and address"
+msgstr "Nom i adreça electrònica del remitent"
+
+#: includes/fields.php:492
+msgid "Rounded"
+msgstr "Arrodonit"
+
+#: includes/fields.php:492
+msgid "Squared"
+msgstr "Quadrat"
+
+#: emails/tnp-composer/index-v2.php:231
+msgid "Profile number N with N=1, 2, 3, ..."
+msgstr "Número de perfil N amb N=1, 2, 3, ..."
+
+#: emails/emails-admin.php:160
+msgid "Newsletter should be saved before sending a test"
+msgstr "El butlletí s'ha de desar abans d'enviar una prova"
+
+#: emails/edit.php:388
+msgid "This will stop the delivery. Proceed?"
+msgstr "Això aturarà la tramesa. Voleu continuar?"
+
+#: composer/index.php:161
+msgid "Blocks background"
+msgstr "Blocs de fons"
+
+#: main/index-steps.php:72
+msgid "And install free addons to get more power."
+msgstr "I instal·leu complements gratuïts per a obtenir més prestacions."
+
+#: main/index-steps.php:29
+msgid "Activate the subscription forms to grow your subscriber list."
+msgstr "Activeu els formularis de subscripció per a fer créixer la llista de subscriptors."
+
+#: main/index-steps.php:133
+msgid "Set how many emails per hour you want to send."
+msgstr "Establiu quants correus electrònics per hora voleu enviar."
+
+#: main/index-steps.php:117
+msgid "Create your first newsletter"
+msgstr "Creeu el primer butlletí"
+
+#: main/index-steps.php:105
+msgid "Review your company info and socials"
+msgstr "Reviseu la informació de l'empresa i les xarxes socials"
+
+#: main/index-steps.php:55
+msgid "Welcome email: give it your style"
+msgstr "Correu de benvinguda: doneu-li un estil"
+
+#: main/index-steps.php:121
+msgid "Go create"
+msgstr "Vés  a crear-ho"
+
+#: users/edit.php:313
+msgid "Unsubscribe URL"
+msgstr "URL de cancel·lació de la subscripció"
+
+#: emails/index.php:83
+msgid "Add new (raw HTML)"
+msgstr "Afegeix (HTML sense processar)"
+
+#: emails/index.php:84
+msgid "Add new (legacy themes)"
+msgstr "Afegeix (temes antics)"
+
+#: main/main.php:284
+msgid "Do not choose the \"front page\" or \"post list page\""
+msgstr "No trieu la «portada» ni la «pàgina de llista d'entrades»"
+
+#: system/delivery.php:276
+msgid "Sending time window"
+msgstr "Franja horària de tramesa"
+
+#: system/delivery.php:268
+msgid "Mailer"
+msgstr "Mailer"
+
+#: system/delivery.php:259
+msgid "Speed"
+msgstr "Velocitat"
+
+#: system/delivery.php:248
+msgid "Stopped by errors"
+msgstr "S'ha aturat a causa d'errors"
+
+#: profile/profile.php:60
+msgid "Profile edit"
+msgstr "Edició del perfil"
+
+#: main/main.php:29
+msgid "Invalid CSS"
+msgstr "CSS no vàlid"
+
+#: emails/blocks/cta/block.php:34
+msgid "Confirm subscription"
+msgstr "Confirmeu la subscripció"
+
+#: users/index.php:128
+msgid "Without list"
+msgstr "Sense llista"
+
+#: emails/blocks/heading/options.php:8
+msgid "Editor"
+msgstr "Editor"
+
+#: users/index.php:242
+msgid "Resend the confirmation email"
+msgstr "Reenvia el correu electrònic de confirmació"
+
+#: users/index.php:240
+msgid "Resend the welcome email"
+msgstr "Torna a enviar el correu electrònic de benvinguda"
+
+#: subscription/welcome.php:127
+msgid "Welcome page"
+msgstr "Pàgina de benvinguda"
+
+#: subscription/confirmation.php:166 subscription/welcome.php:174
+msgid "Composer"
+msgstr "Composer"
+
+#: subscription/confirmation.php:141 subscription/options.php:165
+msgid "Customize"
+msgstr "Personalitza"
+
+#: subscription/confirmation.php:133
+msgid "Confirmation page"
+msgstr "Pàgina de confirmació"
+
+#: profile/index.php:68 subscription/confirmation.php:123
+#: subscription/welcome.php:115
+msgid "Page"
+msgstr "Pàgina"
+
+#: includes/controls.php:806
+msgid "Newsletter public page"
+msgstr "Pàgina pública del butlletí"
+
+#: header.php:81
+msgid "Inside posts"
+msgstr "Dins les entrades"
+
+#: header.php:75
+msgid "Standard"
+msgstr "Estàndard"
+
+#: composer/modals/test.php:28 emails/modals/test.php:28
+msgid "More on test subscribers"
+msgstr "Més informació sobre els subscriptors de les proves"
+
+#: includes/controls.php:1720
+msgid "Deactivate"
+msgstr "Desactiva"
+
+#: includes/controls.php:1704
+msgid "Ignore"
+msgstr "Ignora"
+
+#: emails/settings.php:60
+msgid "Custom CSS"
+msgstr "CSS personalitzat"
+
+#: system/status.php:147
+msgid "Parameters"
+msgstr "Paràmetres"
+
+#: system/status.php:145
+msgid "Database"
+msgstr "Base de dades"
+
+#: profile/profile.php:44
+msgid "Export your data"
+msgstr "Exporta les dades"
+
+#: users/edit.php:130
+msgid "Main"
+msgstr "Principal"
+
+#: composer/index.php:179 emails/tnp-composer/index-v2.php:177
+msgid "Mobile padding"
+msgstr "Separació mòbil"
+
+#: emails/blocks/posts/options.php:105
+msgid "Image crop"
+msgstr "Escapçat d'imatge"
+
+#: emails/blocks/posts/options.php:99 emails/blocks/posts/options.php:149
+msgid "Author"
+msgstr "Autor"
+
+#: includes/controls.php:2183
+msgid "Email safe fonts"
+msgstr "Fonts segures per al correu electrònic"
+
+#: emails/blocks/image/options.php:31
+msgid "Link and appearance"
+msgstr "Enllaç i aparença"
+
+#: emails/blocks/image/options.php:27
+msgid "Image URL"
+msgstr "URL de la imatge"
+
+#: emails/blocks/image/options.php:19
+msgid "External URL"
+msgstr "URL extern"
+
+#: emails/blocks/image/options.php:14
+msgid "Media gallery"
+msgstr "Galeria de mèdia"
+
+#: emails/blocks/footer/options.php:69
+msgid "Fonts"
+msgstr "Tipus de lletra"
+
+#: emails/blocks/footer/options.php:48
+msgid "Socials"
+msgstr "Xarxes socials"
+
+#: emails/blocks/footer/options.php:23
+msgid "Elements"
+msgstr "Elements"
+
+#: emails/blocks/footer/options.php:18 emails/blocks/header/options.php:26
+#: emails/blocks/posts/options.php:40
+msgid "Boxed"
+msgstr "En caixa"
+
+#: emails/blocks/footer/options.php:17 emails/blocks/header/options.php:25
+#: emails/blocks/posts/options.php:39
+msgid "Inverted"
+msgstr "Invertit"
+
+#: emails/blocks/cta/options.php:60 emails/blocks/footer/options.php:81
+#: emails/blocks/giphy/options.php:24 emails/blocks/heading/options.php:31
+#: emails/blocks/hero/options.php:46 emails/blocks/html/options.php:50
+#: emails/blocks/image/options.php:45 emails/blocks/separator/options.php:24
+#: emails/blocks/social/options.php:17
+msgid "Commons"
+msgstr "Comuns"
+
+#: emails/blocks/cta/options.php:11 emails/blocks/heading/options.php:20
+#: emails/blocks/hero/options.php:23 emails/blocks/html/options.php:34
+#: emails/blocks/separator/options.php:8 emails/blocks/social/options.php:9
+msgid "Appearance"
+msgstr "Aparença"
+
+#: includes/controls.php:2194
+msgid "Less email safe fonts"
+msgstr "Fonts menys segures per al correu electrònic"
+
+#: main/main.php:289
+msgid "To be set for every language"
+msgstr "S'ha d'establir per a cada idioma"
+
+#: header.php:392
+msgid "Maybe later"
+msgstr "Potser més tard"
+
+#: header.php:390
+msgid "Yes, you deserve it!"
+msgstr "D'acord, us ho mereixeu!"
+
+#: subscription/lists.php:134
+msgid "If you check a language, all your new subscribers with that language will be automatically added to the list"
+msgstr "Si seleccioneu un idioma, tots els vostres nous subscriptors d'aquest idioma s'afegiran automàticament a la llista"
+
+#: users/index.php:36
+msgid "The welcome email is disabled."
+msgstr "El correu electrònic de benvinguda està desactivat."
+
+#: header.php:256 header.php:260
+msgid "License expiring"
+msgstr "Llicència a punt de caducar"
+
+#: header.php:231
+msgid "License check failed"
+msgstr "La comprovació de la llicència ha fallat"
+
+#: subscription/options.php:160
+msgid "Allowed (double opt-in)"
+msgstr "Permès (confirmació doble)"
+
+#: subscription/options.php:159
+msgid "Allowed (single opt-in)"
+msgstr "Permès (confirmació única)"
+
+#: emails/edit.php:306
+msgid "The first batch of emails will be delivered in 5 minutes."
+msgstr "El primer lot de correus electrònics es trametrà en 5 minuts."
+
+#: main/main.php:485
+msgid "Tracking and action links"
+msgstr "Seguiment i enllaços d’acció"
+
+#: admin.php:131
+msgid "Newsletters sending (updated every 10 minutes)"
+msgstr "Tramesa de butlletins (s'actualitza cada 10 minuts)"
+
+#: system/delivery.php:240
+msgid "Time to finish"
+msgstr "Hora de finalització"
+
+#: profile/profile-admin.php:43 profile/profile-admin.php:49
+#: subscription/subscription-admin.php:83
+msgid "Newsletter custom profile page, keep public and published"
+msgstr "Pàgina de perfil personalitzada del butlletí: manteniu-la pública i publicada"
+
+#: subscription/subscription-admin.php:89
+msgid "Newsletter custom welcome page, keep public and published"
+msgstr "Pàgina personalitzada de benvinguda del butlletí; manteniu-la pública i publicada"
+
+#: header.php:56 users/nav.php:12 users/nav.php:14 users/users-admin.php:32
+msgid "Import/Export"
+msgstr "Importa/Exporta"
+
+#: subscription/lists.php:188
+msgid "Add everyone"
+msgstr "Afegeix a tothom"
+
+#: statistics/view.php:62
+msgid "Opens"
+msgstr "Obre"
+
+#: emails/blocks/posts/options.php:141
+msgid "Reverse"
+msgstr "Ordre invers"
+
+#: users/logs.php:53
+msgid "Source"
+msgstr "Font"
+
+#: users/index.php:127
+msgid "Any list"
+msgstr "Qualsevol llista"
+
+#: users/index.php:158
+msgid "Any status"
+msgstr "Qualsevol estat"
+
+#: statistics/view.php:88
+msgid "clicks out of"
+msgstr "clics de"
+
+#: statistics/view.php:84
+msgid "Reactivity"
+msgstr "Reactivitat"
+
+#: statistics/view.php:78
+msgid "total people that clicked a link in your email"
+msgstr "total de persones que han fet clic en un enllaç del correu electrònic"
+
+#: statistics/view.php:67
+msgid "total people that opened your email"
+msgstr "total de persones que han obert el correu electrònic"
+
+#: statistics/view.php:57
+msgid "Total people that got your email"
+msgstr "Total de persones que han rebut el correu electrònic"
+
+#: statistics/nav.php:10
+msgid "Full report"
+msgstr "Informe complet"
+
+#: emails/nav.php:10
+msgid "Series"
+msgstr "Sèrie"
+
+#: emails/nav.php:9
+msgid "Recurring"
+msgstr "Recurrent"
+
+#: includes/module-admin.php:193
+msgid "You are configuring the language %s. Switch to \"all languages\" to see or edit all options."
+msgstr "Esteu configurant l'idioma %s. Canvieu a «tots els idiomes» per a veure o editar totes les opcions."
+
+#: users/edit-nav.php:9 users/users-admin.php:29
+msgid "Autoresponders"
+msgstr "Respostes automàtiques"
+
+#: main/autoresponderstatistics.php:73
+msgid "By status"
+msgstr "Per estat"
+
+#: main/autoresponderstatistics.php:72
+msgid "By email"
+msgstr "Per correu electrònic"
+
+#: main/autorespondernav.php:18
+msgid "Emails"
+msgstr "Correus electrònics"
+
+#: main/autorespondermessages.php:76
+msgid "Subscribers waiting"
+msgstr "Subscriptors en espera"
+
+#: main/autoresponderedit.php:45
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: main/index.php:266
+msgid "Unconfirmed subscriptions"
+msgstr "Subscripcions no confirmades"
+
+#: main/index.php:210 main/index.php:267
+msgid "Full statistics"
+msgstr "Estadístiques completes"
+
+#: main/index.php:209
+msgid "Confirmed subscriptions"
+msgstr "Subscricions confirmades"
+
+#: main/index.php:120
+msgid "Total sent emails"
+msgstr "Total de correus enviats"
+
+#: main/index.php:106
+msgid "Last 30 days"
+msgstr "Darrers 30 dies"
+
+#: main/dashboard-nav.php:6
+msgid "Flow view"
+msgstr "Visualització de flux"
+
+#: includes/controls.php:2441
+msgid "Get help"
+msgstr "Obtingueu ajuda"
+
+#: emails/blocks/cta/options.php:32
+msgid "Alignment"
+msgstr "Alineació"
+
+#: main/index.php:114
+msgid "Queued emails"
+msgstr "Correus electrònics en cua"
+
+#: unsubscription/index.php:67 unsubscription/unsubscription.php:65
+msgid "Resubscribe"
+msgstr "Torneu a subscriure-us"
+
+#: subscription/antispam.php:111
+msgid "Shown after the form submission as a confirmation step"
+msgstr "Mostrat després de la tramesa del formulari com a pas de confirmació"
+
+#: composer/index.php:116 emails/tnp-composer/index-v2.php:113
+msgid "Switch preview mode"
+msgstr "Canvia el mode de previsualització"
+
+#: emails/edit.php:751
+msgid "Convert"
+msgstr "Convertiu"
+
+#: includes/defaults.php:261
+msgid "Please confirm you want to unsubscribe."
+msgstr "Confirmeu que voleu donar-vos de baixa."
+
+#: includes/defaults.php:264
+msgid "Your subscription has been deleted. If that was an error you can subscribe again."
+msgstr "La subscripció s'ha suprimit. Si ha estat un error, podeu subscriure-us de nou."
+
+#: system/backup.php:30 system/backup.php:43
+msgid "Settings backup"
+msgstr "Còpia de seguretat de la configuració"
+
+#: header.php:196 header.php:200 system/support.php:18
+#: system/system-admin.php:38
+msgid "Support"
+msgstr "Assistència"
+
+#: header.php:176
+msgid "Help"
+msgstr "Ajuda"
+
+#: system/support.php:57
+msgid "Open a ticket"
+msgstr "Obre un tiquet"
+
+#: subscription/subscription.php:238 subscription/subscription.php:273
+msgid "Registration failed."
+msgstr "Ha fallat el registre."
+
+#: subscription/form.php:162
+msgid "Privacy"
+msgstr "Privadesa"
+
+#: main/main-admin.php:123 main/main-admin.php:129
+msgid "Newsletter public page, keep public and published"
+msgstr "Pàgina pública del butlletí: mantingueu-la pública i publicada"
+
+#: users/statistics.php:47
+msgid "By Time"
+msgstr "Per data"
+
+#: users/statistics.php:46
+msgid "By Gender"
+msgstr "Per gènere"
+
+#: users/statistics.php:45
+msgid "By URL"
+msgstr "Per URL"
+
+#: users/statistics.php:44
+msgid "By Referrer"
+msgstr "Per referent"
+
+#: users/statistics.php:43
+msgid "By location"
+msgstr "Per ubicació"
+
+#: users/statistics.php:42
+msgid "By Language"
+msgstr "Per idioma"
+
+#: users/statistics.php:41
+msgid "By Lists"
+msgstr "Per llistes"
+
+#: users/statistics.php:40
+msgid "By Status"
+msgstr "Per estat"
+
+#: header.php:78 subscription/subscription-admin.php:45
+msgid "Popup"
+msgstr "Finestra emergent"
+
+#: subscription/subscription-admin.php:44
+msgid "Injection"
+msgstr "Injecció"
+
+#: subscription/inject.php:72 subscription/popup.php:70
+msgid "Shown before the form"
+msgstr "Es mostra abans del formulari"
+
+#: profile/profile.php:107
+msgid "Subscriber not found or not confirmed or started from a test newsletter."
+msgstr "No s'ha trobat el subscriptor o no s'ha confirmat o bé s'ha generat des d'un butlletí de prova."
+
+#: profile/index.php:79 subscription/confirmation.php:139
+#: subscription/welcome.php:134
+msgid "Page content"
+msgstr "Contingut de la pàgina"
+
+#: main/main.php:268
+msgid "Public page"
+msgstr "Pàgina pública"
+
+#: main/extensions.php:46 main/extensions.php:59
+msgid "Free"
+msgstr "Gratuït"
+
+#: includes/module-base.php:1338
+msgid ""
+"This email requires a modern e-mail reader.\n"
+"View online: {email_url}\n"
+"Change your subscription: {profile_url}\n"
+"Unsubscribe: {unsubscription_url}"
+msgstr ""
+"Aquest correu electrònic requereix un lector de correu electrònic modern.  \n"
+"Visualitza en línia: {email_url}  \n"
+"Canvieu la subscripció: {profile_url}  \n"
+"Cancel·leu la subscripció: {unsubscription_url}"
+
+#: subscription/welcome.php:174
+msgid "Do not send"
+msgstr "No ho enviïs"
+
+#: includes/controls.php:2544
+msgid "Lists to deactivate"
+msgstr "Llistes per a desactivar"
+
+#: includes/controls.php:2540
+msgid "Lists to activate"
+msgstr "Llistes per a activar"
+
+#: users/edit.php:269
+msgid "HTTP Referrer"
+msgstr "Referent HTTP"
+
+#: composer/modals/attachment.php:4 emails/tnp-composer/modal/attachment.php:4
+msgid "Read more."
+msgstr "Llegiu-ne més."
+
+#: composer/modals/attachment.php:3 emails/tnp-composer/modal/attachment.php:3
+msgid "Attachments are not supported."
+msgstr "Els adjunts no són compatibles."
+
+#: composer/modals/placeholders.php:8 emails/tnp-composer/index-v2.php:232
+msgid "Email online view"
+msgstr "Visualització en línia del correu electrònic"
+
+#: composer/modals/placeholders.php:7
+msgid "Profile numner N with N=1, 2, 3, ..."
+msgstr "Número de perfil N amb N=1, 2, 3, ..."
+
+#: composer/index.php:110 composer/modals/placeholders.php:2
+#: emails/tnp-composer/index-v2.php:103 emails/tnp-composer/index-v2.php:226
+msgid "Placeholders"
+msgstr "Espai reservat"
+
+#: main/main.php:282
+msgid "The page content must be only the shortcode [newsletter]"
+msgstr "El contingut de la pàgina ha de ser únicament el codi de substitució [newsletter]"
+
+#: composer/index.php:108 emails/nav.php:7 header.php:128
+msgid "Templates"
+msgstr "Plantilles"
+
+#: emails/index.php:23
+msgid "Template created."
+msgstr "Plantilla creada."
+
+#: emails/blocks/footer/options.php:59 statistics/nav.php:7
+msgid "Links"
+msgstr "Enllaços"
+
+#: main/nav.php:6
+msgid "Setup Wizard"
+msgstr "Assistent de configuració"
+
+#: main/nav.php:5
+msgid "Company"
+msgstr "Empresa"
+
+#: emails/blocks/heading/options.php:10 includes/fields.php:353
+msgid "Full"
+msgstr "Complet"
+
+#: emails/blocks/hero/options.php:18
+msgid "Order"
+msgstr "Comanda"
+
+#: includes/paginator.php:132
+msgid "item(s) found"
+msgstr "element(s) trobat(s)"
+
+#: system/backup-view.php:35
+msgid "Options"
+msgstr "Opcions"
+
+#: main/dashboard-nav.php:5 statistics/index-nav.php:5 statistics/nav.php:6
+#: subscription/subscription-admin.php:48
+msgid "Overview"
+msgstr "Resum"
+
+#: subscription/form.php:265
+msgid "Checked"
+msgstr "Marcat"
+
+#: subscription/form.php:138
+msgid "Option labels"
+msgstr "Etiquetes d'opcions"
+
+#: subscription/form.php:51
+msgid "Main fields"
+msgstr "Camps principals"
+
+#: subscription/customfields.php:78
+msgid "Fields"
+msgstr "Camps"
+
+#: unsubscription/index.php:65
+msgid "Confirm"
+msgstr "Confirma"
+
+#: system/status.php:134
+msgid "Reset news"
+msgstr "Reinicialitza les notícies"
+
+#: includes/defaults.php:248
+msgid "If you change your email address a confirmation email will be sent to activate it."
+msgstr "Si canvieu la vostra adreça de correu electrònic, s'enviarà un correu electrònic de confirmació per activar-la."
+
+#: includes/defaults.php:223
+msgid "Woman"
+msgstr "Dona"
+
+#: includes/defaults.php:222
+msgid "Man"
+msgstr "Home"
+
+#: includes/defaults.php:214
+msgid "I accept the privacy policy"
+msgstr "Accepto la política de privadesa"
+
+#: includes/controls.php:864 includes/controls.php:865
+msgid "Single"
+msgstr "Individual"
+
+#: includes/controls.php:575 profile/index.php:122 subscription/form.php:92
+#: subscription/form.php:111 subscription/form.php:264
+#: subscription/form.php:303
+msgid "Show"
+msgstr "Mostra"
+
+#: header.php:101 profile/index.php:188 subscription/customfields.php:59
+#: subscription/form.php:53 subscription/subscription-admin.php:49
+#: users/edit.php:132
+msgid "Custom fields"
+msgstr "Camps personalitzats"
+
+#: profile/index.php:57
+msgid "Form"
+msgstr "Formulari"
+
+#: emails/emails-admin.php:186 emails/emails-admin.php:235
+msgid "Test sent to:"
+msgstr "Prova enviada a:"
+
+#: includes/controls.php:864 includes/controls.php:865
+msgid "Double"
+msgstr "Doble"
+
+#: includes/controls.php:570
+msgid "Hide"
+msgstr "Amaga"
+
+#: includes/defaults.php:254
+msgid "Read our privacy policy"
+msgstr "Llegiu la política de privacitat"
+
+#: users/massive.php:232
+msgid "Change"
+msgstr "Canvia"
+
+#: users/massive.php:224
+msgid "Change status"
+msgstr "Canvia l'estat"
+
+#: header.php:120
+msgid "All newsletters"
+msgstr "Tots els butlletins"
+
+#: header.php:37
+msgid "All subscribers"
+msgstr "Tots els subscriptors"
+
+#: system/status.php:132
+msgid "Reset warnings"
+msgstr "Restableix els avisos"
+
+#: users/index.php:155
+msgid "Search by ID, email, name"
+msgstr "Cerca per ID, correu electrònic, nom"
+
+#: unsubscription/index.php:79
+msgid "Opt-out message"
+msgstr "Missatge de desactivació"
+
+#: header.php:180
+msgid "WP Site Health"
+msgstr "Salut del lloc"
+
+#: header.php:105
+msgid "Antispam"
+msgstr "Protecció contra correu brossa"
+
+#: subscription/form.php:216
+msgid "Generic"
+msgstr "Genèric"
+
+#: subscription/form.php:207
+msgid "Salutation"
+msgstr "Salutació"
+
+#: subscription/subscription-admin.php:46
+msgid "Shortcodes"
+msgstr "Codis de substitució"
+
+#: emails/edit.php:680
+msgid "Used by"
+msgstr "Utilitzat per"
+
+#: emails/index.php:79 users/index.php:179
+msgid "Add new"
+msgstr "Afegeix"
+
+#: subscription/antispam.php:57
+msgid "Disable"
+msgstr "Desactiva"
+
+#: emails/blocks/posts/options.php:115
+msgid "Chars"
+msgstr "Caràcters"
+
+#: emails/blocks/posts/options.php:115
+msgid "Words"
+msgstr "Paraules"
+
+#: emails/blocks/posts/options.php:112
+msgid "Excerpt length"
+msgstr "Longitud de l'extracte"
+
+#: header.php:206 system/system-admin.php:37
+msgid "Backup"
+msgstr "Còpia de seguretat"
+
+#: emails/edit.php:726
+msgid "Hand edited"
+msgstr "Editat manualment"
+
+#: emails/edit.php:726
+msgid "Autogenerate"
+msgstr "Genera automàticament"
+
+#: emails/blocks/footer/block.php:25 unsubscription/unsubscription.php:48
+#: users/nav.php:8
+msgid "Unsubscribe"
+msgstr "Cancel·la la subscripció"
+
+#: tnp-footer.php:25
+msgid "Get news and promotions"
+msgstr "Rebeu notícies i promocions"
+
+#: users/users-admin.php:25
+msgid "New subscriber"
+msgstr "Nou subscriptor"
+
+#: users/users-admin.php:26
+msgid "Subscriber Edit"
+msgstr "Edita el subscriptor"
+
+#: admin.php:244 header.php:68 header.php:94 subscription/nav-forms.php:5
+#: subscription/subscription-admin.php:42
+msgid "Forms"
+msgstr "Formularis"
+
+#: users/nav.php:6
+msgid "Manage"
+msgstr "Gestiona"
+
+#: includes/classes.php:348 users/massive.php:214 users/statistics.php:96
+msgid "Complained"
+msgstr "Rebutjats"
+
+#: users/massive.php:22
+msgid "Subscribers complained deleted: "
+msgstr "Subscriptors rebutjats suprimits: "
+
+#: header.php:190 system/logs.php:44 system/system-admin.php:34
+msgid "Scheduler"
+msgstr "Planificador"
+
+#: composer/index.php:112 emails/tnp-composer/index-v2.php:105
+msgid "Attachments"
+msgstr "Adjunts"
+
+#: composer/modals/test.php:17 emails/modals/test.php:17
+#: emails/tnp-composer/modal/test-newsletter.php:31
+msgid "Send a test to test subscribers"
+msgstr "Envia una prova als subscriptors de proves"
+
+#: composer/modals/test.php:13 emails/modals/test.php:13
+#: emails/tnp-composer/modal/test-newsletter.php:27
+msgid "or"
+msgstr "o"
+
+#: composer/modals/test.php:8 emails/modals/test.php:8
+#: emails/tnp-composer/modal/test-newsletter.php:16
+msgid "Send a test to"
+msgstr "Envia una prova a"
+
+#: composer/index.php:96 emails/tnp-composer/index-v2.php:90
+msgid "Shown by some email clients as excerpt"
+msgstr "Mostrat per alguns clients de correu electrònic com a extracte"
+
+#: composer/index.php:73 emails/tnp-composer/index-v2.php:71
+msgid "From"
+msgstr "Remitent"
+
+#: emails/blocks/footer/options.php:66
+msgid "Unsubscribe link"
+msgstr "Enllaç de cancel·lació de la subscripció"
+
+#: emails/blocks/footer/options.php:64
+msgid "Subscriber profile link"
+msgstr "Enllaç del perfil de subscriptor"
+
+#: emails/blocks/footer/options.php:62
+msgid "View online link"
+msgstr "Mostra l'enllaç en línia"
+
+#: system/system-admin.php:32
+msgid "Delivery Diagnostic"
+msgstr "Diagnòstic de tramesa"
+
+#: includes/fields.php:362
+msgid "Align"
+msgstr "Alineació"
+
+#: main/main.php:444
+msgid "Standard styles"
+msgstr "Estils estàndard"
+
+#: emails/edit.php:337
+msgid "Stopped by fatal error: %s"
+msgstr "S'ha aturat per un error greu: %s"
+
+#: includes/controls.php:1262
+msgid "Design"
+msgstr "Disseny"
+
+#: emails/blocks/hero/block.php:27
+msgid "Click Here"
+msgstr "Feu clic aquí"
+
+#: emails/blocks/image/options.php:33
+msgid "Link URL"
+msgstr "URL de l'enllaç"
+
+#: emails/blocks/canspam/options.php:8 emails/blocks/header/options.php:10
+msgid "Company data can be globally set on <a href=\"%s\" target=\"_blank\">company info panel</a>."
+msgstr "Les dades de l'empresa es poden definir globalment al <a href=\"%s\" target=\"_blank\">quadre d'informació de l'empresa</a>."
+
+#: emails/blocks/posts/options.php:174
+msgid "Read more button"
+msgstr "Botó de llegir més"
+
+#: emails/blocks/posts/options.php:94
+msgid "Post info"
+msgstr "Informació de l'entrada"
+
+#: emails/blocks/posts/options.php:32
+msgid "Full post"
+msgstr "Entrada completa"
+
+#: emails/blocks/posts/options.php:29
+msgid "One column variant"
+msgstr "Variant d'una columna"
+
+#: composer/index.php:168 emails/tnp-composer/index-v2.php:167
+msgid "Button style"
+msgstr "Estil del botó"
+
+#: composer/index.php:158 emails/tnp-composer/index-v2.php:158
+msgid "Main background"
+msgstr "Fons principal"
+
+#: composer/composer-admin.php:328
+msgid "Successfully updated"
+msgstr "S'ha actualitzat correctament"
+
+#: composer/composer-admin.php:349
+msgid "Looking for legacy themes?"
+msgstr "Esteu buscant temes antics?"
+
+#: emails/theme.php:69
+msgid "Legacy themes"
+msgstr "Temes antics"
+
+#: composer/index.php:165 emails/tnp-composer/index-v2.php:165
+msgid "Titles font"
+msgstr "Tipus de lletra dels títols"
+
+#: subscription/subscription.php:824
+msgid "Your subscription has been confirmed."
+msgstr "S'ha confirmat la subscripció"
+
+#: subscription/subscription.php:822
+msgid "To confirm your subscription follow the link below."
+msgstr "Per confirmar la vostra subscripció, seguiu l'enllaç següent."
+
+#: composer/modals/subjects.php:21 emails/subjects.php:23
+msgid "Black Friday Sale is Live"
+msgstr "L'oferta de Black Friday ja és en marxa"
+
+#: composer/modals/subjects.php:20 emails/subjects.php:22
+msgid "Your Final 24 Hours | Last Call for Black Friday Deals"
+msgstr "Darreres 24 hores | Última crida per a les ofertes del Black Friday"
+
+#: composer/modals/subjects.php:19 emails/subjects.php:21
+msgid "Black Friday 65% off ending soon!"
+msgstr "Black Friday: el descompte del 65% acabarà aviat!"
+
+#: composer/modals/subjects.php:18 emails/subjects.php:20
+msgid "Black Friday Sale is almost over"
+msgstr "L'oferta de Black Friday gairebé ha acabat"
+
+#: composer/modals/subjects.php:17 emails/subjects.php:19
+msgid "Last day to save 30%"
+msgstr "Últim dia per estalviar-vos un 30%"
+
+#: composer/modals/subjects.php:22 emails/subjects.php:24
+msgid "Black Friday Sale: few hours left!"
+msgstr "Oferta del Black Friday: queden poques hores!"
+
+#: subscription/customfields.php:99
+msgid "Rule"
+msgstr "Regla"
+
+#: profile/index.php:120 subscription/customfields.php:92
+msgid "Field"
+msgstr "Camp"
+
+#: subscription/customfields.php:101
+msgid "List values comma separated"
+msgstr "Llista de valors separats per comes"
+
+#: subscription/customfields.php:93
+msgid "Name/Label"
+msgstr "Nom/Etiqueta"
+
+#: subscription/form.php:204
+msgid "The privacy acceptance checkbox (required in many European countries) forces the subscriber to check it before proceeding. If an URL is specified the label becomes a link."
+msgstr "La casella de selecció d'acceptació de la privadesa (requerida en molts països europeus) obliga el subscriptor a marcar-la abans de continuar. Si s'especifica un URL, l'etiqueta es converteix en un enllaç."
+
+#: subscription/form.php:174
+msgid "Only the notice"
+msgstr "Només l'avís"
+
+#: subscription/form.php:172 subscription/inject.php:60
+msgid "Enabled?"
+msgstr "Activat?"
+
+#: subscription/customfields.php:94
+msgid "Placeholder"
+msgstr "Espai reservat"
+
+#: subscription/form.php:196
+msgid "To use the WordPress privacy page, switch to \"all language\" and activate it."
+msgstr "Per a utilitzar la pàgina de privadesa del WordPress, canvieu a «tots els idiomes» i activa-la."
+
+#: subscription/form.php:186
+msgid "The \"all language\" setting is set to use the WordPress default privacy page. Please translate that page."
+msgstr "El paràmetre «tots els idiomes» és configurat per a utilitzar la pàgina de privadesa per defecte del WordPress. Traduïu aquesta pàgina."
+
+#: subscription/form.php:231
+msgid "Salutation titles are inserted in emails message when the tag {title} is used. For example \"Good morning {title} {surname} {name}\"."
+msgstr "Els títols de salutació s'insereixen als missatges de correu electrònic quan s'utilitza l'etiqueta {title}. Per exemple: «Bon dia, {title} {surname} {name}»."
+
+#: main/main.php:424
+msgid "Tracking default"
+msgstr "Seguiment per defecte"
+
+#: composer/index.php:96 emails/tnp-composer/index-v2.php:90
+msgid "Snippet"
+msgstr "Fragment de codi"
+
+#: statistics/statistics.php:85 unsubscription/unsubscription.php:116
+msgid "Subscriber not found"
+msgstr "Subscriptor no trobat"
+
+#: includes/defaults.php:230
+msgid "This email address is already subscribed, please contact the site administrator."
+msgstr "Aquesta adreça de correu electrònic ja està subscrita, poseu-vos en contacte amb l'administrador del lloc."
+
+#: subscription/options.php:158 subscription/options.php:185
+msgid "Allowed"
+msgstr "Permès"
+
+#: subscription/options.php:157 subscription/options.php:184
+msgid "Not allowed"
+msgstr "No permès"
+
+#: emails/blocks/footer/options.php:16 emails/blocks/header/options.php:16
+#: emails/blocks/header/options.php:24 emails/blocks/heading/options.php:9
+#: emails/blocks/posts/options.php:38 includes/controls.php:864
+#: includes/controls.php:2180 subscription/confirmation.php:166
+#: subscription/welcome.php:174
+msgid "Default"
+msgstr "Per defecte"
+
+#: emails/blocks/header/options.php:17
+msgid "Only the logo"
+msgstr "Només el logotip"
+
+#: profile/profile.php:312 profile/profile.php:547
+msgid "Select language"
+msgstr "Seleccioneu l'idioma"
+
+#: emails/blocks/posts/options.php:31
+msgid "One column, big image"
+msgstr "Una columna, imatge gran"
+
+#: emails/blocks/posts/options.php:61
+msgid "Include specified max posts"
+msgstr "Incloure les entrades màximes especificades"
+
+#: emails/blocks/posts/options.php:60
+msgid "Include only new posts"
+msgstr "Inclou només les entrades noves"
+
+#: emails/blocks/posts/options.php:58
+msgid "If there are new posts"
+msgstr "Si hi ha entrades noves"
+
+#: subscription/customfields.php:46 subscription/lists.php:63
+msgid "Public"
+msgstr "Públic"
+
+#: subscription/lists.php:133
+msgid "Enforced by language"
+msgstr "Aplicat per idioma"
+
+#: subscription/lists.php:130
+msgid "If you check this box, all your new subscribers will be automatically added to this list"
+msgstr "Si marqueu aquesta casella, tots els subscriptors nous s'afegiran automàticament a aquesta llista"
+
+#: subscription/lists.php:130 subscription/lists.php:139
+msgid "Enforced"
+msgstr "Forçat"
+
+#: statistics/view.php:28
+msgid "This newsletter has the tracking disabled. No statistics will be available."
+msgstr "Aquest butlletí té el seguiment desactivat. No hi haurà estadístiques disponibles."
+
+#: emails/edit.php:500
+msgid "is one of:"
+msgstr "és una de les següents:"
+
+#: emails/edit.php:496
+msgid "Profile fields"
+msgstr "Camps del perfil"
+
+#: admin.php:204
+msgid "Save the newsletter to update the counter!"
+msgstr "Deseu el butlletí per actualitzar el comptador!"
+
+#: emails/edit.php:501
+msgid "Do not filter by this field"
+msgstr "No filtris per aquest camp"
+
+#: unsubscription/index.php:217
+msgid "Cancellation requests via email"
+msgstr "Sol·licituds de cancel·lació per correu electrònic"
+
+#: unsubscription/index.php:207
+msgid "Disable unsubscribe headers"
+msgstr "Desactiva les capçaleres per a cancel·lar la subscripció"
+
+#: main/index-steps.php:93
+msgid "Run a test"
+msgstr "Executeu una prova"
+
+#: emails/blocks/posts/options.php:68
+msgid "If there are not new posts"
+msgstr "Si no hi ha noves entrades"
+
+#: emails/blocks/hero/options.php:15
+msgid "Schema"
+msgstr "Esquema"
+
+#: emails/blocks/posts/options.php:135
+msgid "Posts offset"
+msgstr "Desplaçament de les entrades"
+
+#: emails/themes/default/theme-options.php:15
+msgid "External background color"
+msgstr "Color de fons extern"
+
+#: statistics/view.php:73
+msgid "Clicks"
+msgstr "Clics"
+
+#: statistics/index.php:75
+msgid "Overall basic statistics (last 20 newsletters)"
+msgstr "Estadístiques bàsiques generals (darrers 20 butlletins)"
+
+#: statistics/index.php:54
+msgid "No newsletters have been sent till now"
+msgstr "No s'ha enviat cap butlletí encara."
+
+#: statistics/view.php:89
+msgid "opens"
+msgstr "obertures"
+
+#: statistics/view.php:54
+msgid "Reach"
+msgstr "Abast"
+
+#: statistics/view.php:24
+msgid "Newsletter still sending"
+msgstr "El butlletí encara s'està enviant"
+
+#: statistics/view.php:22
+msgid "Draft newsletter, no data available"
+msgstr "Esborrany de butlletí, no hi ha dades disponibles"
+
+#: subscription/antispam.php:140
+msgid "One per line"
+msgstr "Un per línia"
+
+#: includes/controls.php:1238 main/index-steps.php:31 main/index-steps.php:45
+#: profile/index.php:176 profile/index.php:189 subscription/form.php:284
+#: subscription/form.php:320 users/edit.php:197 users/edit.php:216
+msgid "Configure"
+msgstr "Configura"
+
+#: main/main.php:404
+msgid "Allowed roles"
+msgstr "Rols permesos"
+
+#: main/main-admin.php:81 main/main-admin.php:84
+msgid "Addons"
+msgstr "Complements"
+
+#: emails/blocks/footer/options.php:38 main/main-admin.php:63
+msgid "Company info"
+msgstr "Informació de l'empresa"
+
+#: emails/blocks/preheader/options.php:10
+msgid "Font"
+msgstr "Tipus de lletra"
+
+#: composer/index.php:184 composer/index.php:194
+#: emails/tnp-composer/index-v2.php:181 emails/tnp-composer/index-v2.php:191
+msgid "Apply"
+msgstr "Aplica"
+
+#: composer/index.php:138 emails/tnp-composer/index-v2.php:137
+msgid "Blocks"
+msgstr "Blocs"
+
+#: includes/controls.php:808 profile/index.php:262
+#: subscription/confirmation.php:155 subscription/popup.php:65
+#: subscription/welcome.php:160 unsubscription/index.php:245
+msgid "Preview"
+msgstr "Previsualitza"
+
+#: system/status.php:142
+msgid "Filters"
+msgstr "Filtres"
+
+#: emails/blocks/posts/options.php:172
+msgid "Excerpt font"
+msgstr "Tipus de lletra de l'extracte"
+
+#: emails/blocks/posts/options.php:30
+msgid "Two columns"
+msgstr "Dues columnes"
+
+#: emails/blocks/posts/options.php:28
+msgid "One column"
+msgstr "Una columna"
+
+#: emails/edit.php:438 main/autoresponderedit.php:44 main/main.php:198
+#: subscription/options.php:107 unsubscription/index.php:68 users/edit.php:133
+msgid "Advanced"
+msgstr "Avançat"
+
+#: emails/edit.php:385
+msgid "Send now"
+msgstr "Envia-ho ara"
+
+#: emails/emails-admin.php:213
+msgid "Newsletter should be saved before send a test"
+msgstr "El butlletí s'ha de desar abans d'enviar una prova"
+
+#: emails/tnp-composer/modal/test-newsletter.php:8
+msgid "Send a test"
+msgstr "Envia una prova"
+
+#: emails/emails-admin.php:180
+msgid "Test subscribers:"
+msgstr "Subscriptors de prova:"
+
+#: emails/composer.php:133 emails/editorhtml.php:135
+#: emails/editortinymce.php:129
+msgid "Back to last save"
+msgstr "Torna a l'anterior còpia desada"
+
+#: includes/fields.php:710
+msgid "Terms"
+msgstr "Termes"
+
+#: emails/edit.php:309
+msgid "Scheduled."
+msgstr "Planificat."
+
+#: emails/edit.php:305
+msgid "Now sending."
+msgstr "S’està enviant."
+
+#: emails/edit.php:393
+msgid "Schedule delivery?"
+msgstr "Voleu planificar la tramesa?"
+
+#: emails/index.php:81 users/index.php:180
+msgid "Delete selected"
+msgstr "Elimina el seleccionat"
+
+#: users/statistics.php:221
+msgid "Without language"
+msgstr "Sense idioma"
+
+#: users/massive.php:272
+msgid "subscribers without a language"
+msgstr "Subscriptor sense idioma"
+
+#: users/massive.php:271
+msgid "Set to"
+msgstr "ajustat a"
+
+#: header.php:124
+msgid "Create newsletter"
+msgstr "Crea un butlletí de notícies"
+
+#: header.php:225 header.php:237
+msgid "Get Professional Addons"
+msgstr "Aconseguiu extensions professionals"
+
+#: emails/emails-admin.php:184 emails/emails-admin.php:196
+#: emails/emails-admin.php:231 emails/emails-admin.php:241
+msgid "Read more about delivery issues"
+msgstr "Més informació sobre problemes dels lliuraments"
+
+#: emails/blocks/hero/options.php:30 emails/blocks/posts/options.php:102
+msgid "Image"
+msgstr "Imatge"
+
+#: composer/index.php:173 emails/blocks/cta/options.php:29
+#: emails/blocks/header/options.php:53 emails/blocks/image/options.php:37
+#: emails/tnp-composer/index-v2.php:171
+msgid "Width"
+msgstr "Amplada"
+
+#: includes/controls.php:2289
+msgid "Install a multilanguage plugin."
+msgstr "Instal·la una extensió multi-idioma."
+
+#: emails/blocks/posts/options.php:171
+msgid "Title font"
+msgstr "Tipografia del títol"
+
+#: composer/index.php:166 emails/tnp-composer/index-v2.php:166
+msgid "Text font"
+msgstr "Tipografia del text"
+
+#: includes/controls.php:2313
+msgid "Install WPML or Polylang for multilanguage support"
+msgstr "Instal·leu WPML o Polylang per al suport multilingüe"
+
+#: includes/controls.php:2320
+msgid "Your multilanguage plugin is not supported or there are no languages defined"
+msgstr "L'extensió multilingüe no és compatible o els idiomes no estan definits"
+
+#: users/index.php:34
+msgid "Welcome email sent."
+msgstr "Correu electrònic de benvinguda enviat"
+
+#: users/index.php:26
+msgid "Activation email sent."
+msgstr "Correu electrònic d'activació enviat"
+
+#: unsubscription/index.php:190
+msgid "On error"
+msgstr "En cas d'error"
+
+#: emails/edit.php:466 includes/fields.php:748 profile/index.php:165
+#: profile/profile.php:305 profile/profile.php:544 users/edit.php:177
+msgid "Language"
+msgstr "Idioma"
+
+#: subscription/form.php:179 subscription/form.php:212
+msgid "Label"
+msgstr "Etiqueta"
+
+#: emails/blocks/hero/options.php:36 emails/blocks/posts/options.php:118
+#: subscription/form.php:153
+msgid "Button"
+msgstr "Botó"
+
+#: includes/fields.php:866
+msgid "Padding"
+msgstr "Separació"
+
+#: main/main.php:465
+msgid "IP addresses"
+msgstr "Adreces IP"
+
+#: main/main.php:467
+msgid "Store"
+msgstr "Botiga"
+
+#: main/main.php:467
+msgid "Do not store"
+msgstr "No emmagatzemes"
+
+#: main/main.php:467
+msgid "Anonymize"
+msgstr "Anonimitza"
+
+#: includes/module.php:383 includes/module.php:391
+msgid "No subscriber found."
+msgstr "No s'ha trobat cap subscriptor"
+
+#: subscription/lists.php:187
+msgid "Unlink everyone"
+msgstr "Desvincula tothom"
+
+#: profile/profile.php:213 profile/profile.php:219 profile/profile.php:434
+#: subscription/subscription.php:293
+msgid "Subscriber not found."
+msgstr "No hem trobat aquest subscriptor."
+
+#: profile/index.php:58
+msgid "Labels"
+msgstr "Etiquetes"
+
+#: profile/index.php:208
+msgid "Profile saved"
+msgstr "Perfil desat"
+
+#: subscription/form.php:190
+msgid "Use WordPress privacy URL"
+msgstr "Utilitza l’URL de privadesa del WordPress"
+
+#: classes/NewsletterMailerAddon.php:83 emails/edit-nav.php:19 header.php:204
+#: subscription/antispam.php:45 system/logs.php:43 system/system-admin.php:33
+#: users/edit-nav.php:7 users/logs.php:36 users/users-admin.php:27
+msgid "Logs"
+msgstr "Registres"
+
+#: unsubscription/index.php:162
+msgid "Reactivated message"
+msgstr "Reactivar missatge"
+
+#: subscription/customfields.php:47 subscription/form.php:21
+msgid "Optional"
+msgstr "Opcional"
+
+#: emails/blocks/posts/options.php:138 subscription/customfields.php:46
+#: subscription/lists.php:63
+msgid "Private"
+msgstr "Privat"
+
+#: subscription/options.php:220
+msgid "Override Opt In"
+msgstr "Anul·lació de la opció d'entrada"
+
+#: includes/defaults.php:265 unsubscription/index.php:66
+msgid "Goodbye"
+msgstr "Adéu"
+
+#: includes/defaults.php:263
+msgid "Subscriber not found, it probably has already been removed. No further actions are required."
+msgstr "Subscriptor no trobat, probablement perquè ha estat eliminat. No es requereix cap més acció."
+
+#: includes/controls.php:467 includes/controls.php:474
+msgid "Deleted."
+msgstr "Eliminat."
+
+#: includes/controls.php:481
+msgid "Options reset."
+msgstr "Opcions reestablertes."
+
+#: profile/index.php:216
+msgid "Email changed alert"
+msgstr "Alerta de canvi d'email"
+
+#: profile/index.php:226
+msgid "General error"
+msgstr "Error general"
+
+#: profile/index.php:240
+msgid "Privacy link text"
+msgstr "Text d'enllaç de privacitat"
+
+#: includes/defaults.php:220
+msgid "Dear"
+msgstr "Estimat"
+
+#: includes/defaults.php:219
+msgid "Mr."
+msgstr "Sr."
+
+#: includes/defaults.php:218
+msgid "Ms."
+msgstr "Sra."
+
+#: includes/defaults.php:212
+msgid "I'm"
+msgstr "Sóc"
+
+#: includes/defaults.php:267
+msgid "Your subscription has been reactivated."
+msgstr "S'ha reactivat la subscripció."
+
+#: includes/defaults.php:266
+msgid "This message confirms that you have unsubscribed from our newsletter. Thank you."
+msgstr "Aquest missatge confirma que heu cancel·lat la subscripció al nostre butlletí de notícies. Gràcies."
+
+#: includes/defaults.php:251
+msgid "Your email has been changed, an activation email has been sent with instructions."
+msgstr "S'ha actualitzat l'adreça de correu electrònic. Us acabem d'enviar un correu electrònic amb noves instruccions."
+
+#: includes/defaults.php:252
+msgid "Your email is not valid or already in use."
+msgstr "El correu electrònic no és correcte o ja està en us."
+
+#: profile/index.php:233
+msgid "\"Save\" label"
+msgstr "Etiqueta \"Desa\""
+
+#: includes/defaults.php:233
+msgid "A confirmation email is on the way. Follow the instructions and check the spam folder. Thank you."
+msgstr "Hi ha un correu electrònic de confirmació en camí. Seguiu les instruccions i comproveu la carpeta de correu brossa. Gràcies."
+
+#: includes/defaults.php:234
+msgid "Please confirm your subscription"
+msgstr "Confirma la subscripció"
+
+#: includes/defaults.php:235
+msgid "Please confirm your subscription <a href=\"{subscription_confirm_url}\">clicking here</a>"
+msgstr "Confirmeu la subscripció <a href=\"{subscription_confirm_url}\">en fer clic aquí</a>"
+
+#: includes/defaults.php:237
+msgid "Your subscription has been confirmed"
+msgstr "S'ha confirmat la subscripció"
+
+#: includes/defaults.php:240
+msgid "This message confirms your subscription to our newsletter. Thank you!"
+msgstr "Aquest missatge confirma la subscripció al butlletí de notícies. Gràcies!"
+
+#: includes/defaults.php:242
+msgid "Change your profile"
+msgstr "Canvia el perfil"
+
+#: includes/controls.php:542 subscription/form.php:224 users/statistics.php:344
+msgid "Male"
+msgstr "Home"
+
+#: users/massive.php:314
+msgid "subscribers without a list"
+msgstr "subscriptors sense llista"
+
+#: users/massive.php:247 users/massive.php:248 users/massive.php:249
+#: users/massive.php:250 users/massive.php:251 users/massive.php:252
+#: users/massive.php:253 users/massive.php:254 users/massive.php:255
+msgid "years"
+msgstr "anys"
+
+#: users/massive.php:246
+msgid "year"
+msgstr "any"
+
+#: users/massive.php:244 users/massive.php:245
+msgid "months"
+msgstr "mesos"
+
+#: users/massive.php:238
+msgid "Inactive since"
+msgstr "Inactiu des de"
+
+#: users/edit.php:275
+msgid "Last activity"
+msgstr "Darrera activitat"
+
+#: users/massive.php:313
+msgid "Add to list"
+msgstr "Afegeix a la llista"
+
+#: users/massive.php:60
+msgid "deleted"
+msgstr "suprimit"
+
+#: subscription/antispam.php:44
+msgid "Blacklists"
+msgstr "Llista negra"
+
+#: subscription/subscription-admin.php:41
+msgid "Security"
+msgstr "Seguretat"
+
+#: subscription/antispam.php:106
+msgid "Captcha"
+msgstr "Captcha"
+
+#: subscription/antispam.php:136
+msgid "Address blacklist"
+msgstr "Llista negra d'adreces"
+
+#: emails/blocks/header/options.php:15 emails/blocks/hero/options.php:12
+#: emails/blocks/posts/options.php:26
+msgid "Layout"
+msgstr "Disseny"
+
+#: includes/fields.php:859
+msgid "Block Background"
+msgstr "Fons del blog"
+
+#: emails/blocks/posts/block.php:43
+msgid "Read more..."
+msgstr "Llegiu-ne més..."
+
+#: emails/editorhtml.php:144 emails/editortinymce.php:121
+msgid "Get ideas"
+msgstr "Aconsegueix idees"
+
+#: composer/modals/subjects.php:46 emails/subjects.php:48
+msgid "Get/Become <em>[something]</em>. 10 Ideas That Work"
+msgstr "Obteniu/Esdeveniu <em>[something]</em>. 10 idees que funcionen"
+
+#: composer/modals/subjects.php:45 emails/subjects.php:47
+msgid "The 10 Rules for <em>[something]</em>"
+msgstr "Les 10 regles per a <em>[something]</em>"
+
+#: composer/modals/subjects.php:44 emails/subjects.php:46
+msgid "The Top 10 <em>[something]</em>"
+msgstr "Els 10 millors <em>[something]</em>"
+
+#: composer/modals/subjects.php:43 emails/subjects.php:45
+msgid "10 Ways to <em>[something]</em>"
+msgstr "10 maneres de <em>[something]</em>"
+
+#: composer/modals/subjects.php:40 emails/subjects.php:42
+msgid "Don't do These 10 Things When <em>[something]</em>"
+msgstr "No feu aquestes 10 coses quan <em>[something]</em>"
+
+#: composer/modals/subjects.php:39 emails/subjects.php:41
+msgid "10 <em>[something]</em> Mistakes That Make You Look Dumb"
+msgstr "10 errors de <em>[something]</em> que et fan semblar poc llest"
+
+#: composer/modals/subjects.php:38 emails/subjects.php:40
+msgid "Do You Make These 10 <em>[something]</em> Mistakes?"
+msgstr "Cometeu aquests 10 errors <em>[something]</em>?"
+
+#: composer/modals/subjects.php:35 emails/subjects.php:37
+msgid "Secrets of [famous people]"
+msgstr "Els secrets de [famous people]"
+
+#: composer/modals/subjects.php:34 emails/subjects.php:36
+msgid "How to End [problem]"
+msgstr "Com acabar amb [problema]"
+
+#: composer/modals/subjects.php:33 emails/subjects.php:35
+msgid "Get Rid of <em>[problem]</em> Once and Forever"
+msgstr "Desfeu-vos de <em>[problem]</em> per sempre"
+
+#: composer/modals/subjects.php:32 emails/subjects.php:34
+msgid "10 Ways to Simplify Your <em>[something]</em>"
+msgstr "10 maneres de simplificar el vostre <em>[something]</em>"
+
+#: composer/modals/subjects.php:27 emails/subjects.php:29
+msgid "10 Lies <em>[kind of people]</em> Likes to Tell"
+msgstr "10 mentides que acostumen a dir els <em>[kind of people]</em>"
+
+#: composer/modals/subjects.php:26 emails/subjects.php:28
+msgid "10 Warning Signs That <em>[something]</em>"
+msgstr "10 senyals d'avís que <em>[something]</em>"
+
+#: composer/modals/subjects.php:25 emails/subjects.php:27
+msgid "How safe is your <em>[something]</em> from <em>[danger]</em>?"
+msgstr "Quina seguretat té el <em>[something]</em> davant de <em>[danger]</em>?"
+
+#: emails/composer.php:135 emails/editorhtml.php:138
+#: emails/editortinymce.php:132 main/welcome.php:230
+msgid "Next"
+msgstr "Següent"
+
+#: main/welcome.php:229
+msgid "Previous"
+msgstr "Anterior"
+
+#: main/welcome.php:175
+msgid "Time for some tests!"
+msgstr "És moment de fer algunes proves!"
+
+#: main/welcome.php:177
+msgid "Email address"
+msgstr "Adreça de correu electrònic"
+
+#: main/welcome.php:218
+msgid "If you are unsure on how to use some features of Newsletter, reach for our official documentation."
+msgstr "Si no esteu segur de com utilitzar algunes funcions de Newsletter, consulteu la nostra documentació oficial."
+
+#: main/welcome.php:211
+msgid "You can also follow us through our social accounts"
+msgstr "També podeu seguir-nos a través dels nostres comptes a les xarxes socials."
+
+#: main/welcome.php:206
+msgid "Your email"
+msgstr "Adreça electrònica"
+
+#: main/welcome.php:205
+msgid "Be always updated with the latest releases and tips from our headquarters"
+msgstr "Manteniu-vos sempre al dia amb les darreres novetats i consells de la nostra seu central."
+
+#: main/welcome.php:201
+msgid "You're now ready to begin using Newsletter!"
+msgstr "Ja esteu a punt per començar a utilitzar Newsletter!"
+
+#: main/welcome.php:187
+msgid "Add Newsletter widget to sidebar"
+msgstr "Afegiu el giny de Newsletter a la barra lateral"
+
+#: main/welcome.php:170
+msgid "We've just created the page where your visitors will subscribe and where they will edit their preferences."
+msgstr "Hem creat la pàgina perquè els vostres visitants es subscriguin i editin les seves preferències."
+
+#: main/welcome.php:169
+msgid "Subscription and Edit page creation"
+msgstr "Creació de pàgines de subscripció i edició"
+
+#: main/welcome.php:157
+msgid "Add a privacy checkbox"
+msgstr "Afegeix una casella de selecció de privadesa"
+
+#: main/welcome.php:223
+msgid "Go to your dashboard"
+msgstr "Vés al tauler"
+
+#: main/welcome.php:188
+msgid "If you use sidebars in your blog, it may be a good idea to add a subscription form there. Remember to come back here when you're done"
+msgstr "Si utilitzeu barres laterals al blog, pot ser una bona idea afegir-hi un formulari de subscripció. Recordeu tornar aquí quan hàgiu acabat"
+
+#: main/welcome.php:176
+msgid "Check if your website can send emails correctly."
+msgstr "Comproveu si el lloc web pot enviar correus electrònics correctament."
+
+#: main/welcome.php:150
+msgid "Ask for their name"
+msgstr "Demana el seu nom"
+
+#: main/welcome.php:146
+msgid "Subscription Forms"
+msgstr "Formularis de subscripció"
+
+#: main/welcome.php:137
+msgid "Sender"
+msgstr "Remitent"
+
+#: main/welcome.php:147
+msgid "Choose what to ask to your subscribers in your forms."
+msgstr "Trieu què voleu demanar als subscriptors als formularis."
+
+#: main/main.php:210 main/welcome.php:140
+msgid "Sender email"
+msgstr "Adreça electrònica del remitent"
+
+#: main/welcome.php:138
+msgid "Choose which name and email address you'd like to appear as the sender of your newsletters."
+msgstr "Trieu el nom i l'adreça electrònica que voleu que apareguin com a remitent dels butlletins."
+
+#: main/welcome.php:130
+msgid "Welcome to The Newsletter Plugin and thank you for choosing the best mail management system for Wordpress!"
+msgstr "Us donem la benvinguda a The Newsletter Plugin i gràcies per triar el millor sistema de gestió de correu per a WordPress!"
+
+#: main/welcome.php:49
+msgid "Check your mailbox for a test message. Check the spam folder as well."
+msgstr "Comproveu el correu per a trobar un missatge de prova. Comproveu també la carpeta de brossa."
+
+#: main/welcome.php:37
+msgid "Please check the email address, it seems wrong."
+msgstr "Comproveu l'adreça electrònica; sembla incorrecta."
+
+#: main/main.php:234
+msgid "A license key is set"
+msgstr "S'ha definit una clau de llicència"
+
+#: main/welcome.php:131
+msgid "In this short tutorial we will guide you through some of the basic settings to get the most out of our plugin. "
+msgstr "En aquest breu tutorial us guiarem per alguns paràmetres bàsics perquè traieu el màxim profit de la nostra extensió. "
+
+#: main/welcome.php:55
+msgid "There was an error. Complete the setup and then use the System panels to test again."
+msgstr "S'ha produït un error. Completeu la configuració i, a continuació, utilitzeu els quadres del sistema per tornar-ho a provar."
+
+#: users/massive.php:52
+msgid "removed from list"
+msgstr "eliminat de la llista"
+
+#: users/massive.php:47
+msgid "added to list"
+msgstr "afegit a la llista"
+
+#: users/massive.php:228 users/massive.php:305
+msgid "to"
+msgstr "a"
+
+#: emails/edit.php:456 header.php:72
+msgid "All"
+msgstr "Tots"
+
+#: users/statistics.php:66
+msgid "Any"
+msgstr "Qualsevol"
+
+#: includes/controls.php:1254
+msgid "View"
+msgstr "Visualitza"
+
+#: composer/index.php:114 emails/editorhtml.php:136
+#: emails/editortinymce.php:130 emails/tnp-composer/index-v2.php:108
+#: includes/controls.php:1283 system/system-admin.php:36
+msgid "Test"
+msgstr "Prova"
+
+#: emails/edit.php:461 includes/controls.php:2542 includes/controls.php:2546
+#: includes/controls.php:2551 includes/controls.php:2556 users/edit.php:179
+#: users/statistics.php:188
+msgid "None"
+msgstr "Cap"
+
+#: emails/blocks/posts/options.php:165
+#: emails/themes/default/theme-options.php:56
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: emails/blocks/cta/options.php:32 includes/controls.php:2209
+#: includes/fields.php:363 includes/fields.php:481
+msgid "Left"
+msgstr "Esquerra"
+
+#: emails/blocks/footer/options.php:28 main/info.php:59
+msgid "Logo"
+msgstr "Logotip"
+
+#: subscription/lists.php:127 users/edit.php:223 users/edit.php:340
+#: users/index.php:191
+msgid "Name"
+msgstr "Nom"
+
+#: emails/blocks/separator/options.php:14
+msgid "Color"
+msgstr "Color"
+
+#: emails/themes/default/theme-options.php:28
+msgid "Posts"
+msgstr "Entrades"
+
+#: emails/blocks/cta/options.php:32 includes/controls.php:2209
+#: includes/fields.php:363 includes/fields.php:481
+msgid "Right"
+msgstr "Dreta"
+
+#: users/edit.php:224 users/edit.php:341
+msgid "Value"
+msgstr "Valor"
+
+#: emails/blocks/separator/options.php:18
+msgid "Height"
+msgstr "Alçada"
+
+#: emails/blocks/cta/options.php:32 includes/controls.php:2210
+#: includes/fields.php:363 includes/fields.php:481
+msgid "Center"
+msgstr "Centrat"
+
+#: main/info.php:87
+msgid "Address"
+msgstr "Adreça"
+
+#: includes/defaults.php:238 main/main-admin.php:66
+msgid "Welcome"
+msgstr "Us donem la benvinguda"
+
+#: composer/modals/placeholders.php:5 emails/tnp-composer/index-v2.php:229
+#: includes/defaults.php:211 profile/index.php:149 subscription/form.php:108
+#: users/edit.php:158
+msgid "Last name"
+msgstr "Cognoms"
+
+#: composer/modals/placeholders.php:4 emails/tnp-composer/index-v2.php:228
+#: includes/defaults.php:210 profile/index.php:140 subscription/form.php:89
+#: users/edit.php:152
+msgid "First name"
+msgstr "Nom"
+
+#: composer/modals/placeholders.php:6 composer/modals/test.php:9
+#: emails/modals/test.php:9 emails/tnp-composer/index-v2.php:230
+#: emails/tnp-composer/modal/test-newsletter.php:19 includes/defaults.php:209
+#: profile/index.php:131 subscription/confirmation.php:124
+#: subscription/form.php:74 subscription/welcome.php:116 users/edit.php:146
+#: users/index.php:190 users/new.php:49
+msgid "Email"
+msgstr "Correu electrònic"
+
+#: includes/controls.php:542 includes/defaults.php:224 users/statistics.php:352
+msgid "Not specified"
+msgstr "No especificat"
+
+#: includes/controls.php:542 subscription/form.php:220 users/statistics.php:336
+msgid "Female"
+msgstr "Dona"
+
+#: users/edit.php:263 users/statistics.php:252
+msgid "Referrer"
+msgstr "Referent"
+
+#: users/new.php:22
+msgid "This subscriber already exists."
+msgstr "Aquest subscriptor ja existeix."
+
+#: users/new.php:13
+msgid "Wrong email address."
+msgstr "Adreça electrònica incorrecta."
+
+#: users/massive.php:304
+msgid "all subscribers in"
+msgstr "tots els subscriptors a"
+
+#: users/edit.php:301
+msgid "Profile URL"
+msgstr "URL del perfil"
+
+#: users/edit.php:289
+msgid "IP address"
+msgstr "Adreça IP"
+
+#: users/edit.php:183
+msgid "Test subscriber"
+msgstr "Subscriptor de prova"
+
+#: users/edit.php:31
+msgid "The email address is already in use"
+msgstr "L'adreça electrònica ja està en ús"
+
+#: users/edit.php:22
+msgid "Wrong email address"
+msgstr "Adreça electrònica incorrecta"
+
+#: subscription/welcome.php:149
+msgid "Conversion tracking code"
+msgstr "Codi de seguiment de conversions"
+
+#: subscription/options.php:123
+msgid "Subscription page"
+msgstr "Pàgina de subscripció"
+
+#: subscription/options.php:227 unsubscription/index.php:183
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: main/main.php:277
+msgid "Create the page"
+msgstr "Crea la pàgina"
+
+#: subscription/antispam.php:80
+msgid "Antiflood"
+msgstr "Antiflood"
+
+#: main/main.php:498
+msgid "Email encoding"
+msgstr "Codificació del correu electrònic"
+
+#: main/main.php:473
+msgid "Debug mode"
+msgstr "Mode de depuració"
+
+#: main/main.php:436
+msgid "Log level"
+msgstr "Nivell de registres"
+
+#: main/main.php:230
+msgid "License key"
+msgstr "Clau de llicència"
+
+#: main/info.php:93
+msgid "Copyright or legal text"
+msgstr "Copyright o text legal"
+
+#: main/info.php:81
+msgid "Company name"
+msgstr "Nom de l'empresa"
+
+#: main/info.php:72
+msgid "Motto"
+msgstr "Eslògan"
+
+#: includes/controls.php:2419 includes/controls.php:2431
+msgid "Need help?"
+msgstr "Necessiteu ajuda?"
+
+#: emails/emails-admin.php:171 includes/controls.php:2290
+#: includes/controls.php:2393 system/delivery.php:89
+msgid "Read more"
+msgstr "Llegiu-ne més"
+
+#: emails/themes/default/theme-options.php:69
+msgid "Post types"
+msgstr "Tipus d'entrades"
+
+#: emails/blocks/posts/options.php:132
+#: emails/themes/default/theme-options.php:63
+msgid "Max posts"
+msgstr "Màxim d'entrades"
+
+#: emails/themes/cta-2015/theme-options.php:6
+#: emails/themes/default/theme-options.php:8
+msgid "Primary color"
+msgstr "Color principal"
+
+#: emails/themes/blank/theme-options.php:6
+#: emails/themes/default/theme-options.php:22
+msgid "Disable social links"
+msgstr "Desactiva els enllaços socials"
+
+#: emails/edit.php:486
+msgid "Only to subscribers linked to WP users"
+msgstr "Només per a subscriptors enllaçats a usuaris de WP"
+
+#: emails/edit.php:329
+msgid "This newsletter will be sent to not confirmed subscribers."
+msgstr "Aquest butlletí s'enviarà als subscriptors no confirmats."
+
+#: users/edit.php:295
+msgid "Secret token"
+msgstr "Testimoni secret"
+
+#: subscription/options.php:117
+msgid "Opt In"
+msgstr "Confirmació"
+
+#: subscription/options.php:119
+msgid "Single Opt In"
+msgstr "Confirmació única"
+
+#: subscription/options.php:119
+msgid "Double Opt In"
+msgstr "Confirmació doble"
+
+#: main/main.php:124
+msgid "Your Return Path domain is different from your Sender domain. Providers may require them to match."
+msgstr "El domini del camí de retorn (Return Path) és diferent del domini del remitent. Els proveïdors poden requerir que coincideixin."
+
+#: main/main.php:238
+msgid "Find it in <a href=\"%s\" target=\"_blank\">your account</a> page"
+msgstr "Trobeu-ho a la pàgina <a href=\"%s\" target=\"_blank\">el vostre compte</a>"
+
+#: emails/edit.php:454
+msgid "Match at least one of"
+msgstr "Coincideix com a mínim amb un de"
+
+#: emails/edit.php:454
+msgid "Match all of"
+msgstr "Fes coincidir amb tots"
+
+#: subscription/antispam.php:89
+msgid "minute"
+msgstr "minut"
+
+#: subscription/antispam.php:85 subscription/antispam.php:86
+#: subscription/antispam.php:87 subscription/antispam.php:88
+msgid "seconds"
+msgstr "segons"
+
+#: subscription/antispam.php:90 subscription/antispam.php:91
+#: subscription/antispam.php:92 subscription/antispam.php:93
+#: subscription/antispam.php:94 subscription/antispam.php:95
+msgid "minutes"
+msgstr "minuts"
+
+#: classes/NewsletterMailerAddon.php:120 classes/NewsletterMailerAddon.php:129
+#: includes/controls.php:591 main/autorespondernav.php:10
+#: subscription/antispam.php:69 subscription/antispam.php:84
+msgid "Disabled"
+msgstr "Desactivat"
+
+#: emails/blocks/footer/block.php:19 emails/blocks/preheader/options.php:9
+msgid "View online"
+msgstr "Visualitza en línia"
+
+#: emails/blocks/footer/block.php:22
+msgid "Manage your subscription"
+msgstr "Gestioneu la subscripció"
+
+#: users/edit.php:257
+msgid "Created"
+msgstr "S'ha creat"
+
+#: users/edit.php:281
+msgid "WP user ID"
+msgstr "ID d'usuari de WP"
+
+#: emails/themes/vimeo-like/theme-defaults.php:7
+msgid "Read More"
+msgstr "Llegiu-ne més"
+
+#: includes/controls.php:553 includes/fields.php:379 subscription/form.php:174
+msgid "No"
+msgstr "No"
+
+#: includes/controls.php:1213 includes/controls.php:1217
+msgid "Duplicate"
+msgstr "Duplica"
+
+#: header.php:412 includes/defaults.php:216 main/welcome.php:208
+msgid "Subscribe"
+msgstr "Subscriu-m’hi"
+
+#: widget/minimal.php:89 widget/standard.php:131
+msgid "Automatically subscribe to"
+msgstr "Subscripció automàtica a"
+
+#: emails/tnp-composer/index-v2.php:99 main/automatednav.php:12
+#: subscription/subscription-admin.php:47
+msgid "Template"
+msgstr "Plantilla"
+
+#: main/extensions.php:14
+msgid "Error while activating:"
+msgstr "Error en activar:"
+
+#: subscription/customfields.php:98 subscription/lists.php:129
+msgid "Type"
+msgstr "Tipus"
+
+#: users/massive.php:263
+msgid "Update"
+msgstr "Actualitza"
+
+#: includes/controls.php:1713
+msgid "Activate"
+msgstr "Activa"
+
+#: emails/edit-nav.php:20
+msgid "Versions"
+msgstr "Versions"
+
+#: subscription/subscription-admin.php:43
+msgid "Sources"
+msgstr "Fonts"
+
+#: system/status.php:143
+msgid "Plugins"
+msgstr "Extensions"
+
+#: main/welcome.php:179
+msgid "Send a test message"
+msgstr "Envia un missatge de prova"
+
+#: main/main.php:451
+msgid "Custom styles"
+msgstr "Estils personalitzats"
+
+#: includes/controls.php:463 includes/controls.php:488
+msgid "Done."
+msgstr "Fet."
+
+#: subscription/template.php:33
+msgid "No test subscribers found."
+msgstr "No s'han trobat subscriptors de prova."
+
+#: subscription/template.php:58
+msgid "The tag {message} is missing in your template"
+msgstr "L'etiqueta {message} no es troba al vostre model"
+
+#: header.php:183 system/backup-view.php:22 system/delivery.php:206
+#: system/logs.php:30 system/nav.php:5
+msgid "System"
+msgstr "Sistema"
+
+#: emails/edit.php:390 emails/edit.php:393
+msgid "Schedule"
+msgstr "Planifica"
+
+#: emails/blocks/canspam/options.php:11 emails/blocks/footer/options.php:72
+#: emails/blocks/header/options.php:43 emails/blocks/heading/options.php:23
+#: emails/blocks/heading/options.php:25 emails/blocks/hero/options.php:32
+#: emails/blocks/preheader/options.php:8 subscription/customfields.php:48
+msgid "Text"
+msgstr "Text"
+
+#: emails/blocks/header/options.php:35 emails/blocks/hero/options.php:26
+#: emails/blocks/posts/options.php:81 main/info.php:66 widget/standard.php:99
+msgid "Title"
+msgstr "Títol"
+
+#: composer/index.php:193 emails/edit.php:394
+#: emails/tnp-composer/index-v2.php:190
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: emails/themes/default/theme-options.php:50 includes/fields.php:686
+msgid "Categories"
+msgstr "Categories"
+
+#: classes/NewsletterMailerAddon.php:118 classes/NewsletterMailerAddon.php:127
+#: includes/controls.php:596 main/autorespondernav.php:8
+#: subscription/antispam.php:70 subscription/popup.php:62
+msgid "Enabled"
+msgstr "Activada"
+
+#: admin.php:246 header.php:34 includes/controls.php:1242
+#: main/autorespondernav.php:20 main/index.php:98 main/index.php:134
+#: profile/index.php:39 statistics/nav.php:8 subscription/lists.php:143
+#: unsubscription/index.php:51 users/import.php:16 users/index.php:142
+#: users/massive.php:127 users/nav.php:5 users/statistics.php:27
+msgid "Subscribers"
+msgstr "Subscriptors"
+
+#: tnp-footer.php:14
+msgid "Forum"
+msgstr "Fòrum"
+
+#: tnp-footer.php:15
+msgid "Blog"
+msgstr "Blog"
+
+#: header.php:152
+msgid "General Settings"
+msgstr "Configuració general"
+
+#: includes/module-base.php:1323
+msgid "Draft"
+msgstr "Esborrany"
+
+#: emails/presets.php:67
+msgid "New"
+msgstr "Noves"
+
+#: subscription/customfields.php:48 users/statistics.php:148
+msgid "List"
+msgstr "Llista"
+
+#: admin.php:247 emails/blocks/cta/options.php:40 emails/edit.php:449
+#: header.php:98 profile/index.php:175 subscription/form.php:52
+#: subscription/lists.php:85 subscription/lists.php:111 users/edit.php:131
+#: users/edit.php:203 users/index.php:197 users/logs.php:55
+#: users/massive.php:153
+msgid "Lists"
+msgstr "Llistes"
+
+#: emails/new.php:118 includes/controls.php:1271 includes/controls.php:1279
+msgid "Back"
+msgstr "Enrera"
+
+#: emails/edit.php:388
+msgid "Stop"
+msgstr "Atura"
+
+#: composer/modals/test.php:10 composer/modals/test.php:23
+#: emails/modals/test.php:10 emails/modals/test.php:23
+#: emails/tnp-composer/modal/test-newsletter.php:23
+#: emails/tnp-composer/modal/test-newsletter.php:38 system/delivery.php:301
+msgid "Send"
+msgstr "Envia"
+
+#: emails/edit.php:386
+msgid "Pause"
+msgstr "Pausa"
+
+#: emails/blocks/giphy/options.php:10 users/index.php:163
+msgid "Search"
+msgstr "Cerca"
+
+#: includes/controls.php:558 includes/fields.php:384 subscription/form.php:174
+msgid "Yes"
+msgstr "Sí"
+
+#: emails/edit-nav.php:16 emails/emails-admin.php:75 emails/emails-admin.php:78
+#: emails/emails-admin.php:79 emails/emails.php:112 emails/emails.php:115
+#: emails/emails.php:116 emails/presets.php:97 emails/presets.php:98
+#: includes/controls.php:1266
+msgid "Edit"
+msgstr "Edita"
+
+#: emails/composer.php:134 emails/edit.php:676 emails/editorhtml.php:137
+#: emails/editortinymce.php:131 includes/controls.php:1201
+#: includes/controls.php:1205 includes/defaults.php:253
+msgid "Save"
+msgstr "Desa"
+
+#: main/main.php:257
+msgid "Reply to"
+msgstr "Respon a"
+
+#: composer/index.php:79 emails/index.php:94 emails/presets.php:74
+#: emails/tnp-composer/index-v2.php:77 main/autorespondermessages.php:74
+msgid "Subject"
+msgstr "Assumpte"
+
+#: main/index.php:323 main/welcome.php:219
+msgid "Documentation"
+msgstr "Documentació"
+
+#: profile/profile-admin.php:25
+msgid "Profile"
+msgstr "Perfil"
+
+#: header.php:157
+msgid "Company Info"
+msgstr "Informació de l'empresa"
+
+#: emails/themes/vimeo-like/theme-options.php:24 main/autoresponderedit.php:43
+#: main/info.php:43 main/nav.php:4 profile/index.php:56
+#: statistics/settings.php:37 subscription/antispam.php:43
+#: system/status.php:141 users/edit-nav.php:6 users/massive.php:152
+msgid "General"
+msgstr "General"
+
+#: admin.php:249 composer/index.php:139 emails/nav.php:8
+#: emails/tnp-composer/index-v2.php:138 header.php:90 header.php:148
+#: main/automatednav.php:11 main/autorespondernav.php:17 main/info.php:29
+#: main/main.php:175 main/main.php:196 main/nav.php:3
+#: subscription/inject.php:51 subscription/popup.php:53
+msgid "Settings"
+msgstr "Configuració"
+
+#: emails/edit.php:479 emails/index.php:95 statistics/view-users.php:107
+#: subscription/customfields.php:97 system/system-admin.php:31
+#: users/edit.php:170 users/index.php:192 users/massive.php:160
+#: users/statistics.php:60 users/statistics.php:208
+msgid "Status"
+msgstr "Estat"
+
+#: emails/editorhtml.php:14 emails/new.php:19 emails/new.php:61
+msgid "Here the email subject"
+msgstr "Aquí l'assumpte del correu electrònic"
+
+#: emails/edit.php:473 profile/index.php:158 subscription/form.php:127
+#: subscription/form.php:211 users/edit.php:164 users/statistics.php:326
+msgid "Gender"
+msgstr "Gènere"
+
+#: emails/edit.php:481 includes/classes.php:339 users/massive.php:175
+#: users/statistics.php:72
+msgid "Confirmed"
+msgstr "Confirmat"
+
+#: emails/edit.php:481 includes/classes.php:336 users/massive.php:184
+#: users/statistics.php:78
+msgid "Not confirmed"
+msgstr "No confirmat"
+
+#: emails/edit.php:299
+msgid "A subject is required to send"
+msgstr "L'assumpte és necessari per enviar"
+
+#: emails/emails-admin.php:169
+msgid "There are no test subscribers to send to"
+msgstr "No existeixen subscriptors de prova als quals enviar"
+
+#: emails/emails-admin.php:195 emails/tnp-composer/modal/test-newsletter.php:43
+msgid "Read more about test subscribers"
+msgstr "Llegeix més sobre els subscriptors de prova"
+
+#: emails/edit.php:385
+msgid "Start real delivery?"
+msgstr "Comencem el lliurament real?"
+
+#: emails/edit.php:672
+msgid "Keep private"
+msgstr "Manté privat"
+
+#: emails/edit.php:685
+msgid "Track clicks and message opening"
+msgstr "Fes un seguiment dels clics i obertura de missatges"
+
+#: emails/edit.php:386
+msgid "Pause the delivery?"
+msgstr "Fem una pausa del lliurament?"
+
+#: includes/controls.php:1209
+msgid "Reset"
+msgstr "Reinicialitza"
+
+#: admin.php:242 main/dashboard-nav.php:4 main/flow.php:119
+msgid "Dashboard"
+msgstr "Tauler"
+
+#: emails/edit.php:387
+msgid "Continue"
+msgstr "Continua"
+
+#: profile/index.php:125 subscription/customfields.php:47
+#: subscription/form.php:21
+msgid "Required"
+msgstr "Obligatori"
+
+#: subscription/form.php:234
+msgid "Other"
+msgstr "Altres"
+
+#: includes/controls.php:1225 includes/controls.php:1234
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: includes/module-base.php:1319
+msgid "Sent"
+msgstr "Enviat"
+
+#: includes/module-base.php:1321
+msgid "Paused"
+msgstr "Pausat"
+
+#: includes/module-base.php:1374 includes/module-base.php:1376
+#: includes/module-base.php:1433
+msgid "of"
+msgstr "de"
+
+#: emails/blocks/posts/options.php:96 emails/index.php:97 users/index.php:193
+#: users/logs.php:52
+msgid "Date"
+msgstr "Data"
+
+#: users/massive.php:161 users/massive.php:166 users/statistics.php:61
+#: users/statistics.php:149 users/statistics.php:209 users/statistics.php:253
+#: users/statistics.php:288
+msgid "Total"
+msgstr "Total"
+
+#: includes/controls.php:455 includes/controls.php:459
+#: includes/defaults.php:255
+msgid "Saved."
+msgstr "S'ha desat."
+
+#: emails/themes/vimeo-like/theme-options.php:25 main/info.php:44
+msgid "Social"
+msgstr "Social"
+
+#: emails/edit-nav.php:18 header.php:192 includes/module-base.php:1315
+#: main/main.php:197 system/delivery.php:223
+msgid "Sending"
+msgstr "S'està enviant"
+
+#: subscription/lists.php:145 users/massive.php:162
+msgid "Actions"
+msgstr "Accions"
+
+#: emails/index.php:96 system/delivery.php:232
+msgid "Progress"
+msgstr "Progrés"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: users/new.php:36
+msgid "New Subscriber"
+msgstr "Subscripció nova"
+
+#: includes/classes.php:345 users/massive.php:204 users/statistics.php:90
+msgid "Bounced"
+msgstr "Rebutjat"
+
+#: users/massive.php:190
+msgid "Are you sure you want to mark ALL subscribers as confirmed?"
+msgstr "Segur que voleu marcar TOTS els subscriptors com a confirmats?"
+
+#: subscription/lists.php:190 users/massive.php:190
+msgid "Confirm all"
+msgstr "Confirmeu-los tots"
+
+#: users/massive.php:171
+msgid "Are you sure you want to remove ALL subscribers?"
+msgstr "Segur que voleu eliminar TOTS els subscriptors?"
+
+#: users/massive.php:171 users/massive.php:189 users/massive.php:199
+#: users/massive.php:209 users/massive.php:219
+msgid "Delete all"
+msgstr "Suprimeix-los tots"
+
+#: users/massive.php:136
+msgid "Please backup before running maintenance actions."
+msgstr "Feu una còpia de seguretat abans d'executar accions de manteniment."
+
+#: users/users-admin.php:30
+msgid "Subscribers Maintenance"
+msgstr "Manteniment de subscriptors"
+
+#: users/massive.php:42
+msgid "Subscribers deleted: "
+msgstr "Subscriptors suprimits: "
+
+#: users/massive.php:37
+msgid "Subscribers changed to confirmed: "
+msgstr "Subscriptors canviats a confirmats: "
+
+#: users/massive.php:32
+msgid "Subscribers changed to not confirmed: "
+msgstr "Subscriptors canviats a no confirmats: "
+
+#: users/massive.php:27
+msgid "Subscribers bounced deleted: "
+msgstr "Subscriptors rebutjats suprimits: "
+
+#: users/massive.php:17
+msgid "Subscribers unsubscribed deleted: "
+msgstr "Subscriptors donats de baixa suprimits: "
+
+#: users/massive.php:12
+msgid "Subscribers not confirmed deleted: "
+msgstr "Subscriptors no confirmats suprimits: "
+
+#: header.php:41 users/nav.php:7
+msgid "Profile page"
+msgstr "Pàgina de perfil"
+
+#: users/index.php:177
+msgid "subscriber(s) found"
+msgstr "subscriptor(s) trobat(s)"
+
+#: header.php:244 header.php:248
+msgid "License expired"
+msgstr "Llicència caducada"
+
+#: header.php:267
+msgid "License active"
+msgstr "Llicència activa"
+
+#: system/system-admin.php:35
+msgid "Diagnostic"
+msgstr "Diagnòstic"
+
+#: header.php:161
+msgid "Messages Template"
+msgstr "Plantilla de missatges"
+
+#: header.php:45 header.php:109
+msgid "Unsubscription"
+msgstr "Donar-se de baixa"
+
+#: admin.php:243 header.php:86 subscription/antispam.php:29
+#: subscription/nav.php:5 subscription/options.php:93
+#: subscription/options.php:106 subscription/subscription-admin.php:39
+#: subscription/subscription-admin.php:40
+msgid "Subscription"
+msgstr "Subscripció"
+
+#: header.php:61 users/nav.php:10
+msgid "Maintenance"
+msgstr "Manteniment"
+
+#: tnp-footer.php:13
+msgid "Your Account"
+msgstr "El vostre compte"
+
+#: unsubscription/index.php:116
+msgid "Goodbye email"
+msgstr "Correu electrònic de comiat"
+
+#: unsubscription/index.php:102
+msgid "Goodbye message"
+msgstr "Missatge de comiat"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://www.thenewsletterplugin.com"
+msgstr "https://www.thenewsletterplugin.com"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Stefano Lissa & The Newsletter Team"
+msgstr "Stefano Lissa i l'equip de The Newsletter"
+
+#: subscription/template.php:84
+msgid "Messages template"
+msgstr "Plantilla de missatges"
+
+#: main/main.php:305
+msgid "Max emails per hour"
+msgstr "Màxim de correus per hora"
+
+#: main/main.php:247
+msgid "Return path"
+msgstr "Camí de retorn"
+
+#: emails/edit.php:704 main/main.php:222 main/welcome.php:139
+msgid "Sender name"
+msgstr "Nom del remitent"
+
+#: emails/edit.php:691
+msgid "Sender email address"
+msgstr "Adreça electrònica del remitent"
+
+#: main/main.php:54
+msgid "Reply to email is not correct."
+msgstr "L'adreça electrònica de resposta no és correcta."
+
+#: main/main.php:39
+msgid "Return path email is not correct."
+msgstr "L'adreça electrònica del camí de retorn no és correcta."
+
+#: main/main.php:33
+msgid "The sender email address is not correct."
+msgstr "L'adreça electrònica del remitent no és correcta."
+
+#: users/index.php:158
+msgid "Test subscribers"
+msgstr "Subscriptors de prova"
+
+#: emails/blocks/posts/options.php:165
+msgid "Comma separated"
+msgstr "Separat per comes"
+
+#: includes/controls.php:1027
+msgid "Valid email address"
+msgstr "Adreça electrònica vàlida"
+
+#: emails/new.php:134
+msgid "Refresh the preview"
+msgstr "Actualitza la previsualització"
+
+#: emails/new.php:117
+msgid "Create a newsletter"
+msgstr "Crea un butlletí"
+
+#: emails/index.php:156
+msgid "Expected total at the end of the delivery may differ due to subscriptions/unsubscriptions occurred in the meantime."
+msgstr "El total esperat al final de la tramesa pot diferir a causa de subscripcions o cancel·lacions que s'hagin produït mentrestant."
+
+#: emails/nav.php:13 emails/nav.php:15 header.php:51 header.php:133
+#: header.php:138 includes/controls.php:1246 includes/controls.php:1250
+#: main/autorespondernav.php:22 statistics/index-nav.php:4
+#: statistics/settings.php:24 users/nav.php:9 users/users-admin.php:33
+msgid "Statistics"
+msgstr "Estadístiques"
+
+#: admin.php:245 emails/automated.php:15 emails/autoresponder.php:15
+#: emails/index.php:66 emails/nav.php:5 emails/nav.php:6 emails/presets.php:56
+#: emails/settings.php:41 header.php:117 includes/controls.php:1258
+#: main/automatednav.php:13 main/index.php:165 statistics/index-nav.php:6
+#: users/edit-nav.php:8 users/newsletters.php:35 users/users-admin.php:28
+msgid "Newsletters"
+msgstr "Butlletins"
+
+#: emails/index.php:41 emails/presets.php:21
+msgid "Message duplicated."
+msgstr "Missatge duplicat."
+
+#: emails/edit.php:679
+msgid "Hide/show from public sent newsletter list."
+msgstr "Amagueu/mostreu de la llista pública de butlletins tramesos."
+
+#: emails/edit.php:435
+msgid "Targeting"
+msgstr "Segmentació"
+
+#: includes/module-base.php:1317
+msgid "Scheduled"
+msgstr "Planificat"
+
+#: includes/paginator.php:129 users/index.php:173
+msgid "Go"
+msgstr "Vés"
+
+#: includes/classes.php:342 users/massive.php:194 users/statistics.php:84
+msgid "Unsubscribed"
+msgstr "S'ha cancel·lat la subscripció"
+
+#. Description of the plugin
+#: plugin.php
+msgid "Newsletter is a cool plugin to create your own subscriber list, to send newsletters, to build your business. <strong>Before update give a look to <a href=\"https://www.thenewsletterplugin.com/category/release\">this page</a> to know what's changed.</strong>"
+msgstr "Newsletter és una extensió fantàstica per crear llistes de subscriptors, enviar butlletins i impulsar el negoci. <strong>Abans d'actualitzar-la, feu una ullada a <a href=\"https://www.thenewsletterplugin.com/category/release\">aquesta pàgina</a> per saber què ha canviat.</strong>"
+
+#: includes/controls.php:1107
+msgid "Proceed?"
+msgstr "Voleu procedir?"
+
+#: tnp-footer.php:8
+msgid "Get Premium"
+msgstr "Aconseguiu la versió prèmium"
+
+#: users/index.php:165
+msgid "Reset Filters"
+msgstr "Reinicialitza els filtres"
+
+#: emails/edit.php:52
+msgid "Delivery definitively canceled"
+msgstr "L'entrega ha estat cancel·lada"
+
+#: subscription/lists.php:189 users/massive.php:180
+msgid "Unconfirm all"
+msgstr "Desconfirma-ho tot"

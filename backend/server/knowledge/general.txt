@@ -1,0 +1,22 @@
+========================================================================
+INFORMACIÓN GENERAL Y PRODUCTOS - MICROAREA SOFTWARE
+========================================================================
+Microarea es una empresa tecnológica fundada en Valencia, España, especializada en el desarrollo de software de gestión profesional, fiscal y contable para pymes, autónomos y despachos.
+
+NUESTROS PRODUCTOS DE SOFTWARE:
+1. WinLab: Software de gestión y trazabilidad para laboratorios de prótesis dental.
+2. EosWin: Programa de fiscalidad y estimación de impuestos (directa y simplificada) para asesores y autónomos. Modela y genera los formularios oficiales de Hacienda (Modelos 130, 131, 303, 390).
+3. MaConta: Contabilidad general avanzada de doble entrada. Incluye balances oficiales (Pérdidas y Ganancias, Balance de Situación), amortizaciones y conciliación bancaria norma 43.
+4. MaGest: ERP de gestión comercial, compras, ventas, control de inventario y facturación electrónica (con soporte para TicketBAI en el País Vasco y normativa Facturae).
+5. LexNext: Software integral de gestión para despachos de abogados y procuradores. Expedientes, minutas de honorarios, suplidos y conexión con la plataforma judicial LexNET.
+6. Poshability: Sistema de gestión y TPV táctil para salones de peluquería, spas, barberías y centros de belleza. Agenda interactiva de citas y recordatorios por SMS.
+
+DATOS DE CONTACTO:
+* Dirección: Gran Vía Fernando el Católico, 46, Valencia, España.
+* Horario de Atención: Lunes a Viernes de 9:00 a 14:00 y de 16:00 a 19:00.
+* Teléfono General: (+34) 96 338 78 20
+* Email: info@microareanext.com
+* Soporte General: soporte@microareanext.com
+
+POLÍTICA DE TRASPASO A SOPORTE HUMANO (HANDOFF):
+Si el cliente manifiesta que desea hablar con una persona, tiene un problema con una factura, o solicita hablar con soporte técnico directo, indícale de forma educada que vas a transferir la conversación con un técnico y proporciona el tag "[HANDOFF]" al final del mensaje.

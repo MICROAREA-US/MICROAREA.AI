@@ -1,0 +1,324 @@
+27-11-2025 09:22:51 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: elena@hernandezmamblona.com: <elena@hernandezmamblona.com>: Recipient address rejected: Domain not found
+
+27-11-2025 09:29:04 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: administracion@gonmat-asesores.com: <administracion@gonmat-asesores.com>: Recipient address rejected: Domain not found
+
+27-11-2025 09:38:01 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: free@freeassesros.cat: <free@freeassesros.cat>: Recipient address rejected: Domain not found
+
+27-11-2025 09:47:12 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: juani@cerrajeriajtp.com: <juani@cerrajeriajtp.com>: Recipient address rejected: Domain not found
+
+27-11-2025 09:57:19 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: tsebastia@jsvernich.com: <tsebastia@jsvernich.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:03:13 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: admon@ferrergeneralfruits.es: <admon@ferrergeneralfruits.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:03:14 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: nina.cabeza@escola-povill.com: <nina.cabeza@escola-povill.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:07:23 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: 822vic@tourlineexpress.com: <822vic@tourlineexpress.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:13:26 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: tuperin@es.europost.org: <tuperin@es.europost.org>: Recipient address rejected: Domain not found
+
+27-11-2025 10:13:30 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: garcotel@garcotel.es: <garcotel@garcotel.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:17:28 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: svg@imediacv.com: <svg@imediacv.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:23:31 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: sergio@osseam.com: <sergio@osseam.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:27:33 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: proxims@civen.es: <proxims@civen.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:33:35 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: vogue.italia@eic.ictnet.es: <vogue.italia@eic.ictnet.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:33:36 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jcorbell@eic.ictnet.es: <jcorbell@eic.ictnet.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:37:39 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: lanciber@lanciber.es: <lanciber@lanciber.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:37:42 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: arc@sumi.es: <arc@sumi.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:42:43 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: j.rierab@pujal.es: <j.rierab@pujal.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:42:48 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: marvich@gerunda.es: <marvich@gerunda.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:42:49 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: antoni@antoni-alena.com: <antoni@antoni-alena.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:47:42 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: josep@tte-spain.com: <josep@tte-spain.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:47:48 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: romeu.xavier@eu.dragoco.com: <romeu.xavier@eu.dragoco.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:53:46 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: eelizalde@cactus-bcn.com: <eelizalde@cactus-bcn.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:53:47 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: aguilar@bordas-plastics.com: <aguilar@bordas-plastics.com>: Recipient address rejected: Domain not found
+
+27-11-2025 10:53:49 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: antelia@cconline.es: <antelia@cconline.es>: Recipient address rejected: Domain not found
+
+27-11-2025 10:57:49 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: intermisa@intermisa.net: <intermisa@intermisa.net>: Recipient address rejected: Domain not found
+
+27-11-2025 11:07:48 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: mgsuarez@sntandersupernet.com: <mgsuarez@sntandersupernet.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:07:48 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: seintex@seintex.com: <seintex@seintex.com>: Recipient address rejected: Domain seintex.com does not accept mail (nullMX)
+
+27-11-2025 11:07:49 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: acerca@arrakis.es: <acerca@arrakis.es>: Recipient address rejected: Domain not found
+
+27-11-2025 11:13:57 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jpuertolas@rmercader.com: <jpuertolas@rmercader.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:17:57 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: ibartol@delasprat.com: <ibartol@delasprat.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:17:59 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: marta@matevalle.com: <marta@matevalle.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:24:02 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: mj.mayol@casabatas.com: <mj.mayol@casabatas.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:24:02 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: rafaelsolera@ono.com: <rafaelsolera@ono.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:24:02 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@autorentatarquera.com: <info@autorentatarquera.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:27:49 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jalarcon@serpint-89.com: <jalarcon@serpint-89.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:27:49 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: l.ares@terra.es: <l.ares@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 11:27:51 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: luisalberto.alo@terra.es: <luisalberto.alo@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 11:42:30 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: rtorto@terra.es: <rtorto@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 11:42:30 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: bmhcds@scd.ictnet.es: <bmhcds@scd.ictnet.es>: Recipient address rejected: Domain not found
+
+27-11-2025 11:42:32 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: mcm@iponet.es: <mcm@iponet.es>: Recipient address rejected: Domain not found
+
+27-11-2025 11:52:38 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: antonio@old-icons.es: <antonio@old-icons.es>: Recipient address rejected: Domain not found
+
+27-11-2025 11:52:39 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: hidrotropic@savias.es: <hidrotropic@savias.es>: Recipient address rejected: Domain not found
+
+27-11-2025 11:58:38 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: gestiomf@terra.es: <gestiomf@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 11:58:38 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: coheval@coheval.com: <coheval@coheval.com>: Recipient address rejected: Domain not found
+
+27-11-2025 11:58:39 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: rjnet@proret.es: <rjnet@proret.es>: Recipient address rejected: Domain not found
+
+27-11-2025 11:58:41 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: a8051264@centres.xtec.es: <a8051264@centres.xtec.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:02:40 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: daniel@kuaiquery.com: <daniel@kuaiquery.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:02:45 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: maty@arrakis.es: <maty@arrakis.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:07:50 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: troserma@arrakis.es: <troserma@arrakis.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:07:51 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: elauna@gt-marketing.org: <elauna@gt-marketing.org>: Recipient address rejected: Domain not found
+
+27-11-2025 12:07:51 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: veigadixital@arrakis.es: <veigadixital@arrakis.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:12:46 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: comercial@alteco-sl.com: <comercial@alteco-sl.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:12:47 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: nsi@nsi.com.es: <nsi@nsi.com.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:18:51 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: rivera@teline.es: <rivera@teline.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:18:53 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: winds@speed.jaztell.es: <winds@speed.jaztell.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:22:53 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: gerencia@invermui.com: <gerencia@invermui.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:22:54 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jeb1646@info-servi.com: <jeb1646@info-servi.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:22:55 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: mmartin@lahore.es: <mmartin@lahore.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:28:54 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: metahur@canal21.com: <metahur@canal21.com>: Recipient address rejected: Domain canal21.com does not accept mail (nullMX)
+
+27-11-2025 12:28:54 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: rdys@rdys.com: <rdys@rdys.com>: Recipient address rejected: Domain rdys.com does not accept mail (nullMX)
+
+27-11-2025 12:28:55 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: gda@mdaarchivos.es: <gda@mdaarchivos.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:32:56 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: mincorsrl@terra.es: <mincorsrl@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 12:32:56 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: munozb@arrakis.es: <munozb@arrakis.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:32:58 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: tecnofil@tecnofil-scp.com: <tecnofil@tecnofil-scp.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:38:58 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: molduarte@molduarte.com: <molduarte@molduarte.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:38:59 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: nicapack@terra.es: <nicapack@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 12:39:00 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: administracion@aznarmunoz.com: <administracion@aznarmunoz.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:43:06 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: laxermada@laxermada.com: <laxermada@laxermada.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:43:06 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: sectorseguridad@euroseg.com: <sectorseguridad@euroseg.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:43:08 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: juanjo.varilla@msvcinco5.com: <juanjo.varilla@msvcinco5.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:48:02 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: tonbosch@terra.es: <tonbosch@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 12:48:04 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@evision.es: <info@evision.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:53:05 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: ameinformatica@arrakis.es: <ameinformatica@arrakis.es>: Recipient address rejected: Domain not found
+
+27-11-2025 12:53:06 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: ventas@atecnicopc.com: <ventas@atecnicopc.com>: Recipient address rejected: Domain not found
+
+27-11-2025 12:59:09 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: hnossedze@la-serrania.com: <hnossedze@la-serrania.com>: Recipient address rejected: Domain not found
+
+27-11-2025 13:03:10 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: drramirezaguilar@telefonica.nt: <drramirezaguilar@telefonica.nt>: Recipient address rejected: Domain not found
+
+27-11-2025 13:03:13 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: angel.ordonez@cereshouse.es: <angel.ordonez@cereshouse.es>: Recipient address rejected: Domain not found
+
+27-11-2025 13:07:15 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: montajes@tmmejorada.com: <montajes@tmmejorada.com>: Recipient address rejected: Domain not found
+
+27-11-2025 13:13:17 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: amunuera@efe-rotulos.com: <amunuera@efe-rotulos.com>: Recipient address rejected: Domain not found
+
+27-11-2025 13:17:20 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@casagalan.es: <info@casagalan.es>: Recipient address rejected: Domain not found
+
+27-11-2025 13:17:22 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: satmalaga@tiscali.es: <satmalaga@tiscali.es>: Recipient address rejected: Domain not found
+
+27-11-2025 13:26:30 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: lugotexsl@terra.es: <lugotexsl@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 13:26:31 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: edgarer64@terra.es: <edgarer64@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 13:37:48 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: serrano@tinsaonline.com: <serrano@tinsaonline.com>: Recipient address rejected: Domain not found
+
+27-11-2025 13:43:10 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jesus@alonsoduarte.com: <jesus@alonsoduarte.com>: Recipient address rejected: Domain not found
+
+27-11-2025 13:43:11 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jesus.chillida@terra.es: <jesus.chillida@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 13:51:30 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jmec@espaci.es: <jmec@espaci.es>: Recipient address rejected: Domain not found
+
+27-11-2025 13:57:00 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: imagen@deabaria.com: <imagen@deabaria.com>: Recipient address rejected: Domain not found
+
+27-11-2025 13:57:34 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: universal-puigcerda@usisl.net: <universal-puigcerda@usisl.net>: Recipient address rejected: Domain not found
+
+27-11-2025 13:57:35 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: comercial@canalimpulso.net: <comercial@canalimpulso.net>: Recipient address rejected: Domain not found
+
+27-11-2025 13:57:36 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: miguelangel@drudei.com: <miguelangel@drudei.com>: Recipient address rejected: Domain not found
+
+27-11-2025 13:57:36 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: fontbercal@tiscali.es: <fontbercal@tiscali.es>: Recipient address rejected: Domain not found
+
+27-11-2025 14:07:20 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@cas-aux.com: <info@cas-aux.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:07:37 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: internet@cadilinea.com: <internet@cadilinea.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:07:38 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jestades@guarda-control.com: <jestades@guarda-control.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:07:38 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: booth@futurebooth.com: <booth@futurebooth.com>: Recipient address rejected: Domain futurebooth.com does not accept mail (nullMX)
+
+27-11-2025 14:07:39 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: barcelona@armanicasa-bcn.com: <barcelona@armanicasa-bcn.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:15:33 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: paloma@manuchip3000.com: <paloma@manuchip3000.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:15:33 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: cial@atelglobal.com: <cial@atelglobal.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:15:35 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: albertojust@endor-net.com: <albertojust@endor-net.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:15:35 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: bolvens@bolvens.es: <bolvens@bolvens.es>: Recipient address rejected: Domain not found
+
+27-11-2025 14:15:35 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: decorcas@conexiosantboi.com: <decorcas@conexiosantboi.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:21:16 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: pp.asesores@terra.es: <pp.asesores@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 14:23:57 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: compras@grupoiht.com: <compras@grupoiht.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:57:22 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: ignaciomonter@harol.es: <ignaciomonter@harol.es>: Recipient address rejected: Domain not found
+
+27-11-2025 14:57:24 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: fernando@proyectaliaweb.com: <fernando@proyectaliaweb.com>: Recipient address rejected: Domain not found
+
+27-11-2025 14:57:25 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: ideasdemieres@terra.es: <ideasdemieres@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 15:08:03 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: xanozu@terra.es: <xanozu@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 15:08:04 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@gandinet.com: <info@gandinet.com>: Recipient address rejected: Domain gandinet.com does not accept mail (nullMX)
+
+27-11-2025 15:08:05 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: vivenrosmondaguiz@terra.es: <vivenrosmondaguiz@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 15:18:12 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: gerardoperez@reymaweb.com: <gerardoperez@reymaweb.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:18:13 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: cvd@ceoecan.es: <cvd@ceoecan.es>: Recipient address rejected: Domain not found
+
+27-11-2025 15:18:13 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jgmora@desarrolloygestion.com: <jgmora@desarrolloygestion.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:18:14 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: equsolutions@equsolution.com: <equsolutions@equsolution.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:31:41 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: infocumar@infocumar.com: <infocumar@infocumar.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:32:12 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: manuchip3000@manuchip3000.com: <manuchip3000@manuchip3000.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:39:49 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: comercial@etilbolsa.com: <comercial@etilbolsa.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:42:47 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: administracion@seimarwood.com: <administracion@seimarwood.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:42:49 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: baltasar@improblac.com: <baltasar@improblac.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:42:50 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: calidad@gruposerclint.es: <calidad@gruposerclint.es>: Recipient address rejected: Domain not found
+
+27-11-2025 15:54:10 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: rosesisegura@ono.com: <rosesisegura@ono.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:54:10 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: bricocina@bricocina.es: <bricocina@bricocina.es>: Recipient address rejected: Domain not found
+
+27-11-2025 15:54:11 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: marisarmr@ono.com: <marisarmr@ono.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:54:11 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: paco_tarrega@ono.com: <paco_tarrega@ono.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:54:12 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@delorenzohispana.es: <info@delorenzohispana.es>: Recipient address rejected: Domain not found
+
+27-11-2025 15:57:30 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: roser@angueraweb.com: <roser@angueraweb.com>: Recipient address rejected: Domain not found
+
+27-11-2025 15:57:32 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: tecnico@climanetweb.es: <tecnico@climanetweb.es>: Recipient address rejected: Domain not found
+
+27-11-2025 15:57:32 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: cgb@tele2.es: <cgb@tele2.es>: Recipient address rejected: Domain not found
+
+27-11-2025 16:07:40 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: mhquimicos@ono.com: <mhquimicos@ono.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:07:40 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: proveedores@sistega.com: <proveedores@sistega.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:13:11 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: palcarju@ono.com: <palcarju@ono.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:13:12 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: anabel@cocival.es: <anabel@cocival.es>: Recipient address rejected: Domain not found
+
+27-11-2025 16:13:13 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: r.molina@molinaplak.com: <r.molina@molinaplak.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:18:00 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@circuitoespana.es: <info@circuitoespana.es>: Recipient address rejected: Domain not found
+
+27-11-2025 16:18:01 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: plvcard@plvcard.com: <plvcard@plvcard.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:18:01 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: shalomsl@terra.es: <shalomsl@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 16:22:54 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@autoescolaruta7.com: <info@autoescolaruta7.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:29:07 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@health-hemp.eu: <info@health-hemp.eu>: Recipient address rejected: Domain not found
+
+27-11-2025 16:29:08 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: administracion@redsa-cra.es: <administracion@redsa-cra.es>: Recipient address rejected: Domain not found
+
+27-11-2025 16:33:03 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jcalderon@eia.ictnet.es: <jcalderon@eia.ictnet.es>: Recipient address rejected: Domain not found
+
+27-11-2025 16:41:55 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jcampan@terra.es: <jcampan@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 16:41:56 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: adeco.sl@terra.es: <adeco.sl@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 16:41:57 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: mail@construccionesescribano.com: <mail@construccionesescribano.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:43:33 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: josemaria0174@terra.es: <josemaria0174@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 16:43:33 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: mfrs@mfrs-sl.net: <mfrs@mfrs-sl.net>: Recipient address rejected: Domain not found
+
+27-11-2025 16:43:33 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: informatica@sinatelcom.com: <informatica@sinatelcom.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:47:13 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: xose@explosiondigital.es: <xose@explosiondigital.es>: Recipient address rejected: Domain not found
+
+27-11-2025 16:47:15 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: thomas.lindeen@alforent.com: <thomas.lindeen@alforent.com>: Recipient address rejected: Domain alforent.com does not accept mail (nullMX)
+
+27-11-2025 16:52:13 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: forkchem@forkresins.com: <forkchem@forkresins.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:52:13 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: in97enterprises@terra.es: <in97enterprises@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 16:52:13 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: infosag@infosag.comtenidos.com: <infosag@infosag.comtenidos.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:52:13 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: gestion@ciberuniversal.info: <gestion@ciberuniversal.info>: Recipient address rejected: Domain not found
+
+27-11-2025 16:52:14 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: info@desarrolloygestion.com: <info@desarrolloygestion.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:57:13 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: spr.sl@terra.es: <spr.sl@terra.es>: Recipient address rejected: "Servicio de correo no disponible para terra.es. Comprobar http://www.terra.es/correo/"
+
+27-11-2025 16:57:13 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: gestion@civeruniversal.com: <gestion@civeruniversal.com>: Recipient address rejected: Domain not found
+
+27-11-2025 16:57:14 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: jj@mediodigital.net: <jj@mediodigital.net>: Recipient address rejected: Domain not found
+
+27-11-2025 17:03:04 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: matahari@mataharidekor.com: <matahari@mataharidekor.com>: Recipient address rejected: Domain not found
+
+27-11-2025 17:07:18 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: serralux1@serralux.es: <serralux1@serralux.es>: Recipient address rejected: Domain not found
+
+27-11-2025 17:07:20 - FATAL - 9.0.8 - 16,2 MB/2 GB - [cron] > SMTP Error: The following recipients failed: guirex@grupoguirex.com: <guirex@grupoguirex.com>: Recipient address rejected: Domain not found
+
+27-11-2025 17:13:19 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: administracion@cottonstation.es: <administracion@cottonstation.es>: Recipient address rejected: Domain not found
+
+27-11-2025 17:13:19 - FATAL - 9.0.8 - 16,1 MB/2 GB - [cron] > SMTP Error: The following recipients failed: anaevagarcia@trialcamp.es: <anaevagarcia@trialcamp.es>: Recipient address rejected: Domain trialcamp.es does not accept mail (nullMX)
+

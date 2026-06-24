@@ -1,0 +1,602 @@
+# Translation of Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Stable (latest release) in Catalan
+# This file is distributed under the same license as the Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-16 13:38:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Stable (latest release)\n"
+
+#: includes/consent-logs-list-table.php:132
+msgid "Date"
+msgstr "Data"
+
+#: includes/consent-logs-list-table.php:136
+msgid "Total"
+msgstr "Total"
+
+#: includes/consent-logs-list-table.php:133
+msgid "Level 1"
+msgstr "Nivell 1"
+
+#: includes/consent-logs-list-table.php:134
+msgid "Level 2"
+msgstr "Nivell 2"
+
+#: includes/consent-logs-list-table.php:135
+msgid "Level 3"
+msgstr "Nivell 3"
+
+#: includes/consent-logs.php:143
+msgid "Level %d"
+msgstr "Nivell %d"
+
+#: includes/consent-logs.php:117
+msgid "Analytics"
+msgstr "Analítiques"
+
+#: includes/consent-logs.php:120
+msgid "Marketing"
+msgstr "Màrqueting"
+
+#: includes/consent-logs.php:90
+msgid "Categories"
+msgstr "Categories"
+
+#: includes/consent-logs.php:114
+msgid "Functional"
+msgstr "Funcional"
+
+#: includes/settings.php:72
+msgid "Page"
+msgstr "Pàgina"
+
+#: includes/settings.php:1906
+msgid "or"
+msgstr "o"
+
+#: includes/settings.php:71
+msgid "Page Type"
+msgstr "Tipus de pàgina"
+
+#: includes/settings.php:73
+msgid "Post Type"
+msgstr "Tipus de contingut"
+
+#: includes/settings.php:75
+msgid "User Type"
+msgstr "Tipus d'usuari"
+
+#: includes/settings.php:2188
+msgid "Home Page"
+msgstr "Pàgina d'inici"
+
+#: includes/settings.php:2187
+msgid "Front Page"
+msgstr "Portada"
+
+#: includes/settings.php:79
+msgid "is equal to"
+msgstr "és igual a"
+
+#: includes/settings.php:599
+msgid "Debug mode"
+msgstr "Mode de depuració"
+
+#: includes/welcome.php:732
+msgid "Licenses"
+msgstr "Llicències"
+
+#: includes/welcome.php:138 includes/welcome.php:691
+msgid "available"
+msgstr "disponible"
+
+#: includes/welcome.php:334
+msgid "Recommended"
+msgstr "Recomanat"
+
+#: includes/welcome.php:691
+msgid "Use License"
+msgstr "Utilitza llicència"
+
+#: includes/dashboard.php:151
+msgctxt "threshold limit"
+msgid "Used"
+msgstr "Utilitzat"
+
+#: includes/dashboard.php:152
+msgctxt "threshold limit"
+msgid "Free"
+msgstr "Gratuït"
+
+#: includes/dashboard.php:181 includes/dashboard.php:193
+#: includes/dashboard.php:205
+msgid "Level %s"
+msgstr "Nivell %s"
+
+#: includes/dashboard.php:429
+msgid "Updated %s"
+msgstr "S'ha actualitzat %s"
+
+#: includes/dashboard.php:422
+msgid "Total Visits"
+msgstr "Total de visites"
+
+#: includes/settings.php:150
+msgid "Gold"
+msgstr "Or"
+
+#: cookie-notice.php:1176
+msgid "Other"
+msgstr "Altres"
+
+#: cookie-notice.php:1190
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: includes/settings.php:149
+msgid "Silver"
+msgstr "Plata"
+
+#: includes/settings.php:179
+msgid "months"
+msgstr "mesos"
+
+#: includes/settings.php:154
+msgid "Private"
+msgstr "Privat"
+
+#: cookie-notice.php:1191
+msgid "Deactivate"
+msgstr "Desactiva"
+
+#: includes/settings.php:118
+msgid "Button color"
+msgstr "Color del botó"
+
+#: includes/welcome.php:311
+msgid "Free"
+msgstr "Gratuït"
+
+#: includes/settings.php:460 includes/welcome.php:310 includes/welcome.php:590
+#: includes/welcome.php:688
+msgid "Basic"
+msgstr "Bàsic"
+
+#: includes/settings.php:178
+msgid "month"
+msgstr "mes"
+
+#: includes/welcome.php:621 includes/welcome.php:722
+msgid "Submit"
+msgstr "Envia"
+
+#: includes/welcome.php:595 includes/welcome.php:696 includes/welcome.php:735
+msgid "Confirm"
+msgstr "Confirma"
+
+#: includes/welcome.php:417
+msgid "Checking..."
+msgstr "S'està comprovant..."
+
+#: includes/welcome.php:129
+msgid "Passed"
+msgstr "Aprovat"
+
+#: includes/welcome.php:130
+msgid "Failed"
+msgstr "Ha fallat"
+
+#: includes/settings.php:169
+msgid "Preferences"
+msgstr "Preferències"
+
+#: includes/settings.php:234
+msgid "Cookies"
+msgstr "Galetes"
+
+#: includes/settings.php:601
+msgid "Cache"
+msgstr "Memòria cau"
+
+#: includes/settings.php:702 includes/settings.php:703
+#: includes/settings.php:704 includes/settings.php:705
+#: includes/settings.php:716 includes/settings.php:735
+msgid "Active"
+msgstr "Activa"
+
+#: includes/settings.php:717 includes/settings.php:718
+#: includes/settings.php:719
+msgid "Pending"
+msgstr "Pendent"
+
+#: includes/settings.php:736 includes/settings.php:737
+#: includes/settings.php:738
+msgid "Inactive"
+msgstr "Inactiva"
+
+#: includes/welcome.php:498
+msgid "Left"
+msgstr "Esquerra"
+
+#: includes/welcome.php:467
+msgid "GDPR"
+msgstr "RGPD"
+
+#: includes/welcome.php:468
+msgid "CCPA"
+msgstr "CCPA"
+
+#: includes/welcome.php:499
+msgid "Right"
+msgstr "Dreta"
+
+#: includes/welcome.php:500
+msgid "Center"
+msgstr "Centre"
+
+#: includes/welcome.php:603 includes/welcome.php:704
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/welcome.php:577 includes/welcome.php:663
+msgid "Sign in"
+msgstr "Inicia la sessió"
+
+#: includes/welcome.php:551 includes/welcome.php:660
+msgid "Password"
+msgstr "Contrasenya"
+
+#: includes/welcome.php:413
+msgid "Site URL"
+msgstr "URL del lloc"
+
+#: includes/welcome.php:414
+msgid "Site Name"
+msgstr "Nom del lloc"
+
+#: includes/welcome.php:602 includes/welcome.php:703
+msgid "Credit Card"
+msgstr "Targeta de crèdit"
+
+#: includes/welcome.php:609 includes/welcome.php:710
+msgid "Card Number"
+msgstr "Número de targeta"
+
+#: includes/welcome.php:267
+msgid "Skip for now"
+msgstr "Omet per ara"
+
+#: includes/settings.php:1305
+msgid "Bar opacity"
+msgstr "Opacitat de la barra"
+
+#: includes/settings.php:624
+msgid "Accepted expiry"
+msgstr "Caducitat de l'acceptació"
+
+#: includes/settings.php:625
+msgid "Rejected expiry"
+msgstr "Caducitat del rebuig"
+
+#: includes/settings.php:1146
+msgid "The amount of time that the cookie should be stored for when user accepts the notice."
+msgstr "La quantitat de temps que s’hauria d’emmagatzemar la galeta quan l’usuari accepta l’avís."
+
+#: includes/settings.php:1167
+msgid "The amount of time that the cookie should be stored for when the user doesn't accept the notice."
+msgstr "La quantitat de temps que s’hauria d’emmagatzemar la galeta quan l’usuari no accepta l’avís."
+
+#: includes/settings.php:1224
+msgid "Select the animation style."
+msgstr "Seleccioneu l'estil d'animació."
+
+#: includes/settings.php:1205
+msgid "Select location for the notice."
+msgstr "Selecciona la ubicació per a l'avís."
+
+#: includes/settings.php:1076
+msgid "Select where to redirect user for more information."
+msgstr "Selecciona cap a on redirigir l'usuari per obtenir més informació."
+
+#: includes/settings.php:938
+msgid "The text of the option to accept the notice and make it disappear."
+msgstr "El text de l’opció per acceptar l’avís i fer-lo desaparèixer."
+
+#: includes/settings.php:96
+msgid "Dark"
+msgstr "Fosc"
+
+#: includes/settings.php:95
+msgid "Light"
+msgstr "Clar"
+
+#: includes/settings.php:1009
+msgid "Enter the revoke message."
+msgstr "Introduïu el missatge de revocació."
+
+#: includes/settings.php:618
+msgid "Refuse consent"
+msgstr "Rebutja consentiment"
+
+#: includes/settings.php:190 includes/settings.php:619
+msgid "Revoke consent"
+msgstr "Revoca consentiment"
+
+#: includes/settings.php:189
+msgid "You can revoke your consent any time using the Revoke consent button."
+msgstr "Podeu revocar el consentiment en qualsevol moment mitjançant el botó Revoca consentiment."
+
+#: includes/settings.php:1255
+msgid "Enable to accept the notice on any click on the page."
+msgstr "Qualsevol clic a la pàgina serveix per acceptar l'avís."
+
+#: includes/settings.php:1239
+msgid "Enable to accept the notice when user scrolls."
+msgstr "Accepta l'avís quan l'usuari utilitza la barra de desplaçament."
+
+#: includes/settings.php:1242
+msgid "Number of pixels user has to scroll to accept the notice and make it disappear."
+msgstr "Nombre de píxels que l'usuari ha de desplaçar per què s'accepti l'avís i desaparegui."
+
+#: includes/settings.php:957
+msgid "The text of the button to refuse the consent."
+msgstr "El text del botó per rebutjar el consentiment."
+
+#: includes/settings.php:623
+msgid "On click"
+msgstr "En fer clic"
+
+#: includes/settings.php:112
+msgid "Banner"
+msgstr "Bàner"
+
+#: includes/settings.php:1123
+msgid "Select the privacy policy link position."
+msgstr "Selecciona la posició de l'enllaç de la política de privadesa."
+
+#: includes/settings.php:1066
+msgid "The text of the privacy policy button."
+msgstr "El text del botó de la política de privadesa."
+
+#: includes/settings.php:1280
+msgid "Enter additional button CSS classes separated by spaces."
+msgstr "Afegiu classes CSS addicionals per al botó, separades amb espais."
+
+#: includes/settings.php:980
+msgid "Body"
+msgstr "Cos"
+
+#: includes/settings.php:979
+msgid "Head"
+msgstr "Capçalera"
+
+#: includes/settings.php:635
+msgid "Button class"
+msgstr "Classe del botó"
+
+#: includes/settings.php:1113
+msgid "Select the privacy policy link target."
+msgstr "Escolliu el destí de l'enllaç de la política de privadesa."
+
+#: includes/settings.php:1096
+msgid "Synchronize with WordPress Privacy Policy page."
+msgstr "Sincronitza-ho amb la pàgina de política de privadesa del WordPress."
+
+#: includes/settings.php:167 includes/settings.php:191
+#: includes/settings.php:617
+msgid "Privacy policy"
+msgstr "Política de privadesa"
+
+#: includes/settings.php:125
+msgid "An hour"
+msgstr "Una hora"
+
+#: includes/settings.php:101
+msgid "Manual"
+msgstr "Manual"
+
+#: includes/settings.php:100
+msgid "Automatic"
+msgstr "Automàtic"
+
+#: includes/settings.php:1063
+msgid "Enable privacy policy link."
+msgstr "Habilita l'enllaç de política de privadesa."
+
+#: includes/settings.php:987
+msgid "The code to be used in your site footer, before the closing body tag."
+msgstr "El codi a usar al peu del lloc web, abans de l'etiqueta de tancament del body."
+
+#: includes/settings.php:983
+msgid "The code to be used in your site header, before the closing head tag."
+msgstr "El codi per a usar a la capçalera del lloc web, abans de l'etiqueta de tancament del head."
+
+#: includes/settings.php:1011
+msgid "The text of the button to revoke the consent."
+msgstr "El text del botó per a revocar el consentiment."
+
+#: includes/settings.php:621
+msgid "Reloading"
+msgstr "Recàrrega"
+
+#: includes/settings.php:1032
+msgid "Enable to reload the page after the notice is accepted."
+msgstr "Habiliteu-ho per a recarregar la pàgina un cop s'hagi acceptat l'avís."
+
+#: includes/settings.php:620
+msgid "Script blocking"
+msgstr "Bloqueig del script"
+
+#: includes/settings.php:117
+msgid "Text color"
+msgstr "Color del text"
+
+#: includes/settings.php:188
+msgid "No"
+msgstr "No"
+
+#: cookie-notice.php:1124 includes/settings.php:235 includes/settings.php:278
+msgid "Settings"
+msgstr "Configuració"
+
+#: includes/settings.php:139
+msgid "Slide"
+msgstr "Llisca"
+
+#: includes/settings.php:138
+msgid "Fade"
+msgstr "Dissol"
+
+#: includes/settings.php:633
+msgid "Animation"
+msgstr "Animació"
+
+#: includes/settings.php:632
+msgid "Position"
+msgstr "Posició"
+
+#: includes/settings.php:113 includes/settings.php:615
+msgid "Message"
+msgstr "Missatge"
+
+#: includes/settings.php:1783
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Esteu segur que voleu restablir aquesta configuració als valors predeterminats?"
+
+#: includes/settings.php:1689
+msgid "Settings restored to defaults."
+msgstr "La configuración ha estat restaurada als valors predeterminats."
+
+#: includes/settings.php:925
+msgid "Enter the cookie notice message."
+msgstr "Introduïu el missatge d'avís de la galeta."
+
+#: includes/settings.php:1267
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr "Activeu-ho si voleu que totes les dades de l'extensió s'eliminin a la desactivació."
+
+#: includes/settings.php:634
+msgid "Colors"
+msgstr "Colors"
+
+#: includes/settings.php:604 includes/settings.php:628
+msgid "Deactivation"
+msgstr "Desactivació"
+
+#: includes/settings.php:627
+msgid "Script placement"
+msgstr "Col·locació del script"
+
+#: includes/settings.php:616
+msgid "Button text"
+msgstr "Text del botó"
+
+#: includes/settings.php:187
+msgid "Ok"
+msgstr "D'acord"
+
+#: includes/settings.php:186
+msgid "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+msgstr "Utilitzem cookies per garantir que us donem la millor experiència al nostre lloc web. Si continueu utilitzant aquest lloc, assumirem que us plau."
+
+#: includes/settings.php:144
+msgid "Footer"
+msgstr "Peu de pàgina"
+
+#: includes/settings.php:143
+msgid "Header"
+msgstr "Capçalera"
+
+#: includes/settings.php:132
+msgid "infinity"
+msgstr "infinit"
+
+#: includes/consent-logs.php:136 includes/settings.php:131
+msgid "1 year"
+msgstr "1 any"
+
+#: includes/consent-logs.php:134 includes/settings.php:130
+msgid "6 months"
+msgstr "6 mesos"
+
+#: includes/consent-logs.php:132 includes/settings.php:129
+msgid "3 months"
+msgstr "3 mesos"
+
+#: includes/consent-logs.php:130 includes/settings.php:128
+msgid "1 month"
+msgstr "1 mes"
+
+#: includes/settings.php:127
+msgid "1 week"
+msgstr "1 setmana"
+
+#: includes/settings.php:126
+msgid "1 day"
+msgstr "1 dia"
+
+#: includes/settings.php:119
+msgid "Bar color"
+msgstr "Color de la barra"
+
+#: includes/settings.php:106
+msgid "Custom link"
+msgstr "Enllaç personalitzat"
+
+#: includes/settings.php:1186
+msgid "Select where all the plugin scripts should be placed."
+msgstr "Seleccioneu on s'han de col·locar tots els scripts de l'extensió."
+
+#: includes/settings.php:1079
+msgid "-- select page --"
+msgstr "-- seleccioneu la pàgina --"
+
+#: includes/settings.php:423
+msgid "Reset to defaults"
+msgstr "Restableix als valors predeterminats"
+
+#: includes/settings.php:105
+msgid "Page link"
+msgstr "Enllaç de la pàgina"
+
+#: includes/settings.php:622
+msgid "On scroll"
+msgstr "En desplaçar-se"
+
+#: includes/settings.php:1103
+msgid "Enter the full URL starting with http(s)://"
+msgstr "Introduïu l'URL complet començant amb http(s)://"
+
+#: includes/settings.php:1090
+msgid "Select from one of your site's pages."
+msgstr "Seleccioneu una de les pàgines del lloc web."
+
+#: includes/settings.php:953
+msgid "Enable to give to the user the possibility to refuse third party non functional cookies."
+msgstr "Habiliteu-ho per a permetre que els usuaris rebutgin les galetes no funcionals de tercers."
+
+#: includes/dashboard.php:515 includes/settings.php:234
+#: includes/welcome.php:420
+msgid "Cookie Notice"
+msgstr "Cookie Notice"
+
+#: includes/settings.php:991
+msgid "Enter non functional cookies Javascript code here (for e.g. Google Analitycs) to be used after the notice is accepted."
+msgstr "Introduïu aquí el codi Javascript que no hagi de funcionar (per exemple, el de Google Analytics) fins que s'hagi acceptat l'avís."
+
+#: includes/settings.php:94 includes/settings.php:137
+msgid "None"
+msgstr "Cap"
+
+#: includes/settings.php:90 includes/welcome.php:496
+msgid "Bottom"
+msgstr "Inferior"
+
+#: includes/settings.php:89 includes/welcome.php:497
+msgid "Top"
+msgstr "Superior"

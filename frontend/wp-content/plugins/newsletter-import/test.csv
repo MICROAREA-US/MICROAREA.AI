@@ -1,0 +1,4 @@
+email1@example.org;User 1; Lastname 2;
+wrong[at]example.org;User 2; Wrong;
+"email2@example.org";"User 1";" Lastname 2";
+

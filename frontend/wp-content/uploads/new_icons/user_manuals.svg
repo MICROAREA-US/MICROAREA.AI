@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#4c12a4" />
+    </linearGradient>
+    <linearGradient id="pastelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e4ff" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="100%" stop-color="#0072ff" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#e2e4ff" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="svgBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#192a7a" flood-opacity="0.2"/>
+    </filter>
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <clipPath id="lensClip">
+      <ellipse cx="80" cy="53" rx="14" ry="10"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="80" cy="128" rx="42" ry="10" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+  <g filter="url(#shadow)">
+    <path d="M 80,124 L 122,104 L 80,84 L 38,104 Z" fill="url(#pastelGrad)" stroke="#85a7e6" stroke-width="1.2"/>
+    <path d="M 80,124 L 122,104 L 122,108 L 80,128 Z" fill="#b9beed"/>
+    <path d="M 38,104 L 80,124 L 80,128 L 38,108 Z" fill="#cfd3f5"/>
+  </g>
+  <g transform="translate(0, -10)" filter="url(#shadow)">
+    <path d="M 80,95 L 115,77 L 115,80 L 80,98 Z" fill="#d9e6f7"/>
+    <path d="M 80,95 L 45,77 L 45,80 L 80,98 Z" fill="#b3cced"/>
+    <path d="M 80,95 L 115,77 L 85,62 L 50,80 Z" fill="#ffffff" stroke="#4471b1" stroke-width="1"/>
+    <path d="M 80,95 L 45,77 L 75,62 L 110,80 Z" fill="#ffffff" stroke="#2130b7" stroke-width="1.5"/>
+    <path d="M 46,75 L 48,74 L 51,75 L 49,78 Z" fill="#ffab00"/>
+    <line x1="80" y1="95" x2="80" y2="62" stroke="#2130b7" stroke-width="2"/>
+    <path d="M 54,77 L 72,69" stroke="#b3cced" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M 54,83 L 72,75" stroke="#b3cced" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M 88,67 L 106,75" stroke="#b3cced" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M 88,73 L 106,81" stroke="#b3cced" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(0, -20)" filter="url(#shadow)">
+    <g clip-path="url(#lensClip)">
+      <rect x="50" y="30" width="60" height="40" fill="#ffffff"/>
+      <path d="M 68,58 L 90,48" stroke="#2130b7" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 68,64 L 85,56" stroke="url(#cyanGrad)" stroke-width="3" stroke-linecap="round" filter="url(#neonGlow)"/>
+    </g>
+    <ellipse cx="80" cy="53" rx="14" ry="10" fill="url(#glassGrad)" stroke="#ffffff" stroke-width="1.2"/>
+    <ellipse cx="80" cy="53" rx="14" ry="10" fill="none" stroke="#2130b7" stroke-width="2.5" filter="url(#neonGlow)"/>
+    <line x1="91" y1="60" x2="105" y2="72" stroke="#2130b7" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="102" y1="69" x2="105" y2="72" stroke="#ffab00" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+</svg>

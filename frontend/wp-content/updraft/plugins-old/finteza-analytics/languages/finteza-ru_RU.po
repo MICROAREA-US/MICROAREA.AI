@@ -1,0 +1,307 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: finteza\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2019-04-18 17:07+0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: support@finteza.com\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: finteza-analytics.php\n"
+"X-Poedit-SearchPath-2: inc/input-register.php\n"
+"X-Poedit-SearchPath-3: inc/input-settings.php\n"
+
+#: tr/langs.php:12
+msgid "Add an event in Finteza"
+msgstr "Добавить событие в Finteza"
+
+#: tr/langs.php:13
+msgid "Event name"
+msgstr "Имя события"
+
+#: tr/langs.php:14
+msgid "The event name to be used in statistics records"
+msgstr "Имя, используемое для записи события в статистику"
+
+#: finteza-analytics.php:69
+msgid "Website ID"
+msgstr "Идентификатор веб-сайта"
+
+#: finteza-analytics.php:70 inc/settings-display.php:40
+msgid "Tracking settings"
+msgstr "Настройки отслеживания"
+
+#: finteza-analytics.php:71
+msgid "Proxy token"
+msgstr "Прокси токен"
+
+#: finteza-analytics.php:75
+msgid "Domain"
+msgstr "Домен сайта"
+
+#: finteza-analytics.php:76
+msgid "UTC offset"
+msgstr "UTC offset"
+
+#: finteza-analytics.php:77
+msgid "Your full name"
+msgstr "Ваше полное имя"
+
+#: finteza-analytics.php:78
+msgid "Company"
+msgstr "Компания"
+
+#: finteza-analytics.php:79
+msgid "Email"
+msgstr "Электронная почта"
+
+#: finteza-analytics.php:80
+msgid "Password"
+msgstr "Пароль"
+
+#: finteza-analytics.php:89 finteza-analytics.php:90
+msgid "Finteza Analytics"
+msgstr "Finteza Analytics"
+
+#: finteza-analytics.php:162
+msgid "an account with this email address already exists"
+msgstr "Аккаунт с указанной электронной почтой уже существует"
+
+#: finteza-analytics.php:165
+msgid "invalid email address"
+msgstr "Пароль недостаточной длины"
+
+#: finteza-analytics.php:168
+msgid "Registration error.email_invalid"
+msgstr "Невалидный адрес электронной почты"
+
+#: finteza-analytics.php:171
+msgid "a company with this name already exists"
+msgstr "Организация с таким именем уже существует"
+
+#: finteza-analytics.php:174
+msgid "invalid website address"
+msgstr "Невалидный адрес веб-сайта"
+
+#: finteza-analytics.php:177
+msgid "registration limit exceeded"
+msgstr "Превышен лимит попыток регистраций"
+
+#: finteza-analytics.php:181
+msgid "Registration error"
+msgstr "Внутренняя ошибка сервера"
+
+#: inc/input-register.php:40
+msgid "Will be used as login"
+msgstr "Будет использоваться как логин"
+
+#: inc/input-register.php:49
+msgid ""
+"Must have at least 6 characters, upper and lower case letters and numbers"
+msgstr "Должен быть больше 6 знаков, иметь символы в разных регистрах и цифры"
+
+#: inc/input-register.php:60
+msgid ""
+"I have read and understood <a href=https://www.finteza.com/en/privacy "
+"target=_blank>privacy and data protection policy</a>"
+msgstr ""
+"Я подтверждаю, что ознакомился и согласен с <a href=https://www.finteza.com/"
+"ru/privacy?utm_source=wordpress.admin&utm_medium=link&utm_term=finteza."
+"privacy.policy&utm_content=finteza.plugin.wordpress&utm_campaign=finteza."
+"wordpress target=_blank>Политикой конфиденциальности и защиты данных</a>"
+
+#: inc/input-register.php:66
+msgid ""
+"I agree to <a href=https://www.finteza.com/en/agreement "
+"target=_blank>subscription service agreement</a>"
+msgstr ""
+"Я согласен с условиями <a href=https://www.finteza.com/ru/agreement?"
+"utm_source=wordpress.admin&utm_medium=link&utm_term=finteza.subscription."
+"agreement&utm_content=finteza.plugin.wordpress&utm_campaign=finteza."
+"wordpress target=_blank>Соглашения об услугах</a>"
+
+#: inc/input-settings.php:9
+msgid ""
+"<a href=https://www.finteza.com/en/register data-target=registration "
+"target=_blank>Register</a> an account in Finteza"
+msgstr ""
+"<a href=https://www.finteza.com/ru/register?utm_source=wordpress."
+"admin&utm_medium=link&utm_term=finteza.register&utm_content=finteza.plugin."
+"wordpress&utm_campaign=finteza.wordpress data-target=registration "
+"target=_blank>Зарегистрируйтесь</a> и получите аккаунт в Finteza"
+
+#: inc/input-settings.php:22
+msgid ""
+"You can get this value in the website settings of the <a href=\"https://"
+"panel.finteza.com/\" target=_blank>Finteza panel</a>"
+msgstr ""
+"Вы можете получить это значение <a href=\"https://panel.finteza.com\" "
+"target=_blank>в панели Finteza</a> в разделе настроек сайта"
+
+#: inc/input-settings.php:26
+#, php-format
+msgid ""
+"<b>Important!</b> To use proxying enable <a href=\"%s\" "
+"target=_blank>permalinks</a> in any mode except \"Plain\""
+msgstr ""
+"<b>Важно!</b> Чтобы использовать проксирование включите <a  href=\"%s\" "
+"target=_blank>постоянные ссылки</a> в любом режиме кроме «Простые»"
+
+#: inc/input-settings.php:33
+msgid "Track hash changes in the address bar"
+msgstr "Отслеживание изменения хеша в адресной строке"
+
+#: inc/input-settings.php:34
+msgid "Track outbound links"
+msgstr "Отслеживание внешних переходов"
+
+#: inc/input-settings.php:35
+msgid "Exact time on website"
+msgstr "Точное время на сайте"
+
+#: inc/input-settings.php:36
+msgid "Disable tracking of admin visits"
+msgstr "Не отслеживать администраторов сайта"
+
+#: inc/input-settings.php:39
+msgid "Proxying the script and requests"
+msgstr " Проксировать скрипт и запросы"
+
+#: inc/input-settings.php:40
+msgid ""
+"Proxy scripts through your website to get precise and secure analytics. "
+"Learn how to do that in the <a href=\"https://www.finteza.com/en/developer/"
+"insert-code/proxy-script-request\" target=_blank>user guide</a>"
+msgstr ""
+"Проксируйте скрипты через ваш сайт, чтобы получать точную и безопасную "
+"аналитику. Узнайте, как это сделать <a href=\"https://www.finteza.com/en/"
+"developer/insert-code/proxy-script-request\" target=_blank>в справке</a>"
+
+#: inc/settings-display.php:20
+msgid "Registration completed successfully"
+msgstr "Регистрация успешно завершена"
+
+#: inc/settings-display.php:20
+msgid ""
+"Please activate your account using the link sent to your "
+"registration_complete email"
+msgstr "Активируйте аккаунт по ссылке, отправленной вам на электронную почту"
+
+#: inc/settings-display.php:23
+msgid ""
+"Real-time web analytics. Track your site visits, page views and events. "
+"Analyze the incoming traffic quality, explore user behavior and create "
+"conversion funnels. With the user-friendly interface, you can access the "
+"most realistic unsampled data without delays"
+msgstr ""
+"Веб-аналитика в режиме реального времени. Отслеживайте количество "
+"пользователей, просмотров страниц и событий на вашем сайте. Анализируйте "
+"качество входящего трафика, изучайте поведение посетителей, создавайте "
+"воронки конверсий. Все это в интуитивно понятном интерфейсе, без задержек и "
+"семплинга"
+
+#: inc/settings-display.php:26
+msgid "Official website"
+msgstr "Официальный веб-сайт"
+
+#: inc/settings-display.php:30
+msgid "Demo"
+msgstr "Демо"
+
+#: inc/settings-display.php:32
+msgid "View statistics"
+msgstr "Перейти к статистике"
+
+#: inc/settings-display.php:56
+msgid "Registration"
+msgstr "Регистрация"
+
+#: inc/settings-display.php:63
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: inc/settings-display.php:72
+msgid "Getting started"
+msgstr "Начало использования"
+
+#: inc/settings-display.php:76
+msgid ""
+"How to use the plugin: 1. <a href=https://www.finteza.com/en/register data-"
+"target=registration target=_blank>Register</a> an account in Finteza; 2. "
+"Save the generated website ID in the settings; 3. Configure tracking of link "
+"click events; 4. View your website visit statistics in the <a href=https://"
+"panel.finteza.com target=_blank>Finteza dashboard</a>"
+msgstr ""
+"Как пользоваться плагином:\n"
+"\n"
+"1. <a href=https://www.finteza.com/ru/register?utm_source=wordpress."
+"admin&utm_medium=link&utm_term=finteza.register&utm_content=finteza.plugin."
+"wordpress&utm_campaign=finteza.wordpress data-target=registration "
+"target=_blank>Зарегистрируйтесь</a> и получите аккаунт в Finteza\n"
+"2. Сохраните в настройках полученный идентификатор веб-сайта\n"
+"3. Настройте отправку события при кликах на ссылки\n"
+"4. Смотрите статистику посещений и событий вашего сайта в <a href=https://"
+"panel.finteza.com?utm_source=wordpress."
+"admin&utm_medium=link&utm_content=finteza.plugin.wordpress&utm_term=finteza."
+"panel&utm_campaign=finteza.wordpress target=_blank>панели Finteza</a>"
+
+#: inc/settings-display.php:83
+msgid "How to track clicks"
+msgstr "Как отслеживать клики"
+
+#: inc/settings-display.php:87
+msgid ""
+"To enable tracking of link click events in your website: 1. Open a website "
+"page or message for editing; 2. In the text editor, select the link element "
+"and click on the Finteza button; 3. Enter the click event name to be used in "
+"statistics; 4. View event statistics in the <a href=https://panel.finteza."
+"com target=_blank>Finteza dashboard</a>"
+msgstr ""
+"Вы можете отслеживать события кликов по ссылкам на страницах вашего сайта:\n"
+"\n"
+"1. Перейдите к редактированию страницы или сообщения\n"
+"2. В редакторе текста поставьте фокус на элемент ссылки и нажмите на кнопку "
+"Finteza\n"
+"3. Введите имя, по которому вы будете искать событие клика в статистике\n"
+"4. Смотрите статистику событий в <a href=https://panel.finteza.com?"
+"utm_source=wordpress.admin&utm_medium=link&utm_content=finteza.plugin."
+"wordpress&utm_term=finteza.panel&utm_campaign=finteza.wordpress "
+"target=_blank>панели Finteza</a>"
+
+#: inc/settings-display.php:93
+msgid "Where to view statistics"
+msgstr "Где получить статистику"
+
+#: inc/settings-display.php:97
+msgid ""
+"Statistics on your website visits is collected in the <a href=https://panel."
+"finteza.com target=_blank>Finteza dashboard</a>. Log in using the email and "
+"password specified during registration. If you forgot the password, use the "
+"<a href=https://panel.finteza.com/recovery target=_blank>password recovery</"
+"a> page"
+msgstr ""
+"Статистика по посещениям вашего веб-сайта собирается в <a href=https://panel."
+"finteza.com?utm_source=wordpress.admin&utm_medium=link&utm_content=finteza."
+"plugin.wordpress&utm_term=finteza.panel&utm_campaign=finteza.wordpress "
+"target=_blank>панели Finteza</a>. Для авторизации используйте электронную "
+"почту и пароль, указанные при регистрации. Если вы забыли пароль, "
+"воспользуйтесь страницей <a href=https://panel.finteza.com/recovery?"
+"utm_source=wordpress.admin&utm_medium=link&utm_term=finteza.password."
+"recovery&utm_content=finteza.plugin.wordpress&utm_campaign=finteza.wordpress "
+"target=_blank>восстановления пароля</a>"

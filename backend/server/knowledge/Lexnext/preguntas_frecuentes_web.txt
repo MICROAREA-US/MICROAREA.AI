@@ -1,0 +1,728 @@
+========================================================================
+PREGUNTAS Y RESPUESTAS DEL FORO WEB - LEXNEXT
+========================================================================
+
+PREGUNTA: No puedo ver un documento
+Buenos días compañer@s!
+
+Intento abrir un documento pero no se abre. No da error, simplemente clico pero no hace nada. ¿Alquién más en la misma situación?
+
+Gracias.
+
+RESPUESTA:
+Buenas tardes, vamos con ese problema...
+
+Si al pulsar sobre el documento no ocurriera nada, es porque Windows no tiene acceso al mismo, ya sea porque se ha movido o eliminado, o bien porque no tiene permisos. Deberá revisar la ruta del documento y comprobarlo en el explorador de archivos.
+
+Le recordamos que el programa no es un gestor documental al uso.
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Cliente principal
+Buenas tardes.
+
+Llamé ayer para resolver una duda, en la que me comentaron algo sobre el cliente principal del expediente. Aunque me solventaron satisfactoriamente el problema los técnicos de soporte no me acuerdo de la explicación que me dieron. ¿Alguno recuerda qué es lo que era?
+
+Gracias chic@s!
+
+RESPUESTA:
+Hola Ricardo, el cliente principal es el cliente esencial del expediente, es decir, será aquel cliente en torno al cual girará la actividad cotidiana, independientemente de los posibles clientes secundarios que pudieran existir.
+El cliente principal podrá ser cambiado en cualquier momento al hacer clic derecho sobre un cliente secundario o auxiliar (el cual perderá dicha cualidad).
+
+Mencionar también que será éste el que se indique en la lista de los asuntos y el que aparezca en los presupuestos o facturas.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Urgente: He borrado de un asunto
+Buenos días,
+
+Tengo un problema, borré un asunto por el motivo X ¿Cómo lo recupero?
+
+Gracias.
+
+RESPUESTA:
+Hola Pablo, lamentablemente un asunto borrado no puede ser recuperado. Por eso, el programa siempre lanzará el aviso de confirmación cuando se pulsa sobre el botón "Borrar".
+
+Como advertencia, comentar que esto ocurrirá no solo en los expedientes/asuntos, si no que ocurrirá lo mismo cuando se quiera borrar cualquier tipo de información o dato.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Facturar por unidades y no por cantidades
+Hola buenas tardes, tengo un problema. Por una circunstancia tengo que facturar por cantidades y no por una cantidad ¿Podría hacerse?
+
+Gracias por adelantado.
+
+RESPUESTA:
+Hola Tomás, para facturar con unidades, deberemos ir al menú “Archivo”, elegir “Configurar despacho” y pulsar sobre la pestaña “Configuración”. Aquí localizaremos a la opción "Tipo de factura" y la cambiaremos a "Factura comercial".
+
+Podrá ser cambiado cada vez que surja la necesidad.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Duplicado de facturas
+Un cliente me ha pedido una copia de la factura que le emití ¿Cómo puedo imprimir un duplicado de la misma?
+
+Gracias por las respuestas.
+
+RESPUESTA:
+Hola Ricardo, es tan sencillo como ir al menú “Facturas” y “Consulta” para buscar la factura en cuestión y pulsar sobre el icono de impresión.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Calcular un plazo
+Presenté una documentación a la Administración pública para la cual existe un plazo máximo para su resolución de seis meses. ¿Cómo podría averiguar qué día acaba el plazo y estar así atento?
+
+Gracias.
+
+RESPUESTA:
+Hola José, para calular plazos, hay que utilizar la calculadora de días. En cualquier ventana relacionada con las tareas (ya sea desde una línea de trabajo, calendario o tareas) aparecerá el botón “Plazos”, tras pulsar aparecerá la siguiente ventana:
+
+
+El funcionamiento es muy sencillo, tras elegir el calendario laboral, se introducirá la fecha de inicio y se indicarán los días necesario en la casilla “Días naturales”. Al pulsar el botón “Calcular”, la fecha de fin indicará la fecha límite en la que se cumplirá el plazo según las opciones indicadas (sábados son tratados como festivos o agosto es laborable) indicando los días festivos y laborables habidos.
+
+Recordar que el cálculo es totalmente informativo, esto es, por el mero hecho de calcular no grabará la fecha en ningún sitio.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: ¿Cómo agrego un documento?
+No sé como añadir un documento dentro del expediente, ¿Podrían indicarme cómo?
+
+Gracias.
+
+RESPUESTA:
+Hola Fernando, es posible asociar cualquier tipo de archivo (Principalmente documentos), así como escanear directamente, si estamos en una línea de trabajo. Tas pulsar el icono de la lupa en la columna "D" aparecerá la ventana del gestor documental:
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+Menú avisos
+
+
+
+Podrá indicarse la fecha límite de entrega, así como activar el aviso de la presentación del mismo.
+
+
+
+
+2
+
+
+
+Texto de aviso
+
+
+
+Mostrará el texto que aparecerá en el aviso (tarea), es totalmente editable.
+
+
+
+
+3
+
+
+
+Menú opciones
+
+
+
+Botones de acciones. En cualquier caso, pulsar “Agregar” para guardar el documento elegido.
+
+
+
+
+4
+
+
+
+Documentos asociados
+
+
+
+Muestra la lista de los documentos asociados. Para abrirlos, tan solo hay que pulsar sobre el icono del documento, en el ejemplo, un PDF ( ).
+
+Si quisiéramos “borrar” el documento, habría que pulsar sobre el icono de la papelera ( ) en la línea del documento correspondiente.
+
+
+
+
+Solo hay que clicar sobre "Examinar", elegir el documento y pulsar sobre el botón "Agregar".
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: ¿Funcionaría LexNext en una red de mi despacho?
+En el despacho tengo cinco ordenadores conectados a una red local. ¿Podríamos trabajar juntos todos los compañeros y con los mismos datos? ¿Y trabajar desde casa?
+
+Gracias.
+
+RESPUESTA:
+Hola Miguel, la aplicación está diseñada para su uso en red (es decir, varios ordenadores compartiendo información). No obstante, el programa puede ser utilizado en mono-puesto (por un único ordenador sin conexión con otros ordenadores).
+
+Para poder trabajar en una red local, solo es necesario que se instale en un ordenador la aplicación como "Monospuesto", "Completa" o "Servidor" y el resto como "Puesto de red". De esta forma el ordenador que actúa como servidor proveerá la información a los compañeros.
+
+
+Las únicas directrices adicionales serán dos:
+
+En los puestos de red, cuando se inicie la aplicación, deberá indicarse en la casilla "Servidor" el nombre del equipo o IP privada que hace de servidor y "ICAM". (Por ejemplo: ServidorICAM o 192.168.1.100ICAM).
+
+Configurar el antivirus y Firewall de Windows del equipo que hace de servidor, para que permita el acceso a la base de datos (SQL Server).
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Enviar a mi correo avisos o alertas del calendario o tareas
+Me gustaría, que tras crear una tarea, vinculada o no a un expediente, recibiera un correo electrónico con el aviso de la misma ¿Es posible?
+
+Muchas gracias.
+
+RESPUESTA:
+Buenos días José,
+
+Sí, es posible. El programa podrá enviar un correo al correo electrónico del abogado con la tarea, siempre y cuando a ésta se le hubiera establecido una fecha de aviso (Será enviado ese día) y en la configuración del despacho se haya introducido correctamente los datos del correo electrónico emisor.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Duda sobre la nube
+Estoy planteándome migrar la información a la nube y así no depender del servidor de mi oficina ¿Sería posible? ¿Sería seguro? ¿Qué pasaría con los documentos?
+
+Gracias.
+
+RESPUESTA:
+Buenos días Pablo,
+
+Si, sería posible trabajar en la nube, para ello debería contratar un servidor SQL Server (o Azure) y portar la información allí. ¿Sería seguro? Dependerá de dos factores, la robustez de las contraseñas que utilicen y la configuración del servicio contratado (La cual puede no estar en su mano, es decir, dependerá de la empresa contratada).
+Debe quedar claro un aspecto básico. Al migrar la información a la nube, dichos datos ya no estarán bajo su poder, estarán almacenados en los servidores de la empresa proveedora.
+
+Con respecto a los documentos, dado que ICAM Gestión de Despachos no es un gestor documental  al uso (Es decir, no almacena internamente los documentos a nivel de base de datos) podrá tenerlos en la nube, siempre y cuando disponga de un servicio de almacenamiento en línea debidamente configurado. Recuerde que, en este caso, ocurrirá lo mismo que con los datos. Como no estarán ubicados en sus ordenadores, deberá tener presente cualquier aspecto legal al respecto.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Ver expediente de un compañero
+Hola buenas tardes,
+
+Necesito que un compañero del despacho pueda acceder y trabajar en un expediente que cree yo. ¿Cómo puedo hacer que él lo vea?
+
+¡Gracias y buenas tardes!
+
+RESPUESTA:
+Buenas tardes Tomás,
+
+Para que un compañero pueda ver, y trabajar en su caso, con un expediente ajeno a él, no tiene más que agregar a su compañero como abogado colaborador. Para ello, una vez dentro del expediente, en el apartado relaciones se buscará "Propios" y haciendo botón derecho sobre la sección podrá ser añadido el compañero (Abogado, insertar abogado).
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Limitar la facturación a un pasante
+Hola, voy a contratar un pasante pero, por motivos de seguridad, no me gustaría que hiciera una factura por descuido o error, pero que no tuviera limitación a la hora de crear actuaciones, expedientes, etc...
+
+Gracias.
+
+RESPUESTA:
+Buenos días Miguel,
+
+ICAM Gestión de Expedientes está ideado para solventar las necesidades del día a día y ayudar así a los compañeros del despacho en su actividad habitual. Por ello, para que un abogado (en este caso pasante) no pueda realizar, editar, consultar o borrar facturas, tan solo debe no estar marcada la opción "Permisos económicos" en su ficha de abogado, tal como puede apreciarse en la siguiente captura de pantalla:
+
+
+
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: ¿Cómo hago una factura proforma?
+Hola. Necesito hacer una factura proforma ¿Cómo la hago?
+
+Gracie!
+
+RESPUESTA:
+Hola Tomás, dado que la factura proforma no tiene validez mercantil, habrá que crear una nueva serie de facturación que esté excluida de facturación. Por último, solo habría que hacer la factura, pero eligiendo la serie creada.
+
+Otra opción, podría ser crear un presupuesto y elegir la forma de impresión (Informe) “Presupuesto Proforma.rpt”. De esta forma, tendríamos una ventaja adicional, el presupuesto podría ser convertido en factura rápidamente.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Problemas con las plantillas
+Hola. Estoy intentando crear una plantillla pero no hay forma que se abra para poder hacerla. Desde el ordenador de la compañera no hay problema, solo me pasa a mí. Estoy desesperado.
+
+Gracias.
+
+RESPUESTA:
+Hola José, lamento tu ansiedad.
+
+
+
+
+Normal
+0
+
+21
+
+false
+false
+false
+
+ES
+X-NONE
+X-NONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Tabla normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-parent:"";
+mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+mso-para-margin-top:0cm;
+mso-para-margin-right:0cm;
+mso-para-margin-bottom:6.0pt;
+mso-para-margin-left:0cm;
+line-height:110%;
+mso-pagination:widow-orphan;
+font-size:10.5pt;
+font-family:"Calibri",sans-serif;
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:ES;
+mso-fareast-language:ES;}
+
+Para poder crear plantillas es necesario tener instalado, aunque sea la versión demostración el Microsoft Word. Como no lo tienes instalado no es posible que se genere el documento. Instalalo y verás como ya podrás crear plantillas.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: ¿Puedo enviar por correo electrónico una factura o presupuesto a un cliente?
+Hola compañer@s!
+
+Me resultaría muy cómodo poder enviar las facturas y los presupuestos directamente por correo electrónicos a mis clientes sin tener que genear o imprimir el PDF por separado ¿Cómo lo hago?
+
+Muchas graci@s!
+
+RESPUESTA:
+Buenos días Miguel!
+
+Las facturas o presupuestos, pueden remitirse electrónicamente de varias formas. La más rápida y sencilla es visualizando el propio documento. En la parte superior central de la ventana habrá un icono con un sobre blanco el cual deberá ser pulsado.
+
+Otra forma sería, accediendo desde el menú “Facturación” y eligiendo la opción “Consulta” (ya sea en facturas o presupuestos). Tras aplicar el filtro pertinente, en la lista con los documentos, aparecerá un icono con forma de sobre, el cual, al ser pulsado, se abrirá la ventana de envío por correo.
+
+Para que el correo esté dirigido correctamente, deberá estar reflejado adecuadamente el correo electrónico en la ficha del cliente.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Error entrar al programa
+Hola compañeros, el otro día todo iba bien pero hoy, al entrar al programa, como todas las mañanas, me da un error, algo que no pudo encontrarse el servidor SQL ¿Os ha pasado alguna vez? ¿Qué podría ser? ¿Cómo lo soluciono? Porque no puedo entrar al programa y no puedo trabajar.
+
+Gracias, me estaréis ayudando mucho.
+
+RESPUESTA:
+Buenos días, ese error se produce cuando no es posible conectar contra el servidor, es decir, no puede recuperar la información para poder trabajar.
+
+Este error de conexión podría ser debido a múltiples causas, por favor, realice las siguientes comprobaciones:
+
+
+Servidor
+
+Existe y está en ejecución el servicio de SQL Server.
+
+El antivirus o Firewall no está bloqueando el SQL Server.
+
+Puesto de red
+
+El ordenador que hace de servidor está encendido.
+
+Tiene acceso al PC que hace de servidor desde la red local.
+
+Está configurado debidamente, tanto el antivirus como el Firewall, para permitir el acceso al SQL Server (Base de datos).
+
+
+Si aún así, el error persistiera, por favor, póngase en contacto con el departamento de Soporte Técnico de Microarea (llamando al 96 338 79 20 de lunes a viernes de 9 a 14 o de 16 a 19 o enviando un correo electrónico a soporte.tecnico@microarea.es)
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Problema al entrar al programa: Abogado no reconocido
+Hola a todos, cuando entro al programa tengo un error "No existe ningún abogado asociado al usuario de entrada" y claro, no puedo seguir por lo que no se abren los expedientes. ¿Alguien podría ayudarme?. Gracias.
+
+RESPUESTA:
+Buenos días, el usuario con el que intenta entrar al programa no tiene una ficha de abogado enlazada. Contacte con el abogado administrador que gestione ICAM Gestión de Expedientes y solicítele que asocie su usuario de entrada al progama con su ficha de abogado o entre con otro usuario que tenga acceso.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Exportar a PDF o Excel
+Hola compañeros, ahora me toca preguntar a mí. ¿Sabéis como exportar una factura a PDF? ¿Y los libros de facturas a Excel?
+
+Gracias!
+
+RESPUESTA:
+Buenas tardes Fernando.
+
+Para exportar una factura a PDF tan solo tendrás que ir la lista de facturas (consulta de facturas), marcar la factura que quieras exportar, y finalmente hacemos click en el botón "Exportar". Nos dará a elegir el formato de salida en los cuales están incluidos el formato PDF y excel.
+
+Para exportar el libro de facturas a excel tienes que ir a la ventana de listados, elegimos el libro de facturas en la que también tendremos la opción de "Exportar" (al igual que hacemos con las facturas). Y lo mismo, puedes elegir el formato de salida.
+
+Esepero haberte resuelto la consulta.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Como escaneo desde el propio programa
+Hola, me resulta muy incómodo tener que ir escanenado y guardando los PDF uno a uno. ¿Existe alguna opción de escaneo automático? Para mí sería mucho más cómodo. Gracias.
+
+RESPUESTA:
+Qué tal Miguel? Yo estaba como tú hasta que descubrí, bueno más bien lo leí en el manual XD, que en la propia ventana en la que se adjuntan los documentos existe el botón de escanear. Solo tienes que darle...además, incluso puedes elegir donde guardar el PDF. Ha sido todo un descubrimiento.
+
+Saludos.
+------------------------------------------------------------------------
+
+PREGUNTA: No me genera el recibo de la factura en la cartera
+Buenas tardes, he hecho una factura para poder remesar el recibo junto a los demás que tengo pero en la cartera no aparece para poder hacerlo.
+
+Espero vuestras respuestas, gracias.
+
+RESPUESTA:
+Hola compañero, me pasó exactamente lo mismo el mes pasado. Llamé a soporte técnico y el problema estaba en la forma de pago que elegí en la factura. Resulta que no tenía puesto, en la forma de pago, que generase recibo y claro, no me salía. Lo que hice fue modificar la forma de pago (Porque creé una yo) y cambiar la opción "Incluir remesas" a "S" y no "N".
+
+
+
+Espero que a ti tambíen te sirva.
+------------------------------------------------------------------------
+
+PREGUNTA: Exportar a PDF o Excel
+Hola compañeros, ahora me toca preguntar a mí. ¿Sabéis como exportar una factura a PDF? ¿Y los libros de facturas a Excel?
+
+Gracias!
+
+RESPUESTA:
+Hola Fernando, para aportar más a la excelente contestación de Pablo, recuerda que también puedes exportar la factura o el libro (De hecho, cualquier documento que pueda ser impreso desde el programa) una vez lo estás visualizando en pantalla. Justo en el centro, en la parte superior de la ventana, habrá un icono de un sobre blanco con una flecha roja. Al pulsarlo aparecerá una ventana para poder elegir el formato a exportar.
+------------------------------------------------------------------------
+
+PREGUNTA: Plantilla para factura
+Buenas tardes,
+
+Quiero emitir las facturas con una plantilla de Word que ya tengo creada. ¿Cómo puedo utilizarla? ¿Cómo añado la plantilla al programa?
+
+Gracias
+
+RESPUESTA:
+Buenos días,
+
+Las plantillas son documentos Word para crear escritos. Si lo que desea es tener su formato de facutra deberá hacérnosla llegar al correo de soporte.tecnico@microarea.es comentando como quiere el informe e indicando su número de colegiado  para que pueda ser incluida en su instalación.
+
+En función de la dificultad se pondrán en contacto con usted. Finalmente, se le responderá por correo electrónico en las siguientes 48h laborables a partir de la confirmación del encargo.
+
+
+
+Gracias y un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Plantilla para factura
+Buenas tardes,
+
+Quiero emitir las facturas con una plantilla de Word que ya tengo creada. ¿Cómo puedo utilizarla? ¿Cómo añado la plantilla al programa?
+
+Gracias
+
+RESPUESTA:
+Todo okey
+------------------------------------------------------------------------
+

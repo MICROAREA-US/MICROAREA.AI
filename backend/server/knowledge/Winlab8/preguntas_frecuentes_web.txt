@@ -1,0 +1,527 @@
+========================================================================
+PREGUNTAS Y RESPUESTAS DEL FORO WEB - WINLAB8
+========================================================================
+
+PREGUNTA: Como puedo borrar una nomina
+He grabado una nómina por error y no se como borrarla de la base de datos
+
+RESPUESTA:
+Buenas tardes José Antonio, la forma más rápida de eliminar una nómina es:
+
+Desde el menú nóminas
+
+1.- Haga clic en el menú nóminas y pulse sobre “Nóminas mensuales”.
+
+
+
+2.- Seleccione el mes y año (1) (ni la empresa, ni el trabajador son necesarios) y pulse sobre la opción “Chequear” (2).
+
+
+
+3.- Cargará el panel de control directamente en la opción de nóminas. Cuando terminen de cargar los datos, habrá que pulsar sobre la opción “Generadas” (1).
+
+
+
+A continuación, cargarán las empresas cuyas nóminas están grabadas. Pulse sobre el “+” (2) de la cuenta de cotización para que se desplieguen todas las nóminas grabadas de dicha empresa.  Haga clic sobre el icono de la papelera (3) correspondiente a la línea del trabajador/a cuya nómina hay que borrar.
+
+5.- únicamente restará aceptar la eliminación de la nómina.
+
+
+
+
+
+Confío le haya servido de ayuda.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Formacion continua
+Como puedo configurar una bonificación por formación continua de la fundación tripartita.
+
+RESPUESTA:
+Buenas tardes José Antonio, dada que la formación contínua se bonifica a nivel de empresa, habrá que ir a la ficha de la empresa ("Archivo", "Maestro de empresas") y en la parte inferior de la pantalla, pulsar sobre la pestaña "Otros":
+Una vez hecho, únicamente deberá rellenar la bonificación en apartado "Bonificación Continua"
+
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: ¿Cómo obtengo un listado con la media anual para el Impuesto de Sociedades?
+Buenos días:
+
+Necesito saber, para poder rellenar las casillas 041 y 042 (personal fijo y no fijo) del Impuesto de Sociedades, la media anual de los trabajadores de una empresa ¿De dónde puedo obtener dicha información?
+
+Gracias.
+
+RESPUESTA:
+Buenos días estimado usuario:
+
+Podrá obtener dicha información visualizando el listado "Media mensual de productores" que está situado en "Listados", "Administrador de listados", "Afiliación y Bajas":
+
+
+
+Ejemplo listado
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Recaída
+¿Cómo puedo poner una recaída en una IT?
+
+RESPUESTA:
+Buenos días estimado usuario,
+
+En la propia incidencia de IT (accidente o enfermedad) deberá marcase la opción "Recaída" (1) e indicar en el recuadro (2), habilitado para tal efecto, los días de IT "consumidos" con anterioridad, para que continúe donde se quedó. Fijémonos que la tabla con la distribución de los días de IT (3) habrá cambiado. Por último, no hay que olvidarse de pulsar sobre el botón "Recalcular" (4).
+
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: IT y baja del trabajador
+Tengo un trabajador que estando de IT será despedido antes que acabe el mes, pero la nómina me calcula la IT hasta final de mes ¿Qué está pasando?
+
+RESPUESTA:
+Buenos días,
+
+Cuando hay una incidencia abierta (como por ejemplo una IT) y se produce una baja de un trabajador (despido o similar), primero hay que finalizar la incidencia con la fecha de la baja y recalcular la incidencia mediante el botón "Recalcular".
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Problema con finiquitos negativos
+Un trabajador debe días de vacaciones, por lo que el finiquito sale negativo, pero no se muestra en la nómina.
+
+RESPUESTA:
+Buenas tardes:
+
+Desde que entró en vigor el CRA (códigos retributivos abonados) no se permite ningún valor en negativo, por este motivo no aparecerá el finiquito.
+Para descontar una cantidad al trabajador, deberá crear una deducción (en la ficha de la empresa tendrá seis disponibles) e introducir una incidencia variable con el importe a restar (en positivo, dado que la deducción ya restaría) o bien directamente indicar la cantidad en la ficha del trabajador.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Error CRA concepto 0000
+Cuando envío el CRA por el SILTRA me da ese error, también hay veces que me viene devuelto con el mismo error ¿Qué hago?
+
+RESPUESTA:
+Buenas tardes:
+
+El problema está motivado por la inclusión de algún concepto en negativo en la nómina. Deberá corregir la situación. Para ello, puede ir al menú “Listados”, “Administrador de listados”, “Costes y nóminas” y visualizar el listado “Conceptos retributivos abonados (CRA)” filtrando por empresa, mes y año. De esta forma podrá localizar que trabajador o trabajadores tiene cantidades en negativo.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Copia Básica
+Hola buenas, ¿Cómo podría enviar la copia básica cuando envío el contrato al SEPE? Gracias
+
+RESPUESTA:
+Buenas tardes, para enviar la copia básica junto con la comunicación del contrato, no hay más que rellenar el apartado de "Comunicación Copia Básica" con al menos un tipo de firma y dejando vacío (haciendo doble "Enter" para entrar y salir del campo) el campo texto:
+------------------------------------------------------------------------
+
+PREGUNTA: ¿Cómo puedo poner las nóminas por unidades?
+Quiero que aparezca en la nómina las unidades, no la cantidad como tal ¿Cómo lo puedo hacer?
+
+Gracias de ante mano.
+
+RESPUESTA:
+Buenos días,
+
+Para que en la nómina aparezcan las unidades, debe especificarlo así en la ficha de la empresa (desde el menú "Archivo" y "Mantenimiento de empresas"). Al final de todas las opciones de la configuración de la empresa aparecerá la opción "Nóminas por unidades":
+
+
+
+Se deberá cambiar a "Sí" y grabar la empresa.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Asimilados
+Como los asimilados ya no tienen una CCC exclusiva, ¿Qué hago para que solo cotice por lo que toca cuando los ponga en la CCC general?
+
+RESPUESTA:
+Buenos días, tan solo hay que excluirlo de FOGASA y desempleo en la propia ficha del trabajador, en el apartado "Cotización":
+------------------------------------------------------------------------
+
+PREGUNTA: Accidente calcula un día menos
+Cuando pongo una incidencia de acciente, siempre me calcula un día menos, tanto en la prestación como en el complemento. Por ejemplo, le doy de baja el día 15 hasta fin de mes (día 30) y me calcula solo 15 días, cuando debería ser 16.
+
+RESPUESTA:
+Buenas tardes, es normal, el día del accidente cuenta como trabajado, por lo que la prestación comienza el día siguiente, tal y como establece la normativa:
+
+
+
+
+
+Seguridad Social: Información útil (seg-social.es)
+------------------------------------------------------------------------
+
+PREGUNTA: No puedo elegir jubilación en la incidencia de baja
+Cuando estoy en la inciencia de baja del trabajador, de las causas disponibles no puedo elegir la jubilación del trabajador.
+
+RESPUESTA:
+Buenos días:
+
+Las causas de baja en la primera ventana de la incidencia, son las causas reconocidas para situación legal de desemplo (las que el SEPE tiene indicadas, que pueden comprobarse en el propio certificado de empresa). Dado que el trabajador pasa a ser jubilado, no solicitará la prestación por desempleo, por eso no está la opción en la lista.
+No obstante, cuando grabe la incidencia, en la opción de generación del fichero de afiliación para comunicar la baja, si estará la opción:
+
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Bonificar 100% maternidad o paternidad
+Hola, ¿Cómo puedo hacer para bonificar una maternidad o paternidad? Gracias.
+
+RESPUESTA:
+Buenos días, para poder bonificar al 100% los seguros sociales, únicamente hay que marcar la opción expresa en la propia incidencia e indicar el periodo de sustitución, esto es, las mismas fechas de alta y baja de la persona que se ha contratado.
+
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: ¿Cómo le pongo a un trabajador un anticipo?
+Un trabajad@r ha solicitado un anticipo ¿Cómo lo hago?
+Gracias.
+
+RESPUESTA:
+Buenas tardes,
+
+Para poder abonar un anticipo a un trabajador hay que crear una incidencia mensual tipo "Anticipos" (Menú "Nóminas" y "Gestor de incidencias mensuales").
+Deberá indicar la cantidad, la fecha del recibí y si se descontará de la nómina del mes en el que haya introducido la incidencia o de la paga extra, si procede, del período correspondiente.
+
+
+
+Nótese que desde la propia incidencia podrá imprimir el recibí con el acuse para ser firmado por el trabajador.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Al enviar un CRA me da el error fichero con errores de secuencia en segmento.
+Qué tal, cuando envío el fichero de concepto retributivos abonados y lo proceso me da ese error.
+
+RESPUESTA:
+Buenos días,
+
+Si el CRA le da ese error, es porque envió un fichero con algún concepto de algún trabajador sin ser asignado el código CRA, por ejemplo, creó un concepto, pero no le puso el "ID Retributivo".
+
+
+
+Para solucionarlo, no tiene más que ir a la ficha de la empresa ("Archivo", "Maestro de empresas") y para el concepto en cuestión elegir un código CRA de la lista (códigos proporcionados por la propia Tesorería) en la columna "ID Retributivo".
+
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Enviar nóminas por correo
+Buenos días ¿Cómo puedo enviar las nóminas por correo a los trabajadores?
+
+Muchas gracias.
+
+RESPUESTA:
+Buenos días, para enviar las nóminas por correo, primero tendrá que configurar en la ficha de la empresa y de los trabajadores el propio correo al que se enviarán los documentos, especificar que se desea enviar los mismos por correo y rellenar los datos de la cuenta de correo que enviará la información en el menú "Utilidades", "Configuración de Winlab" y "Envío por correo electrónico".
+
+
+
+Para más información, por favor, descargue el manual para el envío por correo electrónico: manual
+
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Becarios
+Como tengo que configurar en el programa la ficha de un becario con prácticas curriculares
+
+RESPUESTA:
+Buenos días:
+
+Dado que las CCC exclusivas para formación o becarios ya no se conceden, deberá crear el becario en la cuenta de cotización principal con total normalidad. La única diferencia será, que habrá que indicar la exoneración de forma específica (para que cotice por el mínimo de grupo y la cuota fija) en su ficha. Más concretamente en la sección "Situaciones especiales". La última opción llamada "Exclusión de cotización" deberá indicarse el código de peculiaridad de 3 cifras con el que se le dio de alta en Tesorería.
+Adicionalmente, para poder aplicarse la exoneración del 100%, deberemos indicarle el contrato 906 (código nuestro), establecer la fecha inicio de bonificación la misma que la fecha de alta y en el apartado de bonificaciones, establecer "Bonificado" a "Sí".
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Bonus
+Como puedo crear un bonus especial para pagar en el mes de diciembre y que el programa me imprima la nómina y haga la cotización a la seguridad social.
+
+RESPUESTA:
+Dado que la Tesorería obligará a cotizar, de forma retroactiva, el mismo un año hacía atrás, deberemos crear una incidencia mensual del tipo "Atrasos" (Desde el menú "Nóminas" y "Gestión de incidencias mensuales"). Es decir, no podrá cotizarse mediante la liquidación L00 ordinaria, sino que deberá utilizarse la complementaria L03.
+
+Una vez abierta la incidencia de atrasos, solo hay que indicar el período de cotización en la casilla "desde" y "hasta" (por ejemplo desde enero a diciembre), la cantidad a pagar/cotizar, el concepto al que será abonado (especial atención al código CRA que tenga asignado) y el tipo de liquidación "L03" (sin olvidar el tipo L03, que en nuestro caso será el 5 "Cualquier otro título legítimo").
+
+Si se pulsa sobre el icono de impresión (con forma de carpeta y un folio) podremos imprimir la nómina de dicho bonus.
+
+Para cotizar, deberemos generar un fichero de bases con total normalidad, pero eligiendo la opción "complementarias" para poder generar la propia L13. El resto del procedimiento no cambia, deberá ser procesado y enviado por SILTRA y posteriormente confirmada con los mismos plazos y características de la L00 normal. Recuerde que no podrá presentar una L03 mientras la L00 esté en plazo.
+
+Por último, no deberán ser olvidados los CRA, la presentación será obligatoria.
+------------------------------------------------------------------------
+
+PREGUNTA: Retribución en especie con pago por cuenta de la empresa de la retención
+Buenos días,
+
+Como tengo que informar en el programa una retribución en especie donde la retención es por cuenta del empresario.
+
+
+
+Gracias
+
+RESPUESTA:
+Buenos días José Antonio, hagamos un breve resumen de como tendríamos que tener todo configurado, no solo el pago. Lo primero sería tener un concepto creado con la especie según proceda. Adicionalmente, deberíamos tener otro concepto con el pago a cuenta, pero configurado de forma especial para que no afecte a la cotización o tributación, dado que solo es el pago de la cuota de IRPF aplicada y, por último, tendríamos que haber creado una deducción para descontar el valor cotizado y tributado del rendimiento en especie, puesto que no debe abonársele en nómina.
+
+
+
+Por ejemplo, en la ficha de la empresa deberíamos tener creado los conceptos de la siguiente manera:
+
+
+
+
+
+
+
+
+
+R. en especie
+
+
+
+Pago a cuenta
+
+
+
+Deducción especie
+
+
+
+
+Concepto
+
+
+
+Título del concepto
+
+
+
+Título del concepto
+
+
+
+Título del concepto
+
+
+
+
+ID Ret. (CRA)
+
+
+
+0013 a 0026
+
+
+
+9999
+
+
+
+0000
+
+
+
+
+S (Cotización)
+
+
+
+1
+
+
+
+0
+
+
+
+0
+
+
+
+
+I (Tributación)
+
+
+
+3 o 4
+
+
+
+8
+
+
+
+0
+
+
+
+
+N (Visible nómina)
+
+
+
+ü
+
+
+
+ü
+
+
+
+ü
+
+
+
+
+
+
+Al final, deberíamos tener una configuración como esta:
+
+
+
+Consideraciones:
+
+•Las deducciones ni cotizan ni tributan, por eso no importa el valor indicado en ID Retributivo, “S” o “I”, solo la “N” para que pueda incluirse en la nómina.
+
+•Las deducciones deben crearse en el apartado deducciones obligatoriamente.
+
+•Para la retribución de la especie deberemos elegir el código CRA (ID Retributivo) adecuado de la lista, dado que existen 14 opciones diferentes, de la 0013 a la 0026. Dicha lista es proporcionada por la Seguridad Social.
+
+•La tributación en especie puede ser el código 3 o 4, en función del tipo. únicamente será determinante para el 190 y el certificado de retenciones.
+
+
+
+•Se indica en el pago a cuenta “0” y “8” para que el pago no forme parte de la base de cotización y no sea informado en el 111 o 190. Adicionalmente debe tener establecido el código CRA 9999 porque no debe enviarse en el fichero de los conceptos.
+------------------------------------------------------------------------
+
+PREGUNTA: Liquidacion complementaria
+necesito saber cómo hacer una liquidacion complementaria L91
+
+RESPUESTA:
+Pude consultar la pregunta de como pagar un bonus. Los pasos son los mismos, simplemente tendrá que cambiar el identificador del tipo de liquidación para SILTRA
+------------------------------------------------------------------------
+
+PREGUNTA: Liquidacion complementaria
+necesito saber cómo hacer una liquidacion complementaria L91
+
+RESPUESTA:
+Buenas tardes Srta. Inmaculada, debe introducir una incidencia mensual (Menú "Nóminas", "Gestor de incidencias mensuales") del tipo “Atrasos”:
+
+
+
+A continuación, en la ventana con la incidencia que se abre, no tiene más que indicar el periodo de cotización, indicarle un nombre (solo a efectos propios), la base a cotizar y especificar que se trata de una liquidación complementaria tipo L91:
+
+
+
+Si únicamente fuese cotizar y no hubiere retención (es decir, 111 y 190) en la opción “Histórico de IRPF” se establecería la opción “No acumular”.
+
+
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Cambio Codigo Cuenta Cotización
+Hola:
+
+Para realizar el cambio del código cuenta de cotización, a uno secundario de un trabajador en una misma empresa, es necesario utilizar el código 54 de "BAJA" en el sistema Red, que a su vez es el código que se utiliza para enviar el certificado de empresa.
+
+La pregunta es: En el "Gestor de incidencias mensuales" (bajas), a que código de los que hay en desplegable del software equivale el código 54 del Sistema Red.
+
+Hago la pregunta por la Comunidad, por si así la respuesta le sirve a alguien en el futuro.
+
+RESPUESTA:
+Buenos días Juan Carlos, en la incidencia de baja verá los códigos de baja para el certificado de empresa (SEPE). Una vez pulse guardar, podrá generar el fichero FDI y ahí podrá seleccionar la causa 54 sin problemas.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: BAJA POR SUBROGACION
+Cuál es el código de baja por subrogación, a la hora de calcular el finiquito??
+
+RESPUESTA:
+Buenos días Srta. Olga. Dependerá, pues en el SEPE no hay causa dado que los trabajadores no causan baja en la empresa. Con respecto a la Tesorería, puede consultar los códigos en la siguiente tabla:
+
+
+https://www.seg-social.es/wps/wcm/connect/wss/ac6c2087-f6d7-4f62-8f85-64c574a6698c/T21-Situaci%C3%B3n+2021-12.pdf?MOD=AJPERES
+------------------------------------------------------------------------
+
+PREGUNTA: contrato sustitución
+¿cómo se da de alta un trabajador con contrato de sustitución por maternidad?
+
+RESPUESTA:
+Buenos días Srta. Inmaculada. Sólo tiene que crear una ficha de trabajador normal y corriente, indicándole el contrato de interinidad (410/510) con la bonificación adecuada (códigos contrato 075/076), si procede, e indicar, en el apartado &laquo;fechas&raquo;, desde qué día se aplicaría la bonificación.
+------------------------------------------------------------------------
+
+PREGUNTA: NOMINAS
+¡Buenos días!
+
+¿Que tamaño debe tener el logo de la empresa que aparece en la nómina para que su visualizacion sea correcta?
+
+Los logos rectangulares, sulen verse correctos, no así los ovalados o circulares.
+
+Gracias
+
+RESPUESTA:
+Buenos días Roberto, el tamaño del logotipo, aunque escalable, ronda los 6,32 x 1,53 cm. Al ser rectangular, si la imagen es cuadrada se autoadapta y se deforma. En tal caso, deberemos editar el logo para añadirle espacio en blanco tanto a derecha como a izquierda. De esta manera saldrá correcta.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Baja y Eliminación de Empresas
+Buenas tardes,
+
+Tengo unas empresas que no trabajo con ellas desde hace más de 5 años y quisiera saber como puedo eliminarlas del programa de la forma más limpia.
+
+Por otro lado, tengo otras que no ha pasado tanto tiempo pero no les presto servicio actualmente, como puedo hacer para darlas de baja y no esten activas?
+
+Gracias!
+
+RESPUESTA:
+Buenas tardes Srta. Estíbaliz:
+
+Antes de borrar empresas, siempre es recomendable hacer una copia de seguridad.
+
+Para borrar una empresa, hay que entrar con el usuario &laquo;sa&raquo; al programa, elegir la empresa y pulsar sobre el botón &laquo;borrar&raquo;.
+
+Para dejar como inactiva una empresa, solo ha que entrar en la ficha de la misma y bajar hasta las opciones finales. Deberemos encontrar la opción &laquo;Obsoleta&raquo; e indicar un &laquo;Sí&raquo;.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Problemas con la comunicación de baja por IT
+En Siltra me piden identificación de ODT y FUN. Y no sé dónde tengo que suministrar esos datos (sé que se refieren a otros datos del trabajador y funciones que desempeña, pero no encuentro dónde incorporar eso datos).
+
+Gracias
+
+RESPUESTA:
+Buenos días Sr. Carlos:
+
+Son los campos para la descripción de funciones. En la propia ficha del trabajador, en la sección &laquo;Valoración retributiva&raquo; deberá rellenar valoración del puesto y puesto empresa.
+
+Un saludo.
+------------------------------------------------------------------------
+
+PREGUNTA: Nómina extra
+Como puedo realizar una nómina extra de un autónomo de empresa?, estilo paga extra.
+
+RESPUESTA:
+Buenas tardes Sra. Marta,
+
+
+
+Deberá crear una incidencia mensual tipo atraso,y puesto que no cotiza, indicar la cuantía en importe tributable y no cotizable. Con el botón imprimir podrá obtener la nómina extra.
+
+Un saludo.
+
+Un saludo.
+------------------------------------------------------------------------
+

@@ -1,0 +1,31 @@
+24-12-2025 09:55:11 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 26290;"JOSE LUIS PEREZ MARTIN";"jlpm@icam.es; emilio.npyasociados@gmail.com"
+24-12-2025 09:55:12 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 26558;"MARIA GRACIA COLOMA MARTINEZ";"gcoloma@lexandcom.es; rcolomas@lexandcom.es"
+24-12-2025 09:55:14 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 25232;"ALFONSO DE RATO VELARDE";"abogados@rato.com; alfonsorato@rato.com"
+24-12-2025 09:55:14 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 25212;"CRISTINA PEREZ ROJAS";"cp.rojas@bermudezyrojas.es; cp.rojas@telefonica.ne"
+24-12-2025 09:55:15 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 25507;"MARIA CAGIGAL DIAZ DE BUSTAMANTE";"mcagigal@cagigalasesores.es--Este no"
+24-12-2025 09:55:15 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 25488;"MEYLIN MARTI VAZQUEZ";"martiabog@icam.es;@msn.com"
+24-12-2025 09:55:16 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 25648;"ANA MARIA HOLGADO MONTERO";"holgadomontero@yahoo.es; holgado@icam.es"
+24-12-2025 09:55:17 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 25857;"MARIANO GONZALEZ RODRIGUEZ";"918961032@telefonica.net; roman_slan@hotmail.com"
+24-12-2025 09:55:17 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 25896;"SOFIA MARTINEZ VIELVA";"smvielva@gmail.com; smvielva@icam.es"
+24-12-2025 09:55:18 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 26102;"MANUEL SERRADILLA SANCHEZ";"elenablasco@telefonica.net;manuel@esser.yazztel.es"
+24-12-2025 09:55:19 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 28853;"CARLOS BLANCO FERNANDEZ";"cblanco@mdm1.es.; faztarain@mdm1.es"
+24-12-2025 09:55:19 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 28677;"GABINETE JURIDICO HERTA & ASOCIADOS";gjha@icam,es
+24-12-2025 09:55:21 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 28784;"BELEN DEL POZO CASTRO";belen@venyloverás.com
+24-12-2025 09:55:21 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 28244;"SOLEDAD IGLEISAS GUISADO";"iglesiasguisado@gmail.com; oicr@icam.es"
+24-12-2025 09:55:21 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 28245;"JOSE CESAR CARO SIERRA";"a77511@hotmail.com; mariamparra@hotmail.com"
+24-12-2025 09:55:22 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 28265;"CRITERIO ABOGADOS";"m.ledesma@criterioabgados.com;"
+24-12-2025 09:55:23 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 29338;"JUAN CARLOS LOIS PEREZ";jcloisp@gmail,com
+24-12-2025 09:55:25 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 24979;"ALMUDENA ESTER MARTINEZ GARCIA";a,martinezgarcia@icam.es
+24-12-2025 09:55:26 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 25084;"JOSE ENRIQUE CARBAJO FERNANDEZ";"jcarbajo@icam.es; zunigayasociados@icam.es"
+24-12-2025 09:55:26 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 25116;"BLANCA COSO JUAREZ";"blancacoso@icam.es; blancacoso@gmail.com"
+24-12-2025 09:55:27 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 25150;"MIGUEL ANGEL NIETO NUÑEZ";"concha.sierra@telefonica.net; manieto@icam.es"
+24-12-2025 09:55:28 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 26927;"LUIS MIGUEL VAZQUEZ";"luismiguel@icam.es; miriamsv@hotmail.com"
+24-12-2025 09:55:29 - FATAL - 9.1.0 - 22,6 MB/2 GB - admon > Invalid email on line 27064;"CUBERO CONSULTORES S.L.";"macarena 79@telefonica.net"
+24-12-2025 10:04:56 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 27168;"ANGEL LUIS TORREGO MUÑOZ";"santalla@icam.es;santatorre11@gmail.com"
+24-12-2025 10:04:56 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 27342;"EMILIO GUDE";egude@cecamagan
+24-12-2025 10:04:57 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 27847;"CUENTANOS ASESORES S.L.";"esther.pueyo@cuentanosasesores.es; "
+24-12-2025 10:04:58 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 28029;"CARMEN MARIA MUÑOZ JIMENEZ";"CMUNOZJ@icam.es; jcrodriguez@pragmatisasesores.com"
+24-12-2025 10:05:00 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 28754;"CONCEPCIÓN CRISTOBALENA JORQUERA";administración@cristobalena.com
+24-12-2025 10:05:00 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 28859;"RAFAEL GAITERO HITA";"rgaitero@gmail.com;rgaitero@icam.es"
+24-12-2025 10:05:01 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 28883;"BERLANGA GESTION";"sabino@icam.es; salonso@berlangagestion.com"
+24-12-2025 10:05:03 - FATAL - 9.1.0 - 22,5 MB/2 GB - admon > Invalid email on line 29992;"Vanesa Orgaz Flores";"agenciarrhh@vanesaorgaz.com; vanesa_orgaz@yahoo.es"

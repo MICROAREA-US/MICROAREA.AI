@@ -1,0 +1,38 @@
+25-11-2025 21:11:45 - INFO  - 9.0.8 - 15,8 MB/2 GB -  > Start upgrade from 9.0.7
+25-11-2025 21:11:45 - INFO  - 9.0.8 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+25-11-2025 21:11:45 - INFO  - 9.0.8 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+25-11-2025 21:11:45 - INFO  - 9.0.8 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+25-11-2025 21:11:45 - INFO  - 9.0.8 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+25-11-2025 21:11:45 - INFO  - 9.0.8 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+25-11-2025 21:11:46 - INFO  - 9.0.8 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+25-11-2025 21:11:46 - INFO  - 9.0.8 - 17,8 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+25-11-2025 21:11:46 - INFO  - 9.0.8 - 17,9 MB/2 GB -  > End

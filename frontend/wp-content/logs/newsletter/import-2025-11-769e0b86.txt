@@ -1,0 +1,6 @@
+26-11-2025 10:39:34 - FATAL - 9.0.8 - 19,9 MB/2 GB - admon > Invalid email on line 2680;"IES EDUARD FONTSERE";"a8051264@centres.xtec. es"
+26-11-2025 10:39:35 - FATAL - 9.0.8 - 19,9 MB/2 GB - admon > Invalid email on line 2960;"ARIAS FUARROLA, ANGEL";"a..arias @ teleline.es"
+26-11-2025 10:39:35 - FATAL - 9.0.8 - 19,9 MB/2 GB - admon > Invalid email on line 2798;"SYNERGIETT ETT S.A. ";synergie@
+26-11-2025 10:39:36 - FATAL - 9.0.8 - 19,9 MB/2 GB - admon > Invalid email on line 7693;"CONSTRUCCIONES J.A.R.A. E.I.R SL";jaraconstruccionresmas.com
+26-11-2025 10:39:37 - FATAL - 9.0.8 - 19,9 MB/2 GB - admon > Invalid email on line 25962;"JOSE HERRERO UREÑA";info@carmen_verdu.com
+26-11-2025 10:39:38 - FATAL - 9.0.8 - 19,9 MB/2 GB - admon > Invalid email on line 24831;"COMERCIAL J2F, S.L";"veronica@j2f.es;admin@j2f.es"

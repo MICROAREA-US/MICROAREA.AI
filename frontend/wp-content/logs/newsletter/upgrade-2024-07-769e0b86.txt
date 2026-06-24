@@ -1,0 +1,239 @@
+08-07-2024 21:17:49 - INFO  - 8.4.3 - 14.5 MB/2 GB -  > Start upgrade from 8.4.2
+08-07-2024 21:17:49 - INFO  - 8.4.3 - 14.5 MB/2 GB -  > Start upgrade from 8.4.2
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Deleting settings backup newsletter_backup_8.3.6
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Backing up options of 8.4.2
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.5 MB/2 GB -  > Backing up options of 8.4.2
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.6 MB/2 GB -  > End
+08-07-2024 21:17:50 - INFO  - 8.4.3 - 16.6 MB/2 GB -  > End
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 16,3 MB/2 GB -  > Start upgrade from 8.4.3
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,3 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > Deleting settings backup newsletter_backup_8.3.7
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > Backing up options of 8.4.3
+09-07-2024 21:16:12 - INFO  - 8.4.4 - 18,4 MB/2 GB -  > End
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 14.5 MB/2 GB -  > Start upgrade from 8.4.4
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Deleting settings backup newsletter_backup_8.3.8
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.5 MB/2 GB -  > Backing up options of 8.4.4
+11-07-2024 21:26:37 - INFO  - 8.4.5 - 16.6 MB/2 GB -  > End
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 15,9 MB/2 GB -  > Start upgrade from 8.4.5
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Deleting settings backup newsletter_backup_8.3.9
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 17,9 MB/2 GB -  > Backing up options of 8.4.5
+17-07-2024 09:11:22 - INFO  - 8.4.6 - 18,0 MB/2 GB -  > End
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 15,8 MB/2 GB -  > Start upgrade from 8.4.6
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Deleting settings backup newsletter_backup_8.4.0
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 17,9 MB/2 GB -  > Backing up options of 8.4.6
+17-07-2024 21:12:19 - INFO  - 8.4.7 - 18,0 MB/2 GB -  > End

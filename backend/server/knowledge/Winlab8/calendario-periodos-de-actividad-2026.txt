@@ -1,0 +1,59 @@
+========================================================================
+SEPE - CALENDARIO DE PERIODOS DE ACTIVIDAD 2026
+========================================================================
+
+L M X J V S D 	L M X J V S D 	L M X J V S D
+1 2 3 4 	1 	1
+5 6 7 8 9 10 11 	2 3 4 5 6 7 8 	2 3 4 5 6 7 8
+12 13 14 15 16 17 18 	9 10 11 12 13 14 15 	9 10 11 12 13 14 15
+19 20 21 22 23 24 25 	16 17 18 19 20 21 22 	16 17 18 19 20 21 22
+26 27 28 29 30 31 	23 24 25 26 27 28 	23 24 25 26 27 28 29
+30 31
+L M X J V S D 	L M X J V S D 	L M X J V S D
+1 2 3 4 5 	1 2 3 	1 2 3 4 5 6 7
+6 7 8 9 10 11 12 	4 5 6 7 8 9 10 	8 9 10 11 12 13 14
+13 14 15 16 17 18 19 	11 12 13 14 15 16 17 	15 16 17 18 19 20 21
+20 21 22 23 24 25 26 	18 19 20 21 22 23 24 	22 23 24 25 26 27 28
+27 28 29 30 	25 26 27 28 29 30 31 	29 30
+L M X J V S D 	L M X J V S D 	L M X J V S D
+1 2 3 4 5 	1 2 	1 2 3 4 5 6
+6 7 8 9 10 11 12 	3 4 5 6 7 8 9 	7 8 9 10 11 12 13
+13 14 15 16 17 18 19 	10 11 12 13 14 15 16 	14 15 16 17 18 19 20
+20 21 22 23 24 25 26 	17 18 19 20 21 22 23 	21 22 23 24 25 26 27
+27 28 29 30 31 	24 25 26 27 28 29 30 	28 29 30
+31
+L M X J V S D 	L M X J V S D 	L M X J V S D
+1 2 3 4 	1 	1 2 3 4 5 6
+5 6 7 8 9 10 11 	2 3 4 5 6 7 8 	7 8 9 10 11 12 13
+12 13 14 15 16 17 18 	9 10 11 12 13 14 15 	14 15 16 17 18 19 20
+19 20 21 22 23 24 25 	16 17 18 19 20 21 22 	21 22 23 24 25 26 27
+26 27 28 29 30 31 	23 24 25 26 27 28 29 	28 29 30 31
+30
+L M X J V S D
+1 2 3
+4 5 6 7 8 9 10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30 31
+Procesos ordinarios de Reanudaciones Únicas
+Proceso de Reanudaciones Únicas el dia de cierre de Nómina del mes
+Cierre de aplicaciones por procesos de nómina en día laborable, excepto consultas, solicitudes, certificados y denegaciones (operativos)
+DD Fin de semana y festivos normales
+DD Fin semana o día festivo con proceso de nómina.
+Horario de las aplicaciones: Todos los días hábiles de 7:30 a 20:00 horas, excepto días de cierre de Nómina, que será de 7:30 a 15:00
+el último o penúltimo día del mes laborable, según calendario. La apertura de las aplicaciones dependerá del visto bueno a la nómina.
+Diciembre
+Marzo
+CALENDARIO DE PROCESOS DE REANUDACIONES ÚNICAS: AÑO 2026
+Septiembre
+Enero 	Febrero
+Octubre
+Agosto
+Enero 2027
+Mayo 	Junio
+Noviembre
+Abril
+Julio
+
+-- 1 of 1 --
+

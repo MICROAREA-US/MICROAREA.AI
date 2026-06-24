@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-04T15:09:26+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: newsletter-import\n"
+
+#: admin/bounce.php:59
+msgid "Bounced addresses"
+msgstr ""
+
+#: admin/bounce.php:70
+msgid "Import"
+msgstr ""
+
+#: admin/clipboard.php:62
+msgid "The first line MUST contain field labels"
+msgstr ""
+
+#: admin/clipboard.php:66
+msgid "Example"
+msgstr ""
+
+#: admin/clipboard.php:74
+#: admin/csv.php:75
+msgid "Next"
+msgstr ""
+
+#: admin/csv-map.php:53
+msgid "Import file not found."
+msgstr ""
+
+#: admin/csv-map.php:100
+msgid "Settings"
+msgstr ""
+
+#: admin/csv-map.php:101
+msgid "Fields"
+msgstr ""
+
+#: admin/csv-map.php:102
+msgid "Lists"
+msgstr ""
+
+#: admin/csv-map.php:103
+msgid "Custom fields"
+msgstr ""
+
+#: admin/csv-map.php:110
+msgid "Sample lines from import file"
+msgstr ""
+
+#: admin/csv-map.php:139
+msgid "Fields separator"
+msgstr ""
+
+#: admin/index.php:54
+msgid "Pre-import backup is recommended."
+msgstr ""
+
+#: admin/last-import-statistics.php:3
+msgid "Statistics of the last import"
+msgstr ""

@@ -1,0 +1,6 @@
+13-03-2024 14:55:35 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line administracion@martilobo.com (este no)
+13-03-2024 14:55:39 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line efernandezo@icam
+13-03-2024 14:55:39 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line ES44 2103 7114 08 0010276647
+13-03-2024 14:55:39 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line ES54 0239 0806 7423 8249 8828
+13-03-2024 14:55:39 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line ES70 2103 7361 0100 3000 1344
+13-03-2024 14:55:40 - FATAL - 7.8.7 - 25,7 MB/2 GB - admon > Invalid email on line gestió@refilat.com

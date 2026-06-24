@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="svgBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3.5" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="80" cy="130" rx="55" ry="12" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Base Isometric Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 80,126 L 130,103 L 80,80 L 30,103 Z" fill="url(#pastelGrad)" stroke="#85a7e6" stroke-width="1"/>
+    <path d="M 80,126 L 130,103 L 130,107 L 80,130 Z" fill="#b3cced"/>
+    <path d="M 30,103 L 80,126 L 80,130 L 30,107 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- System Window standing (Isometric) -->
+  <g transform="translate(0, -10)" filter="url(#shadow)">
+    <path d="M 50,90 L 110,62 L 110,32 L 50,60 Z" fill="url(#blueGrad)"/>
+    <path d="M 53,86 L 107,61 L 107,36 L 53,61 Z" fill="#ffffff"/>
+    <!-- Mimic dots -->
+    <circle cx="58" cy="46" r="1" fill="#2130b7"/>
+    <circle cx="63" cy="43.7" r="1" fill="#2130b7"/>
+  </g>
+
+  <!-- Refresh / Sync Arrows floating in front on glass plate -->
+  <g transform="translate(10, -15)" filter="url(#shadow)">
+    <path d="M 55,95 L 110,70 L 80,55 L 25,80 Z" fill="url(#glassGrad)" stroke="rgba(255,255,255,0.75)" stroke-width="1.5"/>
+    
+    <!-- Sync circle arrow -->
+    <path d="M 56,76 A 12,12 0 0,1 78,71" fill="none" stroke="#2130b7" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="78,67 82,74 74,74" fill="#2130b7"/>
+    <path d="M 78,82 A 12,12 0 0,1 56,87" fill="none" stroke="#2130b7" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="56,91 52,84 60,84" fill="#2130b7"/>
+    
+    <!-- Checkmark inside -->
+    <path d="M 63,80 L 66,83 L 71,77" fill="none" stroke="#2130b7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="svgBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3.5" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="80" cy="130" rx="55" ry="12" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Base Isometric Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 80,126 L 130,103 L 80,80 L 30,103 Z" fill="url(#pastelGrad)" stroke="#85a7e6" stroke-width="1"/>
+    <path d="M 80,126 L 130,103 L 130,107 L 80,130 Z" fill="#b3cced"/>
+    <path d="M 30,103 L 80,126 L 80,130 L 30,107 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- Browser Panel standing (Isometric) -->
+  <g transform="translate(5, -8)" filter="url(#shadow)">
+    <!-- Window frame -->
+    <path d="M 45,95 L 105,67 L 105,37 L 45,65 Z" fill="url(#blueGrad)"/>
+    <!-- Window content area -->
+    <path d="M 48,91 L 102,66 L 102,41 L 48,66 Z" fill="#ffffff"/>
+    <!-- Browser Dots -->
+    <circle cx="53" cy="50" r="1.2" fill="#2130b7"/>
+    <circle cx="58" cy="47.7" r="1.2" fill="#2130b7"/>
+    <circle cx="63" cy="45.4" r="1.2" fill="#2130b7"/>
+    <!-- Mock code lines inside browser -->
+    <path d="M 68,54 L 95,41.4" stroke="#d9e6f7" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 54,72 L 85,57.5" stroke="#d9e6f7" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 54,80 L 75,70.2" stroke="#d9e6f7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sliders/Gears floating on glass in front -->
+  <g transform="translate(-15, -12)" filter="url(#shadow)">
+    <!-- Glass Plate -->
+    <path d="M 60,102 L 115,76 L 80,60 L 25,86 Z" fill="url(#glassGrad)" stroke="rgba(255,255,255,0.75)" stroke-width="1.2"/>
+    
+    <!-- Slider track -->
+    <line x1="45" y1="84" x2="85" y2="65.2" stroke="#2130b7" stroke-width="2" stroke-linecap="round"/>
+    <!-- Slider knob -->
+    <circle cx="65" cy="74.6" r="3.5" fill="#ffffff" stroke="#2130b7" stroke-width="1.5"/>
+
+    <!-- Gear wheels -->
+    <g transform="translate(85, 78)">
+      <circle cx="0" cy="0" r="7.5" fill="none" stroke="#2130b7" stroke-width="2" stroke-dasharray="3 1.5"/>
+      <circle cx="0" cy="0" r="2.5" fill="#2130b7"/>
+    </g>
+  </g>
+</svg>

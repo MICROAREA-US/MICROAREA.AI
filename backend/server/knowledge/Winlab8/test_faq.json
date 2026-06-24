@@ -1,0 +1,10 @@
+[
+  {
+    "pregunta": "¿Cuál es la última ley de cotización en WinLab?",
+    "respuesta": "Es el Real Decreto 2064/1995 de Cotización y Liquidación."
+  },
+  {
+    "question": "How do you add a new employee in WinLab?",
+    "answer": "You must open the Ficha de Trabajadores form, insert the details, and save."
+  }
+]

@@ -1,0 +1,2 @@
+22-12-2022 10:46:54 - FATAL - 7.5.3 - 31,8 MB/2 GB - admon > Invalid email on line gestió@refilat.com
+22-12-2022 10:46:58 - FATAL - 7.5.3 - 31,8 MB/2 GB - admon > Invalid email on line secretaria@caletvalero.es: alcira@caletvalero.

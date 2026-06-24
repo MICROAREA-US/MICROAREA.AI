@@ -1,0 +1,26 @@
+# Ignore Node dependencies
+**/node_modules/
+
+# Ignore local environment keys
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Ignore logs and runtime output
+**/*.log
+**/*.log.gz
+caddy_access.log
+caddy_stderr.log
+caddy_stdout.log
+node_stderr.log
+node_stdout.log
+
+# Ignore WordPress specific caches and uploads
+wp-content/cache/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/blogs.dir/
+
+# OS specific files
+.DS_Store
+Thumbs.db

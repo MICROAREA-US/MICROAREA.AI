@@ -1,0 +1,354 @@
+/*
+Theme Name:   childdivi
+Description:  Escribe aquí una descripción corta acerca de tu tema hijo
+Author:       admon
+Author URL:   https://new.microarea.ai
+Template:     Divi
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  childdivi
+*/
+
+/* Escribe aquí tu propia hoja de estilos personal */
+
+#page-container {
+	overflow-x:hidden;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page a, li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item a {
+    font-family: 'Poppins';
+	color: #333333 !important;
+    font-weight: 500;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item a {
+    font-weight: 600;
+	color: #4471b1 !important;
+}
+
+.et_pb_menu_0_tb_header.et_pb_menu .nav li.menu-winlab ul.sub-menu a {
+	color:red !important;
+}
+
+/**ESTILOS FOOTER**/
+a.elementos-footer {
+		font-size:0.9rem;
+}
+
+a.elementos-footer, .et-social-icon a {
+	color:#666 !important;
+	font-family: 'Poppins';
+}
+.et-social-icon a {
+	padding-right:25px !important;
+}
+
+ul.et-social-icons {
+    padding-top: 15px;
+}
+
+
+ul.ul-footer li.li-footer {
+    display: inline;
+}
+
+ul.ul-footer {
+	padding-top:15px;
+}
+
+ul.ul-footer li.li-footer:last-child {
+    border-right: none;
+}
+
+@media (max-width: 980px) {
+	#menu-inferior .et-menu.nav.et_disable_top_tier, #menu-inferior .et_pb_menu__wrap {
+		justify-content:center;
+	}
+}
+
+@media (min-width: 980px) {
+	#menu-inferior .et_pb_menu__wrap {
+    	padding: 15px 0 0 15px;
+	}
+}
+
+#menu-inferior .et-menu-nav a{
+	color: #666 !important;
+}
+
+/**MENU IDIOMAS OCULTAR Y MANTENER MODO ESCRITORIO**/
+@media (max-width: 980px) {
+	.et_pb_menu.menu-borrar .et_pb_menu__menu, .et_pb_fullwidth_menu .et_pb_menu__menu {
+		display:flex;
+	}
+	.et_pb_menu.menu-borrar .et_mobile_nav_menu, .et_pb_fullwidth_menu .et_mobile_nav_menu {
+		display:none;
+	}
+}
+/**COLORES MENU**/
+
+ul.menu-menu-ppal-es li a{
+	color: #333 !important;
+}
+
+ul.menu-menu-ppal-es li a{
+	opacity:.7;
+}
+
+/**COLORES DESPLEGABLES MENU**/
+ul.sub-menu li a {
+	color: #333 !important;
+}
+
+ul.sub-menu li a:hover {
+	opacity:.7;
+}
+
+/**
+/**COLORES DESPLEGABLE MENU MI COLEGIO
+li.menu-icam.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#782F40 !important;
+}
+
+li.menu-icav.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#006462 !important;
+}
+
+li.menu-icae.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#B2D465 !important;
+}
+
+/**COLORES DESPLEGABLE MENU PRODUCTOS
+
+li.menu-winlab.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#D16435 !important;
+}
+
+li.menu-lexnext.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#0271B4 !important;
+}
+
+li.menu-eoswin.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#B2D465 !important;
+}
+
+li.menu-magest.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#df0078 !important;
+}
+
+li.menu-poshability.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#56BBF3 !important;
+}
+
+li.menu-maconta.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#6C5FB1 !important;
+}
+
+li.menu-gestbox.menu-item.menu-item-type-custom.menu-item-object-custom a, li.menu-psuite.menu-item.menu-item-type-custom.menu-item-object-custom a, li.menu-prosuite.menu-item.menu-item-type-custom.menu-item-object-custom a {
+	color:#b2b4b9 !important;
+}
+
+*/
+
+/** ENLACE FACTURAS **/
+
+li.enlace-menu a {
+	color: #333 !important;
+	font-weight:500 !important;
+}
+
+li.enlace-menu.current-menu-item a {
+	color: rgb(68, 113, 177) !important;
+	font-weight:600 !important;
+}
+
+/**FORMULARIO ACCESO USUARIO**/
+
+div.google-captcha-notice {
+	display:none;
+}
+
+/*.form-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+#popup-entrar, #recuperar-pass {
+	height:40%;
+	width: 25%;
+	margin:0;
+	padding:0;
+	border-radius: 5px;
+}
+
+@media (max-width: 980px) {
+	#popup-entrar, #recuperar-pass {
+		width:80%;
+	}
+}
+
+.login-code-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	font-size:0.95rem;
+	font-family: 'Open sans';
+}
+/*
+div.area-outer-wrap.popup_outer_wrap.et-l.entry-content {
+	  margin: 0;
+    padding: 10px 20px;
+    position: fixed !important;
+    right: 20px;
+    top: 90px;
+    height: 35vh !important;
+	font-size:0.95rem;
+}*/
+
+div#popup-entrar h3, div#recuperar-pass h3 {
+    text-align: center;
+	margin-top: 0;
+}
+
+div#popup-entrar input, div#recuperar-pass input {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important;
+	font-weight:500;
+}
+
+.et_pb_image .et_pb_image_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#popup-entrar .wp-image-1082 {
+	width: 20%;
+}
+
+@media only screen and (min-width: 1500px) {
+	.et_pb_row {
+		padding: 15px 0 !important;
+	}
+}
+
+/*div.form-element {
+	width:100%;
+	margin-top: 20px;
+}
+
+div.form-element input{
+	width:100%;
+}
+
+div.botones {
+	width:100%;
+	display:flex;
+	gap:20px;
+	margin: 20px;
+}*/
+
+input#wp-submit {
+    border-radius: 20px;
+}
+
+input#wp-submit {
+	background: #4471b1;
+	border: 2px solid #2E4C76;
+	transition: color 2s;
+	color: #fff;
+}
+input#wp-submit:hover {
+	background: #2E4C76;
+	border: 2px solid #2E4C76;
+}
+
+p.recuperar-cont {
+	margin-top: 15px;
+}
+
+/*button.boton-form-entrar.boton-recuperar {
+	background: transparent;
+	border: 2px solid #4471b1;
+	transition: color 2s;
+	color:#4471b1 !important;
+}
+button.boton-form-entrar.boton-recuperar:hover {
+	background: #E2EAF4;
+	border: 2px solid #4471b1;
+}*/
+
+@media (max-width: 980px) {
+	/*div.botones {
+		display:flex;
+		flex-direction:column;
+	}*/
+	
+	div#popup-entrar button, div#popup-login button {
+		width:100%; 
+	}
+}
+
+.form-element input {
+	padding: 5px !important;
+    border-radius: 2px;
+}
+
+#cn-accept-cookie {
+	background: #4471b1;
+}
+
+/**PAGINA CONTACTO**/
+a.icon.et_pb_with_border {
+    margin-right: 25px;
+}
+
+.contacto-rrss a.icon {
+	background:#ff885a !important;
+	padding: 7px !important;
+    border-radius: 48% !important;
+}
+
+.et_pb_social_media_follow.contacto-rrss li a.icon:before {
+	font-size:25px !important;
+}
+
+li.et_pb_social_media_follow_network_3.et_pb_social_icon.et_pb_social_network_link.et-social-youtube.et_pb_social_media_follow_network_3 a:before, li.et_pb_social_media_follow_network_1.et_pb_social_icon.et_pb_social_network_link.et-social-twitter.et_pb_social_media_follow_network_1 a:before {
+    margin-top: 1px;
+}
+
+/* ==========================================================================
+   Ocultar el botón "Entrar" y los formularios emergentes de login/recuperación
+   ========================================================================== */
+
+/* Ocultar el enlace/botón de entrar en todos los idiomas */
+li.menu-item a[href="#popup-entrar"],
+li.menu-item a[href*="popup-entrar"],
+.et-popup-login-button a {
+    display: none !important;
+}
+
+/* Ocultar el elemento de lista contenedor para evitar espacios en blanco */
+li.menu-item:has(a[href*="popup-entrar"]),
+li.et-popup-login-button,
+li.menu-item-592,
+li.menu-item-2267,
+li.menu-item-2237,
+li.menu-item-990,
+li.menu-item-2146,
+li.menu-item-2581,
+li.menu-item-2684 {
+    display: none !important;
+}
+
+/* Ocultar las secciones popup de login y de recuperar contraseña */
+#popup-entrar,
+#recuperar-pass,
+.et-popup-login-button,
+.et-toggle-popup {
+    display: none !important;
+}

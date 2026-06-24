@@ -1,0 +1,61 @@
+# Translation of Plugins - Tidio – Live Chat &amp; AI Chatbots - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Tidio – Live Chat &amp; AI Chatbots - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-24 00:35:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Tidio – Live Chat &amp; AI Chatbots - Stable (latest release)\n"
+
+#. Author of the plugin
+#: tidio-elements.php
+msgid "Tidio LLC"
+msgstr "Tidio LLC"
+
+#: src/Admin/Notice/Views/LyroAIChatbotNotice.php:130
+msgid "Get 50 free Lyro conversations"
+msgstr "Consigue 50 conversaciones Lyro gratis"
+
+#: src/Admin/Notice/Views/LyroAIChatbotNotice.php:127
+msgid "WordPress users will be able to automatically solve up to 70% customer problems with Lyro - Tidio’s latest AI chatbot. <strong>Try it out with 50 free AI-driven conversations.</strong>"
+msgstr "Los usuarios de WordPress podrán resolver automáticamente hasta un 70% de los problemas de los clientes con Lyro, el último chatbot con IA de Tidio. <strong>Pruébalo con 50 conversaciones gratuitas basadas en IA.</strong>"
+
+#: src/Admin/Notice/Views/LyroAIChatbotNotice.php:123
+msgid "Meet Lyro - the conversational AI chatbot for your website"
+msgstr "Conoce a Lyro: el chatbot conversacional con IA para tu web"
+
+#: src/Admin/Notice/Views/NoticeTemplate.php:131
+msgid "Click me"
+msgstr "Haz clic en mi"
+
+#: src/Admin/Notice/Views/NoticeTemplate.php:128
+msgid "Praesent tincidunt lorem non mauris tincidunt pharetra."
+msgstr "Praesent tincidunt lorem non mauris tincidunt pharetra."
+
+#: src/Admin/Notice/Views/NoticeTemplate.php:127
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar urna sit amet sapien sagittis lacinia. Etiam mollis ante sed ipsum pretium, et bibendum urna iaculis. "
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar urna sit amet sapien sagittis lacinia. Etiam mollis ante sed ipsum pretium, et bibendum urna iaculis. "
+
+#: src/Admin/Notice/Views/NoticeTemplate.php:123
+msgid "Sed ac scelerisque massa."
+msgstr "Sed ac scelerisque massa."
+
+#. Description of the plugin
+#: tidio-elements.php
+msgid "Tidio Live Chat - live chat boosted with chatbots for your online business. Integrates with your website in less than 20 seconds."
+msgstr "Chat en vivo de Tidio - Chat en vivo potenciado con chatbots para tu negocio online. Se integra con tu web en menos de 20 segundos."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: tidio-elements.php
+msgid "http://www.tidio.com"
+msgstr "https://www.tidio.com"
+
+#. Plugin Name of the plugin
+#: tidio-elements.php
+msgid "Tidio Chat"
+msgstr "Tidio Chat"

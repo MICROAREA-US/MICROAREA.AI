@@ -1,0 +1,260 @@
+# Translation of Plugins - Social Chat &#8211; Click To Chat App Button - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Social Chat &#8211; Click To Chat App Button - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-16 15:22:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Social Chat &#8211; Click To Chat App Button - Stable (latest release)\n"
+
+#: vendor_packages/wp-notice-plugin-promote.php:25
+msgid "Boost your productivity in WordPress content creation with AI-driven tools, automated content generation, and enhanced editor utilities."
+msgstr "Aumenta tu productividad en la creación de contenido para WordPress con herramientas basadas en IA, generación automatizada de contenidos y utilidades mejoradas del editor."
+
+#: vendor_packages/wp-notice-plugin-promote.php:72
+msgid "Today we have a special gift for you. Use the coupon code %1$s within the next 48 hours to receive a %2$s discount on the premium version of the %3$s plugin."
+msgstr "Hoy tenemos un regalo especial para ti. Utiliza el código de cupón %1$s en las próximas 48 horas para recibir un descuento del %2$s en la versión premium del plugin %3$s."
+
+#: lib/api/rest/admin-menu/contacts/class-edit.php:40
+msgid "Contacts cannot be created"
+msgstr "No se pueden crear los contactos"
+
+#: lib/api/rest/admin-menu/contacts/class-edit.php:34
+msgid "Contacts cannot be updated"
+msgstr "No se pueden actualizar los contactos"
+
+#: lib/api/rest/admin-menu/contacts/class-edit.php:26
+msgid "Contact cannot be updated"
+msgstr "El contacto no puede actualizarse"
+
+#: lib/api/rest/admin-menu/contacts/class-delete.php:27
+msgid "Can't delete contact, id not found"
+msgstr "No puede borrarse el contacto, no se ha encontrado la ID"
+
+#: lib/api/rest/admin-menu/contacts/class-delete.php:20
+msgid "Contact id not found."
+msgstr "ID de contacto no encontrada."
+
+#: lib/api/rest/admin-menu/contacts/class-create.php:21
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+#: lib/controllers/class-admin-menu-woocommerce.php:51
+#: lib/controllers/class-admin-menu-woocommerce.php:52
+#: build/admin-menu-woocommerce/js/index.js:1
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:53
+msgid "Thanks for using our product! We recommend these extensions that will add new features to stand out your business and improve your sales."
+msgstr "¡Gracias por usar nuestro producto! Recomendamos estas extensiones que añadirán nuevas características para hacer destacar tu negocio y mejorar tus ventas."
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:111
+msgid "The %1$s is not working because you need to install the %2$s plugin. "
+msgstr "%1$s no está funcionando porque debes instalar el plugin %2$s. "
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:110
+msgid "Install % s"
+msgstr "Instalar % s"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:97
+msgid "The %1$s is not working because you need to activate the %2$s plugin. "
+msgstr "%1$s no está funcionando porque debes activar el plugin %2$s. "
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:96
+msgid "Activate % s"
+msgstr "Activar % s"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:43
+#: build/admin-menu/js/index.js:20
+msgid "Install"
+msgstr "Instalar"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:36
+msgid "Activate"
+msgstr "Activar"
+
+#: vendor_packages/wp-notice-plugin-promote.php:87
+#: vendor_packages/wp-notice-plugin-promote.php:101
+msgid "Hello! We want to invite you to try our %s plugin!"
+msgstr "¡Hola! ¡Queremos invitarte a probar nuestro plugin %s!"
+
+#: vendor_packages/wp-notice-plugin-promote.php:67
+msgid "Hello! We have a special gift!"
+msgstr "¡Hola! ¡Tenemos un regalo especial!"
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:125
+msgid "Read more like this on our blog"
+msgstr "Lee más como esto en nuestro blog"
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:94
+msgid "Untitled"
+msgstr "Sin título"
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:71
+msgid "More products"
+msgstr "Más productos"
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:68
+msgid "Hi! We are Quadlayers! We’re a team of international people who have been working in the WordPress sphere for the last ten years."
+msgstr "¡Hola! ¡Somos QuadLayers! ¡Bienvenido a QuadLayers! Somos un equipo internacional de gente que ha estado trabajando en la esfera de WordPress durante los últimos diez años."
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:148
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:154
+msgid "An error has occurred, which probably means the feed is down. Try again later"
+msgstr "Ha ocurrido un error, que probablemente significa que el feed está caído. Inténtalo de nuevo más tarde"
+
+#: lib/controllers/class-admin-menu.php:160
+#: lib/controllers/class-admin-menu.php:161 build/admin-menu/js/index.js:46
+msgid "Scheme"
+msgstr "Scheme"
+
+#: lib/entities/class-button.php:28 lib/entities/class-contact.php:30
+#: lib/entities/class-woocommerce.php:29
+msgid "Hello! I'm testing the %1$s plugin %2$s"
+msgstr "¡Hola! Estoy probando el plugin %1$s %2$s"
+
+#. Plugin Name of the plugin
+#: wp-whatsapp-chat.php
+msgid "Social Chat"
+msgstr "Social Chat"
+
+#: compatibility/old.php:152 build/admin-menu/js/index.js:46
+msgid "All"
+msgstr "Todo"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:150
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:149
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr "Recomendados"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:148
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr "Populares"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:147
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr "Destacado"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:145
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr "Pruebas beta"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:142
+msgid "Search Results"
+msgstr "Resultados de búsqueda"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:78
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:93
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:94
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:50
+#: lib/controllers/class-admin-menu.php:168
+#: lib/controllers/class-admin-menu.php:169 build/admin-menu/js/index.js:46
+msgid "Suggestions"
+msgstr "Sugerencias"
+
+#: vendor_packages/wp-plugin-table-links.php:26 build/admin-menu/js/index.js:46
+msgid "Documentation"
+msgstr "Documentación"
+
+#: lib/controllers/class-admin-menu.php:136
+#: lib/controllers/class-admin-menu.php:137
+#: lib/controllers/class-new-admin-menu.php:143
+#: lib/controllers/class-new-admin-menu.php:144 build/admin-menu/js/index.js:46
+msgid "Contacts"
+msgstr "Contactos"
+
+#: vendor_packages/wp-notice-plugin-promote.php:61
+#: build/admin-menu/js/index.js:46
+msgid "Purchase Now"
+msgstr "Comprar ahora"
+
+#: vendor_packages/wp-notice-plugin-promote.php:53
+msgid "Report a bug"
+msgstr "Informar de un fallo"
+
+#. Author of the plugin
+#: wp-whatsapp-chat.php
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:82
+msgid "QuadLayers"
+msgstr "QuadLayers"
+
+#: lib/controllers/class-admin-menu.php:144
+#: lib/controllers/class-admin-menu.php:145
+msgid "Display"
+msgstr "Mostrar"
+
+#: lib/controllers/class-admin-menu.php:128
+#: lib/controllers/class-admin-menu.php:129
+#: lib/controllers/class-new-admin-menu.php:135
+#: lib/controllers/class-new-admin-menu.php:136 build/admin-menu/js/index.js:46
+msgid "Box"
+msgstr "Caja"
+
+#: lib/controllers/class-admin-menu.php:120
+#: lib/controllers/class-admin-menu.php:121
+#: lib/controllers/class-new-admin-menu.php:127
+#: lib/controllers/class-new-admin-menu.php:128 build/admin-menu/js/index.js:46
+msgid "Button"
+msgstr "Botón"
+
+#: lib/controllers/class-admin-menu.php:104
+#: lib/controllers/class-admin-menu.php:105
+#: lib/controllers/class-new-admin-menu.php:111
+#: lib/controllers/class-new-admin-menu.php:112 build/admin-menu/js/index.js:46
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: lib/controllers/class-admin-menu.php:152
+#: lib/controllers/class-admin-menu.php:153
+#: vendor_packages/wp-plugin-table-links.php:9 build/admin-menu/js/index.js:46
+msgid "Settings"
+msgstr "Ajustes"
+
+#: lib/controllers/class-admin-menu.php:112
+#: lib/controllers/class-admin-menu.php:113
+#: lib/controllers/class-new-admin-menu.php:119
+#: lib/controllers/class-new-admin-menu.php:120
+#: vendor_packages/wp-plugin-table-links.php:14 build/admin-menu/js/index.js:46
+msgid "Premium"
+msgstr "Premium"
+
+#: lib/entities/class-contact.php:29
+#: vendor_packages/wp-plugin-table-links.php:21 build/admin-menu/js/index.js:46
+msgid "Support"
+msgstr "Soporte"
+
+#: lib/entities/class-box.php:23
+msgid "Write a response"
+msgstr "Escribe una respuesta"
+
+#: lib/entities/class-button.php:27 lib/entities/class-woocommerce.php:28
+msgid "How can I help you?"
+msgstr "¿Cómo puedo ayudarte?"
+
+#. Author URI of the plugin
+#: wp-whatsapp-chat.php
+msgid "https://quadlayers.com"
+msgstr "https://quadlayers.com"
+
+#. Description of the plugin
+#: wp-whatsapp-chat.php
+msgid "Social Chat allows your visitors to contact you or your team through WhatsApp with a single click."
+msgstr "Social Chat permite a tus visitantes contactar contigo o con tu equipo a través de Social Chat con un solo clic."
+
+#. Plugin URI of the plugin
+#: wp-whatsapp-chat.php
+msgid "https://quadlayers.com/products/whatsapp-chat/"
+msgstr "https://quadlayers.com/products/whatsapp-chat/"

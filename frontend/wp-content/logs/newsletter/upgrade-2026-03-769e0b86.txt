@@ -1,0 +1,132 @@
+04-03-2026 09:25:00 - INFO  - 9.1.6 - 16,2 MB/2 GB -  > Start upgrade from 9.1.5
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Array
+(
+)
+
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Array
+(
+)
+
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Array
+(
+)
+
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Array
+(
+)
+
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Array
+(
+)
+
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Array
+(
+)
+
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Array
+(
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Deleting settings backup newsletter_backup_9.0.8
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,1 MB/2 GB -  > Backing up options of 9.1.5
+04-03-2026 09:25:01 - INFO  - 9.1.6 - 21,4 MB/2 GB -  > End
+13-03-2026 09:10:57 - INFO  - 9.1.7 - 18,3 MB/2 GB -  > Start upgrade from 9.1.6
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Array
+(
+)
+
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Array
+(
+)
+
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Array
+(
+)
+
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Array
+(
+)
+
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Array
+(
+)
+
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Array
+(
+)
+
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Array
+(
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Deleting settings backup newsletter_backup_9.0.9
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,2 MB/2 GB -  > Backing up options of 9.1.6
+13-03-2026 09:10:58 - INFO  - 9.1.7 - 23,5 MB/2 GB -  > End
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 16,2 MB/2 GB -  > Start upgrade from 9.1.7
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,3 MB/2 GB -  > Array
+(
+)
+
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,3 MB/2 GB -  > Array
+(
+)
+
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,3 MB/2 GB -  > Array
+(
+)
+
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,3 MB/2 GB -  > Array
+(
+)
+
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,3 MB/2 GB -  > Array
+(
+)
+
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,3 MB/2 GB -  > Array
+(
+)
+
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,3 MB/2 GB -  > Array
+(
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,4 MB/2 GB -  > Deleting settings backup newsletter_backup_9.1.0
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,4 MB/2 GB -  > Backing up options of 9.1.7
+24-03-2026 21:22:35 - INFO  - 9.1.8 - 18,6 MB/2 GB -  > End
+31-03-2026 21:15:49 - INFO  - 9.2.1 - 6165 - 16,8 MB/2 GB -  > Start upgrade from 9.1.8
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 18,9 MB/2 GB -  > Array
+(
+)
+
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 18,9 MB/2 GB -  > Array
+(
+)
+
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 18,9 MB/2 GB -  > Array
+(
+)
+
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 18,9 MB/2 GB -  > Array
+(
+)
+
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 18,9 MB/2 GB -  > Array
+(
+)
+
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 18,9 MB/2 GB -  > Array
+(
+)
+
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 18,9 MB/2 GB -  > Array
+(
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 18,9 MB/2 GB -  > Deleting settings backup newsletter_backup_9.1.1
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 19,0 MB/2 GB -  > Backing up options of 9.1.8
+31-03-2026 21:15:50 - INFO  - 9.2.1 - 6165 - 19,2 MB/2 GB -  > End

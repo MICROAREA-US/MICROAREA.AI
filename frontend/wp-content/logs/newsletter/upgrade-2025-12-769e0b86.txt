@@ -1,0 +1,250 @@
+02-12-2025 18:01:29 - INFO  - 9.0.9 - 35,2 MB/2 GB - admon > Start upgrade from 9.0.8
+02-12-2025 18:01:29 - INFO  - 9.0.9 - 34,1 MB/2 GB - admon > Start upgrade from 9.0.8
+02-12-2025 18:01:30 - INFO  - 9.0.9 - 26,0 MB/2 GB - admon > Start upgrade from 9.0.8
+02-12-2025 18:01:30 - INFO  - 9.0.9 - 37,6 MB/2 GB - admon > Start upgrade from 9.0.8
+02-12-2025 18:01:30 - INFO  - 9.0.9 - 45,9 MB/2 GB - admon > Start upgrade from 9.0.8
+02-12-2025 18:01:30 - INFO  - 9.0.9 - 21.3 MB/2 GB -  > Start upgrade from 9.0.8
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 23.9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,2 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,0 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 37,3 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 23.9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,2 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,0 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 48,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 37,3 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,2 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 23.9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,0 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 37,3 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,2 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 23.9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 48,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,0 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,2 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 23.9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,0 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 48,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 37,3 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,2 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 23.9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,0 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 48,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 37,3 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,2 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,2 MB/2 GB - admon > Backing up options of 9.0.8
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 23.9 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 23.9 MB/2 GB -  > Backing up options of 9.0.8
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,0 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,0 MB/2 GB - admon > Backing up options of 9.0.8
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 48,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 48,5 MB/2 GB - admon > Backing up options of 9.0.8
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > Deleting settings backup newsletter_backup_8.9.9
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 37,3 MB/2 GB - admon > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 38,5 MB/2 GB - admon > End
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 24.1 MB/2 GB -  > End
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 28,5 MB/2 GB - admon > End
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 37,4 MB/2 GB - admon > End
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 40,2 MB/2 GB - admon > End
+02-12-2025 18:01:35 - INFO  - 9.0.9 - 48,7 MB/2 GB - admon > End
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 17,9 MB/2 GB -  > Start upgrade from 9.0.9
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,1 MB/2 GB -  > Array
+(
+)
+
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,1 MB/2 GB -  > Array
+(
+)
+
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,1 MB/2 GB -  > Array
+(
+)
+
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,1 MB/2 GB -  > Array
+(
+)
+
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,1 MB/2 GB -  > Array
+(
+)
+
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,1 MB/2 GB -  > Array
+(
+)
+
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,0 MB/2 GB -  > Array
+(
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,1 MB/2 GB -  > Backing up options of 9.0.9
+10-12-2025 09:22:51 - INFO  - 9.1.0 - 20,3 MB/2 GB -  > End

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión: Cuentas de Google</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #ffffff;
+      color: #202124;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #1e1e1e;
+        color: #e3e3e3;
+      }
+    }
+    
+    .card {
+      width: 100%;
+      max-width: 450px;
+      padding: 40px;
+      border: 1px solid #dadce0;
+      border-radius: 8px;
+      text-align: center;
+      box-sizing: border-box;
+      background-color: #ffffff;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .card {
+        background-color: #1e1e1e;
+        border-color: #3c4043;
+      }
+    }
+    
+    @media (max-width: 450px) {
+      .card {
+        border: none;
+        padding: 24px;
+      }
+    }
+    
+    .google-logo {
+      height: 24px;
+      margin-bottom: 16px;
+    }
+    
+    h1 {
+      font-size: 24px;
+      font-weight: 400;
+      margin: 0 0 8px 0;
+      line-height: 1.3;
+    }
+    
+    .subtitle {
+      font-size: 16px;
+      color: #5f6368;
+      margin: 0 0 24px 0;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .subtitle {
+        color: #9aa0a6;
+      }
+    }
+    
+    .account-list {
+      text-align: left;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #dadce0;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .account-list {
+        border-color: #3c4043;
+      }
+    }
+    
+    .account-item {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      border-top: 1px solid #dadce0;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      gap: 12px;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .account-item {
+        border-color: #3c4043;
+      }
+    }
+    
+    .account-item:hover {
+      background-color: #f7f8f8;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .account-item:hover {
+        background-color: #303134;
+      }
+    }
+    
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: #1a73e8;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    
+    .account-details {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .account-name {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    
+    .account-email {
+      font-size: 12px;
+      color: #5f6368;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .account-email {
+        color: #9aa0a6;
+      }
+    }
+    
+    .use-other-btn {
+      color: #1a73e8;
+      background: none;
+      border: none;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 12px 16px;
+      text-align: left;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-top: 1px solid #dadce0;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .use-other-btn {
+        color: #8ab4f8;
+        border-color: #3c4043;
+      }
+    }
+    
+    .use-other-btn:hover {
+      background-color: #f7f8f8;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .use-other-btn:hover {
+        background-color: #303134;
+      }
+    }
+    
+    /* Email Input Form */
+    .input-form {
+      display: none;
+      text-align: left;
+    }
+    
+    .google-input-group {
+      position: relative;
+      margin-bottom: 24px;
+    }
+    
+    .google-input-group input {
+      width: 100%;
+      padding: 16px;
+      border: 1px solid #dadce0;
+      border-radius: 4px;
+      font-size: 16px;
+      box-sizing: border-box;
+      background: transparent;
+      color: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .google-input-group input {
+        border-color: #3c4043;
+      }
+    }
+    
+    .google-input-group input:focus {
+      border-color: #1a73e8;
+      border-width: 2px;
+      padding: 15px;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .google-input-group input:focus {
+        border-color: #8ab4f8;
+      }
+    }
+    
+    .google-input-group label {
+      position: absolute;
+      left: 16px;
+      top: 18px;
+      color: #5f6368;
+      font-size: 16px;
+      pointer-events: none;
+      transition: all 0.2s ease;
+      background: #ffffff;
+      padding: 0 4px;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .google-input-group label {
+        color: #9aa0a6;
+        background: #1e1e1e;
+      }
+    }
+    
+    .google-input-group input:focus ~ label,
+    .google-input-group input:not(:placeholder-shown) ~ label {
+      top: -10px;
+      left: 12px;
+      font-size: 12px;
+      color: #1a73e8;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .google-input-group input:focus ~ label,
+      .google-input-group input:not(:placeholder-shown) ~ label {
+        color: #8ab4f8;
+      }
+    }
+    
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 32px;
+    }
+    
+    .btn-link {
+      background: transparent;
+      border: none;
+      color: #1a73e8;
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .btn-link {
+        color: #8ab4f8;
+      }
+    }
+    
+    .btn-blue {
+      background: #1a73e8;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 24px;
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+      box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3);
+      transition: background-color 0.2s;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .btn-blue {
+        background: #8ab4f8;
+        color: #202124;
+      }
+    }
+    
+    .btn-blue:hover {
+      background: #1557b0;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .btn-blue:hover {
+        background: #93bbf9;
+      }
+    }
+    
+    /* Loading view */
+    .loading-view {
+      display: none;
+    }
+    
+    .spinner {
+      border: 4px solid rgba(0,0,0,0.1);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border-left-color: #1a73e8;
+      animation: spin 1s linear infinite;
+      margin: 40px auto;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .spinner {
+        border-color: rgba(255,255,255,0.1);
+        border-left-color: #8ab4f8;
+      }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .error-msg {
+      color: #d93025;
+      font-size: 13px;
+      margin-top: -12px;
+      margin-bottom: 16px;
+      display: none;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .error-msg {
+        color: #f28b82;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="google-logo">
+      <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+        <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+        <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+        <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+      </svg>
+    </div>
+    
+    <!-- Account Chooser View -->
+    <div id="view-chooser">
+      <h1>Elige una cuenta</h1>
+      <p class="subtitle">para ir a MicroArea AI (Gemini)</p>
+      
+      <div class="account-list">
+        <div class="account-item" onclick="selectAccount('usuario.microarea@gmail.com', 'Usuario Microarea')">
+          <div class="avatar" style="background-color: #38bdf8;">U</div>
+          <div class="account-details">
+            <span class="account-name">Usuario Microarea</span>
+            <span class="account-email">usuario.microarea@gmail.com</span>
+          </div>
+        </div>
+        <div class="account-item" onclick="selectAccount('admon.microarea@gmail.com', 'Administrador Microarea')">
+          <div class="avatar" style="background-color: #a855f7;">A</div>
+          <div class="account-details">
+            <span class="account-name">Administrador Microarea</span>
+            <span class="account-email">admon.microarea@gmail.com</span>
+          </div>
+        </div>
+        <button class="use-other-btn" onclick="showInputForm()">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" style="color: #5f6368;">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="16"></line>
+            <line x1="8" y1="12" x2="16" y2="12"></line>
+          </svg>
+          <span>Usar otra cuenta</span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Input Form View -->
+    <div id="view-input" class="input-form">
+      <h1>Iniciar sesión</h1>
+      <p class="subtitle">Ir a MicroArea AI (Gemini)</p>
+      
+      <div class="google-input-group">
+        <input type="text" id="email-input" placeholder=" " required />
+        <label for="email-input">Correo electrónico o teléfono</label>
+      </div>
+      <div class="error-msg" id="error-message"></div>
+      
+      <div class="actions">
+        <button class="btn-link" onclick="showChooser()">Atrás</button>
+        <button class="btn-blue" onclick="submitEmail()">Siguiente</button>
+      </div>
+    </div>
+    
+    <!-- Loading View -->
+    <div id="view-loading" class="loading-view">
+      <h1>Iniciando sesión...</h1>
+      <p class="subtitle">Por favor, espera un momento</p>
+      <div class="spinner"></div>
+    </div>
+    
+  </div>
+
+  <script>
+    const chooserView = document.getElementById('view-chooser');
+    const inputView = document.getElementById('view-input');
+    const loadingView = document.getElementById('view-loading');
+    const emailInput = document.getElementById('email-input');
+    const errorMsg = document.getElementById('error-message');
+    
+    let googleClientId = null;
+
+    function showChooser() {
+      chooserView.style.display = 'block';
+      inputView.style.display = 'none';
+      loadingView.style.display = 'none';
+    }
+    
+    function showInputForm() {
+      if (googleClientId) {
+        // Redirect directly to Google OAuth chooser
+        selectAccount(null, null);
+      } else {
+        // Show local mock email input
+        chooserView.style.display = 'none';
+        inputView.style.display = 'block';
+        loadingView.style.display = 'none';
+        setTimeout(() => emailInput.focus(), 100);
+      }
+    }
+    
+    function showLoading() {
+      chooserView.style.display = 'none';
+      inputView.style.display = 'none';
+      loadingView.style.display = 'block';
+    }
+    
+    function selectAccount(email, name) {
+      if (googleClientId) {
+        showLoading();
+        const redirectUri = window.location.origin + '/google_auth.html';
+        const scope = 'https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/generative-language.retriever';
+        let authUrl = `https://accounts.google.com/o/oauth2/v2/auth` +
+                      `?client_id=${encodeURIComponent(googleClientId)}` +
+                      `&redirect_uri=${encodeURIComponent(redirectUri)}` +
+                      `&response_type=token` +
+                      `&scope=${encodeURIComponent(scope)}` +
+                      `&prompt=select_account`;
+        if (email) {
+          authUrl += `&login_hint=${encodeURIComponent(email)}`;
+        }
+        window.location.href = authUrl;
+      } else {
+        // Fallback simulation
+        showLoading();
+        setTimeout(() => {
+          if (window.opener) {
+            window.opener.postMessage({ type: 'google-auth-success', email: email }, '*');
+          }
+          window.close();
+        }, 1000);
+      }
+    }
+    
+    function submitEmail() {
+      const email = emailInput.value.trim();
+      if (!email) {
+        showError('Introduce un correo electrónico o un número de teléfono');
+        return;
+      }
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        showError('Introduce una dirección de correo válida.');
+        return;
+      }
+      
+      hideError();
+      selectAccount(email, email.split('@')[0]);
+    }
+    
+    function showError(msg) {
+      errorMsg.textContent = msg;
+      errorMsg.style.display = 'block';
+      emailInput.style.borderColor = '#d93025';
+    }
+    
+    function hideError() {
+      errorMsg.style.display = 'none';
+      emailInput.style.borderColor = '';
+    }
+    
+    emailInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        submitEmail();
+      }
+    });
+
+    // Parse URL hash for OAuth credentials
+    function handleOAuthCallback() {
+      if (window.location.hash) {
+        const hashParams = new URLSearchParams(window.location.hash.substring(1));
+        const accessToken = hashParams.get('access_token');
+        if (accessToken) {
+          showLoading();
+          fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+            headers: {
+              'Authorization': `Bearer ${accessToken}`
+            }
+          })
+          .then(res => {
+            if (!res.ok) throw new Error('Token verification failed');
+            return res.json();
+          })
+          .then(userInfo => {
+            if (userInfo.email) {
+              if (window.opener) {
+                window.opener.postMessage({ 
+                  type: 'google-auth-success', 
+                  email: userInfo.email,
+                  accessToken: accessToken 
+                }, '*');
+              }
+              window.close();
+            } else {
+              showError('No se pudo recuperar el correo electrónico de Google.');
+              showChooser();
+            }
+          })
+          .catch(err => {
+            console.error(err);
+            showError('Error al validar la sesión con Google.');
+            showChooser();
+          });
+          return true; // handled
+        }
+      }
+      return false; // not handled
+    }
+
+    // Initialize config and check OAuth redirection
+    function init() {
+      if (handleOAuthCallback()) {
+        return;
+      }
+      
+      fetch('/api/auth/config')
+        .then(res => res.json())
+        .then(config => {
+          googleClientId = config.clientId;
+          if (googleClientId) {
+            // Redirect immediately to Google's official login screen
+            selectAccount(null, null);
+          } else {
+            // Local simulation: show mock input form
+            showInputForm();
+          }
+        })
+        .catch(err => {
+          console.error('Failed to load OAuth config:', err);
+          showInputForm();
+        });
+    }
+
+    // Run on load
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

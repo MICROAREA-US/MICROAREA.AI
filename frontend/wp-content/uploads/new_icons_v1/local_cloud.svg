@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="svgBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3.5" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="80" cy="130" rx="55" ry="12" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Base Isometric Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 80,126 L 130,103 L 80,80 L 30,103 Z" fill="url(#pastelGrad)" stroke="#85a7e6" stroke-width="1"/>
+    <path d="M 80,126 L 130,103 L 130,107 L 80,130 Z" fill="#b3cced"/>
+    <path d="M 30,103 L 80,126 L 80,130 L 30,107 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- Database Cylinder (Local Storage) -->
+  <g transform="translate(-18, -5)" filter="url(#shadow)">
+    <!-- Base Cylinder body -->
+    <path d="M 46,85 L 46,105 C 46,109 74,109 74,105 L 74,85 Z" fill="url(#pastelGrad)" stroke="#4471b1" stroke-width="1.5"/>
+    <!-- Top face -->
+    <ellipse cx="60" cy="85" rx="14" ry="6" fill="#ffffff" stroke="#4471b1" stroke-width="1.5"/>
+    <!-- Center seam -->
+    <path d="M 46,95 C 46,99 74,99 74,95" fill="none" stroke="#4471b1" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <!-- Small LED indicators -->
+    <circle cx="52" cy="91" r="1" fill="#2130b7"/>
+    <circle cx="52" cy="101" r="1" fill="#2130b7"/>
+  </g>
+
+  <!-- Cloud icon floating (Cloud Storage) -->
+  <g transform="translate(12, -35)" filter="url(#shadow)">
+    <path d="M 65,75 C 55,75 50,68 53,60 C 44,57 45,46 55,44 C 58,32 75,30 82,41 C 92,37 100,45 98,55 C 105,60 102,75 87,75 Z" fill="url(#glassGrad)" stroke="rgba(255,255,255,0.8)" stroke-width="1.5"/>
+    <!-- Cloud inner line decoration -->
+    <path d="M 63,55 L 83,55" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Circular Sync Arrows between Local & Cloud -->
+  <g transform="translate(0, -10)" filter="url(#shadow)">
+    <path d="M 50,68 C 53,58 63,55 70,58" fill="none" stroke="#2130b7" stroke-width="1.5" stroke-linecap="round"/>
+    <polygon points="70,55 74,60 67,61" fill="#2130b7"/>
+    <path d="M 70,75 C 67,85 57,88 50,85" fill="none" stroke="#2130b7" stroke-width="1.5" stroke-linecap="round"/>
+    <polygon points="50,88 46,83 53,82" fill="#2130b7"/>
+  </g>
+</svg>

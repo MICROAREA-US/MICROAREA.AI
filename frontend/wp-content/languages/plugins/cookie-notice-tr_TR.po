@@ -1,0 +1,342 @@
+# Translation of Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Development (trunk) in Turkish
+# This file is distributed under the same license as the Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-13 13:24:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - Cookie Notice &amp; Compliance for GDPR / CCPA - Development (trunk)\n"
+
+#: includes/settings.php:1338
+msgid "Bar opacity"
+msgstr "Çubuk opaklığı"
+
+#: includes/settings.php:1200
+msgid "The amount of time that the cookie should be stored for when the user doesn't accept the notice."
+msgstr "Kullanıcı bildirimi kabul etmediğinde çerezin saklanması gereken süre."
+
+#: includes/settings.php:1179
+msgid "The amount of time that the cookie should be stored for when user accepts the notice."
+msgstr "Kullanıcı bildirimi kabul ettiğinde, çerezin saklanması gereken süre."
+
+#: includes/settings.php:658
+msgid "Rejected expiry"
+msgstr "Reddedilen süre sonu"
+
+#: includes/settings.php:657
+msgid "Accepted expiry"
+msgstr "Kabul edilen süre sonu"
+
+#: includes/settings.php:1288
+msgid "Enable to accept the notice on any click on the page."
+msgstr "Sayfadaki herhangi bir tıklamayla ilgili bildirimi kabul etmeyi etkinleştirin."
+
+#: includes/settings.php:1275
+msgid "Number of pixels user has to scroll to accept the notice and make it disappear."
+msgstr "Kullanıcının bildirimi kabul etmek ve kaybolması için kaydırması gereken piksel sayısı."
+
+#: includes/settings.php:1272
+msgid "Enable to accept the notice when user scrolls."
+msgstr "Kullanıcı kaydırdığında bildirimi kabul etmeyi etkinleştirin."
+
+#: includes/settings.php:1257
+msgid "Select the animation style."
+msgstr "Animasyon stilini seçin."
+
+#: includes/settings.php:1238
+msgid "Select location for the notice."
+msgstr "Bildirim için konum seçin."
+
+#: includes/settings.php:1109
+msgid "Select where to redirect user for more information."
+msgstr "Daha fazla bilgi için kullanıcıyı nereye yönlendireceğinizi seçin."
+
+#: includes/settings.php:1042
+msgid "Enter the revoke message."
+msgstr "İptal mesajını girin."
+
+#: includes/settings.php:990
+msgid "The text of the button to refuse the consent."
+msgstr "Onayı iptal etmek için kullanılan düğmenin metni."
+
+#: includes/settings.php:971
+msgid "The text of the option to accept the notice and make it disappear."
+msgstr "Bildirimi kabul etmek ve yok etmek için seçeneğin metni."
+
+#: includes/settings.php:656
+msgid "On click"
+msgstr "Tıklamada"
+
+#: includes/settings.php:223 includes/settings.php:652
+msgid "Revoke consent"
+msgstr "Onayı iptal et"
+
+#: includes/settings.php:651
+msgid "Refuse consent"
+msgstr "Onayı reddet"
+
+#: includes/settings.php:222
+msgid "You can revoke your consent any time using the Revoke consent button."
+msgstr "Onayı iptal et düğmesini kullanarak onayınızı istediğiniz zaman iptal edebilirsiniz."
+
+#: includes/settings.php:129
+msgid "Dark"
+msgstr "Koyu"
+
+#: includes/settings.php:128
+msgid "Light"
+msgstr "Açık"
+
+#: includes/settings.php:1156
+msgid "Select the privacy policy link position."
+msgstr "Gizlilik politikası bağlantı konumunu seçin."
+
+#: includes/settings.php:145
+msgid "Banner"
+msgstr "Banner"
+
+#: includes/settings.php:1099
+msgid "The text of the privacy policy button."
+msgstr "Gizlilik politikası düğme metni."
+
+#: includes/settings.php:1313
+msgid "Enter additional button CSS classes separated by spaces."
+msgstr "Boşluklarla ayrılmış ek düğme CSS sınıflarını girin."
+
+#: includes/settings.php:1146
+msgid "Select the privacy policy link target."
+msgstr "Gizlilik politikası bağlantı hedefini seçin."
+
+#: includes/settings.php:1129
+msgid "Synchronize with WordPress Privacy Policy page."
+msgstr "WordPress Gizlilik Politikası sayfası ile senkronize edin."
+
+#: includes/settings.php:1096
+msgid "Enable privacy policy link."
+msgstr "Gizlilik politikası bağlantısını etkinleştir."
+
+#: includes/settings.php:1020
+msgid "The code to be used in your site footer, before the closing body tag."
+msgstr "Kapanış gövde etiketinden önce site alt kısımda kullanılacak kod."
+
+#: includes/settings.php:1016
+msgid "The code to be used in your site header, before the closing head tag."
+msgstr "Kapanış başlık etiketinden önce site başlığınızda kullanılacak kod."
+
+#: includes/settings.php:1013
+msgid "Body"
+msgstr "Gövde"
+
+#: includes/settings.php:1012
+msgid "Head"
+msgstr "Başlık"
+
+#: includes/settings.php:668
+msgid "Button class"
+msgstr "Düğme sınıfı"
+
+#: includes/settings.php:200 includes/settings.php:224
+#: includes/settings.php:650
+msgid "Privacy policy"
+msgstr "Gizlilik politikası"
+
+#: includes/settings.php:158
+msgid "An hour"
+msgstr "Bir saat"
+
+#: includes/settings.php:134
+msgid "Manual"
+msgstr "Manuel"
+
+#: includes/settings.php:133
+msgid "Automatic"
+msgstr "Otomatik"
+
+#: includes/settings.php:1044
+msgid "The text of the button to revoke the consent."
+msgstr "Onayı iptal etmek için kullanılan düğmenin metni."
+
+#: includes/settings.php:654
+msgid "Reloading"
+msgstr "Yeniden Yükleme"
+
+#: includes/settings.php:1065
+msgid "Enable to reload the page after the notice is accepted."
+msgstr "Bildirim kabul edildikten sonra sayfayı yeniden yüklemeyi etkinleştirin."
+
+#: includes/settings.php:653
+msgid "Script blocking"
+msgstr "Komut engelleme"
+
+#: includes/settings.php:122 includes/welcome.php:497
+msgid "Top"
+msgstr "Üst"
+
+#: includes/settings.php:123 includes/welcome.php:496
+msgid "Bottom"
+msgstr "Alt"
+
+#: includes/settings.php:127 includes/settings.php:170
+msgid "None"
+msgstr "Hiçbiri"
+
+#: includes/settings.php:159
+msgid "1 day"
+msgstr "1 gün"
+
+#: includes/settings.php:160
+msgid "1 week"
+msgstr "1 hafta"
+
+#: includes/consent-logs.php:130 includes/settings.php:161
+msgid "1 month"
+msgstr "1 ay"
+
+#: includes/consent-logs.php:132 includes/settings.php:162
+msgid "3 months"
+msgstr "3 ay"
+
+#: includes/consent-logs.php:134 includes/settings.php:163
+msgid "6 months"
+msgstr "6 ay"
+
+#: includes/consent-logs.php:136 includes/settings.php:164
+msgid "1 year"
+msgstr "1 yıl"
+
+#: includes/settings.php:165
+msgid "infinity"
+msgstr "sonsuz"
+
+#: includes/settings.php:220
+msgid "Ok"
+msgstr "Tamam"
+
+#: includes/settings.php:221
+msgid "No"
+msgstr "Hayır"
+
+#: includes/settings.php:146 includes/settings.php:648
+msgid "Message"
+msgstr "Mesaj"
+
+#: includes/settings.php:665
+msgid "Position"
+msgstr "Konum"
+
+#: includes/settings.php:666
+msgid "Animation"
+msgstr "Animasyon"
+
+#: includes/settings.php:667
+msgid "Colors"
+msgstr "Renkler"
+
+#: cookie-notice.php:1130 includes/settings.php:268 includes/settings.php:311
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: includes/settings.php:1112
+msgid "-- select page --"
+msgstr "-- sayfa seç --"
+
+#: includes/settings.php:660
+msgid "Script placement"
+msgstr "Komut dosyası yerleşimi"
+
+#: includes/settings.php:649
+msgid "Button text"
+msgstr "Düğme metni"
+
+#: includes/settings.php:172
+msgid "Slide"
+msgstr "Slayt"
+
+#: includes/settings.php:171
+msgid "Fade"
+msgstr "Soldur"
+
+#: includes/settings.php:138
+msgid "Page link"
+msgstr "Sayfa bağlantısı"
+
+#: includes/settings.php:139
+msgid "Custom link"
+msgstr "Özel bağlantı"
+
+#: includes/settings.php:150
+msgid "Text color"
+msgstr "Metin rengi"
+
+#: includes/settings.php:176
+msgid "Header"
+msgstr "Üst kısım"
+
+#: includes/settings.php:177
+msgid "Footer"
+msgstr "Alt kısım"
+
+#: includes/settings.php:456
+msgid "Reset to defaults"
+msgstr "Varsayılana sıfırla"
+
+#: includes/settings.php:1818
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Bu ayarları varsayılanlara sıfırlamak istediğinizden emin misiniz?"
+
+#: includes/settings.php:1722
+msgid "Settings restored to defaults."
+msgstr "Ayarlar varsayılanlara geri yüklendi."
+
+#: includes/settings.php:1219
+msgid "Select where all the plugin scripts should be placed."
+msgstr "Tüm eklenti betik dosyalarının yerleştirileceği yeri seçin."
+
+#: includes/settings.php:1136
+msgid "Enter the full URL starting with http(s)://"
+msgstr "http(s):// ile başlayan tam URL’yi girin"
+
+#: includes/settings.php:1123
+msgid "Select from one of your site's pages."
+msgstr "Sitenizin sayfalarından birini seçin."
+
+#: includes/settings.php:958
+msgid "Enter the cookie notice message."
+msgstr "Çerez bildirimi mesajını girin."
+
+#: includes/settings.php:637 includes/settings.php:661
+msgid "Deactivation"
+msgstr "Etkisizleştirme"
+
+#: includes/settings.php:655
+msgid "On scroll"
+msgstr "Kaydırmada"
+
+#: includes/settings.php:219
+msgid "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+msgstr "Web sitemizde size en iyi deneyimi sunabilmemiz için çerezleri kullanıyoruz. Bu siteyi kullanmaya devam ederseniz, bunu kabul ettiğinizi varsayarız."
+
+#: includes/settings.php:986
+msgid "Enable to give to the user the possibility to refuse third party non functional cookies."
+msgstr "Kullanıcılara üçüncü taraf işlevsiz çerezleri reddetme seçeneği ver."
+
+#: includes/settings.php:1300
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr "Eklenti devre dışı bırakıldığında tüm eklenti verilerinin silinmesini istiyorsanız etkinleştirin."
+
+#: includes/settings.php:152
+msgid "Bar color"
+msgstr "Çubuk rengi"
+
+#: includes/dashboard.php:515 includes/settings.php:267
+#: includes/welcome.php:420
+msgid "Cookie Notice"
+msgstr "Cookie Notice"
+
+#: includes/settings.php:1024
+msgid "Enter non functional cookies Javascript code here (for e.g. Google Analitycs) to be used after the notice is accepted."
+msgstr "Bildirim kabul edildikten sonra kullanılacak işlevsel olmayan çerezleri Javascript kodunu buraya girin (ör. Google Analytics için)."

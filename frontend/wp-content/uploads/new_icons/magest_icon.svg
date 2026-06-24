@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="mainBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.1" />
+    </linearGradient>
+    <filter id="svgBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="200" cy="320" rx="120" ry="25" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Base Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 200,310 L 310,255 L 200,200 L 90,255 Z" fill="url(#pastelBlue)" stroke="#85a7e6" stroke-width="1.5"/>
+    <path d="M 200,310 L 310,255 L 310,263 L 200,318 Z" fill="#b3cced"/>
+    <path d="M 90,255 L 200,310 L 200,318 L 90,263 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- POS Terminal de Venta (Establishment Sales Terminal) -->
+  <g transform="translate(0, -10)" filter="url(#shadow)">
+    <!-- Terminal Body -->
+    <path d="M 150,260 L 250,210 L 200,180 L 100,230 Z" fill="url(#mainBlue)" stroke="#141d6f" stroke-width="1.5"/>
+    <path d="M 150,260 L 250,210 L 250,225 L 150,275 Z" fill="#141d6f"/>
+    <path d="M 100,230 L 150,260 L 150,275 L 100,245 Z" fill="#1c2899"/>
+    
+    <!-- Screen -->
+    <path d="M 140,225 L 210,190 L 185,175 L 115,210 Z" fill="#ffffff" stroke="#2130b7" stroke-width="1"/>
+    
+    <!-- Keypad layout on POS -->
+    <circle cx="160" cy="235" r="3" fill="#eaf1fb"/>
+    <circle cx="170" cy="230" r="3" fill="#eaf1fb"/>
+    <circle cx="180" cy="225" r="3" fill="#eaf1fb"/>
+    <circle cx="155" cy="245" r="3" fill="#eaf1fb"/>
+    <circle cx="165" cy="240" r="3" fill="#eaf1fb"/>
+    <circle cx="175" cy="235" r="3" fill="#eaf1fb"/>
+  </g>
+
+  <!-- Credit Card slotting in -->
+  <g transform="translate(30, -38)" filter="url(#shadow)">
+    <path d="M 180,200 L 240,170 L 210,155 L 150,185 Z" fill="url(#glassGrad)" stroke="#2130b7" stroke-width="1.5"/>
+    <path d="M 160,185 L 210,160" stroke="#141d6f" stroke-width="4"/>
+  </g>
+
+  <!-- Store front outline / Shopping Cart icon floating above -->
+  <g transform="translate(-40, -75)" filter="url(#shadow)">
+    <circle cx="200" cy="180" r="24" fill="url(#pastelBlue)" stroke="#2130b7" stroke-width="2"/>
+    <!-- Store canopy / Shop facade drawing -->
+    <path d="M 185,185 L 215,185 L 210,175 L 190,175 Z" fill="none" stroke="#2130b7" stroke-width="1.8"/>
+    <rect x="190" y="185" width="20" height="10" fill="none" stroke="#2130b7" stroke-width="1.8"/>
+  </g>
+</svg>

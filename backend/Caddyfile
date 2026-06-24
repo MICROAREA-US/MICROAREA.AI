@@ -1,0 +1,354 @@
+(main_site_config) {
+    root * C:/www/new2.microarea.es
+
+    log {
+        output file C:/www/modern-suite/caddy_access.log
+    }
+
+    # Compresión de red moderna y rápida para todos los recursos
+    encode zstd gzip
+
+
+    # Redireccionar según el idioma preferido del explorador (Accept-Language) al acceder a la raíz /
+    # Solo redirigimos si no hay una cookie de idioma explícita ("pll_language") para evitar bucles.
+    @browserEn {
+        path /
+        header Accept-Language en*
+        not header Cookie *pll_language=*
+    }
+    redir @browserEn /en/home/ 302
+
+    @browserDe {
+        path /
+        header Accept-Language de*
+        not header Cookie *pll_language=*
+    }
+    redir @browserDe /de/startseite/ 302
+
+    @browserIt {
+        path /
+        header Accept-Language it*
+        not header Cookie *pll_language=*
+    }
+    redir @browserIt /it/pag-iniziale/ 302
+
+    @browserCa {
+        path /
+        header Accept-Language ca*
+        not header Cookie *pll_language=*
+    }
+    redir @browserCa /ca/inixiocat/ 302
+
+    @browserPt {
+        path /
+        header Accept-Language pt*
+        not header Cookie *pll_language=*
+    }
+    redir @browserPt /pt/inicial-pt/ 302
+
+    @browserTr {
+        path /
+        header Accept-Language tr*
+        not header Cookie *pll_language=*
+    }
+    redir @browserTr /tr/home-tr/ 302
+
+    @browserEu {
+        path /
+        header Accept-Language eu*
+        not header Cookie *pll_language=*
+    }
+    redir @browserEu /eu/home/ 302
+
+    @browserGl {
+        path /
+        header Accept-Language gl*
+        not header Cookie *pll_language=*
+    }
+    redir @browserGl /gl/home/ 302
+
+    # Redirecciones explícitas basadas en la cookie "pll_language"
+    @cookieEn {
+        path /
+        header Cookie *pll_language=en*
+    }
+    redir @cookieEn /en/home/ 302
+
+    @cookieDe {
+        path /
+        header Cookie *pll_language=de*
+    }
+    redir @cookieDe /de/startseite/ 302
+
+    @cookieIt {
+        path /
+        header Cookie *pll_language=it*
+    }
+    redir @cookieIt /it/pag-iniziale/ 302
+
+    @cookieCa {
+        path /
+        header Cookie *pll_language=ca*
+    }
+    redir @cookieCa /ca/inixiocat/ 302
+
+    @cookiePt {
+        path /
+        header Cookie *pll_language=pt*
+    }
+    redir @cookiePt /pt/inicial-pt/ 302
+
+    @cookieTr {
+        path /
+        header Cookie *pll_language=tr*
+    }
+    redir @cookieTr /tr/home-tr/ 302
+
+    @cookieEu {
+        path /
+        header Cookie *pll_language=eu*
+    }
+    redir @cookieEu /eu/home/ 302
+
+    @cookieGl {
+        path /
+        header Cookie *pll_language=gl*
+    }
+    redir @cookieGl /gl/home/ 302
+
+    # Fallback predeterminado en español si no coincide con los anteriores o es español (es)
+    rewrite / /wp-content/cache/wpo-cache/microarea.es/index.html
+    rewrite /es /wp-content/cache/wpo-cache/microarea.es/index.html
+    rewrite /es/ /wp-content/cache/wpo-cache/microarea.es/index.html
+
+    # Para cualquier otra ruta limpia (ej. /productos/, /contacto/), reescribir a la cache
+    @cachedPage {
+        path_regexp page ^/([^.]+)/?$
+        not path /api/* /google_auth.html
+    }
+    rewrite @cachedPage /wp-content/cache/wpo-cache/microarea.es/{re.page.1}/index.html
+
+    # Servir archivos estaticos (imagenes, CSS, JS, video)
+    file_server
+
+    # Deshabilitar cache de HTML, scripts y estilos para evitar que los navegadores mantengan versiones obsoletas
+    @nocache {
+        path_regexp noCachePath ^/$|/search_script\.js|/search_style\.css|\.html$
+    }
+    header @nocache Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+
+    # Cache de larga duración (1 año) e inmutable para fuentes, imágenes y recursos estáticos
+    @staticAssets {
+        path *.woff2 *.woff *.ttf *.png *.jpg *.jpeg *.svg *.gif *.webp *.mp4 *.webm *.ico
+    }
+    header @staticAssets Cache-Control "public, max-age=31536000, immutable"
+
+    # Redirigir llamadas de la API y login a Express en el puerto 3000
+    reverse_proxy /google_auth.html localhost:3000
+    reverse_proxy /api/* localhost:3000
+}
+
+(genesics_site_config) {
+    root * C:/www/genessics
+
+    # Compresión de red moderna y rápida para todos los recursos
+    encode zstd gzip
+
+    # Redireccionar según el idioma preferido del explorador (Accept-Language) al acceder a la raíz /
+    @browserEs {
+        path /
+        header Accept-Language es*
+    }
+    redir @browserEs /es/ 302
+
+    @browserPt {
+        path /
+        header Accept-Language pt*
+    }
+    redir @browserPt /pt/ 302
+
+    @browserIt {
+        path /
+        header Accept-Language it*
+    }
+    redir @browserIt /it/ 302
+
+    @browserBg {
+        path /
+        header Accept-Language bg*
+    }
+    redir @browserBg /bg/ 302
+
+    @browserZh {
+        path /
+        header Accept-Language zh*
+    }
+    redir @browserZh /zh/ 302
+
+    @browserAr {
+        path /
+        header Accept-Language ar*
+    }
+    redir @browserAr /ar/ 302
+
+    # Redirigir llamadas de la API a Express en el puerto 3000
+    reverse_proxy /api/* localhost:3000
+
+    # Servir archivos estáticos directamente
+    file_server
+
+    # Deshabilitar cache de HTML para evitar que los navegadores mantengan versiones obsoletas
+    @nocache {
+        path_regexp noCachePath ^/$|\.html$
+    }
+    header @nocache Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+
+    # Cache de larga duración (1 año) e inmutable para fuentes, imágenes y recursos estáticos
+    @staticAssets {
+        path *.woff2 *.woff *.ttf *.png *.jpg *.jpeg *.svg *.gif *.webp *.mp4 *.webm *.ico
+    }
+    header @staticAssets Cache-Control "public, max-age=31536000, immutable"
+}
+
+(nextyork_site_config) {
+    root * C:/www/nextyork
+
+    # Compresión de red rápida
+    encode zstd gzip
+
+    # Servir archivos estáticos directamente
+    file_server
+
+    # Deshabilitar cache de HTML
+    @nocache {
+        path_regexp noCachePath ^/$|\.html$
+    }
+    header @nocache Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+
+    # Cache de larga duración (1 año) e inmutable para recursos estáticos
+    @staticAssets {
+        path *.woff2 *.woff *.ttf *.png *.jpg *.jpeg *.svg *.gif *.webp *.mp4 *.webm *.ico
+    }
+    header @staticAssets Cache-Control "public, max-age=31536000, immutable"
+}
+
+
+winlab.microarea.ai, :8081 {
+    reverse_proxy localhost:3000 {
+        header_up X-Site winlab
+    }
+}
+
+eoswin.microarea.ai, :8082 {
+    reverse_proxy localhost:3000 {
+        header_up X-Site eoswin
+    }
+}
+
+maconta.microarea.ai, :8083 {
+    reverse_proxy localhost:3000 {
+        header_up X-Site maconta
+    }
+}
+
+magest.microarea.ai, :8084 {
+    reverse_proxy localhost:3000 {
+        header_up X-Site magest
+    }
+}
+
+lexnext.microarea.ai, :8085 {
+    reverse_proxy localhost:3000 {
+        header_up X-Site lexnext
+    }
+}
+
+poshability.microarea.ai, :8086 {
+    reverse_proxy localhost:3000 {
+        header_up X-Site poshability
+    }
+}
+
+cloud.microarea.ai, :8087 {
+    reverse_proxy localhost:3000 {
+        header_up X-Site cloud
+    }
+}
+
+manuales.microarea.ai, :8088 {
+    reverse_proxy localhost:3000 {
+        header_up X-Site manuales
+    }
+}
+
+microarea.ai, www.microarea.ai {
+    import main_site_config
+}
+
+microarea.us, www.microarea.us {
+    # Always redirect the root / to /en/home/ for the US domain
+    redir / /en/home/ 302
+
+    # Import the main site config for all other paths
+    import main_site_config
+}
+
+
+:80, http://localhost, http://192.168.5.111 {
+    import main_site_config
+}
+
+# Subdominio público de pruebas seguro
+genesics.microarea.ai {
+    import genesics_site_config
+}
+
+# Dominios principales con HTTPS seguro automático
+genesics.us, www.genesics.us, genessics.es, www.genessics.es {
+    import genesics_site_config
+}
+
+# Puerto local alternativo para testing directo sin hosts
+:8090 {
+    import genesics_site_config
+}
+
+# Puerto local alternativo para testing de nextyork
+:8091 {
+    import nextyork_site_config
+}
+
+# Dominio público nextyork con HTTPS seguro automático
+nextyork.us, www.nextyork.us {
+    import nextyork_site_config
+}
+
+campusfinder.app, www.campusfinder.app {
+    reverse_proxy 192.168.5.112:8089
+}
+
+campusfinder.us, www.campusfinder.us, campufinder.us, www.campufinder.us {
+    reverse_proxy 192.168.5.112:8089
+}
+
+winlabcloud.microarea.ai, ewinlab.ai, www.ewinlab.ai, ewinab.ai, www.ewinab.ai, :8089 {
+    reverse_proxy localhost:8000
+}
+
+# Subdominio para el Panel de Soporte Técnico Live Chat
+chat.microarea.ai {
+    root * C:/www/new2.microarea.es
+    encode zstd gzip
+
+    # Redireccionar/reescribir la raíz al panel de administración del chat
+    rewrite / /admin-chat.html
+
+    # Proxificar las llamadas de la API del chat al servidor NodeJS en el puerto 3000
+    reverse_proxy /api/* localhost:3000
+
+    # Servir el archivo estático y sus recursos asociados
+    file_server
+}
+
+
+

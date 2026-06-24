@@ -1,0 +1,40 @@
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 17,5 MB/2 GB -  > Start upgrade from 8.9.4
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_emails`] => Created table `wpn_newsletter_emails`
+)
+
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_sent`] => Created table `wpn_newsletter_sent`
+)
+
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter`] => Created table `wpn_newsletter`
+)
+
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_logs`] => Created table `wpn_newsletter_user_logs`
+)
+
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_user_meta`] => Created table `wpn_newsletter_user_meta`
+)
+
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_stats`] => Created table `wpn_newsletter_stats`
+)
+
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Array
+(
+    [`wpn_newsletter_logs`] => Created table `wpn_newsletter_logs`
+    [wpn_newsletter_logs.status] => Changed type of wpn_newsletter_logs.status from int(11) to int
+)
+
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Deleting settings backup newsletter_backup_8.8.6
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,5 MB/2 GB -  > Backing up options of 8.9.4
+29-09-2025 21:12:05 - INFO  - 8.9.7 - 19,8 MB/2 GB -  > End

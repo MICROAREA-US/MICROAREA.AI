@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2130b7" />
+      <stop offset="100%" stop-color="#141d6f" />
+    </linearGradient>
+    <linearGradient id="pastelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9e6f7" />
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#85a7e6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#4471b1" stop-opacity="0.15" />
+    </linearGradient>
+    <filter id="svgBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3.5" flood-color="#192a7a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="80" cy="130" rx="55" ry="12" fill="#000000" opacity="0.08" filter="url(#svgBlur)"/>
+
+  <!-- Base Isometric Platform -->
+  <g filter="url(#shadow)">
+    <path d="M 80,126 L 130,103 L 80,80 L 30,103 Z" fill="url(#pastelGrad)" stroke="#85a7e6" stroke-width="1"/>
+    <path d="M 80,126 L 130,103 L 130,107 L 80,130 Z" fill="#b3cced"/>
+    <path d="M 30,103 L 80,126 L 80,130 L 30,107 Z" fill="#cfdff5"/>
+  </g>
+
+  <!-- Desktop Screen standing (Isometric) -->
+  <g transform="translate(0, -5)" filter="url(#shadow)">
+    <!-- Monitor Base & Neck -->
+    <path d="M 72,110 L 88,103 L 88,105 L 72,112 Z" fill="#4471b1"/>
+    <path d="M 76,108 L 76,96 L 84,92 L 84,104 Z" fill="#2130b7"/>
+    
+    <!-- Monitor Screen frame -->
+    <path d="M 50,95 L 110,67 L 110,37 L 50,65 Z" fill="url(#blueGrad)"/>
+    <!-- Screen Glass inner -->
+    <path d="M 53,91 L 107,66 L 107,41 L 53,66 Z" fill="url(#pastelGrad)"/>
+  </g>
+
+  <!-- Headset on monitor (Isometric) -->
+  <g transform="translate(0, -5)" filter="url(#shadow)">
+    <!-- Headband -->
+    <path d="M 48,73 C 48,45 110,18 110,46" fill="none" stroke="#2130b7" stroke-width="3" stroke-linecap="round"/>
+    <!-- Left earmuff -->
+    <ellipse cx="48" cy="73" rx="4.5" ry="8.5" fill="#2130b7" transform="rotate(-25, 48, 73)"/>
+    <ellipse cx="48" cy="73" rx="2.5" ry="5.5" fill="#ffffff" transform="rotate(-25, 48, 73)"/>
+    <!-- Right earmuff -->
+    <ellipse cx="110" cy="46" rx="4.5" ry="8.5" fill="#2130b7" transform="rotate(-25, 110, 46)"/>
+    <!-- Microphone arm -->
+    <path d="M 48,73 Q 50,85 64,81" fill="none" stroke="#2130b7" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="64" cy="81" r="1.5" fill="#2130b7"/>
+  </g>
+
+  <!-- Speech bubbles ES and EN floating in 3D -->
+  <!-- ES bubble -->
+  <g transform="translate(-20, -28)" filter="url(#shadow)">
+    <path d="M 50,75 L 80,61 L 65,54 L 35,68 Z" fill="#ffffff" stroke="#2130b7" stroke-width="1"/>
+    <path d="M 45,71 L 45,78 L 52,73 Z" fill="#ffffff" stroke="#2130b7" stroke-width="1"/>
+    <text x="56.5" y="65.5" font-family="Outfit, Inter, sans-serif" font-size="8" font-weight="800" fill="#2130b7" transform="skewY(-25)">ES</text>
+  </g>
+
+  <!-- EN bubble -->
+  <g transform="translate(18, -38)" filter="url(#shadow)">
+    <path d="M 60,75 L 90,61 L 75,54 L 45,68 Z" fill="#ffffff" stroke="#4471b1" stroke-width="1"/>
+    <path d="M 75,69 L 75,76 L 68,72 Z" fill="#ffffff" stroke="#4471b1" stroke-width="1"/>
+    <text x="66.5" y="65.5" font-family="Outfit, Inter, sans-serif" font-size="8" font-weight="800" fill="#4471b1" transform="skewY(-25)">EN</text>
+  </g>
+</svg>

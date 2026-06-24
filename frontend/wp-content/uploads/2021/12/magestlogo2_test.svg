@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="100%">
+  <defs>
+    <!-- Soft Premium Drop Shadow -->
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06" />
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.04" />
+    </filter>
+    <linearGradient id="brandGrad-m" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d8a6b" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <clipPath id="square-clip-m">
+      <rect x="0" y="44" width="92" height="92" rx="24" ry="24" />
+    </clipPath>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&amp;display=swap');
+      .logo-text {
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 600;
+        letter-spacing: -2px;
+      }
+    </style>
+  </defs>
+  
+  <!-- White rounded rectangle with modern soft shadow -->
+  <rect x="15" y="15" width="770" height="150" rx="18" ry="18" fill="#ffffff" filter="url(#soft-shadow)" />
+  
+  <!-- Logo Content Group -->
+  <g transform="translate(193, 0)">
+    <!-- Rounded Square Icon - 92x92 aligned vertically with x-height -->
+    <rect x="0" y="44" width="92" height="92" rx="24" ry="24" fill="url(#brandGrad-m)" />
+    
+    <!-- Base text (colored prefix + black suffix) -->
+    <text x="42" y="120" class="logo-text" font-size="115">
+      <tspan fill="url(#brandGrad-m)">ma</tspan><tspan fill="#0f172a">gest</tspan>
+    </text>
+    
+    <!-- Overlapping text (rendered in white inside the square using clip-path) -->
+    <text x="42" y="120" class="logo-text" font-size="115" fill="#ffffff" clip-path="url(#square-clip-m)">
+      <tspan>ma</tspan><tspan>gest</tspan>
+    </text>
+  </g>
+</svg>
