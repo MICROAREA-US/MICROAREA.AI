@@ -309,6 +309,16 @@ input#wp-submit:active {
     transform-origin: left;
 }
 
+/* Color hover azul clarito para los enlaces del menú principal */
+#top-menu li a:hover,
+.et-menu-nav ul.nav li a:hover,
+.et_pb_menu_0_tb_header .et-menu-nav ul.nav > li > a:hover,
+.et_pb_menu_1_tb_header .et-menu-nav ul.nav > li > a:hover,
+.et_pb_menu_0_tb_header .et-menu-nav ul.nav li:hover > a,
+.et_pb_menu_1_tb_header .et-menu-nav ul.nav li:hover > a {
+    color: #3a86e9 !important; /* Premium light/sky blue */
+}
+
 /* Cabecera flotante e integrada tipo barra de cristal líquido */
 #main-header, .et_pb_menu {
     border-radius: 0 0 24px 24px !important;
@@ -404,8 +414,8 @@ ul.sub-menu li a {
 .et_pb_menu_0_tb_header .et-menu-nav ul.sub-menu li a:hover,
 .et_pb_menu_1_tb_header .et-menu-nav ul.sub-menu li a:hover,
 ul.sub-menu li a:hover {
-    background: rgba(68, 113, 177, 0.08) !important;
-    color: #4471b1 !important;
+    background: rgba(68, 113, 177, 0.12) !important;
+    color: #3a86e9 !important;
     padding-left: 28px !important; /* Elegant slide to the right */
 }
 
