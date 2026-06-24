@@ -169,7 +169,7 @@ table {
     
     /* Mostrar la imagen en su lugar como fondo del Hero */
     .home .et_pb_section_0 {
-        background-image: url('/wp-content/uploads/2021/12/videoportadawebeditadov3WEBOPTIMIZED-poster.webp') !important;
+        background-image: url('/assets/uploads/2021/12/videoportadawebeditadov3WEBOPTIMIZED-poster.webp') !important;
         background-size: cover !important;
         background-position: center !important;
     }
@@ -181,7 +181,7 @@ table {
 
     /* Mostrar la imagen miniatura de Vimeo en su lugar con aspecto de video 16:9 */
     .home .et_pb_video_box {
-        background-image: url('/wp-content/uploads/2021/12/vimeo-329833886-thumbnail.webp') !important;
+        background-image: url('/assets/uploads/2021/12/vimeo-329833886-thumbnail.webp') !important;
         background-size: cover !important;
         background-position: center !important;
         aspect-ratio: 16/9 !important;

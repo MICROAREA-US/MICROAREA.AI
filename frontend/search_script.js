@@ -104,7 +104,7 @@
       '  <div id="search-modal-container">' +
       '    <div class="search-modal-brand" style="display: flex !important; align-items: center !important; justify-content: space-between !important; padding: 18px 24px 12px 24px !important; border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important; background: #0f172a !important;">' +
       '      <div style="background: rgba(255, 255, 255, 0.9) !important; padding: 5px 12px !important; border-radius: 8px !important; display: inline-flex !important; align-items: center !important; justify-content: center !important; box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;">' +
-      '        <img src="/wp-content/uploads/2021/06/logo_web.png" alt="Microarea" style="height: 24px !important; width: auto !important; display: block !important;" />' +
+      '        <img src="/assets/uploads/2021/06/logo_web.png" alt="Microarea" style="height: 24px !important; width: auto !important; display: block !important;" />' +
       '      </div>' +
       '      <button id="search-modal-close" class="search-modal-close-btn" style="padding: 0 !important; margin: 0 !important; font-size: 28px !important; line-height: 1 !important;">&times;</button>' +
       '    </div>' +
