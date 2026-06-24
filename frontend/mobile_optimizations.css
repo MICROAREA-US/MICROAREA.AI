@@ -542,6 +542,28 @@ div#recuperar-pass .et_pb_column,
     box-shadow: inset 0 1.5px 0.5px rgba(255, 255, 255, 0.15) !important;
 }
 
+/* --- 7.1 RESET PIE DE PÁGINA (No contenedores para las columnas del footer) --- */
+.et-l--footer .et_pb_column {
+    border-radius: 0 !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+.et-l--footer .et_pb_column:hover {
+    transform: none !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
 /* --- 12. ESTILOS DE BANDERAS DE IDIOMAS (Pastel con Burbuja Azul Clarito) --- */
 /* Hacer las banderas de idiomas más pastel por defecto con transición suave */
 .lang-item a {
